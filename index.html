@@ -4,7 +4,6 @@
   <head>
     <meta charset="utf-8" />
 
-    ```
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <meta name="theme-color" content="#f7eee2" />
@@ -25,11 +24,9 @@
     />
 
     <link rel="stylesheet" href="style.css" />
-    ```
   </head>
 
   <body data-theme="human">
-    ```
     <!-- Ambient Background -->
     <div class="ambient ambient-a" aria-hidden="true"></div>
 
@@ -108,20 +105,6 @@
             <option value="system" data-i18n="systemMode">System Mode</option>
           </select>
         </label>
-
-        <!-- Settings -->
-
-        <button
-          class="icon-button"
-          id="settingsButton"
-          type="button"
-          data-i18n-aria="settings"
-          data-i18n-title="settings"
-          aria-label="Settings"
-          title="Settings"
-        >
-          <span class="svg-icon" data-icon="settings"></span>
-        </button>
 
         <!-- Music -->
 
@@ -368,7 +351,6 @@
             class="icon-button"
             id="closeSearch"
             type="button"
-            data-i18n-aria="settingsClose"
             aria-label="Close"
           >
             <span class="svg-icon" data-icon="close"></span>
@@ -392,82 +374,6 @@
             <span data-i18n="startSearch">
               Ketik untuk mencari materi yang tersedia.
             </span>
-          </div>
-        </div>
-      </div>
-    </dialog>
-
-    <!-- =========================================================
-     SETTINGS MODAL
-========================================================== -->
-
-    <dialog class="modal" id="settingsModal" aria-labelledby="settingsTitle">
-      <div class="modal-inner">
-        <div class="modal-header">
-          <div>
-            <span class="eyebrow" data-i18n="settings"> PENGATURAN </span>
-
-            <h2 id="settingsTitle" data-i18n="settingsTitle">
-              Pengaturan Belajar
-            </h2>
-          </div>
-
-          <button
-            class="icon-button"
-            id="closeSettings"
-            type="button"
-            data-i18n-aria="settingsClose"
-            aria-label="Tutup"
-          >
-            <span class="svg-icon" data-icon="close"></span>
-          </button>
-        </div>
-
-        <div class="settings-grid">
-          <!-- Study Mode -->
-
-          <div class="setting-row">
-            <div>
-              <strong>
-                <i class="bi bi-incognito"></i>
-
-                <span data-i18n="studyMode"> Mode Hafalan </span>
-              </strong>
-
-              <p data-i18n="studyModeDesc">
-                Sembunyikan petunjuk sampai kamu siap.
-              </p>
-            </div>
-
-            <button
-              class="switch-button"
-              id="settingsStudyToggle"
-              type="button"
-              aria-pressed="false"
-              data-i18n-aria="studyMode"
-            ></button>
-          </div>
-
-          <!-- Music -->
-
-          <div class="setting-row">
-            <div>
-              <strong>
-                <i class="bi bi-music-note-beamed"></i>
-
-                <span data-i18n="music"> Musik </span>
-              </strong>
-
-              <p data-i18n="musicDesc">Gunakan file lokal di assets/audio/.</p>
-            </div>
-
-            <button
-              class="switch-button"
-              id="settingsMusicToggle"
-              type="button"
-              aria-pressed="false"
-              data-i18n-aria="music"
-            ></button>
           </div>
         </div>
       </div>

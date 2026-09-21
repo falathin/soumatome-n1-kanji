@@ -11,7 +11,7 @@ const minggu1Hari1 = {
     },
     "source": {
         "label": "Minggu 1 Hari 1",
-        "image": "assets/images/backgrounds/desktop-normal.png"
+        "image": "assets/images/backgrounds/day1-mobile-normal.png"
     },
     "kanji": [
         {

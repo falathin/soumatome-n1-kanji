@@ -17,8 +17,6 @@ const translations = {
       'Cari kanji, kosakata, furigana, bacaan, arti...',
     startSearch: 'Ketik untuk mencari materi yang tersedia.',
     searching: 'Mencari...',
-    settings: 'PENGATURAN',
-    settingsTitle: 'Pengaturan Belajar',
     studyMode: 'Mode Hafalan',
     studyModeDesc: 'Sembunyikan petunjuk sampai kamu siap.',
     music: 'Musik',
@@ -104,7 +102,6 @@ const translations = {
     sectionMiniGame: 'mini game',
     brandSubtitle: 'Buku Belajar Kanji',
     footerStack: 'Vanilla HTML • CSS • JavaScript • Bootstrap Icons',
-    settingsClose: 'Tutup',
     mascotAlt: 'Maskot Mitsuki Nocturne',
     mascotToast: 'Mitsuki: 一緒に頑張ろう ✦',
     vampireToast: '01:00 ✦ Jam belajar malam',
@@ -128,8 +125,6 @@ const translations = {
       'Search kanji, vocabulary, furigana, readings, meanings...',
     startSearch: 'Type to search the available material.',
     searching: 'Searching...',
-    settings: 'SETTINGS',
-    settingsTitle: 'Study Settings',
     studyMode: 'Study Mode',
     studyModeDesc: 'Hide clues until you are ready.',
     music: 'Music',
@@ -220,7 +215,6 @@ const translations = {
     brandSubtitle: 'Kanji Study Notebook',
     footerStack:
       'Vanilla HTML • CSS • JavaScript • Bootstrap Icons',
-    settingsClose: 'Close',
     mascotAlt: 'Mitsuki Nocturne mascot',
     mascotToast: 'Mitsuki: 一緒に頑張ろう ✦',
     vampireToast: '01:00 ✦ Late-night study hour',
@@ -537,7 +531,6 @@ const iconMap = {
   lock: 'lock-fill',
   check: 'check2',
   volume: 'volume-up-fill',
-  settings: 'gear-fill',
   sparkles: 'stars',
   play: 'play-fill',
   dice: 'dice-5-fill',
@@ -565,6 +558,8 @@ const state = {
   currentData: null,
   currentBonus: null,
   searchCache: null,
+  searchCachePromise: null,
+  searchRequestId: 0,
   toastTimer: null,
   speech: null,
   easterEgg: false,
@@ -3297,11 +3292,6 @@ function setupMusic() {
     toggleMusic
   )
 
-  $('#settingsMusicToggle')?.addEventListener(
-    'click',
-    toggleMusic
-  )
-
   audio.addEventListener(
     'error',
     () => {
@@ -3397,11 +3387,6 @@ function updateMusicUI() {
     'aria-pressed',
     String(enabled)
   )
-
-  $('#settingsMusicToggle')?.setAttribute(
-    'aria-pressed',
-    String(enabled)
-  )
 }
 
 function setupStudyMode() {
@@ -3415,11 +3400,6 @@ function setupStudyMode() {
     String(
       state.storage.getStudyMode()
     )
-  )
-
-  $('#settingsStudyToggle')?.addEventListener(
-    'click',
-    toggleStudyMode
   )
 
   button.addEventListener(
@@ -3463,177 +3443,365 @@ function updateStudyUI() {
     'aria-pressed',
     String(enabled)
   )
-
-  $('#settingsStudyToggle')?.setAttribute(
-    'aria-pressed',
-    String(enabled)
-  )
 }
 
 function setupSearch() {
-  const modal =
-    $('#searchModal')
+  const modal = $('#searchModal')
+  const input = $('#searchInput')
+  const results = $('#searchResults')
 
-  const input =
-    $('#searchInput')
+  if (!modal || !input || !results) return
 
-  $('#searchButton')?.addEventListener(
-    'click',
-    () => {
-      modal?.showModal()
-      input?.focus()
+  const openSearch = () => {
+    if (typeof modal.showModal === 'function') {
+      modal.showModal()
+    } else {
+      modal.setAttribute('open', '')
     }
-  )
 
-  $('#closeSearch')?.addEventListener(
-    'click',
-    () => modal?.close()
-  )
+    requestAnimationFrame(() => {
+      input.focus()
+      input.select()
+    })
+  }
 
-  input?.addEventListener(
-    'input',
-    async event => {
-      const query =
-        event.target.value
-          .trim()
-          .toLowerCase()
+  const closeSearch = () => {
+    if (typeof modal.close === 'function' && modal.open) {
+      modal.close()
+    } else {
+      modal.removeAttribute('open')
+    }
+  }
 
-      if (!query) {
-        $('#searchResults').innerHTML = `
-          <div class="empty-search">
-            ${escapeHTML(
-              t(
-                'startSearch'
-              )
-            )}
-          </div>
-        `
-        return
-      }
+  $('#searchButton')?.addEventListener('click', openSearch)
+  $('#closeSearch')?.addEventListener('click', closeSearch)
 
-      $('#searchResults').innerHTML = `
+  input.addEventListener('input', async event => {
+    const query = normalizeSearchText(event.target.value)
+    const requestId = ++state.searchRequestId
+
+    if (!query) {
+      results.innerHTML = `
         <div class="empty-search">
-          ${escapeHTML(
-            t('searching')
-          )}
+          ${escapeHTML(t('startSearch'))}
         </div>
       `
+      return
+    }
 
-      renderSearchResults(
-        await searchAll(query)
+    results.innerHTML = `
+      <div class="empty-search">
+        ${escapeHTML(t('searching'))}
+      </div>
+    `
+
+    try {
+      const found = await searchAll(query)
+
+      if (requestId !== state.searchRequestId) return
+
+      renderSearchResults(found)
+    } catch (error) {
+      console.error('Search error:', error)
+
+      if (requestId !== state.searchRequestId) return
+
+      results.innerHTML = `
+        <div class="empty-search">
+          ${escapeHTML(t('dataError'))}
+        </div>
+      `
+    }
+  })
+}
+
+function normalizeSearchText(value = '') {
+  return String(value)
+    .normalize('NFKC')
+    .toLocaleLowerCase('id-ID')
+    .replace(/[\u0000-\u001F\u007F]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function flattenSearchText(value, output = []) {
+  if (value == null) return output
+
+  if (typeof value === 'string' || typeof value === 'number') {
+    const text = normalizeSearchText(value)
+    if (text) output.push(text)
+    return output
+  }
+
+  if (Array.isArray(value)) {
+    value.forEach(item => flattenSearchText(item, output))
+    return output
+  }
+
+  if (typeof value === 'object') {
+    Object.values(value).forEach(item => flattenSearchText(item, output))
+  }
+
+  return output
+}
+
+function searchTokens(query) {
+  return normalizeSearchText(query)
+    .split(/\s+/)
+    .map(token => token.trim())
+    .filter(Boolean)
+}
+
+function matchesSearch(tokens, fields) {
+  if (!tokens.length) return false
+
+  const normalizedFields = fields
+    .map(normalizeSearchText)
+    .filter(Boolean)
+
+  if (!normalizedFields.length) return false
+
+  const joined = normalizedFields.join(' ')
+
+  if (tokens.length === 1) {
+    return joined.includes(tokens[0])
+  }
+
+  return tokens.every(token => joined.includes(token))
+}
+
+function scoreSearchMatch(query, tokens, fields) {
+  const normalizedFields = fields
+    .map(normalizeSearchText)
+    .filter(Boolean)
+
+  if (!normalizedFields.length) return 0
+
+  const joined = normalizedFields.join(' ')
+  let score = 0
+
+  if (joined === query) score += 1000
+
+  normalizedFields.forEach(field => {
+    if (field === query) score += 800
+    else if (field.startsWith(query)) score += 450
+    else if (field.includes(query)) score += 200
+  })
+
+  tokens.forEach(token => {
+    normalizedFields.forEach(field => {
+      if (field === token) score += 250
+      else if (field.startsWith(token)) score += 120
+      else if (field.includes(token)) score += 40
+    })
+  })
+
+  score += Math.max(0, 120 - normalizedFields.join(' ').length / 6)
+
+  return score
+}
+
+function getKanjiSearchFields(kanji) {
+  const fields = [
+    kanji?.id,
+    kanji?.character,
+    localPair(kanji?.meaning),
+    kanji?.meaning?.id,
+    kanji?.meaning?.en,
+    kanji?.usage?.id,
+    kanji?.usage?.en,
+    kanji?.nuance?.id,
+    kanji?.nuance?.en,
+    kanji?.philosophy?.id,
+    kanji?.philosophy?.en
+  ]
+
+  ;[
+    ...(kanji?.onyomi || []),
+    ...(kanji?.kunyomi || [])
+  ].forEach(item => {
+    fields.push(item?.text, item?.reading)
+  })
+
+  ;(kanji?.readingNotes || []).forEach(note => {
+    fields.push(localPair(note), note?.id, note?.en)
+  })
+
+  ;(kanji?.vocabulary || []).forEach(vocab => {
+    fields.push(
+      vocab?.word,
+      vocab?.reading,
+      vocab?.meaning?.id,
+      vocab?.meaning?.en
+    )
+  })
+
+  return flattenSearchText(fields)
+}
+
+async function buildSearchCache() {
+  const imports = []
+
+  for (let week = 1; week <= 8; week++) {
+    for (let day = 1; day <= 7; day++) {
+      imports.push(
+        importDay(week, day)
+          .then(data => ({ data, week, day }))
+          .catch(error => {
+            console.warn(
+              `Search: failed to load Week ${week} Day ${day}`,
+              error
+            )
+            return null
+          })
       )
     }
+  }
+
+  const loaded =
+    (await Promise.all(imports)).filter(Boolean)
+
+  state.searchCache = loaded.map(
+    ({ data, week, day }) => ({
+      ...data,
+      week,
+      day
+    })
   )
+
+  return state.searchCache
+}
+
+async function getSearchCache() {
+  if (state.searchCache) {
+    return state.searchCache
+  }
+
+  if (!state.searchCachePromise) {
+    state.searchCachePromise =
+      buildSearchCache().finally(() => {
+        state.searchCachePromise = null
+      })
+  }
+
+  return state.searchCachePromise
 }
 
 async function searchAll(query) {
-  if (!state.searchCache) {
-    const imports = []
+  const normalizedQuery =
+    normalizeSearchText(query)
 
-    for (
-      let week = 1;
-      week <= 8;
-      week++
-    ) {
-      for (
-        let day = 1;
-        day <= 7;
-        day++
-      ) {
-        imports.push(
-          importDay(
-            week,
-            day
-          ).catch(() => null)
-        )
-      }
-    }
+  const tokens =
+    searchTokens(
+      normalizedQuery
+    )
 
-    state.searchCache = (
-      await Promise.all(
-        imports
-      )
-    ).filter(Boolean)
-  }
+  if (!tokens.length) return []
+
+  const days =
+    await getSearchCache()
 
   const results = []
 
-  state.searchCache.forEach(
-    dayData => {
-      ;(
-        dayData.kanji || []
-      ).forEach(kanji => {
-        const corpus = [
-          kanji.character,
-          kanji.meaning?.id,
-          kanji.meaning?.en,
+  days.forEach(dayData => {
+    const dayTitle =
+      getDayTitle(dayData)
 
-          ...(kanji.onyomi || []).flatMap(
-            x => [
-              x.text,
-              x.reading
-            ]
-          ),
+    const weekTitle =
+      getWeekTitle(
+        dayData.week
+      )
 
-          ...(kanji.kunyomi || []).flatMap(
-            x => [
-              x.text,
-              x.reading
-            ]
-          ),
-
-          kanji.usage?.id,
-          kanji.usage?.en,
-          kanji.nuance?.id,
-          kanji.nuance?.en,
-          kanji.philosophy?.id,
-          kanji.philosophy?.en,
-
-          ...(kanji.vocabulary || []).flatMap(
-            x => [
-              x.word,
-              x.reading,
-              x.meaning?.id,
-              x.meaning?.en
-            ]
+    ;(dayData.kanji || []).forEach(
+      kanji => {
+        const kanjiFields =
+          getKanjiSearchFields(
+            kanji
           )
+
+        const contextFields = [
+          ...kanjiFields,
+          dayTitle,
+          weekTitle,
+          `${t('week')} ${dayData.week}`,
+          `${t('day')} ${dayData.day}`,
+          `week ${dayData.week}`,
+          `day ${dayData.day}`
         ]
-          .filter(Boolean)
-          .join(' ')
-          .toLowerCase()
 
         if (
-          corpus.includes(query)
+          !matchesSearch(
+            tokens,
+            contextFields
+          )
         ) {
-          const matchingVocab =
-            (
-              kanji.vocabulary ||
-              []
-            ).filter(v =>
-              [
-                v.word,
-                v.reading,
-                v.meaning?.id,
-                v.meaning?.en
-              ]
-                .filter(Boolean)
-                .join(' ')
-                .toLowerCase()
-                .includes(query)
-            )
-
-          results.push({
-            week: dayData.week,
-            day: dayData.day,
-            kanji,
-            matchingVocab
-          })
+          return
         }
-      })
-    }
-  )
 
-  return results.slice(0, 80)
+        const matchingVocab =
+          (kanji.vocabulary || []).filter(
+            vocab =>
+              matchesSearch(
+                tokens,
+                [
+                  vocab?.word,
+                  vocab?.reading,
+                  vocab?.meaning?.id,
+                  vocab?.meaning?.en
+                ]
+              )
+          )
+
+        const score =
+          scoreSearchMatch(
+            normalizedQuery,
+            tokens,
+            [
+              kanji?.character,
+              kanji?.id,
+              localPair(
+                kanji?.meaning
+              ),
+              ...kanjiFields,
+              dayTitle,
+              weekTitle
+            ]
+          )
+
+        results.push({
+          week: dayData.week,
+          day: dayData.day,
+          kanji,
+          matchingVocab,
+          score
+        })
+      }
+    )
+  })
+
+  return results
+    .sort((a, b) => {
+      if (b.score !== a.score) {
+        return b.score - a.score
+      }
+
+      if (a.week !== b.week) {
+        return a.week - b.week
+      }
+
+      if (a.day !== b.day) {
+        return a.day - b.day
+      }
+
+      return String(
+        a.kanji?.character || ''
+      ).localeCompare(
+        String(
+          b.kanji?.character || ''
+        )
+      )
+    })
+    .slice(0, 80)
 }
 
 function renderSearchResults(
@@ -3642,142 +3810,156 @@ function renderSearchResults(
   const target =
     $('#searchResults')
 
+  if (!target) return
+
   if (!results.length) {
     target.innerHTML = `
       <div class="empty-search">
         ${escapeHTML(
           t('searchTip')
         )}
-
         <br><br>
-
         0 ${escapeHTML(
           t('matches')
         )}
       </div>
     `
-
     return
   }
 
-  target.innerHTML = results
-    .map(result => {
-      const vocab =
-        result.matchingVocab
-          .slice(0, 3)
-          .map(
-            v =>
-              `${escapeHTML(
-                v.word
-              )} <small>${escapeHTML(
-                v.reading
-              )}</small>`
+  target.innerHTML =
+    results
+      .map(result => {
+        const vocab =
+          (
+            result.matchingVocab ||
+            []
           )
-          .join(' · ')
+            .slice(0, 3)
+            .map(v => {
+              const word =
+                escapeHTML(
+                  v?.word || ''
+                )
 
-      const meaning =
-        localPair(
-          result.kanji.meaning
-        )
+              const reading =
+                escapeHTML(
+                  v?.reading || ''
+                )
 
-      const weekTitle =
-        getWeekTitle(
-          result.week
-        )
+              return reading
+                ? `${word} <small>${reading}</small>`
+                : word
+            })
+            .join(' · ')
 
-      const dayTitle =
-        getDayTitle({
-          week: result.week,
-          day: result.day
-        })
+        const meaning =
+          localPair(
+            result.kanji?.meaning
+          )
 
-      return `
-        <button
-          type="button"
-          class="search-result"
-          data-search-week="${
+        const weekTitle =
+          getWeekTitle(
             result.week
-          }"
-          data-search-day="${
-            result.day
-          }"
-          data-search-id="${escapeHTML(
-            result.kanji.id
-          )}"
-        >
-          <span class="search-kanji">
-            ${escapeHTML(
-              result.kanji
-                .character
-            )}
-          </span>
+          )
 
-          <span class="search-meta">
-            <strong>
-              ${escapeHTML(
-                result.kanji
-                  .character
-              )}
-              •
-              ${escapeHTML(
-                meaning
-              )}
-            </strong>
+        const dayTitle =
+          getDayTitle({
+            week: result.week,
+            day: result.day
+          })
 
-            <span>
+        return `
+          <button
+            type="button"
+            class="search-result"
+            data-search-week="${result.week}"
+            data-search-day="${result.day}"
+            data-search-id="${escapeHTML(
+              result.kanji?.id || ''
+            )}"
+          >
+            <span class="search-kanji">
               ${escapeHTML(
-                weekTitle
+                result.kanji?.character ||
+                  ''
               )}
             </span>
 
-            <span>
-              ${escapeHTML(
-                dayTitle
-              )}
+            <span class="search-meta">
+              <strong>
+                ${escapeHTML(
+                  result.kanji?.character ||
+                    ''
+                )}
+                •
+                ${escapeHTML(
+                  meaning ||
+                    t('noReading')
+                )}
+              </strong>
+
+              <span>
+                ${escapeHTML(
+                  weekTitle
+                )}
+              </span>
+
+              <span>
+                ${escapeHTML(
+                  dayTitle
+                )}
+              </span>
+
+              ${
+                vocab
+                  ? `<span>${vocab}</span>`
+                  : ''
+              }
             </span>
 
-            ${
-              vocab
-                ? `<span>${vocab}</span>`
-                : ''
-            }
-          </span>
-
-          <span class="search-jump">
-            ${escapeHTML(
-              t(
-                'searchJump'
-              )
-            )}
-            ${icon(
-              'arrowRight'
-            )}
-          </span>
-        </button>
-      `
-    })
-    .join('')
+            <span class="search-jump">
+              ${escapeHTML(
+                t('searchJump')
+              )}
+              ${icon(
+                'arrowRight'
+              )}
+            </span>
+          </button>
+        `
+      })
+      .join('')
 
   $$('.search-result', target).forEach(
-    button =>
+    button => {
       button.addEventListener(
         'click',
         async () => {
-          const week = Number(
-            button.dataset
-              .searchWeek
-          )
+          const week =
+            Number(
+              button.dataset
+                .searchWeek
+            )
 
-          const day = Number(
-            button.dataset
-              .searchDay
-          )
+          const day =
+            Number(
+              button.dataset
+                .searchDay
+            )
 
           const id =
             button.dataset
               .searchId
 
-          $('#searchModal').close()
+          const modal =
+            $('#searchModal')
+
+          if (
+            modal?.open
+          ) {
+            modal.close()
+          }
 
           await loadDay(
             week,
@@ -3785,19 +3967,44 @@ function renderSearchResults(
           )
 
           requestAnimationFrame(
-            () =>
-              document
-                .getElementById(
+            () => {
+              const targetCard =
+                document.getElementById(
                   id
                 )
-                ?.scrollIntoView({
+
+              if (!targetCard) {
+                return
+              }
+
+              targetCard.scrollIntoView(
+                {
                   block: 'center',
                   behavior:
-                    'smooth'
-                })
+                    window.matchMedia?.(
+                      '(prefers-reduced-motion: reduce)'
+                    )?.matches
+                      ? 'auto'
+                      : 'smooth'
+                }
+              )
+
+              targetCard.classList.add(
+                'search-hit'
+              )
+
+              setTimeout(
+                () =>
+                  targetCard.classList.remove(
+                    'search-hit'
+                  ),
+                1400
+              )
+            }
           )
         }
       )
+    }
   )
 }
 
@@ -3835,7 +4042,9 @@ function speakText(
       ) ||
     triggerElement
       ?.closest('.vocab-item')
-      ?.querySelector('ruby')
+      ?.querySelector(
+        'ruby'
+      )
 
   if (target) {
     target.classList.add(
@@ -3850,29 +4059,37 @@ function speakText(
 
   utterance.lang =
     'ja-JP'
-  utterance.rate = 0.83
-  utterance.pitch = 1
 
-  utterance.onstart = () =>
-    target?.classList.add(
-      'tts-active'
-    )
+  utterance.rate =
+    0.83
 
-  utterance.onend = () =>
-    target?.classList.remove(
-      'tts-active'
-    )
+  utterance.pitch =
+    1
 
-  utterance.onerror = () =>
-    target?.classList.remove(
-      'tts-active'
-    )
+  utterance.onstart =
+    () =>
+      target?.classList.add(
+        'tts-active'
+      )
+
+  utterance.onend =
+    () =>
+      target?.classList.remove(
+        'tts-active'
+      )
+
+  utterance.onerror =
+    () =>
+      target?.classList.remove(
+        'tts-active'
+      )
 
   window.speechSynthesis.speak(
     utterance
   )
 
-  state.speech = utterance
+  state.speech =
+    utterance
 }
 
 function setupTTS() {
@@ -3931,14 +4148,17 @@ function updateMascot() {
       'assets/images/mascot/desktop-normal.png'
   }
 
-  img.src = mobileFile
+  img.src =
+    mobileFile
 
   img.alt =
     state.easterEgg
       ? `${t(
           'mascotAlt'
         )} — Vampire`
-      : t('mascotAlt')
+      : t(
+          'mascotAlt'
+        )
 
   setMascotSpeech()
 }
@@ -4122,9 +4342,13 @@ function setMascotSpeech() {
     pick[0]
 
   $('#bubbleTranslation').textContent =
-    localPair(pick[1])
+    localPair(
+      pick[1]
+    )
 
-  if (state.easterEgg) {
+  if (
+    state.easterEgg
+  ) {
     $('#bubbleJapanese').textContent =
       [
         'まだ勉強してるの？',
@@ -4144,10 +4368,13 @@ function setMascotSpeech() {
 function setupMascot() {
   updateMascot()
 
-  setInterval(() => {
-    checkEasterEgg()
-    setMascotSpeech()
-  }, 60000)
+  setInterval(
+    () => {
+      checkEasterEgg()
+      setMascotSpeech()
+    },
+    60000
+  )
 
   $('#sidebarMascot')?.addEventListener(
     'load',
@@ -4165,7 +4392,9 @@ function setupMascot() {
       showToast(
         state.easterEgg
           ? t('vampireToast')
-          : t('mascotToast')
+          : t(
+              'mascotToast'
+            )
       )
     }
   )
@@ -4175,13 +4404,15 @@ function checkEasterEgg() {
   const hour =
     new Date().getHours()
 
-  const should = hour === 1
+  const should =
+    hour === 1
 
   if (
     should &&
     !state.easterEgg
   ) {
-    state.easterEgg = true
+    state.easterEgg =
+      true
 
     document.body.classList.add(
       'easter-1am'
@@ -4198,7 +4429,8 @@ function checkEasterEgg() {
     !should &&
     state.easterEgg
   ) {
-    state.easterEgg = false
+    state.easterEgg =
+      false
 
     document.body.classList.remove(
       'easter-1am'
@@ -4258,7 +4490,9 @@ function fireConfetti(
       `${Math.random() * 0.25}s`
 
     piece.style.background =
-      colors[i % colors.length]
+      colors[
+        i % colors.length
+      ]
 
     piece.style.opacity =
       String(
@@ -4266,7 +4500,9 @@ function fireConfetti(
           Math.random() * 0.35
       )
 
-    layer.appendChild(piece)
+    layer.appendChild(
+      piece
+    )
   }
 
   document.body.appendChild(
@@ -4274,50 +4510,9 @@ function fireConfetti(
   )
 
   setTimeout(
-    () => layer.remove(),
+    () =>
+      layer.remove(),
     2200
-  )
-}
-
-function setupSettingsModal() {
-  const modal =
-    $('#settingsModal')
-
-  $('#settingsButton')?.addEventListener(
-    'click',
-    () => modal?.showModal()
-  )
-
-  $('#closeSettings')?.addEventListener(
-    'click',
-    () => modal?.close()
-  )
-
-  window.addEventListener(
-    'keydown',
-    event => {
-      if (
-        event.key.toLowerCase() ===
-          's' &&
-        !event.ctrlKey &&
-        !event.metaKey &&
-        !event.altKey &&
-        ![
-          'INPUT',
-          'TEXTAREA',
-          'SELECT'
-        ].includes(
-          document.activeElement
-            ?.tagName
-        )
-      ) {
-        event.preventDefault()
-
-        modal?.showModal()
-
-        $('#settingsStudyToggle')?.focus()
-      }
-    }
   )
 }
 
@@ -4342,23 +4537,47 @@ function setupKeyboard() {
         event.key ===
         'ArrowLeft'
       ) {
-        navigateRelative(-1)
+        navigateRelative(
+          -1
+        )
       }
 
       if (
         event.key ===
         'ArrowRight'
       ) {
-        navigateRelative(1)
+        navigateRelative(
+          1
+        )
       }
 
-      if (event.key === '/') {
+      if (
+        event.key === '/'
+      ) {
         event.preventDefault()
 
-        $('#searchModal')
-          ?.showModal()
+        const modal =
+          $('#searchModal')
 
-        $('#searchInput')?.focus()
+        const input =
+          $('#searchInput')
+
+        if (modal) {
+          if (
+            typeof modal.showModal ===
+            'function'
+          ) {
+            modal.showModal()
+          } else {
+            modal.setAttribute(
+              'open',
+              ''
+            )
+          }
+        }
+
+        input?.focus()
+        input?.select()
       }
     }
   )
@@ -4388,10 +4607,11 @@ function bindRipples() {
           'span'
         )
 
-      const size = Math.max(
-        rect.width,
-        rect.height
-      )
+      const size =
+        Math.max(
+          rect.width,
+          rect.height
+        )
 
       ripple.className =
         'ripple'
@@ -4411,7 +4631,8 @@ function bindRipples() {
       )
 
       setTimeout(
-        () => ripple.remove(),
+        () =>
+          ripple.remove(),
         650
       )
     }
@@ -4488,7 +4709,6 @@ function initApp() {
   setupMascot()
   setupMusic()
   setupStudyMode()
-  setupSettingsModal()
   setupKeyboard()
   bindRipples()
   applyTranslations()
