@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+
+    ```
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="theme-color" content="#f7eee2" />
+
+    <meta name="description" content="Soumatome N1 Kanji study notebook." />
+
+    <title>Soumatome N1 Kanji</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    ```
+  </head>
+
+  <body data-theme="human">
+    ```
+    <!-- Ambient Background -->
+    <div class="ambient ambient-a" aria-hidden="true"></div>
+
+    <div class="ambient ambient-b" aria-hidden="true"></div>
+
+    <div class="ambient ambient-c" aria-hidden="true"></div>
+
+    <div class="paper-grain" aria-hidden="true"></div>
+
+    <div class="ruled-paper" aria-hidden="true"></div>
+
+    <div class="top-sparkles" aria-hidden="true">
+      <span>✦</span>
+      <span>✧</span>
+      <span>✦</span>
+    </div>
+
+    <!-- =========================================================
+     HEADER
+========================================================== -->
+
+    <header class="site-header">
+      <a class="brand" href="#" id="homeLink" aria-label="Soumatome N1 Kanji">
+        <div class="brand-mark" aria-hidden="true">
+          <span class="mark-crescent">
+            <i class="bi bi-moon-stars-fill"></i>
+          </span>
+
+          <span class="mark-star"> ✦ </span>
+        </div>
+
+        <div class="brand-text">
+          <span class="brand-kicker"> N1 ・ KANJI NOTEBOOK </span>
+
+          <strong> Soumatome N1 Kanji </strong>
+
+          <span class="brand-subtitle" data-i18n="brandSubtitle">
+            Buku Belajar Kanji
+          </span>
+        </div>
+      </a>
+
+      <div class="header-tools">
+        <div class="header-progress" aria-label="Course progress">
+          <span class="eyebrow" data-i18n="courseProgress">
+            Progress Course
+          </span>
+
+          <strong id="courseProgressValue"> 0 / 56 hari </strong>
+        </div>
+
+        <!-- Language -->
+
+        <label class="select-control compact">
+          <span class="sr-only" data-i18n="language"> Bahasa </span>
+
+          <select id="languageSelect" aria-label="Language">
+            <option value="id">Indonesia</option>
+
+            <option value="en">English</option>
+          </select>
+        </label>
+
+        <!-- Theme -->
+
+        <label class="select-control compact">
+          <span class="sr-only" data-i18n="theme"> Tema </span>
+
+          <select id="themeSelect" aria-label="Theme">
+            <option value="human" data-i18n="humanMode">Human Mode</option>
+
+            <option value="vampire" data-i18n="vampireMode">
+              Vampire Mode
+            </option>
+
+            <option value="system" data-i18n="systemMode">System Mode</option>
+          </select>
+        </label>
+
+        <!-- Settings -->
+
+        <button
+          class="icon-button"
+          id="settingsButton"
+          type="button"
+          data-i18n-aria="settings"
+          data-i18n-title="settings"
+          aria-label="Settings"
+          title="Settings"
+        >
+          <span class="svg-icon" data-icon="settings"></span>
+        </button>
+
+        <!-- Music -->
+
+        <button
+          class="icon-button"
+          id="musicButton"
+          type="button"
+          aria-pressed="false"
+          data-i18n-aria="music"
+          data-i18n-title="music"
+          aria-label="Music"
+          title="Music"
+        >
+          <span class="svg-icon" data-icon="music"></span>
+        </button>
+
+        <!-- Study Mode -->
+
+        <button
+          class="icon-button"
+          id="studyButton"
+          type="button"
+          aria-pressed="false"
+          data-i18n-aria="studyMode"
+          data-i18n-title="studyMode"
+          aria-label="Study Mode"
+          title="Study Mode"
+        >
+          <span class="svg-icon" data-icon="study"></span>
+        </button>
+
+        <!-- Search -->
+
+        <button
+          class="icon-button"
+          id="searchButton"
+          type="button"
+          aria-label="Search"
+          title="Search"
+          data-i18n-aria="search"
+          data-i18n-title="search"
+        >
+          <span class="svg-icon" data-icon="search"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- =========================================================
+     APP SHELL
+========================================================== -->
+
+    <main class="app-shell">
+      <!-- =======================================================
+       SIDEBAR
+  ======================================================== -->
+
+      <aside class="sidebar" aria-label="Course navigation">
+        <!-- Course Map -->
+
+        <section class="sidebar-card course-map reveal-card">
+          <div class="section-title-row">
+            <div>
+              <span class="eyebrow" data-i18n="course"> KURSUS </span>
+
+              <h2>
+                <i class="bi bi-journal-bookmark-fill"></i>
+
+                8
+
+                <span data-i18n="weeks"> Minggu </span>
+              </h2>
+            </div>
+
+            <span class="stamp">
+              <i class="bi bi-stars"></i>
+
+              N1
+            </span>
+          </div>
+
+          <div id="weekMap" class="week-map"></div>
+        </section>
+
+        <!-- Navigation -->
+
+        <section class="sidebar-card selectors reveal-card">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow" data-i18n="navigate"> NAVIGASI </span>
+
+              <h3>
+                <i class="bi bi-compass-fill"></i>
+
+                <span data-i18n="weekDay"> Minggu & Hari </span>
+              </h3>
+            </div>
+
+            <span class="tiny-orb">
+              <i class="bi bi-arrow-repeat"></i>
+            </span>
+          </div>
+
+          <div class="selector-stack">
+            <label class="field">
+              <span data-i18n="week"> Minggu </span>
+
+              <select id="weekSelect"></select>
+            </label>
+
+            <label class="field">
+              <span data-i18n="day"> Hari </span>
+
+              <select id="daySelect"></select>
+            </label>
+          </div>
+
+          <div class="nav-buttons">
+            <button class="soft-button" id="prevButton" type="button">
+              <span class="svg-icon" data-icon="arrow-left"></span>
+
+              <span data-i18n="previous"> Sebelumnya </span>
+            </button>
+
+            <button class="soft-button" id="nextButton" type="button">
+              <span data-i18n="next"> Berikutnya </span>
+
+              <span class="svg-icon" data-icon="arrow-right"></span>
+            </button>
+          </div>
+        </section>
+
+        <!-- Sidebar Mascot
+         NOTE:
+         Ini tetap mascot sidebar.
+         Responsive HERO image tidak diletakkan di sini.
+    -->
+
+        <section class="sidebar-card mascot-card reveal-card">
+          <div class="mascot-frame small" id="sidebarMascotFrame">
+            <div class="mascot-ring"></div>
+
+            <img
+              id="sidebarMascot"
+              src="assets/images/mascot/mascot-normal.png"
+              alt="Mitsuki Nocturne mascot"
+            />
+
+            <span class="mascot-sparkle s1"> ✦ </span>
+
+            <span class="mascot-sparkle s2"> ✧ </span>
+
+            <span class="mascot-sparkle s3"> • </span>
+          </div>
+
+          <div class="speech-bubble" id="sidebarBubble">
+            <span class="bubble-kicker">
+              <i class="bi bi-chat-heart-fill"></i>
+
+              Mitsuki
+            </span>
+
+            <strong id="bubbleJapanese"> おはようございます！ </strong>
+
+            <span id="bubbleTranslation"> 今日も漢字を勉強しましょう。 </span>
+          </div>
+        </section>
+
+        <!-- Study Tip -->
+
+        <section class="sidebar-card quick-tip reveal-card">
+          <div class="tip-icon">
+            <i class="bi bi-lightbulb-fill"></i>
+          </div>
+
+          <div>
+            <span class="eyebrow"> STUDY TIP </span>
+
+            <strong data-i18n="searchTip">
+              Cari kanji, kosakata, furigana, bacaan, arti, dan penjelasan.
+            </strong>
+          </div>
+        </section>
+      </aside>
+
+      <!-- =======================================================
+       MAIN CONTENT
+  ======================================================== -->
+
+      <section class="content">
+        <div id="pageRoot">
+          <!--
+        ======================================================
+        HERO COPY RESPONSIVE IMAGE
+
+        Hero image desktop:
+          assets/images/mascot/desktop-normal.png
+
+        Hero image mobile:
+          assets/images/mascot/mascot-normal.png
+
+        Jika app.js merender Hero Copy secara dinamis,
+        gunakan struktur <picture> yang sama di template
+        Hero Copy tersebut.
+        ======================================================
+      -->
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================================================
+     FOOTER
+========================================================== -->
+
+    <footer class="site-footer">
+      <span>
+        <i class="bi bi-heart-fill"></i>
+
+        Soumatome N1 Kanji
+      </span>
+
+      <span data-i18n="footerStack">
+        Vanilla HTML • CSS • JavaScript • Bootstrap Icons
+      </span>
+    </footer>
+
+    <!-- Accessibility -->
+
+    <div class="sr-only" aria-live="polite" id="liveRegion"></div>
+
+    <!-- =========================================================
+     SEARCH MODAL
+========================================================== -->
+
+    <dialog class="modal" id="searchModal" aria-labelledby="searchTitle">
+      <div class="modal-inner">
+        <div class="modal-header">
+          <div>
+            <span class="eyebrow" data-i18n="search"> CARI </span>
+
+            <h2 id="searchTitle" data-i18n="searchKanji">Cari Kanji</h2>
+          </div>
+
+          <button
+            class="icon-button"
+            id="closeSearch"
+            type="button"
+            data-i18n-aria="settingsClose"
+            aria-label="Close"
+          >
+            <span class="svg-icon" data-icon="close"></span>
+          </button>
+        </div>
+
+        <label class="search-field">
+          <span class="svg-icon" data-icon="search"></span>
+
+          <input
+            id="searchInput"
+            type="search"
+            autocomplete="off"
+            data-i18n-placeholder="searchPlaceholder"
+            placeholder="Cari kanji, kosakata, furigana, bacaan, arti..."
+          />
+        </label>
+
+        <div id="searchResults" class="search-results">
+          <div class="empty-search">
+            <span data-i18n="startSearch">
+              Ketik untuk mencari materi yang tersedia.
+            </span>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <!-- =========================================================
+     SETTINGS MODAL
+========================================================== -->
+
+    <dialog class="modal" id="settingsModal" aria-labelledby="settingsTitle">
+      <div class="modal-inner">
+        <div class="modal-header">
+          <div>
+            <span class="eyebrow" data-i18n="settings"> PENGATURAN </span>
+
+            <h2 id="settingsTitle" data-i18n="settingsTitle">
+              Pengaturan Belajar
+            </h2>
+          </div>
+
+          <button
+            class="icon-button"
+            id="closeSettings"
+            type="button"
+            data-i18n-aria="settingsClose"
+            aria-label="Tutup"
+          >
+            <span class="svg-icon" data-icon="close"></span>
+          </button>
+        </div>
+
+        <div class="settings-grid">
+          <!-- Study Mode -->
+
+          <div class="setting-row">
+            <div>
+              <strong>
+                <i class="bi bi-incognito"></i>
+
+                <span data-i18n="studyMode"> Mode Hafalan </span>
+              </strong>
+
+              <p data-i18n="studyModeDesc">
+                Sembunyikan petunjuk sampai kamu siap.
+              </p>
+            </div>
+
+            <button
+              class="switch-button"
+              id="settingsStudyToggle"
+              type="button"
+              aria-pressed="false"
+              data-i18n-aria="studyMode"
+            ></button>
+          </div>
+
+          <!-- Music -->
+
+          <div class="setting-row">
+            <div>
+              <strong>
+                <i class="bi bi-music-note-beamed"></i>
+
+                <span data-i18n="music"> Musik </span>
+              </strong>
+
+              <p data-i18n="musicDesc">Gunakan file lokal di assets/audio/.</p>
+            </div>
+
+            <button
+              class="switch-button"
+              id="settingsMusicToggle"
+              type="button"
+              aria-pressed="false"
+              data-i18n-aria="music"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <!-- Toast -->
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <!-- Background Audio -->
+
+    <audio id="bgAudio" loop preload="none"></audio>
+
+    <!-- Application -->
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

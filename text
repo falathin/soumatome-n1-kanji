@@ -1,0 +1,1717 @@
+Buatkan sebuah web app pembelajaran JLPT N1 Kanji berbasis Vanilla HTML, CSS, dan JavaScript murni.
+
+PENTING:
+Saya ingin kamu bertindak sebagai senior frontend engineer sekaligus UI/UX designer Jepang.
+Jangan hanya memberikan contoh atau potongan kode.
+Buat project yang benar-benar runnable, terstruktur, modular, dan mudah saya isi sendiri.
+Jangan menggunakan React, Vue, Angular, Svelte, Next.js, Tailwind, Bootstrap, atau framework frontend lain.
+Gunakan:
+- HTML native
+- CSS native
+- JavaScript native ES Modules
+- Web Speech API / speechSynthesis
+- localStorage
+- SVG/Icon bawaan atau CSS
+- tanpa backend
+- tanpa database
+
+Saya ingin source code yang bersih, manusiawi, dan terasa dibuat oleh frontend developer sungguhan, bukan template dashboard AI generik.
+
+==================================================
+1. KONSEP UTAMA
+==================================================
+
+Web ini bernama sementara:
+
+SOUMATOME N1 KANJI
+
+Konsep pembelajaran mengikuti filosofi buku Soumatome:
+
+1 minggu = 7 hari
+8 minggu = total 56 hari
+
+Struktur:
+
+Minggu 1
+- Hari 1
+- Hari 2
+- Hari 3
+- Hari 4
+- Hari 5
+- Hari 6
+- Hari 7
+- Bonus Minggu 1
+
+Minggu 2
+- Hari 1
+- Hari 2
+- Hari 3
+- Hari 4
+- Hari 5
+- Hari 6
+- Hari 7
+- Bonus Minggu 2
+
+... sampai ...
+
+Minggu 8
+- Hari 1
+- Hari 2
+- Hari 3
+- Hari 4
+- Hari 5
+- Hari 6
+- Hari 7
+- Bonus Minggu 8
+
+Total:
+- 56 file hari
+- 8 file bonus
+- 64 module content
+
+Saya hanya memberikan referensi isi untuk:
+Minggu 1 Hari 1
+
+Isi Minggu 1 Hari 1 harus mengikuti materi yang terlihat pada gambar referensi yang saya lampirkan.
+Jangan mengarang materi yang tidak terlihat pada gambar.
+Gunakan gambar tersebut terutama sebagai referensi visual, struktur pembelajaran, dan materi Day 1 yang tersedia.
+
+Hari 2 sampai Hari 7 harus berupa template data yang sudah siap saya isi sendiri.
+
+Hal yang sama berlaku untuk minggu 2 sampai minggu 8.
+
+==================================================
+2. STRUKTUR FILE WAJIB
+==================================================
+
+Buat struktur project seperti ini:
+
+/
+├── index.html
+├── style.css
+├── app.js
+│
+├── assets/
+│   ├── mascot/
+│   │   ├── mascot-default.png
+│   │   ├── mascot-morning.png
+│   │   ├── mascot-day.png
+│   │   ├── mascot-evening.png
+│   │   ├── mascot-night.png
+│   │   └── mascot-vampire.png
+│   │
+│   ├── images/
+│   │   └── ...
+│   │
+│   └── audio/
+│       └── ...
+│
+└── js/
+    ├── minggu1/
+    │   ├── hari1.js
+    │   ├── hari2.js
+    │   ├── hari3.js
+    │   ├── hari4.js
+    │   ├── hari5.js
+    │   ├── hari6.js
+    │   ├── hari7.js
+    │   └── bonus1.js
+    │
+    ├── minggu2/
+    │   ├── hari1.js
+    │   ├── hari2.js
+    │   ├── hari3.js
+    │   ├── hari4.js
+    │   ├── hari5.js
+    │   ├── hari6.js
+    │   ├── hari7.js
+    │   └── bonus2.js
+    │
+    ├── minggu3/
+    │   ├── hari1.js
+    │   ├── hari2.js
+    │   ├── hari3.js
+    │   ├── hari4.js
+    │   ├── hari5.js
+    │   ├── hari6.js
+    │   ├── hari7.js
+    │   └── bonus3.js
+    │
+    ├── minggu4/
+    │   ├── hari1.js
+    │   ├── hari2.js
+    │   ├── hari3.js
+    │   ├── hari4.js
+    │   ├── hari5.js
+    │   ├── hari6.js
+    │   ├── hari7.js
+    │   └── bonus4.js
+    │
+    ├── minggu5/
+    │   ├── hari1.js
+    │   ├── hari2.js
+    │   ├── hari3.js
+    │   ├── hari4.js
+    │   ├── hari5.js
+    │   ├── hari6.js
+    │   ├── hari7.js
+    │   └── bonus5.js
+    │
+    ├── minggu6/
+    │   ├── hari1.js
+    │   ├── hari2.js
+    │   ├── hari3.js
+    │   ├── hari4.js
+    │   ├── hari5.js
+    │   ├── hari6.js
+    │   ├── hari7.js
+    │   └── bonus6.js
+    │
+    ├── minggu7/
+    │   ├── hari1.js
+    │   ├── hari2.js
+    │   ├── hari3.js
+    │   ├── hari4.js
+    │   ├── hari5.js
+    │   ├── hari6.js
+    │   ├── hari7.js
+    │   └── bonus7.js
+    │
+    └── minggu8/
+        ├── hari1.js
+        ├── hari2.js
+        ├── hari3.js
+        ├── hari4.js
+        ├── hari5.js
+        ├── hari6.js
+        ├── hari7.js
+        └── bonus8.js
+
+==================================================
+3. PERAN SETIAP FILE
+==================================================
+
+index.html
+-------------
+Ini adalah template / app shell utama.
+
+Jangan membuat setiap hari menjadi HTML terpisah.
+
+index.html hanya berisi:
+- header
+- navigation
+- selector minggu
+- selector hari
+- search
+- area content utama
+- mascot
+- settings
+- theme switch
+- footer
+- modal
+- toast
+- audio controls
+
+Semua isi pembelajaran harus dirender secara dinamis oleh app.js.
+
+app.js
+-------------
+Ini adalah otak seluruh aplikasi.
+
+Semua sistem utama harus berada di sini:
+- routing day
+- loading content module
+- rendering kanji
+- rendering vocabulary
+- search
+- navigation
+- progress
+- mastery state
+- quiz
+- localStorage
+- theme
+- language
+- TTS
+- mascot state
+- greeting
+- Easter egg
+- music
+- settings
+- scroll restoration
+- responsive behavior
+- modal
+- toast
+- keyboard shortcuts
+- accessibility
+
+js/mingguX/hariX.js
+--------------------
+HANYA berisi data pembelajaran.
+
+Jangan memasukkan logic UI berat ke dalam file hari.
+
+Setiap file harus export object seperti:
+
+export default {
+    week: 1,
+    day: 1,
+    title: {
+        id: "...",
+        en: "..."
+    },
+
+    theme: "...",
+
+    lessonIntro: {
+        id: "...",
+        en: "..."
+    },
+
+    kanji: [
+        {
+            id: "w1d1-k1",
+            character: "休",
+            jukugo: "...",
+
+            meanings: {
+                id: "...",
+                en: "..."
+            },
+
+            kunyomi: [
+                {
+                    reading: "...",
+                    meaning: {
+                        id: "...",
+                        en: "..."
+                    }
+                }
+            ],
+
+            onyomi: [
+                {
+                    reading: "...",
+                    meaning: {
+                        id: "...",
+                        en: "..."
+                    }
+            ],
+
+            nuance: {
+                id: "...",
+                en: "..."
+            },
+
+            philosophy: {
+                id: "...",
+                en: "..."
+            },
+
+            usage: {
+                id: "...",
+                en: "..."
+            },
+
+            vocabulary: [
+                {
+                    word: "...",
+                    furigana: "...",
+                    meaning: {
+                        id: "...",
+                        en: "..."
+                    },
+                    reading: "...",
+                    example: {
+                        ja: "...",
+                        id: "...",
+                        en: "..."
+                    }
+                }
+            ],
+
+            image: null
+        }
+    ],
+
+    miniQuiz: [
+        ...
+    ],
+
+    weeklyExamQuestions: [
+        ...
+    ]
+};
+
+==================================================
+4. DESAIN CARD KANJI
+==================================================
+
+Ini bagian yang SANGAT PENTING.
+
+Jangan membuat desain seperti dashboard SaaS modern.
+
+Fokus utama web adalah:
+KANJI.
+
+Jangan membuat satu halaman penuh foto, mascot, banner, statistik, dan dekorasi sampai kanji tenggelam.
+
+Kanji harus menjadi pusat perhatian.
+
+Satu kanji = satu learning card utama.
+
+Card harus terasa seperti:
+- halaman buku pelajaran Jepang
+- kartu surat / lembar pembelajaran
+- editorial workbook
+- Japanese study material
+- ilustrasi educational manga
+- printed worksheet
+
+Bukan seperti:
+- admin dashboard
+- fintech dashboard
+- crypto dashboard
+- AI SaaS dashboard
+- landing page startup
+
+Setiap kanji card minimal mempunyai:
+
+1. Kanji besar
+2. Arti
+3. Kun-yomi
+4. On-yomi
+5. tombol TTS
+6. penjelasan penggunaan
+7. nuansa asli
+8. filosofi / konteks budaya bila relevan
+9. contoh kosakata
+10. furigana
+11. arti kosakata
+12. contoh kalimat bila tersedia
+13. status hafalan
+14. tombol:
+   - Hafal
+   - Agak Hafal
+   - Tidak Hafal
+
+Layout harus mempunyai hirarki jelas.
+
+Contoh:
+
+        休
+
+        beristirahat
+
+        訓読み
+        やすむ
+
+        音読み
+        キュウ
+
+        [聞く]
+
+Kemudian penjelasan:
+
+        Penggunaan
+        ...
+
+        Nuansa
+        ...
+
+        Filosofi
+        ...
+
+Kemudian:
+
+        kosakata
+        休日
+        きゅうじつ
+        hari libur
+
+Jangan membuat semua bagian terlalu padat.
+
+==================================================
+5. METODE BELAJAR
+==================================================
+
+Metode harus terasa seperti Soumatome:
+
+Hari 1 sampai Hari 6:
+- pembelajaran kanji
+- pengenalan readings
+- vocabulary
+- mini quiz
+
+Hari 7:
+- pembelajaran ringkas
+- review seluruh materi minggu tersebut
+- full weekly exam
+
+Setiap hari mempunyai:
+- lesson section
+- kanji cards
+- vocabulary
+- mini quiz
+
+Hari 7 harus berubah menjadi:
+"Weekly Review + Full Exam"
+
+Exam pada Hari 7 mencakup seluruh kanji dan vocabulary dari Hari 1 sampai Hari 6.
+
+Jangan membuat ujian seperti ujian matematika modern yang rumit.
+
+Bentuk soal dapat disesuaikan dengan materi:
+- pilih arti
+- pilih bacaan
+- pilih kanji yang benar
+- pilih kosakata yang benar
+- cocokkan
+- isi jawaban
+- reading recognition
+- vocabulary recognition
+
+Hari 1 sampai Hari 6 hanya sedikit ujian agar fokus tetap menghafal.
+
+==================================================
+6. BONUS SETELAH HARI 7
+==================================================
+
+Setelah setiap Hari 7, terdapat satu module Bonus.
+
+Namanya:
+
+Bonus Minggu 1
+Bonus Minggu 2
+...
+Bonus Minggu 8
+
+Nama file:
+bonus1.js
+bonus2.js
+...
+bonus8.js
+
+Saya ingin kamu membuat konsep bonus yang berbeda dari lesson biasa.
+
+Buat sistem bonus bertema:
+
+"KANJI NOTE"
+
+atau nama Jepang yang terasa natural.
+
+Isi bonus bisa berupa:
+- trivia kanji
+- etimologi sederhana
+- perubahan bentuk kanji
+- perbedaan nuansa kata
+- pasangan kata yang sering tertukar
+- budaya Jepang
+- mnemonic
+- mini reading
+- hubungan kanji dengan kehidupan sehari-hari
+- common mistakes
+- penggunaan formal vs casual
+
+Jangan terlalu banyak.
+
+Bonus harus terasa seperti:
+"hadiah belajar setelah menyelesaikan satu minggu."
+
+Buat sistem data bonus yang fleksibel sehingga nanti saya bisa isi sendiri.
+
+==================================================
+7. MASTERY SYSTEM
+==================================================
+
+Setiap kanji mempunyai 3 status:
+
+mastered
+half
+not-mastered
+
+UI:
+
+[ Hafal ]
+[ Agak Hafal ]
+[ Tidak Hafal ]
+
+Ketika user klik:
+Hafal:
+status = mastered
+
+Agak Hafal:
+status = half
+
+Tidak Hafal:
+status = not-mastered
+
+Simpan semuanya menggunakan localStorage.
+
+Tidak boleh memakai database.
+
+Jangan memakai backend.
+
+==================================================
+8. MEMORY / CACHE SYSTEM
+==================================================
+
+Semua progress harus persistent.
+
+Gunakan localStorage.
+
+Simpan minimal:
+
+- currentWeek
+- currentDay
+- currentSection
+- scrollPosition
+- kanji mastery
+- quiz result
+- exam result
+- completedDays
+- completedWeeks
+- selectedLanguage
+- selectedTheme
+- musicEnabled
+- ttsEnabled
+- preferredVoice
+- mascotMode
+- lastOpenedAt
+
+Contoh:
+
+soumatome_n1_state
+
+{
+    "currentWeek": 1,
+    "currentDay": 1,
+    "language": "id",
+    "theme": "system",
+    "music": false,
+    "tts": true,
+    "mastery": {},
+    "quizResults": {},
+    "completedDays": {},
+    "scroll": {}
+}
+
+Ketika user membuka:
+Minggu 2 Hari 2
+kemudian scroll sampai tengah,
+
+saat membuka kembali web:
+kembalikan ke:
+Minggu 2 Hari 2
+dan scroll position terakhir.
+
+Namun saat pertama kali membuka website:
+default:
+
+Minggu 1
+Hari 1
+
+==================================================
+9. WEEK/DAY SELECTOR
+==================================================
+
+Harus ada selector:
+
+Minggu:
+[ Minggu 1 ▼ ]
+
+Hari:
+[ Hari 1 ▼ ]
+
+Saat user memilih:
+Minggu 3 -> Hari 4
+
+app.js harus melakukan dynamic import module yang sesuai.
+
+Contoh konsep:
+
+import("./js/minggu3/hari4.js")
+
+Jangan load semua data sekaligus bila tidak diperlukan.
+
+Navigasi harus halus.
+
+URL/hash boleh digunakan agar route dapat direstore, misalnya:
+
+#minggu=3&hari=4
+
+Tetapi localStorage tetap menjadi sumber persistence utama.
+
+==================================================
+10. SEARCH
+==================================================
+
+Buat search global.
+
+User dapat mencari:
+
+- kanji
+- vocabulary
+- reading
+- kunyomi
+- onyomi
+- arti Bahasa Indonesia
+- arti Bahasa Inggris
+
+Contoh:
+
+休
+やすむ
+キュウ
+休日
+hari libur
+
+Search harus menampilkan hasil seperti:
+
+休
+Minggu 1 • Hari 1
+休日
+やすむ
+hari libur
+
+Saat hasil diklik:
+langsung buka lesson yang sesuai
+dan scroll ke kanji yang sesuai.
+
+Search harus cepat dan nyaman.
+
+==================================================
+11. TEXT TO SPEECH
+==================================================
+
+Gunakan browser Web Speech API / speechSynthesis.
+
+Target bahasa Jepang:
+ja-JP
+
+Prioritaskan voice Microsoft apabila tersedia di browser / device, terutama pada Microsoft Edge.
+
+Buat fungsi:
+
+speakJapanese(text)
+
+dan:
+
+speakKunReading()
+speakOnReading()
+
+Ketika user menekan TTS untuk kunyomi:
+
+1. bacakan kunyomi
+2. bagian kunyomi menyala / diberi highlight
+3. kemudian highlight mati kembali
+
+Begitu juga untuk onyomi.
+
+Buat tombol audio yang jelas tetapi tidak besar.
+
+Contoh:
+
+訓読み
+やすむ
+[ speaker ]
+
+音読み
+キュウ
+[ speaker ]
+
+Saat suara berjalan:
+reading tersebut mempunyai animasi halus.
+
+Jangan mengasumsikan nama voice Microsoft selalu sama.
+Cari voice secara dinamis dan gunakan voice yang memiliki:
+- ja-JP
+- Japanese
+- Microsoft
+
+Jika tidak ada:
+fallback ke voice ja-JP pertama.
+
+==================================================
+12. MODE HAFAL
+==================================================
+
+Buat tombol:
+
+Mode Hafal
+
+Saat aktif:
+informasi bantuan disembunyikan.
+
+Yang tampil hanya:
+- Kanji
+- vocabulary yang relevan
+- bagian tertentu yang memang ditujukan untuk recall
+
+Sembunyikan:
+- arti
+- kunyomi
+- onyomi
+- penjelasan
+- hint
+
+Jangan membuat layout berantakan.
+
+Berikan tombol:
+Tampilkan Jawaban
+
+atau:
+Keluar dari Mode Hafal
+
+Mode Hafal harus sangat fokus pada active recall.
+
+==================================================
+13. TEMA
+==================================================
+
+Buat 3 mode:
+
+Human Mode
+Light Mode
+
+Vampire Mode
+Dark Mode
+
+System Mode
+mengikuti setting device.
+
+Label UI:
+人間モード / Human
+吸血鬼モード / Vampire
+System
+
+Human Mode:
+- kertas terang
+- tinta hitam
+- warna aksen seperti buku pendidikan Jepang
+- nyaman dibaca
+- natural
+- colorful tapi tidak norak
+
+Vampire Mode:
+- dark
+- merah gelap
+- hitam
+- ungu gelap
+- accent merah
+- mascot berubah jika asset tersedia
+
+System Mode:
+mengikuti prefers-color-scheme.
+
+Theme disimpan ke localStorage.
+
+==================================================
+14. MASCOT
+==================================================
+
+Saya melampirkan gambar sebagai referensi visual.
+
+Gunakan karakter pada gambar sebagai ART DIRECTION mascot.
+
+Jangan menjadikannya dekorasi besar.
+
+Mascot berfungsi sebagai:
+- teman belajar
+- pemberi komentar kecil
+- indikator mood
+- pembimbing
+
+Buat area mascot yang kecil dan tidak mengganggu kanji.
+
+Misalnya:
+kanji card tetap 75 sampai 90 persen fokus visual.
+
+Mascot sekitar 10 sampai 20 persen visual attention.
+
+Buat support untuk asset:
+
+assets/mascot/...
+
+Jika file gambar belum tersedia:
+gunakan placeholder dengan ukuran tetap.
+
+Jangan rusak layout ketika gambar belum ada.
+
+==================================================
+15. SPEECH BUBBLE MASCOT
+==================================================
+
+Maskot mempunyai balon teks.
+
+Teks berubah berdasarkan waktu.
+
+Gunakan pembagian:
+
+05:00 - 10:59
+Ohayou gozaimasu
+
+11:00 - 15:59
+Konnichiwa
+
+16:00 - 18:59
+Otsukaresama
+
+19:00 - 23:59
+Konbanwa
+
+00:00 - 00:59
+Yoru mo ganbarou...
+
+01:00 - 01:59
+EASTER EGG
+
+02:00 - 04:59
+Mata ashita...
+
+Pada jam 01:00 sampai 01:59:
+aktifkan desain horror ringan.
+
+Maskot:
+- berubah menjadi vampir jika asset tersedia
+- mata / ekspresi berubah
+- bubble text berubah
+- background sedikit lebih gelap
+- animasi lebih spooky
+- gunakan efek shadow dan vignette
+
+Tetapi jangan membuat pengalaman menjadi terlalu berat atau mengganggu fungsi belajar.
+
+Easter egg harus terasa seperti kejutan kecil.
+
+==================================================
+16. AUDIO / BGM
+==================================================
+
+Background music tersedia tetapi:
+
+DEFAULT = OFF
+
+User harus mengaktifkan sendiri.
+
+Jangan memasukkan lagu berhak cipta.
+
+Gunakan salah satu:
+- Web Audio API ambience sederhana
+- atau audio file placeholder yang bisa saya ganti
+
+Audio setting:
+
+Music:
+OFF / ON
+
+Volume:
+slider
+
+TTS:
+ON / OFF
+
+Jangan autoplay audio.
+
+Saat BGM aktif:
+buat ambience yang sesuai dengan mood halaman.
+
+Human mode:
+ambient belajar tenang.
+
+Vampire mode:
+ambient sedikit misterius.
+
+==================================================
+17. MULTI LANGUAGE
+==================================================
+
+Bahasa aplikasi:
+
+Indonesia
+English
+
+DEFAULT:
+Indonesia
+
+Semua UI menggunakan dictionary i18n.
+
+Contoh:
+
+const translations = {
+    id: {
+        study: "Belajar",
+        review: "Ulangi",
+        mastered: "Hafal",
+        half: "Agak Hafal",
+        notMastered: "Tidak Hafal"
+    },
+
+    en: {
+        study: "Study",
+        review: "Review",
+        mastered: "Mastered",
+        half: "Almost",
+        notMastered: "Not Mastered"
+    }
+};
+
+Bahasa Jepang jangan diterjemahkan.
+
+Konten lesson sebaiknya bisa mempunyai:
+
+id
+en
+
+Contoh:
+
+meaning: {
+    id: "beristirahat",
+    en: "to rest"
+}
+
+==================================================
+18. VISUAL DESIGN
+==================================================
+
+Gunakan gambar yang saya lampirkan sebagai referensi art style.
+
+Yang perlu ditiru dari feel visualnya:
+- Japanese study workbook
+- line art
+- strong outlines
+- playful educational illustration
+- paper/card feel
+- simple character
+- readable typography
+- compact educational annotations
+- visual hierarchy seperti buku pelajaran
+
+Jangan meniru pixel-per-pixel.
+
+Buat desain asli yang terinspirasi dari referensi.
+
+Karena referensinya memiliki nuansa worksheet cetak, gunakan:
+- paper texture sangat halus
+- outline
+- border seperti printed material
+- pseudo handwritten notes
+- label kecil
+- sticky-note style secukupnya
+- decorative arrows secukupnya
+
+Palet:
+- off-white / warm paper
+- ink black
+- muted red
+- soft blue
+- muted green
+- warm yellow
+
+Jangan menggunakan neon.
+
+Jangan memenuhi seluruh halaman dengan gradient.
+
+Jangan memakai card rounded berlebihan seperti template AI.
+
+Gunakan border radius secukupnya.
+
+==================================================
+19. UX PRINCIPLE
+==================================================
+
+PRIORITAS UX:
+
+1. Kanji
+2. Reading
+3. Vocabulary
+4. Meaning
+5. Explanation
+6. Quiz
+7. Progress
+8. Mascot
+9. Decoration
+
+Jangan membalik urutan itu.
+
+Homepage setelah masuk harus langsung memperlihatkan:
+Minggu 1 Hari 1
+dan kanji.
+
+Bukan:
+hero section besar
+banner
+statistik
+gambar besar
+menu berlebihan.
+
+Navigation boleh sticky tetapi kecil.
+
+Mobile:
+kanji harus tetap besar.
+
+Desktop:
+gunakan layout maksimal sekitar 1200 sampai 1400px.
+
+Jangan membuat line terlalu panjang untuk teks penjelasan.
+
+==================================================
+20. ANIMASI
+==================================================
+
+Gunakan animasi native CSS.
+
+Banyak animasi boleh, tetapi harus:
+- halus
+- relevan
+- tidak mengganggu belajar
+
+Contoh:
+- card entrance
+- reading highlight
+- TTS glow
+- progress animation
+- mascot blink
+- speech bubble pop
+- tab transition
+- quiz feedback
+- page transition
+- mastery state transition
+
+Gunakan prefers-reduced-motion.
+
+Jika device meminta reduced motion:
+matikan sebagian besar animasi.
+
+==================================================
+21. RESPONSIVE
+==================================================
+
+HARUS mobile-first.
+
+Ukuran:
+mobile
+tablet
+desktop
+wide desktop
+
+Desktop:
+sidebar / navigation dapat terlihat lebih lebar.
+
+Mobile:
+navigation berubah menjadi compact menu.
+
+Kanji jangan mengecil terlalu jauh.
+
+Saat mobile:
+kanji dapat memiliki ukuran sekitar 4rem sampai 7rem tergantung viewport.
+
+==================================================
+22. ACCESSIBILITY
+==================================================
+
+Tambahkan:
+- semantic HTML
+- aria-label
+- keyboard navigation
+- focus visible
+- tombol bukan div
+- kontras teks yang baik
+- alt text mascot
+- aria-live untuk feedback quiz/TTS jika relevan
+
+Jangan menggunakan icon tanpa label aksesibilitas.
+
+==================================================
+23. ICON
+==================================================
+
+Jangan bergantung pada library icon besar.
+
+Gunakan:
+- SVG inline
+- CSS
+- Unicode icon jika sesuai
+
+Hindari emoji sebagai dekorasi.
+
+User secara khusus meminta:
+hindari emoji yang terasa seperti template AI.
+
+Gunakan icon visual sederhana.
+
+==================================================
+24. DATA MODEL KANJI
+==================================================
+
+Buat schema yang kaya.
+
+Minimal:
+
+{
+    id,
+    character,
+    meaning,
+    kunyomi,
+    onyomi,
+    nuance,
+    philosophy,
+    usage,
+    vocabulary,
+    examples,
+    notes,
+    image,
+    tags
+}
+
+Untuk vocabulary:
+
+{
+    word,
+    furigana,
+    reading,
+    meaning,
+    level,
+    exampleSentence
+}
+
+Untuk reading:
+
+{
+    reading,
+    type,
+    meaning,
+    notes
+}
+
+type:
+"kun"
+atau
+"on"
+
+==================================================
+25. DAY 1 MINGGU 1
+==================================================
+
+Gunakan materi yang terlihat pada gambar yang saya lampirkan sebagai starter content.
+
+Materi yang terlihat pada referensi mencakup kosakata/kanji seperti:
+
+休憩
+化粧室
+清潔
+不潔
+缶
+空き缶
+缶詰
+瓶
+花瓶
+砂糖
+糖分
+扉
+自動扉
+洗浄
+浄化
+
+Jangan asal mengarang penjelasan yang tidak didukung materi.
+
+Untuk data yang tidak terlihat jelas:
+gunakan placeholder editable.
+
+Saya akan mengoreksi / melengkapi isi Day 1 sendiri.
+
+Yang paling penting:
+struktur data harus memungkinkan saya mengganti isi dengan mudah.
+
+==================================================
+26. CONTENT EDITING EXPERIENCE
+==================================================
+
+Saya ingin dapat mengedit materi semudah mungkin.
+
+Karena itu:
+jangan menyebarkan satu data kanji ke banyak file.
+
+Semua materi hari tersebut harus berada di satu file.
+
+Contoh:
+
+js/minggu1/hari1.js
+
+Saya cukup membuka file tersebut dan mengubah:
+
+kanji: [...]
+
+tanpa harus menyentuh app.js.
+
+App.js hanya bertanggung jawab atas sistem.
+
+==================================================
+27. PROGRESS UI
+==================================================
+
+Buat progress kecil dan tidak mendominasi.
+
+Contoh:
+
+Minggu 1
+Hari 1
+
+4 / 12 Kanji
+
+██████░░░░░░
+
+Jangan membuat dashboard statistik besar.
+
+Buat status:
+- studied
+- mastered
+- review
+
+Per kanji juga bisa ada indikator kecil.
+
+==================================================
+28. QUIZ ENGINE
+==================================================
+
+Buat quiz engine reusable di app.js.
+
+Question object:
+
+{
+    id,
+    type,
+    question,
+    options,
+    answer,
+    explanation
+}
+
+type bisa:
+- meaning
+- kunyomi
+- onyomi
+- vocabulary
+- kanji
+- reading
+
+Quiz:
+- randomize question
+- randomize options
+- feedback langsung
+- score
+- retry
+- summary
+
+Hari 7:
+ambil seluruh materi minggu tersebut.
+
+==================================================
+29. FULL WEEK REVIEW
+==================================================
+
+Saat user membuka:
+
+Minggu 1 Hari 7
+
+tampilkan:
+
+Weekly Review
+
+dan tombol:
+
+Mulai Ujian Mingguan
+
+Setelah selesai:
+tampilkan:
+- score
+- jumlah benar
+- jumlah salah
+- kanji yang perlu diulang
+- daftar kanji status
+
+Lalu unlock:
+
+Bonus Minggu 1
+
+Namun jangan mengunci akses secara permanen.
+User tetap boleh membuka hari sebelumnya.
+
+==================================================
+30. NAVIGATION
+==================================================
+
+Di bagian bawah lesson:
+
+← Hari Sebelumnya
+
+Hari 1 / 7
+
+Hari Berikutnya →
+
+Jika Hari 7:
+
+← Hari 6
+
+Bonus Minggu 1 →
+
+Setelah bonus:
+
+← Hari 7
+
+Minggu Berikutnya →
+
+==================================================
+31. SEARCH + CURRENT DAY
+==================================================
+
+Search global tetap tersedia dari halaman mana pun.
+
+Search result harus memberitahu:
+
+Kanji
+Lokasi
+
+contoh:
+
+休
+Minggu 1 · Hari 1
+
+Saat diklik:
+load hari1.js
+scroll ke element id kanji.
+
+==================================================
+32. APP STATE
+==================================================
+
+Buat centralized state seperti:
+
+const appState = {
+    week: 1,
+    day: 1,
+    language: "id",
+    theme: "system",
+    musicEnabled: false,
+    ttsEnabled: true,
+    memoryMode: false,
+    currentLesson: null,
+    mastery: {},
+    quizResults: {},
+    scrollPositions: {}
+};
+
+Jangan membuat state tersebar di seluruh file.
+
+==================================================
+33. ERROR HANDLING
+==================================================
+
+Kalau module hari gagal di-load:
+jangan membuat blank screen.
+
+Tampilkan error UI yang bagus:
+
+Materi belum tersedia.
+
+Minggu 3 Hari 4 belum memiliki materi.
+Silakan isi file:
+js/minggu3/hari4.js
+
+Tetap tampilkan navigation.
+
+Kalau TTS tidak tersedia:
+beri fallback message.
+
+Kalau gambar mascot tidak ada:
+gunakan placeholder.
+
+==================================================
+34. PERFORMANCE
+==================================================
+
+Jangan load gambar besar tanpa kebutuhan.
+
+Gunakan:
+- lazy loading
+- dynamic import
+- event delegation
+- minimal DOM recreation jika bisa
+- CSS animation daripada JS animation
+
+Jangan menggunakan library besar.
+
+==================================================
+35. CODE QUALITY
+==================================================
+
+Gunakan:
+- strict mode jika relevan
+- ES modules
+- function kecil
+- naming jelas
+- komentar seperlunya
+- jangan overengineering
+
+app.js boleh panjang karena saya memang ingin sistem terpusat.
+
+Tetapi jangan membuat satu function 1000 baris.
+
+Pisahkan logic secara internal:
+
+navigation
+rendering
+storage
+quiz
+tts
+theme
+i18n
+mascot
+audio
+search
+
+dalam section yang jelas.
+
+==================================================
+36. NO GENERIC AI DESIGN
+==================================================
+
+Ini sangat penting.
+
+Jangan lakukan:
+- glassmorphism berlebihan
+- gradient ungu/biru generik
+- terlalu banyak floating card
+- dashboard KPI
+- giant hero section
+- excessive rounded rectangle
+- decorative blobs
+- stock illustration style
+- random emoji
+- AI generated SaaS aesthetic
+
+Saya ingin desain yang terasa seperti:
+"web companion untuk buku belajar Jepang yang dibuat oleh manusia."
+
+Desain harus playful tetapi editorial.
+
+==================================================
+37. MASCOT DAN GAMBAR
+==================================================
+
+Buat semua tempat gambar editable.
+
+Contoh:
+
+assets/mascot/mascot-default.png
+
+Saya akan mengganti file dengan gambar mascot saya sendiri.
+
+Pastikan image container mempunyai:
+- aspect-ratio
+- object-fit
+- fallback
+- ukuran responsif
+
+Jangan hardcode ukuran gambar yang membuat layout rusak.
+
+==================================================
+38. SETTINGS PANEL
+==================================================
+
+Buat settings drawer / modal kecil.
+
+Isi:
+
+Bahasa
+[ Indonesia ]
+
+Tema
+[ Human ]
+[ Vampire ]
+[ System ]
+
+TTS
+[ ON / OFF ]
+
+Voice
+[ Auto ]
+
+Background Music
+[ OFF / ON ]
+
+Volume
+[ slider ]
+
+Mode Hafal
+[ ON / OFF ]
+
+Settings disimpan otomatis.
+
+==================================================
+39. INITIAL STATE
+==================================================
+
+Pertama kali user masuk:
+
+Minggu 1
+Hari 1
+
+Scroll:
+top
+
+Bahasa:
+Indonesia
+
+Theme:
+System
+
+TTS:
+ON
+
+Music:
+OFF
+
+Memory mode:
+OFF
+
+Setelah pernah dipakai:
+restore keadaan terakhir.
+
+==================================================
+40. FILE GENERATION
+==================================================
+
+Saya ingin kamu menghasilkan project lengkap.
+
+WAJIB buat:
+
+1 index.html
+1 style.css
+1 app.js
+
+56 file day module:
+
+minggu1/hari1.js ... hari7.js
+minggu2/hari1.js ... hari7.js
+...
+minggu8/hari1.js ... hari7.js
+
+8 file bonus:
+
+minggu1/bonus1.js
+...
+minggu8/bonus8.js
+
+Untuk:
+Minggu 1 Hari 1
+isi starter content berdasarkan gambar referensi.
+
+Untuk file lain:
+buat schema valid dengan data kosong / placeholder yang mudah saya edit.
+
+Jangan membuat module kosong yang menyebabkan import error.
+
+Setiap module harus valid dan dapat langsung di-load.
+
+==================================================
+41. OUTPUT YANG SAYA INGINKAN
+==================================================
+
+Jangan hanya menjelaskan konsep.
+
+Saya ingin:
+
+1. Project tree lengkap.
+2. Seluruh source code.
+3. index.html lengkap.
+4. style.css lengkap.
+5. app.js lengkap.
+6. seluruh file minggu1 sampai minggu8.
+7. seluruh bonus1 sampai bonus8.
+8. data schema yang konsisten.
+9. responsive.
+10. semua fitur aktif.
+
+Jangan menulis:
+
+"dan seterusnya..."
+
+Jangan menulis:
+
+"kode lainnya sama"
+
+Jangan memotong kode.
+
+Jangan memberikan pseudo-code.
+
+Jangan memberikan placeholder untuk logic utama.
+
+Placeholder hanya boleh digunakan untuk CONTENT yang memang belum saya masukkan.
+
+==================================================
+42. FINAL QUALITY CHECK
+==================================================
+
+Sebelum memberikan hasil, pastikan:
+
+- index.html dapat dibuka.
+- app.js berhasil load.
+- semua module path benar.
+- tidak ada import path yang salah.
+- tidak ada undefined function.
+- navigation minggu/hari bekerja.
+- default Week 1 Day 1.
+- localStorage bekerja.
+- scroll restoration bekerja.
+- search bekerja.
+- TTS bekerja jika browser mendukung.
+- theme bekerja.
+- language switch bekerja.
+- memory mode bekerja.
+- quiz bekerja.
+- day 7 menjadi full exam.
+- bonus tersedia setelah day 7.
+- mobile responsive.
+- reduced motion tersedia.
+- mascot tidak mendominasi UI.
+- kanji tetap menjadi pusat perhatian.
+- tidak ada dependency framework.
+- tidak ada database.
+- music default OFF.
+
+Jika menemukan potensi bug arsitektur, perbaiki sebelum output.
+
+==================================================
+43. HASIL AKHIR YANG DIHARAPKAN
+==================================================
+
+Saya ingin hasil akhirnya terasa seperti:
+
+"platform belajar Soumatome N1 Kanji versi web interaktif"
+
+dengan:
+- nuansa buku Jepang
+- mascot karakter seperti referensi
+- paper/workbook aesthetic
+- kanji sebagai fokus utama
+- active recall
+- TTS Jepang
+- progress memory
+- quiz
+- weekly exam
+- bonus content
+- bilingual Indonesia/English
+- Human/Vampire/System theme
+- time-based mascot
+- easter egg 01:00
+- responsive
+- vanilla web
+- tanpa backend
+- tanpa database
+
+Dan yang paling penting:
+
+Jangan membuat web yang terlihat bagus tetapi susah dipakai untuk belajar.
+
+Prioritaskan usability untuk membaca dan menghafal kanji.
+Setiap elemen visual harus membantu pengalaman belajar, bukan sekadar dekorasi.
