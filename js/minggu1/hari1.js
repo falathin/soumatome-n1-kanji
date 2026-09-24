@@ -1,1707 +1,2136 @@
 const minggu1Hari1 = {
-    "week": 1,
-    "day": 1,
-    "title": {
-        "id": "Hari 1",
-        "en": "Day 1"
+    week: 1,
+    day: 1,
+
+    title: {
+        id: "Hari 1",
+        en: "Day 1"
     },
-    "subtitle": {
-        "id": "五・語・悟 dan kelompok kanji dengan bacaan yang sama",
-        "en": "五・語・悟 and kanji grouped by shared readings"
+
+    subtitle: {
+        id: "五・語・悟 dan kelompok kanji dengan bacaan yang sama",
+        en: "五・語・悟 and kanji grouped by shared readings"
     },
-    "source": {
-        "label": "Minggu 1 Hari 1",
-        "image": "assets/images/backgrounds/day1-mobile-normal.png"
+
+    source: {
+        label: "Minggu 1 Hari 1",
+        image: "assets/images/backgrounds/mobile-normal.png"
     },
-    "kanji": [
+
+    kanji: [
         {
-            "id": "week1-day1-001",
-            "character": "古",
-            "meaning": {
-                "id": "tua; kuno",
-                "en": "old; ancient"
+            id: "week1-day1-001",
+            character: "古",
+            meaning: {
+                id: "tua; kuno",
+                en: "old; ancient"
             },
-            "onyomi": [
-                {
-                    "text": "コ",
-                    "reading": "コ"
-                }
+            onyomi: [
+                { text: "コ", reading: "コ" }
             ],
-            "kunyomi": [],
-            "usage": {
-                "id": "Contoh sumber menampilkan 古 dalam 古典 dan 古代.",
-                "en": "The source shows 古 through the example vocabulary 古典, 古代."
+            kunyomi: [
+                { text: "(ふる)い", reading: "ふるい" },
+                { text: "(ふる)す", reading: "ふるす" },
+                { text: "いにしえ", reading: "いにしえ" }
+            ],
+            usage: {
+                id: "Contoh sumber menampilkan 古 dalam 古典 dan 古代.",
+                en: "The source shows 古 through the example vocabulary 古典, 古代."
             },
-            "nuance": {
-                "id": "Di sumber, 古 muncul pada kosakata yang berhubungan dengan hal lama atau masa lampau.",
-                "en": "In the source examples, 古 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Di sumber, 古 muncul pada kosakata yang berhubungan dengan hal lama atau masa lampau.",
+                en: "In the source examples, 古 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Jadikan 古 sebagai kait visual untuk pasangan kata bertema masa lampau.",
-                "en": "Use the example vocabulary as the memory hook for 古."
+            philosophy: {
+                id: "Jadikan 古 sebagai kait visual untuk pasangan kata bertema masa lampau.",
+                en: "Use the example vocabulary as the memory hook for 古."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "古典",
-                    "reading": "こてん",
-                    "meaning": {
-                        "id": "klasik",
-                        "en": "classic"
+                    word: "古典",
+                    reading: "こてん",
+                    meaning: {
+                        id: "klasik",
+                        en: "classic"
                     }
                 },
                 {
-                    "word": "古代",
-                    "reading": "こだい",
-                    "meaning": {
-                        "id": "zaman kuno",
-                        "en": "ancient times"
+                    word: "古代",
+                    reading: "こだい",
+                    meaning: {
+                        id: "zaman kuno",
+                        en: "ancient times"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-002",
-            "character": "固",
-            "meaning": {
-                "id": "tetap; melekat",
-                "en": "fixed; inherent"
+            id: "week1-day1-002",
+            character: "固",
+            meaning: {
+                id: "tetap; melekat",
+                en: "fixed; inherent"
             },
-            "onyomi": [
-                {
-                    "text": "コ",
-                    "reading": "コ"
-                }
+            onyomi: [
+                { text: "コ", reading: "コ" }
             ],
-            "kunyomi": [],
-            "usage": {
-                "id": "Contoh sumber menampilkan 固 dalam 固定 dan 固有.",
-                "en": "The source shows 固 through the example vocabulary 固定, 固有."
+            kunyomi: [
+                { text: "(かた)める", reading: "かためる" },
+                { text: "(かた)まる", reading: "かたまる" },
+                { text: "(かた)い", reading: "かたい" },
+                { text: "(もと)より", reading: "もとより" }
+            ],
+            usage: {
+                id: "Contoh sumber menampilkan 固 dalam 固定 dan 固有.",
+                en: "The source shows 固 through the example vocabulary 固定, 固有."
             },
-            "nuance": {
-                "id": "Pasangan sumber menekankan keadaan yang tetap atau khas.",
-                "en": "In the source examples, 固 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Pasangan sumber menekankan keadaan yang tetap atau khas.",
+                en: "In the source examples, 固 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Bayangkan sesuatu yang sudah kokoh dan tidak mudah berubah.",
-                "en": "Use the example vocabulary as the memory hook for 固."
+            philosophy: {
+                id: "Bayangkan sesuatu yang sudah kokoh dan tidak mudah berubah.",
+                en: "Use the example vocabulary as the memory hook for 固."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "固定",
-                    "reading": "こてい",
-                    "meaning": {
-                        "id": "menetapkan; pemasangan",
-                        "en": "fixing"
+                    word: "固定",
+                    reading: "こてい",
+                    meaning: {
+                        id: "menetapkan; pemasangan",
+                        en: "fixing"
                     }
                 },
                 {
-                    "word": "固有",
-                    "reading": "こゆう",
-                    "meaning": {
-                        "id": "khas; melekat pada",
-                        "en": "peculiar to"
+                    word: "固有",
+                    reading: "こゆう",
+                    meaning: {
+                        id: "khas; melekat pada",
+                        en: "peculiar to"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-003",
-            "character": "個",
-            "meaning": {
-                "id": "individu; terpisah",
-                "en": "individual; separate"
+            id: "week1-day1-003",
+            character: "個",
+            meaning: {
+                id: "individu; terpisah",
+                en: "individual; separate"
             },
-            "onyomi": [
-                {
-                    "text": "コ",
-                    "reading": "コ"
-                }
+            onyomi: [
+                { text: "コ", reading: "コ" }
             ],
-            "kunyomi": [],
-            "usage": {
-                "id": "Contoh sumber menampilkan 個 dalam 個性 dan 個別.",
-                "en": "The source shows 個 through the example vocabulary 個性, 個別."
+            kunyomi: [],
+            usage: {
+                id: "Contoh sumber menampilkan 個 dalam 個性 dan 個別.",
+                en: "The source shows 個 through the example vocabulary 個性, 個別."
             },
-            "nuance": {
-                "id": "Kata contoh sama-sama menunjuk pada sesuatu yang bersifat individual.",
-                "en": "In the source examples, 個 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Kata contoh sama-sama menunjuk pada sesuatu yang bersifat individual.",
+                en: "In the source examples, 個 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Hubungkan 個 dengan satu unit atau satu orang yang dilihat sebagai individu.",
-                "en": "Use the example vocabulary as the memory hook for 個."
+            philosophy: {
+                id: "Hubungkan 個 dengan satu unit atau satu orang yang dilihat sebagai individu.",
+                en: "Use the example vocabulary as the memory hook for 個."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "個性",
-                    "reading": "こせい",
-                    "meaning": {
-                        "id": "individualitas",
-                        "en": "individuality"
+                    word: "個性",
+                    reading: "こせい",
+                    meaning: {
+                        id: "individualitas",
+                        en: "individuality"
                     }
                 },
                 {
-                    "word": "個別",
-                    "reading": "こべつ",
-                    "meaning": {
-                        "id": "masing-masing; terpisah",
-                        "en": "individual, separate"
+                    word: "個別",
+                    reading: "こべつ",
+                    meaning: {
+                        id: "masing-masing; terpisah",
+                        en: "individual, separate"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-004",
-            "character": "故",
-            "meaning": {
-                "id": "sebab; mendiang; lama",
-                "en": "cause; the deceased; old"
+            id: "week1-day1-004",
+            character: "故",
+            meaning: {
+                id: "sebab; mendiang; lama",
+                en: "cause; the deceased; old"
             },
-            "onyomi": [
-                {
-                    "text": "コ",
-                    "reading": "コ"
-                }
+            onyomi: [
+                { text: "コ", reading: "コ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "ゆえ",
-                    "reading": "ゆえ"
-                }
+            kunyomi: [
+                { text: "ゆえ", reading: "ゆえ" }
             ],
-            "usage": {
-                "id": "Contoh sumber menampilkan 故 dalam 事故 dan 故人.",
-                "en": "The source shows 故 through the example vocabulary 事故, 故人."
+            usage: {
+                id: "Contoh sumber menampilkan 故 dalam 事故 dan 故人.",
+                en: "The source shows 故 through the example vocabulary 事故, 故人."
             },
-            "nuance": {
-                "id": "Pada sumber, 故 muncul dalam kosakata dengan makna yang berbeda sesuai gabungan katanya.",
-                "en": "In the source examples, 故 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Pada sumber, 故 muncul dalam kosakata dengan makna yang berbeda sesuai gabungan katanya.",
+                en: "In the source examples, 故 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Jangan paksa satu arti ke semua kata; ingat pasangan kosakatanya.",
-                "en": "Use the example vocabulary as the memory hook for 故."
+            philosophy: {
+                id: "Jangan paksa satu arti ke semua kata; ingat pasangan kosakatanya.",
+                en: "Use the example vocabulary as the memory hook for 故."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "事故",
-                    "reading": "じこ",
-                    "meaning": {
-                        "id": "kecelakaan",
-                        "en": "an accident"
+                    word: "事故",
+                    reading: "じこ",
+                    meaning: {
+                        id: "kecelakaan",
+                        en: "an accident"
                     }
                 },
                 {
-                    "word": "故人",
-                    "reading": "こじん",
-                    "meaning": {
-                        "id": "mendiang",
-                        "en": "the deceased"
+                    word: "故人",
+                    reading: "こじん",
+                    meaning: {
+                        id: "mendiang",
+                        en: "the deceased"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-005",
-            "character": "湖",
-            "meaning": {
-                "id": "danau",
-                "en": "lake"
+            id: "week1-day1-005",
+            character: "湖",
+            meaning: {
+                id: "danau",
+                en: "lake"
             },
-            "onyomi": [
-                {
-                    "text": "コ",
-                    "reading": "コ"
-                }
+            onyomi: [
+                { text: "コ", reading: "コ" }
             ],
-            "kunyomi": [],
-            "usage": {
-                "id": "Contoh sumber menampilkan 湖 dalam 琵琶湖 dan 湖畔.",
-                "en": "The source shows 湖 through the example vocabulary 琵琶湖, 湖畔."
+            kunyomi: [
+                { text: "みずうみ", reading: "みずうみ" }
+            ],
+            usage: {
+                id: "Contoh sumber menampilkan 湖 dalam 琵琶湖 dan 湖畔.",
+                en: "The source shows 湖 through the example vocabulary 琵琶湖, 湖畔."
             },
-            "nuance": {
-                "id": "Konteks sumber langsung berkaitan dengan danau dan tepi danau.",
-                "en": "In the source examples, 湖 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Konteks sumber langsung berkaitan dengan danau dan tepi danau.",
+                en: "In the source examples, 湖 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Visualkan 湖 sebagai pemandangan air yang luas.",
-                "en": "Use the example vocabulary as the memory hook for 湖."
+            philosophy: {
+                id: "Visualkan 湖 sebagai pemandangan air yang luas.",
+                en: "Use the example vocabulary as the memory hook for 湖."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "琵琶湖",
-                    "reading": "びわこ",
-                    "meaning": {
-                        "id": "Danau Biwa",
-                        "en": "Lake Biwa"
+                    word: "琵琶湖",
+                    reading: "びわこ",
+                    meaning: {
+                        id: "Danau Biwa",
+                        en: "Lake Biwa"
                     }
                 },
                 {
-                    "word": "湖畔",
-                    "reading": "こはん",
-                    "meaning": {
-                        "id": "tepi danau",
-                        "en": "lakeside"
+                    word: "湖畔",
+                    reading: "こはん",
+                    meaning: {
+                        id: "tepi danau",
+                        en: "lakeside"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-006",
-            "character": "五",
-            "meaning": {
-                "id": "lima",
-                "en": "five"
+            id: "week1-day1-006",
+            character: "五",
+            meaning: {
+                id: "lima",
+                en: "five"
             },
-            "onyomi": [
-                {
-                    "text": "ゴ",
-                    "reading": "ゴ"
-                }
+            onyomi: [
+                { text: "ゴ", reading: "ゴ" }
             ],
-            "kunyomi": [],
-            "usage": {
-                "id": "Contoh sumber menampilkan 五 dalam 五十音 dan 五輪.",
-                "en": "The source shows 五 through the example vocabulary 五十音, 五輪."
+            kunyomi: [
+                { text: "いつ", reading: "いつ" },
+                { text: "いつつ", reading: "いつつ" }
+            ],
+            usage: {
+                id: "Contoh sumber menampilkan 五 dalam 五十音 dan 五輪.",
+                en: "The source shows 五 through the example vocabulary 五十音, 五輪."
             },
-            "nuance": {
-                "id": "Satu kanji muncul dalam istilah pendidikan bahasa dan istilah Olimpiade.",
-                "en": "In the source examples, 五 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Satu kanji muncul dalam istilah pendidikan bahasa dan istilah Olimpiade.",
+                en: "In the source examples, 五 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Gunakan bunyi ご sebagai kait utama pasangan kata ini.",
-                "en": "Use the example vocabulary as the memory hook for 五."
+            philosophy: {
+                id: "Gunakan bunyi ご sebagai kait utama pasangan kata ini.",
+                en: "Use the example vocabulary as the memory hook for 五."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "五十音",
-                    "reading": "ごじゅうおん",
-                    "meaning": {
-                        "id": "sistem silabari Jepang",
-                        "en": "the Japanese syllabary"
+                    word: "五十音",
+                    reading: "ごじゅうおん",
+                    meaning: {
+                        id: "sistem silabari Jepang",
+                        en: "the Japanese syllabary"
                     }
                 },
                 {
-                    "word": "五輪",
-                    "reading": "ごりん",
-                    "meaning": {
-                        "id": "Olimpiade",
-                        "en": "the Olympics"
+                    word: "五輪",
+                    reading: "ごりん",
+                    meaning: {
+                        id: "Olimpiade",
+                        en: "the Olympics"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-007",
-            "character": "語",
-            "meaning": {
-                "id": "bahasa; kata",
-                "en": "language; word"
+            id: "week1-day1-007",
+            character: "語",
+            meaning: {
+                id: "bahasa; kata",
+                en: "language; word"
             },
-            "onyomi": [
-                {
-                    "text": "ゴ",
-                    "reading": "ゴ"
-                }
+            onyomi: [
+                { text: "ゴ", reading: "ゴ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "かたる",
-                    "reading": "かたる"
-                }
+            kunyomi: [
+                { text: "(かた)る", reading: "かたる" }
             ],
-            "usage": {
-                "id": "Contoh sumber menampilkan 語 dalam 言語 dan 語句.",
-                "en": "The source shows 語 through the example vocabulary 言語, 語句."
+            usage: {
+                id: "Contoh sumber menampilkan 語 dalam 言語 dan 語句.",
+                en: "The source shows 語 through the example vocabulary 言語, 語句."
             },
-            "nuance": {
-                "id": "Konteks sumber terkait bahasa dan kumpulan kata.",
-                "en": "In the source examples, 語 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Konteks sumber terkait bahasa dan kumpulan kata.",
+                en: "In the source examples, 語 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Bayangkan 語 sebagai unit bahasa yang bisa dipakai untuk berbicara dan membaca.",
-                "en": "Use the example vocabulary as the memory hook for 語."
+            philosophy: {
+                id: "Bayangkan 語 sebagai unit bahasa yang bisa dipakai untuk berbicara dan membaca.",
+                en: "Use the example vocabulary as the memory hook for 語."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "言語",
-                    "reading": "げんご",
-                    "meaning": {
-                        "id": "bahasa",
-                        "en": "language"
+                    word: "言語",
+                    reading: "げんご",
+                    meaning: {
+                        id: "bahasa",
+                        en: "language"
                     }
                 },
                 {
-                    "word": "語句",
-                    "reading": "ごく",
-                    "meaning": {
-                        "id": "kata dan frasa",
-                        "en": "words and phrases"
+                    word: "語句",
+                    reading: "ごく",
+                    meaning: {
+                        id: "kata dan frasa",
+                        en: "words and phrases"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-008",
-            "character": "悟",
-            "meaning": {
-                "id": "kesadaran; kesiapan dalam 覚悟",
-                "en": "realization; preparedness in 覚悟"
+            id: "week1-day1-008",
+            character: "悟",
+            meaning: {
+                id: "kesadaran; kesiapan dalam 覚悟",
+                en: "realization; preparedness in 覚悟"
             },
-            "onyomi": [
-                {
-                    "text": "ゴ",
-                    "reading": "ゴ"
-                }
+            onyomi: [
+                { text: "ゴ", reading: "ゴ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "さとる",
-                    "reading": "さとる"
-                }
+            kunyomi: [
+                { text: "(さと)る", reading: "さとる" }
             ],
-            "usage": {
-                "id": "Contoh sumber memberikan 覚悟 sebagai contoh utama untuk bunyi ご.",
-                "en": "The source shows 悟 through the example vocabulary 覚悟."
+            usage: {
+                id: "Contoh sumber memberikan 覚悟 sebagai contoh utama untuk bunyi ご.",
+                en: "The source shows 悟 through the example vocabulary 覚悟."
             },
-            "nuance": {
-                "id": "Kosakata sumber menekankan kesiapan atau tekad untuk menghadapi sesuatu.",
-                "en": "In the source examples, 悟 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Kosakata sumber menekankan kesiapan atau tekad untuk menghadapi sesuatu.",
+                en: "In the source examples, 悟 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Ingat 悟 melalui ide 'sudah sadar dan siap'.",
-                "en": "Use the example vocabulary as the memory hook for 悟."
+            philosophy: {
+                id: "Ingat 悟 melalui ide 'sudah sadar dan siap'.",
+                en: "Use the example vocabulary as the memory hook for 悟."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "覚悟",
-                    "reading": "かくご",
-                    "meaning": {
-                        "id": "kesiapan; tekad",
-                        "en": "preparedness"
+                    word: "覚悟",
+                    reading: "かくご",
+                    meaning: {
+                        id: "kesiapan; tekad",
+                        en: "preparedness"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-009",
-            "character": "未",
-            "meaning": {
-                "id": "belum; tidak diketahui",
-                "en": "not yet; unknown"
+            id: "week1-day1-009",
+            character: "未",
+            meaning: {
+                id: "belum; tidak diketahui",
+                en: "not yet; unknown"
             },
-            "onyomi": [
-                {
-                    "text": "ミ",
-                    "reading": "ミ"
-                }
+            onyomi: [
+                { text: "ミ", reading: "ミ" }
             ],
-            "kunyomi": [],
-            "usage": {
-                "id": "Contoh sumber menampilkan 未 dalam 未知 dan 未定.",
-                "en": "The source shows 未 through the example vocabulary 未知, 未定."
+            kunyomi: [
+                { text: "いまだ", reading: "いまだ" },
+                { text: "まだ", reading: "まだ" },
+                { text: "ひつじ", reading: "ひつじ" }
+            ],
+            usage: {
+                id: "Contoh sumber menampilkan 未 dalam 未知 dan 未定.",
+                en: "The source shows 未 through the example vocabulary 未知, 未定."
             },
-            "nuance": {
-                "id": "Dua contoh sama-sama menunjukkan sesuatu yang belum diketahui atau belum diputuskan.",
-                "en": "In the source examples, 未 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Dua contoh sama-sama menunjukkan sesuatu yang belum diketahui atau belum diputuskan.",
+                en: "In the source examples, 未 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Hubungkan 未 dengan sesuatu yang masih belum selesai atau belum pasti.",
-                "en": "Use the example vocabulary as the memory hook for 未."
+            philosophy: {
+                id: "Hubungkan 未 dengan sesuatu yang masih belum selesai atau belum pasti.",
+                en: "Use the example vocabulary as the memory hook for 未."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "未知",
-                    "reading": "みち",
-                    "meaning": {
-                        "id": "tidak diketahui",
-                        "en": "unknown"
+                    word: "未知",
+                    reading: "みち",
+                    meaning: {
+                        id: "tidak diketahui",
+                        en: "unknown"
                     }
                 },
                 {
-                    "word": "未定",
-                    "reading": "みてい",
-                    "meaning": {
-                        "id": "belum ditentukan",
-                        "en": "undecided, indefinite"
+                    word: "未定",
+                    reading: "みてい",
+                    meaning: {
+                        id: "belum ditentukan",
+                        en: "undecided, indefinite"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-010",
-            "character": "味",
-            "meaning": {
-                "id": "rasa",
-                "en": "taste; flavor"
+            id: "week1-day1-010",
+            character: "味",
+            meaning: {
+                id: "rasa",
+                en: "taste; flavor"
             },
-            "onyomi": [
-                {
-                    "text": "ミ",
-                    "reading": "ミ"
-                }
+            onyomi: [
+                { text: "ミ", reading: "ミ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "あじ",
-                    "reading": "あじ"
-                }
+            kunyomi: [
+                { text: "あじ", reading: "あじ" }
             ],
-            "usage": {
-                "id": "Contoh sumber menampilkan 味 dalam 中味 dan 味覚.",
-                "en": "The source shows 味 through the example vocabulary 中味, 味覚."
+            usage: {
+                id: "Contoh sumber menampilkan 味 dalam 中味 dan 味覚.",
+                en: "The source shows 味 through the example vocabulary 中味, 味覚."
             },
-            "nuance": {
-                "id": "Kata contoh menghubungkan 味 dengan isi dan rasa.",
-                "en": "In the source examples, 味 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Kata contoh menghubungkan 味 dengan isi dan rasa.",
+                en: "In the source examples, 味 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Mulai dari citra rasa, lalu hubungkan dengan gabungan kata yang ada di sumber.",
-                "en": "Use the example vocabulary as the memory hook for 味."
+            philosophy: {
+                id: "Mulai dari citra rasa, lalu hubungkan dengan gabungan kata yang ada di sumber.",
+                en: "Use the example vocabulary as the memory hook for 味."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "中味",
-                    "reading": "なかみ",
-                    "meaning": {
-                        "id": "isi",
-                        "en": "contents"
+                    word: "中味",
+                    reading: "なかみ",
+                    meaning: {
+                        id: "isi",
+                        en: "contents"
                     }
                 },
                 {
-                    "word": "味覚",
-                    "reading": "みかく",
-                    "meaning": {
-                        "id": "indra/persepsi rasa",
-                        "en": "taste"
+                    word: "味覚",
+                    reading: "みかく",
+                    meaning: {
+                        id: "indra/persepsi rasa",
+                        en: "taste"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-011",
-            "character": "魅",
-            "meaning": {
-                "id": "pesona; memikat",
-                "en": "charm; fascinate"
+            id: "week1-day1-011",
+            character: "魅",
+            meaning: {
+                id: "pesona; memikat",
+                en: "charm; fascinate"
             },
-            "onyomi": [
-                {
-                    "text": "ミ",
-                    "reading": "ミ"
-                }
+            onyomi: [
+                { text: "ミ", reading: "ミ" }
             ],
-            "kunyomi": [],
-            "usage": {
-                "id": "Contoh sumber menampilkan 魅 dalam 魅力 dan 魅了.",
-                "en": "The source shows 魅 through the example vocabulary 魅力, 魅了."
+            kunyomi: [
+                { text: "もののけ", reading: "もののけ" },
+                { text: "ばけもの", reading: "ばけもの" },
+                { text: "すだま", reading: "すだま" }
+            ],
+            usage: {
+                id: "Contoh sumber menampilkan 魅 dalam 魅力 dan 魅了.",
+                en: "The source shows 魅 through the example vocabulary 魅力, 魅了."
             },
-            "nuance": {
-                "id": "Contohnya berpusat pada daya tarik dan tindakan memikat.",
-                "en": "In the source examples, 魅 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Contohnya berpusat pada daya tarik dan tindakan memikat.",
+                en: "In the source examples, 魅 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Bayangkan sesuatu yang membuat perhatian tertarik tanpa mudah berpaling.",
-                "en": "Use the example vocabulary as the memory hook for 魅."
+            philosophy: {
+                id: "Bayangkan sesuatu yang membuat perhatian tertarik tanpa mudah berpaling.",
+                en: "Use the example vocabulary as the memory hook for 魅."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "魅力",
-                    "reading": "みりょく",
-                    "meaning": {
-                        "id": "daya tarik",
-                        "en": "charm"
+                    word: "魅力",
+                    reading: "みりょく",
+                    meaning: {
+                        id: "daya tarik",
+                        en: "charm"
                     }
                 },
                 {
-                    "word": "魅了",
-                    "reading": "みりょう",
-                    "meaning": {
-                        "id": "memikat",
-                        "en": "fascinate"
+                    word: "魅了",
+                    reading: "みりょう",
+                    meaning: {
+                        id: "memikat",
+                        en: "fascinate"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-012",
-            "character": "工",
-            "meaning": {
-                "id": "kerja; proses",
-                "en": "work; process"
+            id: "week1-day1-012",
+            character: "工",
+            meaning: {
+                id: "kerja; proses",
+                en: "work; process"
             },
-            "onyomi": [
-                {
-                    "text": "コウ",
-                    "reading": "コウ"
-                }
+            onyomi: [
+                { text: "コウ", reading: "コウ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "たくみ",
-                    "reading": "たくみ"
-                }
+            kunyomi: [
+                { text: "たくみ", reading: "たくみ" }
             ],
-            "usage": {
-                "id": "Contoh sumber menampilkan 工 dalam 加工 dan 細工.",
-                "en": "The source shows 工 through the example vocabulary 加工, 細工."
+            usage: {
+                id: "Contoh sumber menampilkan 工 dalam 加工 dan 細工.",
+                en: "The source shows 工 through the example vocabulary 加工, 細工."
             },
-            "nuance": {
-                "id": "Kedua kata sumber berkaitan dengan proses mengolah atau membuat.",
-                "en": "In the source examples, 工 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Kedua kata sumber berkaitan dengan proses mengolah atau membuat.",
+                en: "In the source examples, 工 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Visualkan tangan yang mengerjakan bahan sampai menjadi bentuk baru.",
-                "en": "Use the example vocabulary as the memory hook for 工."
+            philosophy: {
+                id: "Visualkan tangan yang mengerjakan bahan sampai menjadi bentuk baru.",
+                en: "Use the example vocabulary as the memory hook for 工."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "加工",
-                    "reading": "かこう",
-                    "meaning": {
-                        "id": "pemrosesan",
-                        "en": "processing"
+                    word: "加工",
+                    reading: "かこう",
+                    meaning: {
+                        id: "pemrosesan",
+                        en: "processing"
                     }
                 },
                 {
-                    "word": "細工",
-                    "reading": "さいく",
-                    "meaning": {
-                        "id": "kerajinan; pekerjaan tangan",
-                        "en": "handwork"
+                    word: "細工",
+                    reading: "さいく",
+                    meaning: {
+                        id: "kerajinan; pekerjaan tangan",
+                        en: "handwork"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-013",
-            "character": "紅",
-            "meaning": {
-                "id": "merah tua; daun musim gugur",
-                "en": "crimson; autumn leaves"
+            id: "week1-day1-013",
+            character: "紅",
+            meaning: {
+                id: "merah tua; daun musim gugur",
+                en: "crimson; autumn leaves"
             },
-            "onyomi": [
-                {
-                    "text": "コウ",
-                    "reading": "コウ"
-                }
+            onyomi: [
+                { text: "コウ", reading: "コウ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "べに",
-                    "reading": "べに"
-                }
+            kunyomi: [
+                { text: "べに", reading: "べに" },
+                { text: "くれない", reading: "くれない" },
+                { text: "あか", reading: "あか" }
             ],
-            "usage": {
-                "id": "Contoh sumber memakai 紅 dalam 紅葉 dan mencatat bahwa 紅葉 juga dibaca もみじ.",
-                "en": "The source shows 紅 through the example vocabulary 紅葉."
+            usage: {
+                id: "Contoh sumber memakai 紅 dalam 紅葉 dan mencatat bahwa 紅葉 juga dibaca もみじ.",
+                en: "The source shows 紅 through the example vocabulary 紅葉."
             },
-            "nuance": {
-                "id": "Konteks sumber adalah warna merah pada daun musim gugur.",
-                "en": "The source presents 紅 through autumn leaves and notes that 紅葉 can also be read as もみじ."
+            nuance: {
+                id: "Konteks sumber adalah warna merah pada daun musim gugur.",
+                en: "The source presents 紅 through autumn leaves and notes that 紅葉 can also be read as もみじ."
             },
-            "philosophy": {
-                "id": "Bayangkan warna merah pada daun saat musim gugur.",
-                "en": "Use the example vocabulary as the memory hook for 紅."
+            philosophy: {
+                id: "Bayangkan warna merah pada daun saat musim gugur.",
+                en: "Use the example vocabulary as the memory hook for 紅."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "紅葉",
-                    "reading": "こうよう",
-                    "meaning": {
-                        "id": "daun musim gugur",
-                        "en": "autumn leaves"
+                    word: "紅葉",
+                    reading: "こうよう",
+                    meaning: {
+                        id: "daun musim gugur",
+                        en: "autumn leaves"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan.",
-            "readingNotes": [
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan.",
+            readingNotes: [
                 {
-                    "id": "紅葉 juga dibaca もみじ.",
-                    "en": "The source also notes the reading もみじ for 紅葉."
+                    id: "紅葉 juga dibaca もみじ.",
+                    en: "The source also notes the reading もみじ for 紅葉."
                 }
             ]
         },
+
         {
-            "id": "week1-day1-014",
-            "character": "功",
-            "meaning": {
-                "id": "keberhasilan; jasa",
-                "en": "success; achievement"
+            id: "week1-day1-014",
+            character: "功",
+            meaning: {
+                id: "keberhasilan; jasa",
+                en: "success; achievement"
             },
-            "onyomi": [
-                {
-                    "text": "コウ",
-                    "reading": "コウ"
-                }
+            onyomi: [
+                { text: "コウ", reading: "コウ" }
             ],
-            "kunyomi": [],
-            "usage": {
-                "id": "Contoh sumber menampilkan 功 dalam 成功 dan 功績.",
-                "en": "The source shows 功 through the example vocabulary 成功, 功績."
+            kunyomi: [
+                { text: "いさお", reading: "いさお" }
+            ],
+            usage: {
+                id: "Contoh sumber menampilkan 功 dalam 成功 dan 功績.",
+                en: "The source shows 功 through the example vocabulary 成功, 功績."
             },
-            "nuance": {
-                "id": "Konteks kata berhubungan dengan hasil baik atau pencapaian.",
-                "en": "In the source examples, 功 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Konteks kata berhubungan dengan hasil baik atau pencapaian.",
+                en: "In the source examples, 功 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Hubungkan 功 dengan hasil kerja yang diakui.",
-                "en": "Use the example vocabulary as the memory hook for 功."
+            philosophy: {
+                id: "Hubungkan 功 dengan hasil kerja yang diakui.",
+                en: "Use the example vocabulary as the memory hook for 功."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "成功",
-                    "reading": "せいこう",
-                    "meaning": {
-                        "id": "keberhasilan",
-                        "en": "success"
+                    word: "成功",
+                    reading: "せいこう",
+                    meaning: {
+                        id: "keberhasilan",
+                        en: "success"
                     }
                 },
                 {
-                    "word": "功績",
-                    "reading": "こうせき",
-                    "meaning": {
-                        "id": "prestasi; jasa",
-                        "en": "achievements"
+                    word: "功績",
+                    reading: "こうせき",
+                    meaning: {
+                        id: "prestasi; jasa",
+                        en: "achievements"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-015",
-            "character": "巧",
-            "meaning": {
-                "id": "piawai; cerdik",
-                "en": "clever; skillful"
+            id: "week1-day1-015",
+            character: "巧",
+            meaning: {
+                id: "piawai; cerdik",
+                en: "clever; skillful"
             },
-            "onyomi": [
-                {
-                    "text": "コウ",
-                    "reading": "コウ"
-                }
+            onyomi: [
+                { text: "コウ", reading: "コウ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "たくみ",
-                    "reading": "たくみ"
-                }
+            kunyomi: [
+                { text: "たくみ", reading: "たくみ" }
             ],
-            "usage": {
-                "id": "Contoh sumber menampilkan 巧 dalam 巧妙な dan membandingkannya dengan 精巧な.",
-                "en": "The source shows 巧 through the example vocabulary 巧妙な, 精巧な."
+            usage: {
+                id: "Contoh sumber menampilkan 巧 dalam 巧妙な dan membandingkannya dengan 精巧な.",
+                en: "The source shows 巧 through the example vocabulary 巧妙な, 精巧な."
             },
-            "nuance": {
-                "id": "Kata contoh menekankan kecakapan atau kerumitan yang dikerjakan dengan baik.",
-                "en": "In the source examples, 巧 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Kata contoh menekankan kecakapan atau kerumitan yang dikerjakan dengan baik.",
+                en: "In the source examples, 巧 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Ingat 巧 sebagai 'tangan yang piawai'.",
-                "en": "Use the example vocabulary as the memory hook for 巧."
+            philosophy: {
+                id: "Ingat 巧 sebagai 'tangan yang piawai'.",
+                en: "Use the example vocabulary as the memory hook for 巧."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "巧妙な",
-                    "reading": "こうみょうな",
-                    "meaning": {
-                        "id": "cerdik; lihai",
-                        "en": "clever"
+                    word: "巧妙な",
+                    reading: "こうみょうな",
+                    meaning: {
+                        id: "cerdik; lihai",
+                        en: "clever"
                     }
                 },
                 {
-                    "word": "精巧な",
-                    "reading": "せいこうな",
-                    "meaning": {
-                        "id": "rumit dan terperinci",
-                        "en": "elaborate"
+                    word: "精巧な",
+                    reading: "せいこうな",
+                    meaning: {
+                        id: "rumit dan terperinci",
+                        en: "elaborate"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-016",
-            "character": "項",
-            "meaning": {
-                "id": "butir; judul",
-                "en": "heading; item"
+            id: "week1-day1-016",
+            character: "項",
+            meaning: {
+                id: "butir; judul",
+                en: "heading; item"
             },
-            "onyomi": [
-                {
-                    "text": "コウ",
-                    "reading": "コウ"
-                }
+            onyomi: [
+                { text: "コウ", reading: "コウ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "うなじ",
-                    "reading": "うなじ"
-                }
+            kunyomi: [
+                { text: "うなじ", reading: "うなじ" }
             ],
-            "usage": {
-                "id": "Contoh sumber menampilkan 項 dalam 項目 dan 事項.",
-                "en": "The source shows 項 through the example vocabulary 項目, 事項."
+            usage: {
+                id: "Contoh sumber menampilkan 項 dalam 項目 dan 事項.",
+                en: "The source shows 項 through the example vocabulary 項目, 事項."
             },
-            "nuance": {
-                "id": "Konteks keduanya adalah butir atau hal yang dicantumkan.",
-                "en": "In the source examples, 項 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Konteks keduanya adalah butir atau hal yang dicantumkan.",
+                en: "In the source examples, 項 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Bayangkan daftar dengan satu butir yang jelas.",
-                "en": "Use the example vocabulary as the memory hook for 項."
+            philosophy: {
+                id: "Bayangkan daftar dengan satu butir yang jelas.",
+                en: "Use the example vocabulary as the memory hook for 項."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "項目",
-                    "reading": "こうもく",
-                    "meaning": {
-                        "id": "butir; judul",
-                        "en": "a heading"
+                    word: "項目",
+                    reading: "こうもく",
+                    meaning: {
+                        id: "butir; judul",
+                        en: "a heading"
                     }
                 },
                 {
-                    "word": "事項",
-                    "reading": "じこう",
-                    "meaning": {
-                        "id": "hal; butir",
-                        "en": "matters"
+                    word: "事項",
+                    reading: "じこう",
+                    meaning: {
+                        id: "hal; butir",
+                        en: "matters"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-017",
-            "character": "攻",
-            "meaning": {
-                "id": "menyerang",
-                "en": "attack"
+            id: "week1-day1-017",
+            character: "攻",
+            meaning: {
+                id: "menyerang",
+                en: "attack"
             },
-            "onyomi": [
-                {
-                    "text": "コウ",
-                    "reading": "コウ"
-                }
+            onyomi: [
+                { text: "コウ", reading: "コウ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "せめる",
-                    "reading": "せめる"
-                }
+            kunyomi: [
+                { text: "(せ)める", reading: "せめる" }
             ],
-            "usage": {
-                "id": "Contoh sumber menampilkan 攻 dalam 専攻 dan 攻撃.",
-                "en": "The source shows 攻 through the example vocabulary 専攻, 攻撃."
+            usage: {
+                id: "Contoh sumber menampilkan 攻 dalam 専攻 dan 攻撃.",
+                en: "The source shows 攻 through the example vocabulary 専攻, 攻撃."
             },
-            "nuance": {
-                "id": "Satu contoh adalah bidang studi, contoh lain adalah serangan, sehingga pasangan katanya penting dihafalkan.",
-                "en": "In the source examples, 攻 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Satu contoh adalah bidang studi, contoh lain adalah serangan, sehingga pasangan katanya penting dihafalkan.",
+                en: "In the source examples, 攻 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Ingat bentuk dan bunyi bersama kata pasangannya, bukan dengan satu arti tunggal.",
-                "en": "Use the example vocabulary as the memory hook for 攻."
+            philosophy: {
+                id: "Ingat bentuk dan bunyi bersama kata pasangannya, bukan dengan satu arti tunggal.",
+                en: "Use the example vocabulary as the memory hook for 攻."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "専攻",
-                    "reading": "せんこう",
-                    "meaning": {
-                        "id": "jurusan; bidang utama",
-                        "en": "a major/specialty"
+                    word: "専攻",
+                    reading: "せんこう",
+                    meaning: {
+                        id: "jurusan; bidang utama",
+                        en: "a major/specialty"
                     }
                 },
                 {
-                    "word": "攻撃",
-                    "reading": "こうげき",
-                    "meaning": {
-                        "id": "serangan",
-                        "en": "an attack"
+                    word: "攻撃",
+                    reading: "こうげき",
+                    meaning: {
+                        id: "serangan",
+                        en: "an attack"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-018",
-            "character": "貢",
-            "meaning": {
-                "id": "sumbangsih",
-                "en": "contribution"
+            id: "week1-day1-018",
+            character: "貢",
+            meaning: {
+                id: "sumbangsih",
+                en: "contribution"
             },
-            "onyomi": [
-                {
-                    "text": "コウ",
-                    "reading": "コウ"
-                }
+            onyomi: [
+                { text: "コウ", reading: "コウ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "みつぐ",
-                    "reading": "みつぐ"
-                }
+            kunyomi: [
+                { text: "(みつ)ぐ", reading: "みつぐ" }
             ],
-            "usage": {
-                "id": "Contoh sumber memberikan 貢 dalam 貢献.",
-                "en": "The source shows 貢 through the example vocabulary 貢献."
+            usage: {
+                id: "Contoh sumber memberikan 貢 dalam 貢献.",
+                en: "The source shows 貢 through the example vocabulary 貢献."
             },
-            "nuance": {
-                "id": "Konteks sumber langsung berkaitan dengan kontribusi.",
-                "en": "In the source examples, 貢 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Konteks sumber langsung berkaitan dengan kontribusi.",
+                en: "In the source examples, 貢 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Hubungkan 貢 dengan sesuatu yang diberikan untuk membantu.",
-                "en": "Use the example vocabulary as the memory hook for 貢."
+            philosophy: {
+                id: "Hubungkan 貢 dengan sesuatu yang diberikan untuk membantu.",
+                en: "Use the example vocabulary as the memory hook for 貢."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "貢献",
-                    "reading": "こうけん",
-                    "meaning": {
-                        "id": "kontribusi; sumbangsih",
-                        "en": "contribution"
+                    word: "貢献",
+                    reading: "こうけん",
+                    meaning: {
+                        id: "kontribusi; sumbangsih",
+                        en: "contribution"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-019",
-            "character": "取",
-            "meaning": {
-                "id": "mengambil; memperoleh",
-                "en": "take; obtain"
+            id: "week1-day1-019",
+            character: "取",
+            meaning: {
+                id: "mengambil; memperoleh",
+                en: "take; obtain"
             },
-            "onyomi": [
-                {
-                    "text": "シュ",
-                    "reading": "シュ"
-                }
+            onyomi: [
+                { text: "シュ", reading: "シュ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "とる",
-                    "reading": "とる"
-                }
+            kunyomi: [
+                { text: "(と)る", reading: "とる" }
             ],
-            "usage": {
-                "id": "Contoh sumber menampilkan 取 dalam 取材 dan 取得.",
-                "en": "The source shows 取 through the example vocabulary 取材, 取得."
+            usage: {
+                id: "Contoh sumber menampilkan 取 dalam 取材 dan 取得.",
+                en: "The source shows 取 through the example vocabulary 取材, 取得."
             },
-            "nuance": {
-                "id": "Kata contoh berhubungan dengan mengambil informasi atau memperoleh sesuatu.",
-                "en": "In the source examples, 取 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Kata contoh berhubungan dengan mengambil informasi atau memperoleh sesuatu.",
+                en: "In the source examples, 取 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Bayangkan tangan yang mengambil sesuatu dan kemudian memilikinya.",
-                "en": "Use the example vocabulary as the memory hook for 取."
+            philosophy: {
+                id: "Bayangkan tangan yang mengambil sesuatu dan kemudian memilikinya.",
+                en: "Use the example vocabulary as the memory hook for 取."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "取材",
-                    "reading": "しゅざい",
-                    "meaning": {
-                        "id": "pengumpulan data; peliputan",
-                        "en": "data collection"
+                    word: "取材",
+                    reading: "しゅざい",
+                    meaning: {
+                        id: "pengumpulan data; peliputan",
+                        en: "data collection"
                     }
                 },
                 {
-                    "word": "取得",
-                    "reading": "しゅとく",
-                    "meaning": {
-                        "id": "perolehan",
-                        "en": "acquisition"
+                    word: "取得",
+                    reading: "しゅとく",
+                    meaning: {
+                        id: "perolehan",
+                        en: "acquisition"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-020",
-            "character": "趣",
-            "meaning": {
-                "id": "minat; selera",
-                "en": "interest; taste"
+            id: "week1-day1-020",
+            character: "趣",
+            meaning: {
+                id: "minat; selera",
+                en: "interest; taste"
             },
-            "onyomi": [
-                {
-                    "text": "シュ",
-                    "reading": "シュ"
-                }
+            onyomi: [
+                { text: "シュ", reading: "シュ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "おもむき",
-                    "reading": "おもむき"
-                }
+            kunyomi: [
+                { text: "おもむき", reading: "おもむき" }
             ],
-            "usage": {
-                "id": "Contoh sumber menampilkan 趣 dalam 趣味 dan 趣向.",
-                "en": "The source shows 趣 through the example vocabulary 趣味, 趣向."
+            usage: {
+                id: "Contoh sumber menampilkan 趣 dalam 趣味 dan 趣向.",
+                en: "The source shows 趣 through the example vocabulary 趣味, 趣向."
             },
-            "nuance": {
-                "id": "Contohnya terkait minat, selera, atau pilihan cara.",
-                "en": "In the source examples, 趣 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Contohnya terkait minat, selera, atau pilihan cara.",
+                en: "In the source examples, 趣 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Hubungkan 趣 dengan hal yang menarik perhatian pribadi.",
-                "en": "Use the example vocabulary as the memory hook for 趣."
+            philosophy: {
+                id: "Hubungkan 趣 dengan hal yang menarik perhatian pribadi.",
+                en: "Use the example vocabulary as the memory hook for 趣."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "趣味",
-                    "reading": "しゅみ",
-                    "meaning": {
-                        "id": "hobi",
-                        "en": "a hobby"
+                    word: "趣味",
+                    reading: "しゅみ",
+                    meaning: {
+                        id: "hobi",
+                        en: "a hobby"
                     }
                 },
                 {
-                    "word": "趣向",
-                    "reading": "しゅこう",
-                    "meaning": {
-                        "id": "gagasan; cara yang dipilih",
-                        "en": "a device"
+                    word: "趣向",
+                    reading: "しゅこう",
+                    meaning: {
+                        id: "gagasan; cara yang dipilih",
+                        en: "a device"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-021",
-            "character": "章",
-            "meaning": {
-                "id": "bab",
-                "en": "chapter"
+            id: "week1-day1-021",
+            character: "章",
+            meaning: {
+                id: "bab",
+                en: "chapter"
             },
-            "onyomi": [
-                {
-                    "text": "ショウ",
-                    "reading": "ショウ"
-                }
+            onyomi: [
+                { text: "ショウ", reading: "ショウ" }
             ],
-            "kunyomi": [],
-            "usage": {
-                "id": "Contoh sumber menampilkan 章 dalam 文章 dan 第一章.",
-                "en": "The source shows 章 through the example vocabulary 文章, 第一章."
+            kunyomi: [
+                { text: "あや", reading: "あや" },
+                { text: "しるし", reading: "しるし" },
+                { text: "ふみ", reading: "ふみ" }
+            ],
+            usage: {
+                id: "Contoh sumber menampilkan 章 dalam 文章 dan 第一章.",
+                en: "The source shows 章 through the example vocabulary 文章, 第一章."
             },
-            "nuance": {
-                "id": "Konteksnya adalah susunan teks dan bab.",
-                "en": "In the source examples, 章 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Konteksnya adalah susunan teks dan bab.",
+                en: "In the source examples, 章 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Bayangkan buku dengan bagian-bagian yang tersusun rapi.",
-                "en": "Use the example vocabulary as the memory hook for 章."
+            philosophy: {
+                id: "Bayangkan buku dengan bagian-bagian yang tersusun rapi.",
+                en: "Use the example vocabulary as the memory hook for 章."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "文章",
-                    "reading": "ぶんしょう",
-                    "meaning": {
-                        "id": "kalimat; karangan",
-                        "en": "a sentence/composition"
+                    word: "文章",
+                    reading: "ぶんしょう",
+                    meaning: {
+                        id: "kalimat; karangan",
+                        en: "a sentence/composition"
                     }
                 },
                 {
-                    "word": "第一章",
-                    "reading": "だいいっしょう",
-                    "meaning": {
-                        "id": "bab 1",
-                        "en": "chapter 1"
+                    word: "第一章",
+                    reading: "だいいっしょう",
+                    meaning: {
+                        id: "bab 1",
+                        en: "chapter 1"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-022",
-            "character": "障",
-            "meaning": {
-                "id": "hambatan; gangguan",
-                "en": "obstacle; failure"
+            id: "week1-day1-022",
+            character: "障",
+            meaning: {
+                id: "hambatan; gangguan",
+                en: "obstacle; failure"
             },
-            "onyomi": [
-                {
-                    "text": "ショウ",
-                    "reading": "ショウ"
-                }
+            onyomi: [
+                { text: "ショウ", reading: "ショウ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "さわる",
-                    "reading": "さわる"
-                }
+            kunyomi: [
+                { text: "(さわ)る", reading: "さわる" }
             ],
-            "usage": {
-                "id": "Contoh sumber menampilkan 障 dalam 故障 dan 障害.",
-                "en": "The source shows 障 through the example vocabulary 故障, 障害."
+            usage: {
+                id: "Contoh sumber menampilkan 障 dalam 故障 dan 障害.",
+                en: "The source shows 障 through the example vocabulary 故障, 障害."
             },
-            "nuance": {
-                "id": "Kata contoh menunjukkan gangguan atau hambatan.",
-                "en": "In the source examples, 障 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Kata contoh menunjukkan gangguan atau hambatan.",
+                en: "In the source examples, 障 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Bayangkan ada sesuatu yang menghalangi aliran pekerjaan.",
-                "en": "Use the example vocabulary as the memory hook for 障."
+            philosophy: {
+                id: "Bayangkan ada sesuatu yang menghalangi aliran pekerjaan.",
+                en: "Use the example vocabulary as the memory hook for 障."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "故障",
-                    "reading": "こしょう",
-                    "meaning": {
-                        "id": "kerusakan; kegagalan",
-                        "en": "a breakdown, failure"
+                    word: "故障",
+                    reading: "こしょう",
+                    meaning: {
+                        id: "kerusakan; kegagalan",
+                        en: "a breakdown, failure"
                     }
                 },
                 {
-                    "word": "障害",
-                    "reading": "しょうがい",
-                    "meaning": {
-                        "id": "hambatan",
-                        "en": "an obstacle"
+                    word: "障害",
+                    reading: "しょうがい",
+                    meaning: {
+                        id: "hambatan",
+                        en: "an obstacle"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-023",
-            "character": "彰",
-            "meaning": {
-                "id": "penghargaan; pengakuan",
-                "en": "commendation; recognition"
+            id: "week1-day1-023",
+            character: "彰",
+            meaning: {
+                id: "penghargaan; pengakuan",
+                en: "commendation; recognition"
             },
-            "onyomi": [
-                {
-                    "text": "ショウ",
-                    "reading": "ショウ"
-                }
+            onyomi: [
+                { text: "ショウ", reading: "ショウ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "あきらか",
-                    "reading": "あきらか"
-                }
+            kunyomi: [
+                { text: "あや", reading: "あや" },
+                { text: "あきらか", reading: "あきらか" },
+                { text: "(あらわ)す", reading: "あらわす" },
+                { text: "(あらわ)れる", reading: "あらわれる" }
             ],
-            "usage": {
-                "id": "Contoh sumber menampilkan 彰 dalam 表彰 dan 表彰状.",
-                "en": "The source shows 彰 through the example vocabulary 表彰, 表彰状."
+            usage: {
+                id: "Contoh sumber menampilkan 彰 dalam 表彰 dan 表彰状.",
+                en: "The source shows 彰 through the example vocabulary 表彰, 表彰状."
             },
-            "nuance": {
-                "id": "Konteks sumber adalah pemberian penghargaan atau piagam.",
-                "en": "In the source examples, 彰 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Konteks sumber adalah pemberian penghargaan atau piagam.",
+                en: "In the source examples, 彰 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Bayangkan nama seseorang yang ditampilkan karena jasanya diakui.",
-                "en": "Use the example vocabulary as the memory hook for 彰."
+            philosophy: {
+                id: "Bayangkan nama seseorang yang ditampilkan karena jasanya diakui.",
+                en: "Use the example vocabulary as the memory hook for 彰."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "表彰",
-                    "reading": "ひょうしょう",
-                    "meaning": {
-                        "id": "penghargaan",
-                        "en": "commendation"
+                    word: "表彰",
+                    reading: "ひょうしょう",
+                    meaning: {
+                        id: "penghargaan",
+                        en: "commendation"
                     }
                 },
                 {
-                    "word": "表彰状",
-                    "reading": "ひょうしょうじょう",
-                    "meaning": {
-                        "id": "piagam penghargaan",
-                        "en": "a testimonial"
+                    word: "表彰状",
+                    reading: "ひょうしょうじょう",
+                    meaning: {
+                        id: "piagam penghargaan",
+                        en: "a testimonial"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-024",
-            "character": "補",
-            "meaning": {
-                "id": "melengkapi; menambah",
-                "en": "supplement; add"
+            id: "week1-day1-024",
+            character: "補",
+            meaning: {
+                id: "melengkapi; menambah",
+                en: "supplement; add"
             },
-            "onyomi": [
-                {
-                    "text": "ホ",
-                    "reading": "ホ"
-                }
+            onyomi: [
+                { text: "ホ", reading: "ホ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "おぎなう",
-                    "reading": "おぎなう"
-                }
+            kunyomi: [
+                { text: "(おぎな)う", reading: "おぎなう" }
             ],
-            "usage": {
-                "id": "Contoh sumber memberikan 補 dalam 補足.",
-                "en": "The source shows 補 through the example vocabulary 補足."
+            usage: {
+                id: "Contoh sumber memberikan 補 dalam 補足.",
+                en: "The source shows 補 through the example vocabulary 補足."
             },
-            "nuance": {
-                "id": "Konteks langsung adalah memberi informasi tambahan.",
-                "en": "In the source examples, 補 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Konteks langsung adalah memberi informasi tambahan.",
+                en: "In the source examples, 補 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Bayangkan menambal bagian yang masih kurang agar lengkap.",
-                "en": "Use the example vocabulary as the memory hook for 補."
+            philosophy: {
+                id: "Bayangkan menambal bagian yang masih kurang agar lengkap.",
+                en: "Use the example vocabulary as the memory hook for 補."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "補足",
-                    "reading": "ほそく",
-                    "meaning": {
-                        "id": "pelengkap; tambahan",
-                        "en": "supplementation"
+                    word: "補足",
+                    reading: "ほそく",
+                    meaning: {
+                        id: "pelengkap; tambahan",
+                        en: "supplementation"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-025",
-            "character": "捕",
-            "meaning": {
-                "id": "menangkap",
-                "en": "capture"
+            id: "week1-day1-025",
+            character: "捕",
+            meaning: {
+                id: "menangkap",
+                en: "capture"
             },
-            "onyomi": [
-                {
-                    "text": "ホ",
-                    "reading": "ホ"
-                }
+            onyomi: [
+                { text: "ホ", reading: "ホ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "とらえる",
-                    "reading": "とらえる"
-                }
+            kunyomi: [
+                { text: "(とら)える", reading: "とらえる" }
             ],
-            "usage": {
-                "id": "Contoh sumber memberikan 捕 dalam 捕獲.",
-                "en": "The source shows 捕 through the example vocabulary 捕獲."
+            usage: {
+                id: "Contoh sumber memberikan 捕 dalam 捕獲.",
+                en: "The source shows 捕 through the example vocabulary 捕獲."
             },
-            "nuance": {
-                "id": "Konteksnya adalah tindakan menangkap.",
-                "en": "In the source examples, 捕 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Konteksnya adalah tindakan menangkap.",
+                en: "In the source examples, 捕 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Visualkan sesuatu yang berhasil ditangkap dan diamankan.",
-                "en": "Use the example vocabulary as the memory hook for 捕."
+            philosophy: {
+                id: "Visualkan sesuatu yang berhasil ditangkap dan diamankan.",
+                en: "Use the example vocabulary as the memory hook for 捕."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "捕獲",
-                    "reading": "ほかく",
-                    "meaning": {
-                        "id": "penangkapan",
-                        "en": "capture"
+                    word: "捕獲",
+                    reading: "ほかく",
+                    meaning: {
+                        id: "penangkapan",
+                        en: "capture"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-026",
-            "character": "舗",
-            "meaning": {
-                "id": "perkerasan; toko",
-                "en": "pavement; shop"
+            id: "week1-day1-026",
+            character: "舗",
+            meaning: {
+                id: "perkerasan; toko",
+                en: "pavement; shop"
             },
-            "onyomi": [
-                {
-                    "text": "ホ",
-                    "reading": "ホ"
-                }
+            onyomi: [
+                { text: "ホ", reading: "ホ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "みせ",
-                    "reading": "みせ"
-                }
+            kunyomi: [
+                { text: "みせ", reading: "みせ" },
+                { text: "(し)く", reading: "しく" }
             ],
-            "usage": {
-                "id": "Contoh sumber memberikan 舗 dalam 舗装.",
-                "en": "The source shows 舗 through the example vocabulary 舗装."
+            usage: {
+                id: "Contoh sumber memberikan 舗 dalam 舗装.",
+                en: "The source shows 舗 through the example vocabulary 舗装."
             },
-            "nuance": {
-                "id": "Konteks contoh adalah permukaan atau pengerasan jalan.",
-                "en": "In the source examples, 舗 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Konteks contoh adalah permukaan atau pengerasan jalan.",
+                en: "In the source examples, 舗 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Bayangkan jalan yang diberi lapisan agar bisa dilalui.",
-                "en": "Use the example vocabulary as the memory hook for 舗."
+            philosophy: {
+                id: "Bayangkan jalan yang diberi lapisan agar bisa dilalui.",
+                en: "Use the example vocabulary as the memory hook for 舗."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "舗装",
-                    "reading": "ほそう",
-                    "meaning": {
-                        "id": "pengerasan jalan",
-                        "en": "pavement"
+                    word: "舗装",
+                    reading: "ほそう",
+                    meaning: {
+                        id: "pengerasan jalan",
+                        en: "pavement"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-027",
-            "character": "浦",
-            "meaning": {
-                "id": "teluk; tepian",
-                "en": "bay; shore"
+            id: "week1-day1-027",
+            character: "浦",
+            meaning: {
+                id: "teluk; tepian",
+                en: "bay; shore"
             },
-            "onyomi": [],
-            "kunyomi": [
-                {
-                    "text": "うら",
-                    "reading": "うら"
-                }
+            onyomi: [],
+            kunyomi: [
+                { text: "うら", reading: "うら" }
             ],
-            "usage": {
-                "id": "Sumber mencatat 浦 terutama dibaca dengan bacaan kun, dan memberi contoh nama tempat.",
-                "en": "The source shows 浦 through the example vocabulary 霞ヶ浦, 浦安, 浦和."
+            usage: {
+                id: "Sumber mencatat 浦 terutama dibaca dengan bacaan kun, dan memberi contoh nama tempat.",
+                en: "The source shows 浦 through the example vocabulary 霞ヶ浦, 浦安, 浦和."
             },
-            "nuance": {
-                "id": "Konteks sumber berfokus pada nama tempat.",
-                "en": "The source notes that 浦 is mainly presented with kun readings in the place-name examples."
+            nuance: {
+                id: "Konteks sumber berfokus pada nama tempat.",
+                en: "The source notes that 浦 is mainly presented with kun readings in the place-name examples."
             },
-            "philosophy": {
-                "id": "Ingat 浦 melalui rangkaian nama tempat yang semuanya menggunakan うら.",
-                "en": "Use the example vocabulary as the memory hook for 浦."
+            philosophy: {
+                id: "Ingat 浦 melalui rangkaian nama tempat yang semuanya menggunakan うら.",
+                en: "Use the example vocabulary as the memory hook for 浦."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "霞ヶ浦",
-                    "reading": "かすみがうら",
-                    "meaning": {
-                        "id": "Danau Kasumigaura",
-                        "en": "Lake Kasumigaura"
+                    word: "霞ヶ浦",
+                    reading: "かすみがうら",
+                    meaning: {
+                        id: "Danau Kasumigaura",
+                        en: "Lake Kasumigaura"
                     }
                 },
                 {
-                    "word": "浦安",
-                    "reading": "うらやす",
-                    "meaning": {
-                        "id": "Urayasu (nama tempat)",
-                        "en": "Urayasu (place name)"
+                    word: "浦安",
+                    reading: "うらやす",
+                    meaning: {
+                        id: "Urayasu (nama tempat)",
+                        en: "Urayasu (place name)"
                     }
                 },
                 {
-                    "word": "浦和",
-                    "reading": "うらわ",
-                    "meaning": {
-                        "id": "Urawa (nama tempat)",
-                        "en": "Urawa (place name)"
+                    word: "浦和",
+                    reading: "うらわ",
+                    meaning: {
+                        id: "Urawa (nama tempat)",
+                        en: "Urawa (place name)"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan.",
-            "readingNotes": [
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan.",
+            readingNotes: [
                 {
-                    "id": "Contoh nama tempat pada sumber: 霞ヶ浦・浦安・浦和.",
-                    "en": "The source gives place-name examples: 霞ヶ浦・浦安・浦和."
+                    id: "Contoh nama tempat pada sumber: 霞ヶ浦・浦安・浦和.",
+                    en: "The source gives place-name examples: 霞ヶ浦・浦安・浦和."
                 }
             ]
         },
+
         {
-            "id": "week1-day1-028",
-            "character": "郷",
-            "meaning": {
-                "id": "kampung halaman; tanah asal",
-                "en": "hometown; home"
+            id: "week1-day1-028",
+            character: "郷",
+            meaning: {
+                id: "kampung halaman; tanah asal",
+                en: "hometown; home"
             },
-            "onyomi": [
-                {
-                    "text": "キョウ",
-                    "reading": "キョウ"
-                }
+            onyomi: [
+                { text: "キョウ", reading: "キョウ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "さと",
-                    "reading": "さと"
-                }
+            kunyomi: [
+                { text: "さと", reading: "さと" }
             ],
-            "usage": {
-                "id": "Contoh sumber menampilkan 郷 dalam 故郷 dan 帰郷.",
-                "en": "The source shows 郷 through the example vocabulary 故郷, 帰郷."
+            usage: {
+                id: "Contoh sumber menampilkan 郷 dalam 故郷 dan 帰郷.",
+                en: "The source shows 郷 through the example vocabulary 故郷, 帰郷."
             },
-            "nuance": {
-                "id": "Keduanya berkaitan dengan tanah asal dan kembali ke kampung halaman.",
-                "en": "In the source examples, 郷 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Keduanya berkaitan dengan tanah asal dan kembali ke kampung halaman.",
+                en: "In the source examples, 郷 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Bayangkan sebuah tempat yang terasa sebagai rumah.",
-                "en": "Use the example vocabulary as the memory hook for 郷."
+            philosophy: {
+                id: "Bayangkan sebuah tempat yang terasa sebagai rumah.",
+                en: "Use the example vocabulary as the memory hook for 郷."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "故郷",
-                    "reading": "こきょう",
-                    "meaning": {
-                        "id": "kampung halaman",
-                        "en": "a hometown"
+                    word: "故郷",
+                    reading: "こきょう",
+                    meaning: {
+                        id: "kampung halaman",
+                        en: "a hometown"
                     }
                 },
                 {
-                    "word": "帰郷",
-                    "reading": "ききょう",
-                    "meaning": {
-                        "id": "pulang kampung",
-                        "en": "homecoming"
+                    word: "帰郷",
+                    reading: "ききょう",
+                    meaning: {
+                        id: "pulang kampung",
+                        en: "homecoming"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-029",
-            "character": "響",
-            "meaning": {
-                "id": "pengaruh; efek; gema",
-                "en": "influence; effect; echo"
+            id: "week1-day1-029",
+            character: "響",
+            meaning: {
+                id: "pengaruh; efek; gema",
+                en: "influence; effect; echo"
             },
-            "onyomi": [
-                {
-                    "text": "キョウ",
-                    "reading": "キョウ"
-                }
+            onyomi: [
+                { text: "キョウ", reading: "キョウ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "ひびく",
-                    "reading": "ひびく"
-                }
+            kunyomi: [
+                { text: "(ひび)く", reading: "ひびく" }
             ],
-            "usage": {
-                "id": "Contoh sumber menampilkan 響 dalam 影響 dan 反響.",
-                "en": "The source shows 響 through the example vocabulary 影響, 反響."
+            usage: {
+                id: "Contoh sumber menampilkan 響 dalam 影響 dan 反響.",
+                en: "The source shows 響 through the example vocabulary 影響, 反響."
             },
-            "nuance": {
-                "id": "Konteks contoh menunjukkan sesuatu yang memberi dampak atau menghasilkan tanggapan.",
-                "en": "In the source examples, 響 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Konteks contoh menunjukkan sesuatu yang memberi dampak atau menghasilkan tanggapan.",
+                en: "In the source examples, 響 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Bayangkan suara yang memantul dan menyebar ke sekitarnya.",
-                "en": "Use the example vocabulary as the memory hook for 響."
+            philosophy: {
+                id: "Bayangkan suara yang memantul dan menyebar ke sekitarnya.",
+                en: "Use the example vocabulary as the memory hook for 響."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "影響",
-                    "reading": "えいきょう",
-                    "meaning": {
-                        "id": "pengaruh; efek",
-                        "en": "influence, effect"
+                    word: "影響",
+                    reading: "えいきょう",
+                    meaning: {
+                        id: "pengaruh; efek",
+                        en: "influence, effect"
                     }
                 },
                 {
-                    "word": "反響",
-                    "reading": "はんきょう",
-                    "meaning": {
-                        "id": "tanggapan; gema",
-                        "en": "a response"
+                    word: "反響",
+                    reading: "はんきょう",
+                    meaning: {
+                        id: "tanggapan; gema",
+                        en: "a response"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-030",
-            "character": "帯",
-            "meaning": {
-                "id": "rumah tangga; portabel",
-                "en": "household; portable"
+            id: "week1-day1-030",
+            character: "帯",
+            meaning: {
+                id: "rumah tangga; portabel",
+                en: "household; portable"
             },
-            "onyomi": [
-                {
-                    "text": "タイ",
-                    "reading": "タイ"
-                }
+            onyomi: [
+                { text: "タイ", reading: "タイ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "おびる",
-                    "reading": "おびる"
-                }
+            kunyomi: [
+                { text: "(おび)る", reading: "おびる" }
             ],
-            "usage": {
-                "id": "Contoh sumber menampilkan 帯 dalam 世帯 dan 携帯.",
-                "en": "The source shows 帯 through the example vocabulary 世帯, 携帯."
+            usage: {
+                id: "Contoh sumber menampilkan 帯 dalam 世帯 dan 携帯.",
+                en: "The source shows 帯 through the example vocabulary 世帯, 携帯."
             },
-            "nuance": {
-                "id": "Dua contoh memiliki konteks yang berbeda, sehingga bentuk kata lengkap perlu diingat.",
-                "en": "In the source examples, 帯 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Dua contoh memiliki konteks yang berbeda, sehingga bentuk kata lengkap perlu diingat.",
+                en: "In the source examples, 帯 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Jadikan 帯 sebagai visual 'membawa atau menyandang' sesuatu.",
-                "en": "Use the example vocabulary as the memory hook for 帯."
+            philosophy: {
+                id: "Jadikan 帯 sebagai visual 'membawa atau menyandang' sesuatu.",
+                en: "Use the example vocabulary as the memory hook for 帯."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "世帯",
-                    "reading": "せたい",
-                    "meaning": {
-                        "id": "rumah tangga",
-                        "en": "a household"
+                    word: "世帯",
+                    reading: "せたい",
+                    meaning: {
+                        id: "rumah tangga",
+                        en: "a household"
                     }
                 },
                 {
-                    "word": "携帯",
-                    "reading": "けいたい",
-                    "meaning": {
-                        "id": "portabel; ponsel",
-                        "en": "portable"
+                    word: "携帯",
+                    reading: "けいたい",
+                    meaning: {
+                        id: "portabel; ponsel",
+                        en: "portable"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-031",
-            "character": "滞",
-            "meaning": {
-                "id": "kemacetan; menetap",
-                "en": "traffic jam; stay"
+            id: "week1-day1-031",
+            character: "滞",
+            meaning: {
+                id: "kemacetan; menetap",
+                en: "traffic jam; stay"
             },
-            "onyomi": [
-                {
-                    "text": "タイ",
-                    "reading": "タイ"
-                }
+            onyomi: [
+                { text: "タイ", reading: "タイ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "とどこおる",
-                    "reading": "とどこおる"
-                }
+            kunyomi: [
+                { text: "(とどこお)る", reading: "とどこおる" }
             ],
-            "usage": {
-                "id": "Contoh sumber menampilkan 滞 dalam 渋滞 dan 滞在.",
-                "en": "The source shows 滞 through the example vocabulary 渋滞, 滞在."
+            usage: {
+                id: "Contoh sumber menampilkan 滞 dalam 渋滞 dan 滞在.",
+                en: "The source shows 滞 through the example vocabulary 渋滞, 滞在."
             },
-            "nuance": {
-                "id": "Konteksnya mencakup sesuatu yang tertahan atau berlangsung di suatu tempat.",
-                "en": "In the source examples, 滞 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Konteksnya mencakup sesuatu yang tertahan atau berlangsung di suatu tempat.",
+                en: "In the source examples, 滞 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Bayangkan gerakan yang tidak lancar lalu kaitkan dengan kata contoh.",
-                "en": "Use the example vocabulary as the memory hook for 滞."
+            philosophy: {
+                id: "Bayangkan gerakan yang tidak lancar lalu kaitkan dengan kata contoh.",
+                en: "Use the example vocabulary as the memory hook for 滞."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "渋滞",
-                    "reading": "じゅうたい",
-                    "meaning": {
-                        "id": "kemacetan lalu lintas",
-                        "en": "a traffic jam"
+                    word: "渋滞",
+                    reading: "じゅうたい",
+                    meaning: {
+                        id: "kemacetan lalu lintas",
+                        en: "a traffic jam"
                     }
                 },
                 {
-                    "word": "滞在",
-                    "reading": "たいざい",
-                    "meaning": {
-                        "id": "tinggal; menetap",
-                        "en": "stay"
+                    word: "滞在",
+                    reading: "たいざい",
+                    meaning: {
+                        id: "tinggal; menetap",
+                        en: "stay"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-032",
-            "character": "朱",
-            "meaning": {
-                "id": "merah terang; vermilion",
-                "en": "vermilion; cinnabar red"
+            id: "week1-day1-032",
+            character: "朱",
+            meaning: {
+                id: "merah terang; vermilion",
+                en: "vermilion; cinnabar red"
             },
-            "onyomi": [
-                {
-                    "text": "シュ",
-                    "reading": "シュ"
-                }
+            onyomi: [
+                { text: "シュ", reading: "シュ" }
             ],
-            "kunyomi": [],
-            "usage": {
-                "id": "Contoh sumber memberikan 朱 dalam 朱色.",
-                "en": "The source shows 朱 through the example vocabulary 朱色."
+            kunyomi: [
+                { text: "あか", reading: "あか" },
+                { text: "あき", reading: "あき" },
+                { text: "あけ", reading: "あけ" }
+            ],
+            usage: {
+                id: "Contoh sumber memberikan 朱 dalam 朱色.",
+                en: "The source shows 朱 through the example vocabulary 朱色."
             },
-            "nuance": {
-                "id": "Konteksnya langsung berupa nama warna.",
-                "en": "In the source examples, 朱 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Konteksnya langsung berupa nama warna.",
+                en: "In the source examples, 朱 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Hubungkan 朱 dengan warna merah khas pada visual referensi.",
-                "en": "Use the example vocabulary as the memory hook for 朱."
+            philosophy: {
+                id: "Hubungkan 朱 dengan warna merah khas pada visual referensi.",
+                en: "Use the example vocabulary as the memory hook for 朱."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "朱色",
-                    "reading": "しゅいろ",
-                    "meaning": {
-                        "id": "merah vermilion",
-                        "en": "cinnabar red"
+                    word: "朱色",
+                    reading: "しゅいろ",
+                    meaning: {
+                        id: "merah vermilion",
+                        en: "cinnabar red"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-033",
-            "character": "珠",
-            "meaning": {
-                "id": "mutiara",
-                "en": "pearl"
+            id: "week1-day1-033",
+            character: "珠",
+            meaning: {
+                id: "mutiara",
+                en: "pearl"
             },
-            "onyomi": [
-                {
-                    "text": "シュ",
-                    "reading": "シュ"
-                }
+            onyomi: [
+                { text: "シュ", reading: "シュ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "たま",
-                    "reading": "たま"
-                }
+            kunyomi: [
+                { text: "たま", reading: "たま" }
             ],
-            "usage": {
-                "id": "Contoh sumber menampilkan 珠 dalam 珠算 dan 真珠.",
-                "en": "The source shows 珠 through the example vocabulary 珠算, 真珠."
+            usage: {
+                id: "Contoh sumber menampilkan 珠 dalam 珠算 dan 真珠.",
+                en: "The source shows 珠 through the example vocabulary 珠算, 真珠."
             },
-            "nuance": {
-                "id": "Satu contoh terkait perhitungan dengan sempoa, satu lagi terkait mutiara.",
-                "en": "In the source examples, 珠 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Satu contoh terkait perhitungan dengan sempoa, satu lagi terkait mutiara.",
+                en: "In the source examples, 珠 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Ingat 珠 dari gambaran butiran yang bulat dan berharga.",
-                "en": "Use the example vocabulary as the memory hook for 珠."
+            philosophy: {
+                id: "Ingat 珠 dari gambaran butiran yang bulat dan berharga.",
+                en: "Use the example vocabulary as the memory hook for 珠."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "珠算",
-                    "reading": "しゅざん",
-                    "meaning": {
-                        "id": "berhitung dengan sempoa",
-                        "en": "calculation on the abacus"
+                    word: "珠算",
+                    reading: "しゅざん",
+                    meaning: {
+                        id: "berhitung dengan sempoa",
+                        en: "calculation on the abacus"
                     }
                 },
                 {
-                    "word": "真珠",
-                    "reading": "しんじゅ",
-                    "meaning": {
-                        "id": "mutiara",
-                        "en": "a pearl"
+                    word: "真珠",
+                    reading: "しんじゅ",
+                    meaning: {
+                        id: "mutiara",
+                        en: "a pearl"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-034",
-            "character": "殊",
-            "meaning": {
-                "id": "khusus; istimewa",
-                "en": "special"
+            id: "week1-day1-034",
+            character: "殊",
+            meaning: {
+                id: "khusus; istimewa",
+                en: "special"
             },
-            "onyomi": [
-                {
-                    "text": "シュ",
-                    "reading": "シュ"
-                }
+            onyomi: [
+                { text: "シュ", reading: "シュ" }
             ],
-            "kunyomi": [
-                {
-                    "text": "こと",
-                    "reading": "こと"
-                }
+            kunyomi: [
+                { text: "こと", reading: "こと" }
             ],
-            "usage": {
-                "id": "Contoh sumber memberikan 殊 dalam 特殊.",
-                "en": "The source shows 殊 through the example vocabulary 特殊."
+            usage: {
+                id: "Contoh sumber memberikan 殊 dalam 特殊.",
+                en: "The source shows 殊 through the example vocabulary 特殊."
             },
-            "nuance": {
-                "id": "Konteksnya menandai sesuatu yang berbeda atau khusus.",
-                "en": "In the source examples, 殊 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Konteksnya menandai sesuatu yang berbeda atau khusus.",
+                en: "In the source examples, 殊 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Hubungkan 殊 dengan sesuatu yang menonjol karena kekhususannya.",
-                "en": "Use the example vocabulary as the memory hook for 殊."
+            philosophy: {
+                id: "Hubungkan 殊 dengan sesuatu yang menonjol karena kekhususannya.",
+                en: "Use the example vocabulary as the memory hook for 殊."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "特殊",
-                    "reading": "とくしゅ",
-                    "meaning": {
-                        "id": "khusus; spesial",
-                        "en": "special"
+                    word: "特殊",
+                    reading: "とくしゅ",
+                    meaning: {
+                        id: "khusus; spesial",
+                        en: "special"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         },
+
         {
-            "id": "week1-day1-035",
-            "character": "株",
-            "meaning": {
-                "id": "tunggul; saham",
-                "en": "stump; stocks"
+            id: "week1-day1-035",
+            character: "株",
+            meaning: {
+                id: "tunggul; saham",
+                en: "stump; stocks"
             },
-            "onyomi": [],
-            "kunyomi": [
-                {
-                    "text": "かぶ",
-                    "reading": "かぶ"
-                }
+            onyomi: [
+                { text: "シュ", reading: "シュ" }
             ],
-            "usage": {
-                "id": "Sumber memberikan 株 dengan bacaan kun かぶ dan mencatat dua makna dalam gloss.",
-                "en": "The source shows 株 through the example vocabulary 株."
+            kunyomi: [
+                { text: "かぶ", reading: "かぶ" }
+            ],
+            usage: {
+                id: "Sumber memberikan 株 dengan bacaan kun かぶ dan mencatat dua makna dalam gloss.",
+                en: "The source shows 株 through the example vocabulary 株."
             },
-            "nuance": {
-                "id": "Kartu ini perlu mengingat kata 株 itu sendiri beserta bacaan かぶ.",
-                "en": "In the source examples, 株 is understood through the vocabulary group rather than one isolated meaning."
+            nuance: {
+                id: "Kartu ini perlu mengingat kata 株 itu sendiri beserta bacaan かぶ.",
+                en: "In the source examples, 株 is understood through the vocabulary group rather than one isolated meaning."
             },
-            "philosophy": {
-                "id": "Ingat bentuknya sebagai satu unit tunggal yang dapat merujuk ke dua konteks pada sumber.",
-                "en": "Use the example vocabulary as the memory hook for 株."
+            philosophy: {
+                id: "Ingat bentuknya sebagai satu unit tunggal yang dapat merujuk ke dua konteks pada sumber.",
+                en: "Use the example vocabulary as the memory hook for 株."
             },
-            "vocabulary": [
+            vocabulary: [
                 {
-                    "word": "株",
-                    "reading": "かぶ",
-                    "meaning": {
-                        "id": "tunggul; saham",
-                        "en": "a stump, stocks"
+                    word: "株",
+                    reading: "かぶ",
+                    meaning: {
+                        id: "tunggul; saham",
+                        en: "a stump, stocks"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
+            sourceNote: "Diorganisasi dari materi referensi Minggu 1 Hari 1 yang dilampirkan."
         }
     ],
-    "notes": [
+
+    notes: [
         {
-            "id": "Materi sumber menekankan kelompok kanji yang memiliki bagian atau bunyi bacaan yang sama.",
-            "en": "The source emphasizes kanji that share a part or a reading."
+            id: "Materi sumber menekankan kelompok kanji yang memiliki bagian atau bunyi bacaan yang sama.",
+            en: "The source emphasizes kanji that share a part or a reading."
         },
         {
-            "id": "紅葉 juga diberi catatan bahwa kata ini dapat dibaca もみじ.",
-            "en": "The source notes that 紅葉 can also be read as もみじ."
+            id: "紅葉 juga diberi catatan bahwa kata ini dapat dibaca もみじ.",
+            en: "The source notes that 紅葉 can also be read as もみじ."
         },
         {
-            "id": "浦 diberi catatan untuk terutama menggunakan bacaan kun pada contoh nama tempat.",
-            "en": "The source notes that 浦 is mainly presented with kun readings in the place-name examples."
+            id: "浦 diberi catatan untuk terutama menggunakan bacaan kun pada contoh nama tempat.",
+            en: "The source notes that 浦 is mainly presented with kun readings in the place-name examples."
         }
-    ]
+    ],
+
+    // ============================================================
+    // FITUR UJIAN
+    // ============================================================
+
+    exam: {
+        enabled: true,
+
+        id: "week1-day1-exam",
+
+        title: {
+            id: "Ujian Minggu 1 - Hari 1",
+            en: "Week 1 - Day 1 Exam"
+        },
+
+        description: {
+            id: "Ujian tingkat sulit: bacaan mirip, kanji satu kelompok, homofon, dan distraktor yang tampak benar tetapi berbeda makna.",
+            en: "Hard-mode exam: similar readings, kanji families, homophones, and distractors that look correct but differ in meaning."
+        },
+
+        settings: {
+            totalQuestions: 20,
+            timeLimitSeconds: 600,
+            passingScore: 70,
+
+            randomizeQuestions: true,
+            randomizeOptions: true,
+
+            showResultAfterSubmit: true,
+            showCorrectAnswerAfterSubmit: true,
+            showExplanationAfterSubmit: true,
+
+            allowRetry: true,
+            maxAttempts: 0
+        },
+
+        questionTypes: [
+            {
+                id: "reading",
+                label: {
+                    id: "Pilih bacaan yang benar",
+                    en: "Choose the correct reading"
+                }
+            },
+            {
+                id: "kanji",
+                label: {
+                    id: "Pilih kanji yang benar",
+                    en: "Choose the correct kanji"
+                }
+            }
+        ],
+
+        questions: [
+
+            // ========================================================
+            // READING - 10 SOAL
+            // ========================================================
+
+            {
+                id: "w1d1-exam-001",
+                type: "reading",
+                question: {
+                    id: "① 次の熟語の読み方として正しいものを選びなさい。",
+                    en: "Choose the correct reading of the following word."
+                },
+                prompt: "固定",
+                promptType: "word",
+                options: [
+                    "こてい",
+                    "こゆう",
+                    "こだい",
+                    "こてん"
+                ],
+                answer: "こてい",
+                explanation: {
+                    id: "固定（こてい）= menetapkan / fixing. Hati-hati karena 固有（こゆう） dan 古典（こてん）juga berasal dari kelompok bunyi yang sama.",
+                    en: "固定（こてい）means fixing. 固有（こゆう）and 古典（こてん）belong to similar-sounding source vocabulary."
+                },
+                sourceKanji: ["固"]
+            },
+
+            {
+                id: "w1d1-exam-002",
+                type: "reading",
+                question: {
+                    id: "② 次の熟語の読み方として正しいものを選びなさい。",
+                    en: "Choose the correct reading of the following word."
+                },
+                prompt: "古代",
+                promptType: "word",
+                options: [
+                    "こだい",
+                    "こてい",
+                    "こたい",
+                    "こうだい"
+                ],
+                answer: "こだい",
+                explanation: {
+                    id: "古代（こだい）= zaman kuno. Jangan terkecoh oleh pola コ yang sama pada 固定（こてい） dan 古典（こてん）.",
+                    en: "古代（こだい）means ancient times."
+                },
+                sourceKanji: ["古"]
+            },
+
+            {
+                id: "w1d1-exam-003",
+                type: "reading",
+                question: {
+                    id: "③ 次の熟語の読み方として正しいものを選びなさい。",
+                    en: "Choose the correct reading of the following word."
+                },
+                prompt: "言語",
+                promptType: "word",
+                options: [
+                    "げんご",
+                    "げんこう",
+                    "げんく",
+                    "げんごう"
+                ],
+                answer: "げんご",
+                explanation: {
+                    id: "言語（げんご）= bahasa. 語 sendiri berbunyi ゴ dalam kata ini.",
+                    en: "言語（げんご）means language."
+                },
+                sourceKanji: ["語"]
+            },
+
+            {
+                id: "w1d1-exam-004",
+                type: "reading",
+                question: {
+                    id: "④ 次の熟語の読み方として正しいものを選びなさい。",
+                    en: "Choose the correct reading of the following word."
+                },
+                prompt: "覚悟",
+                promptType: "word",
+                options: [
+                    "かくご",
+                    "かくこ",
+                    "がくご",
+                    "かっご"
+                ],
+                answer: "かくご",
+                explanation: {
+                    id: "覚悟（かくご）= kesiapan; tekad. Yang diuji terutama adalah 悟 → ご.",
+                    en: "覚悟（かくご）means preparedness or determination."
+                },
+                sourceKanji: ["悟"]
+            },
+
+            {
+                id: "w1d1-exam-005",
+                type: "reading",
+                question: {
+                    id: "⑤ 次の熟語の読み方として正しいものを選びなさい。",
+                    en: "Choose the correct reading of the following word."
+                },
+                prompt: "未知",
+                promptType: "word",
+                options: [
+                    "みち",
+                    "みてい",
+                    "みじ",
+                    "みき"
+                ],
+                answer: "みち",
+                explanation: {
+                    id: "未知（みち）= tidak diketahui. Jangan mencampurkannya dengan 未定（みてい）.",
+                    en: "未知（みち）means unknown. Do not confuse it with 未定（みてい）."
+                },
+                sourceKanji: ["未"]
+            },
+
+            {
+                id: "w1d1-exam-006",
+                type: "reading",
+                question: {
+                    id: "⑥ 次の熟語の読み方として正しいものを選びなさい。",
+                    en: "Choose the correct reading of the following word."
+                },
+                prompt: "魅了",
+                promptType: "word",
+                options: [
+                    "みりょう",
+                    "みりょく",
+                    "みょうり",
+                    "びりょう"
+                ],
+                answer: "みりょう",
+                explanation: {
+                    id: "魅了（みりょう）= memikat. 魅力（みりょく）juga sangat mirip sehingga mudah tertukar.",
+                    en: "魅了（みりょう）means to fascinate. 魅力（みりょく）is a close distractor."
+                },
+                sourceKanji: ["魅"]
+            },
+
+            {
+                id: "w1d1-exam-007",
+                type: "reading",
+                question: {
+                    id: "⑦ 次の熟語の読み方として正しいものを選びなさい。",
+                    en: "Choose the correct reading of the following word."
+                },
+                prompt: "巧妙な",
+                promptType: "word",
+                options: [
+                    "こうみょうな",
+                    "こうせいな",
+                    "せいこうな",
+                    "こうめいな"
+                ],
+                answer: "こうみょうな",
+                explanation: {
+                    id: "巧妙な（こうみょうな）= cerdik; lihai. 精巧な（せいこうな）memakai kanji berbeda meski sama-sama berhubungan dengan 巧.",
+                    en: "巧妙な（こうみょうな）means clever. 精巧な（せいこうな）is a different vocabulary item."
+                },
+                sourceKanji: ["巧"]
+            },
+
+            {
+                id: "w1d1-exam-008",
+                type: "reading",
+                question: {
+                    id: "⑧ 次の熟語の読み方として正しいものを選びなさい。",
+                    en: "Choose the correct reading of the following word."
+                },
+                prompt: "表彰状",
+                promptType: "word",
+                options: [
+                    "ひょうしょうじょう",
+                    "ひょうしょうしょう",
+                    "おもてしょうじょう",
+                    "ひょうじょうしょう"
+                ],
+                answer: "ひょうしょうじょう",
+                explanation: {
+                    id: "表彰状（ひょうしょうじょう）= piagam penghargaan. Perhatikan bahwa 状 di akhir tetap dibaca じょう.",
+                    en: "表彰状（ひょうしょうじょう）means a testimonial/certificate of commendation."
+                },
+                sourceKanji: ["彰"]
+            },
+
+            {
+                id: "w1d1-exam-009",
+                type: "reading",
+                question: {
+                    id: "⑨ 次の熟語の読み方として正しいものを選びなさい。",
+                    en: "Choose the correct reading of the following word."
+                },
+                prompt: "渋滞",
+                promptType: "word",
+                options: [
+                    "じゅうたい",
+                    "じゅうざい",
+                    "しゅうたい",
+                    "じょうたい"
+                ],
+                answer: "じゅうたい",
+                explanation: {
+                    id: "渋滞（じゅうたい）= kemacetan lalu lintas. Jangan terjebak dengan 状態（じょうたい） yang memiliki pola bunyi serupa.",
+                    en: "渋滞（じゅうたい）means a traffic jam. 状態（じょうたい）is a similar-looking sound pattern."
+                },
+                sourceKanji: ["滞"]
+            },
+
+            {
+                id: "w1d1-exam-010",
+                type: "reading",
+                question: {
+                    id: "⑩ 次の熟語の読み方として正しいものを選びなさい。",
+                    en: "Choose the correct reading of the following word."
+                },
+                prompt: "真珠",
+                promptType: "word",
+                options: [
+                    "しんじゅ",
+                    "しんしゅ",
+                    "じんじゅ",
+                    "しんしゅう"
+                ],
+                answer: "しんじゅ",
+                explanation: {
+                    id: "真珠（しんじゅ）= mutiara. Pada kata ini 珠 berubah menjadi bunyi ジュ.",
+                    en: "真珠（しんじゅ）means pearl."
+                },
+                sourceKanji: ["珠"]
+            },
+
+            // ========================================================
+            // KANJI - 10 SOAL
+            // ========================================================
+
+            {
+                id: "w1d1-exam-011",
+                type: "kanji",
+                question: {
+                    id: "⑪ 意味に合う漢字を選びなさい。",
+                    en: "Choose the kanji that matches the meaning."
+                },
+                prompt: "こじん（mendiang / the deceased）",
+                promptType: "reading",
+                options: [
+                    "故人",
+                    "個人",
+                    "古人",
+                    "孤人"
+                ],
+                answer: "故人",
+                explanation: {
+                    id: "「mendiang」 adalah 故人（こじん）. Hati-hati: 個人（こじん）berarti individu, sedangkan 古人（こじん）dapat merujuk pada orang zaman dahulu.",
+                    en: "For 'the deceased', the correct word is 故人（こじん）. 個人（こじん）means an individual, while 古人（こじん）can refer to an ancient person."
+                },
+                sourceKanji: ["故"]
+            },
+
+            {
+                id: "w1d1-exam-012",
+                type: "kanji",
+                question: {
+                    id: "⑫ 意味に合う漢字を選びなさい。",
+                    en: "Choose the kanji that matches the meaning."
+                },
+                prompt: "せんこう（jurusan / major, bidang utama）",
+                promptType: "reading",
+                options: [
+                    "専攻",
+                    "選考",
+                    "先行",
+                    "先攻"
+                ],
+                answer: "専攻",
+                explanation: {
+                    id: "専攻（せんこう）= jurusan / bidang utama. Keempat pilihan dapat dibaca せんこう, tetapi maknanya berbeda.",
+                    en: "専攻（せんこう）means a major or field of specialization. All four choices can be read せんこう, but their meanings differ."
+                },
+                sourceKanji: ["攻"]
+            },
+
+            {
+                id: "w1d1-exam-013",
+                type: "kanji",
+                question: {
+                    id: "⑬ 意味に合う漢字を選びなさい。",
+                    en: "Choose the kanji that matches the meaning."
+                },
+                prompt: "ほそく（informasi tambahan / supplementation）",
+                promptType: "reading",
+                options: [
+                    "補足",
+                    "捕捉",
+                    "舗則",
+                    "補束"
+                ],
+                answer: "補足",
+                explanation: {
+                    id: "「informasi tambahan」 = 補足（ほそく）. 捕捉（ほそく）juga kata Jepang yang benar, tetapi artinya menangkap atau memahami sesuatu.",
+                    en: "For 'supplementation/additional information', the correct word is 補足（ほそく）. 捕捉（ほそく）is also a real Japanese word but has a different meaning."
+                },
+                sourceKanji: ["補"]
+            },
+
+            {
+                id: "w1d1-exam-014",
+                type: "kanji",
+                question: {
+                    id: "⑭ 意味に合う漢字を選びなさい。",
+                    en: "Choose the kanji that matches the meaning."
+                },
+                prompt: "こうよう（daun musim gugur / autumn leaves）",
+                promptType: "reading",
+                options: [
+                    "紅葉",
+                    "高揚",
+                    "公用",
+                    "光葉"
+                ],
+                answer: "紅葉",
+                explanation: {
+                    id: "「daun musim gugur」 = 紅葉（こうよう）. 高揚（こうよう）dan 公用（こうよう）juga merupakan kosakata sah dengan bacaan sama.",
+                    en: "For autumn leaves, the correct word is 紅葉（こうよう）. 高揚（こうよう）and 公用（こうよう）are also real words with the same reading."
+                },
+                sourceKanji: ["紅"]
+            },
+
+            {
+                id: "w1d1-exam-015",
+                type: "kanji",
+                question: {
+                    id: "⑮ 意味に合う漢字を選びなさい。",
+                    en: "Choose the kanji that matches the meaning."
+                },
+                prompt: "ほそう（pengerasan / pelapisan jalan）",
+                promptType: "reading",
+                options: [
+                    "舗装",
+                    "補装",
+                    "保送",
+                    "舗相"
+                ],
+                answer: "舗装",
+                explanation: {
+                    id: "舗装（ほそう）= pengerasan atau pelapisan jalan. 舗 di sini harus dikenali sebagai bagian dari kosakata utuh.",
+                    en: "舗装（ほそう）means pavement or road surfacing."
+                },
+                sourceKanji: ["舗"]
+            },
+
+            {
+                id: "w1d1-exam-016",
+                type: "kanji",
+                question: {
+                    id: "⑯ 意味に合う漢字を選びなさい。",
+                    en: "Choose the kanji that matches the meaning."
+                },
+                prompt: "せたい（rumah tangga / household）",
+                promptType: "reading",
+                options: [
+                    "世帯",
+                    "世代",
+                    "静態",
+                    "世体"
+                ],
+                answer: "世帯",
+                explanation: {
+                    id: "世帯（せたい）= rumah tangga. 世代（せだい）sangat mudah masuk perangkap karena hanya berbeda satu mora.",
+                    en: "世帯（せたい）means household. 世代（せだい）is a close trap differing by only one mora."
+                },
+                sourceKanji: ["帯"]
+            },
+
+            {
+                id: "w1d1-exam-017",
+                type: "kanji",
+                question: {
+                    id: "⑰ 意味に合う漢字を選びなさい。",
+                    en: "Choose the kanji that matches the meaning."
+                },
+                prompt: "こうもく（butir / heading / item）",
+                promptType: "reading",
+                options: [
+                    "項目",
+                    "公目",
+                    "効目",
+                    "高目"
+                ],
+                answer: "項目",
+                explanation: {
+                    id: "項目（こうもく）= butir atau judul dalam daftar. Jangan mengandalkan bunyi コウ saja; kenali bentuk 項.",
+                    en: "項目（こうもく）means an item or heading in a list."
+                },
+                sourceKanji: ["項"]
+            },
+
+            {
+                id: "w1d1-exam-018",
+                type: "kanji",
+                question: {
+                    id: "⑱ 意味に合う漢字を選びなさい。",
+                    en: "Choose the kanji that matches the meaning."
+                },
+                prompt: "みてい（belum ditentukan / undecided）",
+                promptType: "reading",
+                options: [
+                    "未定",
+                    "未知",
+                    "未訂",
+                    "味定"
+                ],
+                answer: "未定",
+                explanation: {
+                    id: "未定（みてい）= belum ditentukan. 未知（みち）berarti tidak diketahui, jadi satu mora tambahan mengubah seluruh kata.",
+                    en: "未定（みてい）means undecided. 未知（みち）means unknown."
+                },
+                sourceKanji: ["未"]
+            },
+
+            {
+                id: "w1d1-exam-019",
+                type: "kanji",
+                question: {
+                    id: "⑲ 意味に合う漢字を選びなさい。",
+                    en: "Choose the kanji that matches the meaning."
+                },
+                prompt: "こうけん（kontribusi / contribution）",
+                promptType: "reading",
+                options: [
+                    "貢献",
+                    "功献",
+                    "攻献",
+                    "項献"
+                ],
+                answer: "貢献",
+                explanation: {
+                    id: "貢献（こうけん）= kontribusi. Perangkap utama berada pada kelompok 貢・功・攻・項 yang sama-sama memiliki bunyi コウ.",
+                    en: "貢献（こうけん）means contribution. The main trap is the family of kanji sharing the reading コウ."
+                },
+                sourceKanji: ["貢"]
+            },
+
+            {
+                id: "w1d1-exam-020",
+                type: "kanji",
+                question: {
+                    id: "⑳ 意味に合う漢字を選びなさい。",
+                    en: "Choose the kanji that matches the meaning."
+                },
+                prompt: "しゅこう（gagasan / cara yang dipilih / a device or chosen approach）",
+                promptType: "reading",
+                options: [
+                    "趣向",
+                    "首肯",
+                    "珠考",
+                    "朱向"
+                ],
+                answer: "趣向",
+                explanation: {
+                    id: "趣向（しゅこう）= gagasan, perangkat, atau cara yang dipilih. 首肯（しゅこう）juga dapat memiliki bacaan yang sama, tetapi artinya menyetujui/mengiyakan.",
+                    en: "趣向（しゅこう）means a device, idea, or chosen approach. 首肯（しゅこう）can share the reading but has a different meaning."
+                },
+                sourceKanji: ["趣"]
+            }
+        ]
+    }
 };
 
 export default minggu1Hari1;
