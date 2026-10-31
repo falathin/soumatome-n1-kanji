@@ -15,6 +15,7 @@ const minggu1Hari3 = {
     },
     "kanji": [
         {
+            "id": "week1-day3-001",
             "character": "験",
             "meaning": {
                 "id": "pengalaman; ujian",
@@ -45,7 +46,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-001",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -61,6 +61,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-002",
             "character": "険",
             "meaning": {
                 "id": "berbahaya; curam",
@@ -96,7 +97,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-002",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -112,6 +112,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-003",
             "character": "検",
             "meaning": {
                 "id": "memeriksa",
@@ -142,7 +143,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-003",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -158,6 +158,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-004",
             "character": "剣",
             "meaning": {
                 "id": "pedang",
@@ -193,7 +194,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-004",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -209,6 +209,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-005",
             "character": "倹",
             "meaning": {
                 "id": "hemat",
@@ -231,7 +232,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-005",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -247,6 +247,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-006",
             "character": "講",
             "meaning": {
                 "id": "kuliah; mengajar",
@@ -277,7 +278,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-006",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -293,6 +293,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-007",
             "character": "構",
             "meaning": {
                 "id": "struktur; menyusun",
@@ -332,7 +333,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-007",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -348,6 +348,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-008",
             "character": "購",
             "meaning": {
                 "id": "membeli",
@@ -378,7 +379,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-008",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -394,6 +394,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-009",
             "character": "溝",
             "meaning": {
                 "id": "parit; selokan",
@@ -429,7 +430,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-009",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -445,6 +445,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-010",
             "character": "標",
             "meaning": {
                 "id": "tanda; standar",
@@ -475,7 +476,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-010",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -491,6 +491,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-011",
             "character": "票",
             "meaning": {
                 "id": "suara; tiket",
@@ -521,7 +522,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-011",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -537,6 +537,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-012",
             "character": "漂",
             "meaning": {
                 "id": "mengapung; hanyut",
@@ -572,7 +573,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-012",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -588,6 +588,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-013",
             "character": "低",
             "meaning": {
                 "id": "rendah",
@@ -631,7 +632,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-013",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -647,6 +647,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-014",
             "character": "底",
             "meaning": {
                 "id": "dasar",
@@ -682,7 +683,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-014",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -698,6 +698,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-015",
             "character": "抵",
             "meaning": {
                 "id": "menahan; melawan",
@@ -733,7 +734,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-015",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -749,6 +749,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-016",
             "character": "邸",
             "meaning": {
                 "id": "rumah besar",
@@ -779,7 +780,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-016",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -795,6 +795,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-017",
             "character": "菜",
             "meaning": {
                 "id": "sayur",
@@ -830,7 +831,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-017",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -846,6 +846,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-018",
             "character": "採",
             "meaning": {
                 "id": "memilih; mengambil",
@@ -881,7 +882,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-018",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -897,6 +897,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-019",
             "character": "彩",
             "meaning": {
                 "id": "warna; menghias",
@@ -932,7 +933,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-019",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -948,6 +948,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-020",
             "character": "同",
             "meaning": {
                 "id": "sama",
@@ -983,7 +984,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-020",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -999,6 +999,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-021",
             "character": "銅",
             "meaning": {
                 "id": "tembaga",
@@ -1029,7 +1030,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-021",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -1045,6 +1045,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-022",
             "character": "胴",
             "meaning": {
                 "id": "batang tubuh",
@@ -1075,7 +1076,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-022",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -1091,6 +1091,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-023",
             "character": "歴",
             "meaning": {
                 "id": "riwayat",
@@ -1121,7 +1122,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-023",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -1137,6 +1137,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-024",
             "character": "暦",
             "meaning": {
                 "id": "kalender",
@@ -1167,7 +1168,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-024",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -1183,6 +1183,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-025",
             "character": "県",
             "meaning": {
                 "id": "prefektur",
@@ -1213,7 +1214,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-025",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -1229,6 +1229,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-026",
             "character": "懸",
             "meaning": {
                 "id": "menggantung; berusaha keras",
@@ -1276,7 +1277,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-026",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -1292,6 +1292,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-027",
             "character": "表",
             "meaning": {
                 "id": "permukaan; menunjukkan",
@@ -1335,7 +1336,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-027",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -1351,6 +1351,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-028",
             "character": "俵",
             "meaning": {
                 "id": "karung jerami",
@@ -1373,7 +1374,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-028",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -1389,6 +1389,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-029",
             "character": "輸",
             "meaning": {
                 "id": "mengangkut; ekspor/impor",
@@ -1419,7 +1420,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-029",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -1435,6 +1435,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-030",
             "character": "愉",
             "meaning": {
                 "id": "menyenangkan",
@@ -1462,7 +1463,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-030",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -1478,6 +1478,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-031",
             "character": "癒",
             "meaning": {
                 "id": "menyembuhkan",
@@ -1517,7 +1518,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-031",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -1533,6 +1533,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-032",
             "character": "諭",
             "meaning": {
                 "id": "menasihati",
@@ -1560,7 +1561,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-032",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -1576,6 +1576,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-033",
             "character": "倉",
             "meaning": {
                 "id": "gudang",
@@ -1603,7 +1604,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-033",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -1619,6 +1619,7 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         },
         {
+            "id": "week1-day3-034",
             "character": "創",
             "meaning": {
                 "id": "menciptakan",
@@ -1654,7 +1655,6 @@ const minggu1Hari3 = {
                     }
                 }
             ],
-            "id": "week1-day3-034",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 3.",
                 "en": "Vocabulary on this card follows the examples from Day 3."
@@ -1670,211 +1670,443 @@ const minggu1Hari3 = {
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 3."
         }
     ],
+    "notes": [
+        {
+            "id": "験・険・検・剣・倹・県・懸は音読み「ケン」を共有する。",
+            "en": "験・険・検・剣・倹・県・懸 share the on-yomi ケン."
+        },
+        {
+            "id": "講・構・購・溝は音読み「コウ」を共有する。",
+            "en": "講・構・購・溝 share the on-yomi コウ."
+        },
+        {
+            "id": "標・票・漂・表・俵は音読み「ヒョウ」を共有する。",
+            "en": "標・票・漂・表・俵 share the on-yomi ヒョウ."
+        },
+        {
+            "id": "低・底・抵・邸は音読み「テイ」を共有する。",
+            "en": "低・底・抵・邸 share the on-yomi テイ."
+        },
+        {
+            "id": "菜・採・彩は音読み「サイ」を共有する。",
+            "en": "菜・採・彩 share the on-yomi サイ."
+        },
+        {
+            "id": "同・銅・胴は音読み「ドウ」を共有する。",
+            "en": "同・銅・胴 share the on-yomi ドウ."
+        },
+        {
+            "id": "歴・暦は音読み「レキ」を共有する。",
+            "en": "歴・暦 share the on-yomi レキ."
+        },
+        {
+            "id": "輸・愉・癒・諭は音読み「ユ」を共有する。",
+            "en": "輸・愉・癒・諭 share the on-yomi ユ."
+        },
+        {
+            "id": "倉・創は音読み「ソウ」を共有する。",
+            "en": "倉・創 share the on-yomi ソウ."
+        }
+    ],
     "exam": {
         "enabled": true,
+        "id": "week1-day3-exam",
         "title": {
-            "id": "Ujian Hari 3",
-            "en": "Day 3 Exam"
+            "id": "Ujian Minggu 1 - Hari 3",
+            "en": "Week 1 - Day 3 Exam"
         },
-        "subtitle": {
-            "id": "練習問題 berdasarkan materi hari ini",
-            "en": "Practice questions based on today's lesson"
+        "description": {
+            "id": "Ujian berdasarkan kelompok kanji, bacaan, dan penggunaan kosakata pada materi Minggu 1 Hari 3.",
+            "en": "An exam based on the kanji groups, readings, and vocabulary usage from Week 1 Day 3."
         },
+        "settings": {
+            "totalQuestions": 15,
+            "timeLimitSeconds": 450,
+            "passingScore": 70,
+            "randomizeQuestions": true,
+            "randomizeOptions": true,
+            "showResultAfterSubmit": true,
+            "showCorrectAnswerAfterSubmit": true,
+            "showExplanationAfterSubmit": true,
+            "allowRetry": true,
+            "maxAttempts": 0
+        },
+        "questionTypes": [
+            {
+                "id": "reading",
+                "label": {
+                    "id": "Pilih bacaan yang benar",
+                    "en": "Choose the correct reading"
+                }
+            },
+            {
+                "id": "kanji",
+                "label": {
+                    "id": "Pilih kanji yang benar",
+                    "en": "Choose the correct kanji"
+                }
+            }
+        ],
         "questions": [
             {
                 "id": "d3-01",
-                "type": "choice",
-                "question": "倹約 の読みは？",
+                "type": "reading",
+                "question": {
+                    "id": "次の熟語の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "倹約",
+                "promptType": "word",
                 "options": [
                     "けんやく",
                     "けんよく",
                     "けんあく",
                     "けんりょく"
                 ],
-                "correct": 0,
-                "explanation": "倹約（けんやく）＝ frugal"
+                "answer": "けんやく",
+                "explanation": {
+                    "id": "倹約（けんやく）＝ hemat; tidak boros",
+                    "en": "倹約（けんやく）means frugality or being economical."
+                },
+                "sourceKanji": [
+                    "倹"
+                ]
             },
             {
                 "id": "d3-02",
-                "type": "choice",
-                "question": "あの人は（　）で、無駄遣いはしません。",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "あの人は（　）で、無駄遣いはしません。",
+                "promptType": "reading",
                 "options": [
                     "危険な",
                     "倹約家",
                     "購買",
                     "菜食主義"
                 ],
-                "correct": 1,
-                "explanation": "倹約家＝ frugal person"
+                "answer": "倹約家",
+                "explanation": {
+                    "id": "倹約家（けんやくか）＝ orang yang hemat",
+                    "en": "倹約家 means a frugal person, matching the statement that the person does not waste money."
+                },
+                "sourceKanji": [
+                    "倹"
+                ]
             },
             {
                 "id": "d3-03",
-                "type": "choice",
-                "question": "薬を長く飲み続けるのは（　）場合があります。",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "薬を長く飲み続けるのは（　）場合があります。",
+                "promptType": "reading",
                 "options": [
                     "危険な",
                     "真剣な",
                     "倹約な",
                     "標準な"
                 ],
-                "correct": 0,
-                "explanation": "危険な（きけんな）＝ dangerous"
+                "answer": "危険な",
+                "explanation": {
+                    "id": "危険な（きけんな）＝ berbahaya",
+                    "en": "危険な means dangerous; 危険な場合 means a dangerous situation or case."
+                },
+                "sourceKanji": [
+                    "険"
+                ]
             },
             {
                 "id": "d3-04",
-                "type": "choice",
-                "question": "今日は学長の（　）があります。",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "今日は学長の（　）があります。",
+                "promptType": "reading",
                 "options": [
                     "購入",
                     "講義",
                     "構造",
                     "購買"
                 ],
-                "correct": 1,
-                "explanation": "講義（こうぎ）＝ lecture"
+                "answer": "講義",
+                "explanation": {
+                    "id": "講義（こうぎ）＝ kuliah",
+                    "en": "講義 means a lecture."
+                },
+                "sourceKanji": [
+                    "講"
+                ]
             },
             {
                 "id": "d3-05",
-                "type": "choice",
-                "question": "オリンピックで（　）メダルをとった。",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "オリンピックで（　）メダルをとった。",
+                "promptType": "reading",
                 "options": [
                     "銅",
                     "胴",
                     "票",
                     "標"
                 ],
-                "correct": 0,
-                "explanation": "銅メダル＝ bronze medal"
+                "answer": "銅",
+                "explanation": {
+                    "id": "銅メダル（どうメダル）＝ medali perunggu",
+                    "en": "銅 is copper and is used in 銅メダル, a bronze medal."
+                },
+                "sourceKanji": [
+                    "銅"
+                ]
             },
             {
                 "id": "d3-06",
-                "type": "choice",
-                "question": "彼はとても（　）人で、人を笑わせるのが得意だ。",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "彼はとても（　）人で、人を笑わせるのが得意だ。",
+                "promptType": "reading",
                 "options": [
                     "懸命な",
                     "愉快な",
                     "真剣な",
                     "危険な"
                 ],
-                "correct": 1,
-                "explanation": "愉快な（ゆかいな）＝ pleasant"
+                "answer": "愉快な",
+                "explanation": {
+                    "id": "愉快な（ゆかいな）＝ menyenangkan; lucu",
+                    "en": "愉快な describes someone pleasant or amusing, which fits someone who is good at making people laugh."
+                },
+                "sourceKanji": [
+                    "愉"
+                ]
             },
             {
                 "id": "d3-07",
-                "type": "choice",
-                "question": "面接で家族（　）を聞かれた。",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "面接で家族（　）を聞かれた。",
+                "promptType": "reading",
                 "options": [
                     "構成",
                     "経歴",
                     "標準",
                     "表面"
                 ],
-                "correct": 0,
-                "explanation": "家族構成＝ family composition"
+                "answer": "構成",
+                "explanation": {
+                    "id": "家族構成（かぞくこうせい）＝ susunan keluarga",
+                    "en": "家族構成 means family composition or the makeup of a household."
+                },
+                "sourceKanji": [
+                    "構"
+                ]
             },
             {
                 "id": "d3-08",
-                "type": "choice",
-                "question": "（そうこ）にしまう。漢字は？",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "荷物を（そうこ）にしまう。漢字は？",
+                "promptType": "reading",
                 "options": [
-                    "庫",
-                    "倉",
-                    "創",
-                    "講"
+                    "倉庫",
+                    "創作",
+                    "講義",
+                    "構造"
                 ],
-                "correct": 1,
-                "explanation": "倉庫（そうこ）"
+                "answer": "倉庫",
+                "explanation": {
+                    "id": "倉庫（そうこ）＝ gudang",
+                    "en": "倉庫（そうこ）means a warehouse or storage building."
+                },
+                "sourceKanji": [
+                    "倉"
+                ]
             },
             {
                 "id": "d3-09",
-                "type": "choice",
-                "question": "（そうさく）ダンス。漢字は？",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "文化祭で（　）ダンスを発表した。",
+                "promptType": "reading",
                 "options": [
-                    "創",
-                    "倉",
-                    "奏",
-                    "想"
+                    "創作",
+                    "倉庫",
+                    "構成",
+                    "講義"
                 ],
-                "correct": 0,
-                "explanation": "創作（そうさく）"
+                "answer": "創作",
+                "explanation": {
+                    "id": "創作ダンス（そうさくダンス）＝ tari kreasi",
+                    "en": "創作ダンス means original or creative dance."
+                },
+                "sourceKanji": [
+                    "創"
+                ]
             },
             {
                 "id": "d3-10",
-                "type": "choice",
-                "question": "（しんけん）に交際する。漢字は？",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "二人は（しんけん）に交際している。漢字は？",
+                "promptType": "reading",
                 "options": [
-                    "真",
-                    "検",
-                    "倹",
-                    "剣"
+                    "真剣",
+                    "検査",
+                    "倹約",
+                    "剣道"
                 ],
-                "correct": 0,
-                "explanation": "真剣（しんけん）"
+                "answer": "真剣",
+                "explanation": {
+                    "id": "真剣（しんけん）＝ serius; sungguh-sungguh",
+                    "en": "真剣に means seriously or earnestly."
+                },
+                "sourceKanji": [
+                    "剣"
+                ]
             },
             {
                 "id": "d3-11",
-                "type": "choice",
-                "question": "手荷物（けんさ）。漢字は？",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "空港で手荷物（けんさ）を受ける。漢字は？",
+                "promptType": "reading",
                 "options": [
-                    "験",
-                    "検",
-                    "険",
-                    "県"
+                    "検査",
+                    "経験",
+                    "危険",
+                    "県庁"
                 ],
-                "correct": 1,
-                "explanation": "検査（けんさ）"
+                "answer": "検査",
+                "explanation": {
+                    "id": "手荷物検査（てにもつけんさ）＝ pemeriksaan bagasi",
+                    "en": "検査 means inspection or examination; 手荷物検査 is baggage inspection."
+                },
+                "sourceKanji": [
+                    "検"
+                ]
             },
             {
                 "id": "d3-12",
-                "type": "choice",
-                "question": "今年の（もくひょう）。漢字は？",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "今年の（もくひょう）を決めた。漢字は？",
+                "promptType": "reading",
                 "options": [
-                    "目",
-                    "標",
-                    "票",
-                    "表"
+                    "目標",
+                    "投票",
+                    "標準",
+                    "時刻表"
                 ],
-                "correct": 0,
-                "explanation": "目標（もくひょう）"
+                "answer": "目標",
+                "explanation": {
+                    "id": "目標（もくひょう）＝ tujuan; target",
+                    "en": "目標 means a goal or objective."
+                },
+                "sourceKanji": [
+                    "標"
+                ]
             },
             {
                 "id": "d3-13",
-                "type": "choice",
-                "question": "選挙で（とうひょう）する。漢字は？",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "選挙で（とうひょう）する。漢字は？",
+                "promptType": "reading",
                 "options": [
-                    "投",
-                    "票",
-                    "表",
-                    "標"
+                    "投票",
+                    "目標",
+                    "表面",
+                    "標準"
                 ],
-                "correct": 1,
-                "explanation": "投票（とうひょう）"
+                "answer": "投票",
+                "explanation": {
+                    "id": "投票（とうひょう）＝ pemungutan suara; memberikan suara",
+                    "en": "投票 means voting or casting a vote."
+                },
+                "sourceKanji": [
+                    "票"
+                ]
             },
             {
                 "id": "d3-14",
-                "type": "choice",
-                "question": "（せいれき）2000年。漢字は？",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "（せいれき）2000年。漢字は？",
+                "promptType": "reading",
                 "options": [
                     "西暦",
-                    "西歴",
-                    "正暦",
-                    "生暦"
+                    "経歴",
+                    "履歴",
+                    "還暦"
                 ],
-                "correct": 0,
-                "explanation": "西暦（せいれき）"
+                "answer": "西暦",
+                "explanation": {
+                    "id": "西暦（せいれき）＝ kalender Masehi",
+                    "en": "西暦 means the Gregorian calendar or the Common Era dating system."
+                },
+                "sourceKanji": [
+                    "暦"
+                ]
             },
             {
                 "id": "d3-15",
-                "type": "choice",
-                "question": "（りれき）書を書く。漢字は？",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "（りれき）書を書く。漢字は？",
+                "promptType": "reading",
                 "options": [
-                    "履",
-                    "歴",
-                    "暦",
-                    "経"
+                    "履歴",
+                    "経歴",
+                    "西暦",
+                    "還暦"
                 ],
-                "correct": 0,
-                "explanation": "履歴（りれき）"
+                "answer": "履歴",
+                "explanation": {
+                    "id": "履歴書（りれきしょ）＝ riwayat hidup; CV",
+                    "en": "履歴書 means a résumé or curriculum vitae."
+                },
+                "sourceKanji": [
+                    "歴"
+                ]
             }
         ]
     }
