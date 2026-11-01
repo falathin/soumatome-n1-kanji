@@ -167,7 +167,7 @@ const bonusWeek1 = {
                     "onyomi": "ケツ",
                     "kunyomi": null,
                     "meaning": {
-                        "id": "bersih",
+                        "id": "bersih, murni",
                         "en": "clean, pure"
                     },
                     "words": [
@@ -191,7 +191,7 @@ const bonusWeek1 = {
                             "word": "簡潔な",
                             "reading": "かんけつな",
                             "meaning": {
-                                "id": "ringkas",
+                                "id": "ringkas; padat",
                                 "en": "concise"
                             }
                         }
@@ -255,7 +255,7 @@ const bonusWeek1 = {
                             "word": "瓶詰",
                             "reading": "びんづめ",
                             "meaning": {
-                                "id": "dalam botol / dibotolkan",
+                                "id": "makanan atau barang dalam botol",
                                 "en": "bottled"
                             }
                         },
