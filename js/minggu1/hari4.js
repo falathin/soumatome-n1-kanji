@@ -15,6 +15,7 @@ const minggu1Hari4 = {
     },
     "kanji": [
         {
+            "id": "week1-day4-001",
             "character": "議",
             "meaning": {
                 "id": "diskusi; dewan",
@@ -27,6 +28,18 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "議論",
@@ -45,22 +58,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-001",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-002",
             "character": "義",
             "meaning": {
                 "id": "kewajiban; moral",
@@ -73,6 +74,18 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "義理",
@@ -91,22 +104,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-002",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-003",
             "character": "儀",
             "meaning": {
                 "id": "tata krama; upacara",
@@ -119,6 +120,18 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "礼儀",
@@ -137,22 +150,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-003",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-004",
             "character": "犠",
             "meaning": {
                 "id": "pengorbanan",
@@ -165,17 +166,6 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
-            "vocabulary": [
-                {
-                    "word": "犠牲",
-                    "reading": "ぎせい",
-                    "meaning": {
-                        "id": "pengorbanan",
-                        "en": "a sacrifice"
-                    }
-                }
-            ],
-            "id": "week1-day4-004",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
                 "en": "Vocabulary on this card follows the examples from Day 4."
@@ -188,9 +178,20 @@ const minggu1Hari4 = {
                 "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
                 "en": "Use the reading and vocabulary pairings as the memory hook."
             },
+            "vocabulary": [
+                {
+                    "word": "犠牲",
+                    "reading": "ぎせい",
+                    "meaning": {
+                        "id": "pengorbanan",
+                        "en": "a sacrifice"
+                    }
+                }
+            ],
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-005",
             "character": "長",
             "meaning": {
                 "id": "panjang; kepala",
@@ -208,6 +209,18 @@ const minggu1Hari4 = {
                     "reading": "ながい"
                 }
             ],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "議長",
@@ -226,22 +239,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-005",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-006",
             "character": "張",
             "meaning": {
                 "id": "merentangkan; menyatakan",
@@ -259,6 +260,18 @@ const minggu1Hari4 = {
                     "reading": "はる"
                 }
             ],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "出張",
@@ -277,22 +290,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-006",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-007",
             "character": "帳",
             "meaning": {
                 "id": "buku catatan",
@@ -310,6 +311,18 @@ const minggu1Hari4 = {
                     "reading": "とばり"
                 }
             ],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "手帳",
@@ -328,22 +341,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-007",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-008",
             "character": "腸",
             "meaning": {
                 "id": "usus",
@@ -356,6 +357,18 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "胃腸",
@@ -374,22 +387,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-008",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-009",
             "character": "適",
             "meaning": {
                 "id": "cocok; tepat",
@@ -407,6 +408,18 @@ const minggu1Hari4 = {
                     "reading": "かなう"
                 }
             ],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "適当な",
@@ -425,22 +438,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-009",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-010",
             "character": "摘",
             "meaning": {
                 "id": "memetik; menunjuk",
@@ -462,6 +463,18 @@ const minggu1Hari4 = {
                     "reading": "つまむ"
                 }
             ],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "指摘",
@@ -480,22 +493,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-010",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-011",
             "character": "滴",
             "meaning": {
                 "id": "tetes",
@@ -517,6 +518,18 @@ const minggu1Hari4 = {
                     "reading": "したたる"
                 }
             ],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "水滴",
@@ -535,22 +548,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-011",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-012",
             "character": "敵",
             "meaning": {
                 "id": "musuh; sebanding",
@@ -568,6 +569,18 @@ const minggu1Hari4 = {
                     "reading": "かたき"
                 }
             ],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "匹敵",
@@ -586,22 +599,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-012",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-013",
             "character": "混",
             "meaning": {
                 "id": "bercampur",
@@ -623,6 +624,18 @@ const minggu1Hari4 = {
                     "reading": "まぜる"
                 }
             ],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "混雑",
@@ -641,22 +654,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-013",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-014",
             "character": "昆",
             "meaning": {
                 "id": "serangga; kun",
@@ -669,6 +670,18 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "昆虫",
@@ -687,22 +700,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-014",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-015",
             "character": "庭",
             "meaning": {
                 "id": "taman; rumah tangga",
@@ -720,6 +721,18 @@ const minggu1Hari4 = {
                     "reading": "にわ"
                 }
             ],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "家庭",
@@ -738,22 +751,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-015",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-016",
             "character": "廷",
             "meaning": {
                 "id": "pelataran; pengadilan",
@@ -766,17 +767,6 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
-            "vocabulary": [
-                {
-                    "word": "法廷",
-                    "reading": "ほうてい",
-                    "meaning": {
-                        "id": "pengadilan",
-                        "en": "a court"
-                    }
-                }
-            ],
-            "id": "week1-day4-016",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
                 "en": "Vocabulary on this card follows the examples from Day 4."
@@ -789,9 +779,20 @@ const minggu1Hari4 = {
                 "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
                 "en": "Use the reading and vocabulary pairings as the memory hook."
             },
+            "vocabulary": [
+                {
+                    "word": "法廷",
+                    "reading": "ほうてい",
+                    "meaning": {
+                        "id": "pengadilan",
+                        "en": "a court"
+                    }
+                }
+            ],
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-017",
             "character": "協",
             "meaning": {
                 "id": "kerja sama",
@@ -804,6 +805,18 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "協定",
@@ -822,22 +835,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-017",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-018",
             "character": "脅",
             "meaning": {
                 "id": "mengancam",
@@ -859,6 +860,18 @@ const minggu1Hari4 = {
                     "reading": "おどす"
                 }
             ],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "脅迫",
@@ -877,22 +890,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-018",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-019",
             "character": "普",
             "meaning": {
                 "id": "umum; tersebar",
@@ -905,6 +906,18 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "普及",
@@ -923,22 +936,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-019",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-020",
             "character": "譜",
             "meaning": {
                 "id": "partitur",
@@ -951,17 +952,6 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
-            "vocabulary": [
-                {
-                    "word": "楽譜",
-                    "reading": "がくふ",
-                    "meaning": {
-                        "id": "partitur musik",
-                        "en": "a score"
-                    }
-                }
-            ],
-            "id": "week1-day4-020",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
                 "en": "Vocabulary on this card follows the examples from Day 4."
@@ -974,9 +964,20 @@ const minggu1Hari4 = {
                 "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
                 "en": "Use the reading and vocabulary pairings as the memory hook."
             },
+            "vocabulary": [
+                {
+                    "word": "楽譜",
+                    "reading": "がくふ",
+                    "meaning": {
+                        "id": "partitur musik",
+                        "en": "a score"
+                    }
+                }
+            ],
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-021",
             "character": "帽",
             "meaning": {
                 "id": "topi",
@@ -994,6 +995,18 @@ const minggu1Hari4 = {
                     "reading": "ずきん"
                 }
             ],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "帽子",
@@ -1012,22 +1025,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-021",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-022",
             "character": "冒",
             "meaning": {
                 "id": "menerjang; memulai",
@@ -1045,6 +1046,18 @@ const minggu1Hari4 = {
                     "reading": "おかす"
                 }
             ],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "冒険",
@@ -1063,22 +1076,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-022",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-023",
             "character": "塔",
             "meaning": {
                 "id": "menara",
@@ -1091,17 +1092,6 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
-            "vocabulary": [
-                {
-                    "word": "塔",
-                    "reading": "とう",
-                    "meaning": {
-                        "id": "menara",
-                        "en": "a tower"
-                    }
-                }
-            ],
-            "id": "week1-day4-023",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
                 "en": "Vocabulary on this card follows the examples from Day 4."
@@ -1114,9 +1104,20 @@ const minggu1Hari4 = {
                 "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
                 "en": "Use the reading and vocabulary pairings as the memory hook."
             },
+            "vocabulary": [
+                {
+                    "word": "塔",
+                    "reading": "とう",
+                    "meaning": {
+                        "id": "menara",
+                        "en": "a tower"
+                    }
+                }
+            ],
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-024",
             "character": "搭",
             "meaning": {
                 "id": "naik; memuat",
@@ -1129,17 +1130,6 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
-            "vocabulary": [
-                {
-                    "word": "搭乗券",
-                    "reading": "とうじょうけん",
-                    "meaning": {
-                        "id": "boarding pass",
-                        "en": "a boarding pass"
-                    }
-                }
-            ],
-            "id": "week1-day4-024",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
                 "en": "Vocabulary on this card follows the examples from Day 4."
@@ -1152,9 +1142,20 @@ const minggu1Hari4 = {
                 "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
                 "en": "Use the reading and vocabulary pairings as the memory hook."
             },
+            "vocabulary": [
+                {
+                    "word": "搭乗券",
+                    "reading": "とうじょうけん",
+                    "meaning": {
+                        "id": "boarding pass",
+                        "en": "a boarding pass"
+                    }
+                }
+            ],
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-025",
             "character": "般",
             "meaning": {
                 "id": "umum; keseluruhan",
@@ -1167,6 +1168,18 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "一般",
@@ -1185,22 +1198,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-025",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-026",
             "character": "搬",
             "meaning": {
                 "id": "mengangkut",
@@ -1218,6 +1219,18 @@ const minggu1Hari4 = {
                     "reading": "はこぶ"
                 }
             ],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "運搬",
@@ -1236,22 +1249,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-026",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-027",
             "character": "毛",
             "meaning": {
                 "id": "rambut; wol",
@@ -1269,17 +1270,6 @@ const minggu1Hari4 = {
                     "reading": "け"
                 }
             ],
-            "vocabulary": [
-                {
-                    "word": "羊毛",
-                    "reading": "ようもう",
-                    "meaning": {
-                        "id": "wol",
-                        "en": "wool"
-                    }
-                }
-            ],
-            "id": "week1-day4-027",
             "usage": {
                 "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
                 "en": "Vocabulary on this card follows the examples from Day 4."
@@ -1292,9 +1282,20 @@ const minggu1Hari4 = {
                 "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
                 "en": "Use the reading and vocabulary pairings as the memory hook."
             },
+            "vocabulary": [
+                {
+                    "word": "羊毛",
+                    "reading": "ようもう",
+                    "meaning": {
+                        "id": "wol",
+                        "en": "wool"
+                    }
+                }
+            ],
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-028",
             "character": "耗",
             "meaning": {
                 "id": "konsumsi; menipis",
@@ -1307,6 +1308,18 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "消耗",
@@ -1325,22 +1338,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-028",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-029",
             "character": "械",
             "meaning": {
                 "id": "mesin",
@@ -1353,6 +1354,18 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "機械",
@@ -1371,22 +1384,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-029",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-030",
             "character": "戒",
             "meaning": {
                 "id": "memperingatkan; berjaga",
@@ -1404,6 +1405,18 @@ const minggu1Hari4 = {
                     "reading": "いましめる"
                 }
             ],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "警戒",
@@ -1422,22 +1435,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-030",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-031",
             "character": "州",
             "meaning": {
                 "id": "prefektur/negara bagian",
@@ -1450,6 +1451,18 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "九州",
@@ -1468,22 +1481,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-031",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-032",
             "character": "酬",
             "meaning": {
                 "id": "imbalan; balasan",
@@ -1496,6 +1497,18 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "報酬",
@@ -1514,22 +1527,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-032",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-033",
             "character": "程",
             "meaning": {
                 "id": "derajat; batas",
@@ -1547,6 +1548,18 @@ const minggu1Hari4 = {
                     "reading": "ほど"
                 }
             ],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "程度",
@@ -1565,22 +1578,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-033",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-034",
             "character": "呈",
             "meaning": {
                 "id": "mempersembahkan",
@@ -1593,6 +1594,18 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "進呈",
@@ -1611,22 +1624,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-034",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-035",
             "character": "畜",
             "meaning": {
                 "id": "ternak",
@@ -1639,6 +1640,18 @@ const minggu1Hari4 = {
                 }
             ],
             "kunyomi": [],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "家畜",
@@ -1657,22 +1670,10 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-035",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
         },
         {
+            "id": "week1-day4-036",
             "character": "蓄",
             "meaning": {
                 "id": "menyimpan",
@@ -1690,6 +1691,18 @@ const minggu1Hari4 = {
                     "reading": "たくわえる"
                 }
             ],
+            "usage": {
+                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
+                "en": "Vocabulary on this card follows the examples from Day 4."
+            },
+            "nuance": {
+                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
+                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
+            },
+            "philosophy": {
+                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
+                "en": "Use the reading and vocabulary pairings as the memory hook."
+            },
             "vocabulary": [
                 {
                     "word": "蓄積",
@@ -1708,227 +1721,466 @@ const minggu1Hari4 = {
                     }
                 }
             ],
-            "id": "week1-day4-036",
-            "usage": {
-                "id": "Kosakata pada kartu ini mengikuti contoh materi Hari 4.",
-                "en": "Vocabulary on this card follows the examples from Day 4."
-            },
-            "nuance": {
-                "id": "Hafalkan kanji bersama pasangan katanya agar nuansanya tidak tertukar.",
-                "en": "Memorize the kanji together with its word partners to avoid confusing their nuances."
-            },
-            "philosophy": {
-                "id": "Gunakan bunyi dan pasangan kosakata sebagai kait memori.",
-                "en": "Use the reading and vocabulary pairings as the memory hook."
-            },
             "sourceNote": "Diorganisasi dari materi referensi Minggu 1 Hari 4."
+        }
+    ],
+    "notes": [
+        {
+            "id": "議・義・儀・犠は音読み「ギ」を共有する。",
+            "en": "議・義・儀・犠 share the on-yomi ギ."
+        },
+        {
+            "id": "長・張・帳・腸は音読み「チョウ」を共有する。",
+            "en": "長・張・帳・腸 share the on-yomi チョウ."
+        },
+        {
+            "id": "適・摘・滴・敵は音読み「テキ」を共有する。",
+            "en": "適・摘・滴・敵 share the on-yomi テキ."
+        },
+        {
+            "id": "混・昆は音読み「コン」を共有する。",
+            "en": "混・昆 share the on-yomi コン."
+        },
+        {
+            "id": "庭・廷・程・呈は音読み「テイ」を共有する。",
+            "en": "庭・廷・程・呈 share the on-yomi テイ."
+        },
+        {
+            "id": "協・脅は音読み「キョウ」を共有する。",
+            "en": "協・脅 share the on-yomi キョウ."
+        },
+        {
+            "id": "普・譜は音読み「フ」を共有する。",
+            "en": "普・譜 share the on-yomi フ."
+        },
+        {
+            "id": "帽・冒は音読み「ボウ」を共有する。",
+            "en": "帽・冒 share the on-yomi ボウ."
+        },
+        {
+            "id": "塔・搭は音読み「トウ」を共有する。",
+            "en": "塔・搭 share the on-yomi トウ."
+        },
+        {
+            "id": "般・搬は音読み「ハン」を共有する。",
+            "en": "般・搬 share the on-yomi ハン."
+        },
+        {
+            "id": "毛・耗は音読み「モウ」を共有する。",
+            "en": "毛・耗 share the on-yomi モウ."
+        },
+        {
+            "id": "械・戒は音読み「カイ」を共有する。",
+            "en": "械・戒 share the on-yomi カイ."
+        },
+        {
+            "id": "州・酬は音読み「シュウ」を共有する。",
+            "en": "州・酬 share the on-yomi シュウ."
+        },
+        {
+            "id": "畜・蓄は音読み「チク」を共有する。",
+            "en": "畜・蓄 share the on-yomi チク."
         }
     ],
     "exam": {
         "enabled": true,
+        "id": "week1-day4-exam",
         "title": {
-            "id": "Ujian Hari 4",
-            "en": "Day 4 Exam"
+            "id": "Ujian Minggu 1 - Hari 4",
+            "en": "Week 1 - Day 4 Exam"
         },
-        "subtitle": {
-            "id": "練習問題 berdasarkan materi hari ini",
-            "en": "Practice questions based on today's lesson"
+        "description": {
+            "id": "Ujian berdasarkan kelompok kanji, bacaan, dan penggunaan kosakata pada materi Minggu 1 Hari 4.",
+            "en": "An exam based on the kanji groups, readings, and vocabulary usage from Week 1 Day 4."
         },
+        "settings": {
+            "totalQuestions": 15,
+            "timeLimitSeconds": 450,
+            "passingScore": 70,
+            "randomizeQuestions": true,
+            "randomizeOptions": true,
+            "showResultAfterSubmit": true,
+            "showCorrectAnswerAfterSubmit": true,
+            "showExplanationAfterSubmit": true,
+            "allowRetry": true,
+            "maxAttempts": 0
+        },
+        "questionTypes": [
+            {
+                "id": "reading",
+                "label": {
+                    "id": "Pilih bacaan yang benar",
+                    "en": "Choose the correct reading"
+                }
+            },
+            {
+                "id": "kanji",
+                "label": {
+                    "id": "Pilih kanji atau kosakata yang benar",
+                    "en": "Choose the correct kanji or vocabulary"
+                }
+            }
+        ],
         "questions": [
             {
                 "id": "d4-01",
-                "type": "choice",
-                "question": "犠牲 の読みは？",
+                "type": "reading",
+                "question": {
+                    "id": "次の熟語の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "犠牲",
+                "promptType": "word",
                 "options": [
                     "ぎろん",
                     "ぎせい",
                     "ぎかい",
                     "ぎむ"
                 ],
-                "correct": 1,
-                "explanation": "犠牲（ぎせい）＝ sacrifice"
+                "answer": "ぎせい",
+                "explanation": {
+                    "id": "犠牲（ぎせい）＝ pengorbanan",
+                    "en": "犠牲（ぎせい）means sacrifice."
+                },
+                "sourceKanji": [
+                    "犠"
+                ]
             },
             {
                 "id": "d4-02",
-                "type": "choice",
-                "question": "労働に対して（　）が与えられる。",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "労働に対して（　）が与えられる。",
+                "promptType": "reading",
                 "options": [
                     "応酬",
                     "報酬",
                     "報告",
                     "搬入"
                 ],
-                "correct": 1,
-                "explanation": "報酬（ほうしゅう）＝ a reward"
+                "answer": "報酬",
+                "explanation": {
+                    "id": "報酬（ほうしゅう）＝ imbalan",
+                    "en": "報酬（ほうしゅう）means a reward or compensation."
+                },
+                "sourceKanji": [
+                    "酬"
+                ]
             },
             {
                 "id": "d4-03",
-                "type": "choice",
-                "question": "携帯電話が（　）する。",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "携帯電話が（　）する。",
+                "promptType": "reading",
                 "options": [
                     "普遍",
                     "普及",
                     "普譜",
                     "譜及"
                 ],
-                "correct": 1,
-                "explanation": "普及する（ふきゅうする）＝ spread"
+                "answer": "普及",
+                "explanation": {
+                    "id": "普及する（ふきゅうする）＝ menyebar luas",
+                    "en": "普及する means to spread or become widespread."
+                },
+                "sourceKanji": [
+                    "普"
+                ]
             },
             {
                 "id": "d4-04",
-                "type": "choice",
-                "question": "突然の出来事に頭が（　）する。",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "突然の出来事に頭が（　）する。",
+                "promptType": "reading",
                 "options": [
                     "混乱",
                     "混雑",
                     "脅威",
                     "蓄積"
                 ],
-                "correct": 0,
-                "explanation": "混乱する＝ become confused"
+                "answer": "混乱",
+                "explanation": {
+                    "id": "混乱する（こんらんする）＝ menjadi bingung",
+                    "en": "混乱する means to become confused."
+                },
+                "sourceKanji": [
+                    "混"
+                ]
             },
             {
                 "id": "d4-05",
-                "type": "choice",
-                "question": "疲労が（　）する。",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "疲労が（　）する。",
+                "promptType": "reading",
                 "options": [
                     "蓄積",
                     "消耗",
                     "普及",
                     "運搬"
                 ],
-                "correct": 0,
-                "explanation": "蓄積する＝ accumulate"
+                "answer": "蓄積",
+                "explanation": {
+                    "id": "蓄積する（ちくせきする）＝ menumpuk",
+                    "en": "蓄積する means to accumulate."
+                },
+                "sourceKanji": [
+                    "蓄"
+                ]
             },
             {
                 "id": "d4-06",
-                "type": "choice",
-                "question": "国民としての権利を（　）する。",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "国民としての権利を（　）する。",
+                "promptType": "reading",
                 "options": [
                     "出張",
                     "主張",
                     "協定",
                     "提示"
                 ],
-                "correct": 1,
-                "explanation": "主張する＝ assert"
+                "answer": "主張",
+                "explanation": {
+                    "id": "主張する（しゅちょうする）＝ menyatakan; menegaskan",
+                    "en": "主張する means to assert or maintain a position."
+                },
+                "sourceKanji": [
+                    "張"
+                ]
             },
             {
                 "id": "d4-07",
-                "type": "choice",
-                "question": "隣の国と（　）を結ぶ。",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "隣の国と（　）を結ぶ。",
+                "promptType": "reading",
                 "options": [
                     "協定",
                     "妥協",
                     "脅威",
                     "一般"
                 ],
-                "correct": 0,
-                "explanation": "協定を結ぶ＝ conclude an agreement"
+                "answer": "協定",
+                "explanation": {
+                    "id": "協定を結ぶ（きょうていをむすぶ）＝ membuat perjanjian",
+                    "en": "協定を結ぶ means to conclude an agreement."
+                },
+                "sourceKanji": [
+                    "協"
+                ]
             },
             {
                 "id": "d4-08",
-                "type": "choice",
-                "question": "（ぎむ）を果たす。漢字は？",
+                "type": "kanji",
+                "question": {
+                    "id": "読み方に合う正しい熟語を選びなさい。",
+                    "en": "Choose the correct word matching the reading."
+                },
+                "prompt": "（ぎむ）を果たす。",
+                "promptType": "reading",
                 "options": [
-                    "義",
-                    "議",
-                    "儀",
-                    "犠"
+                    "義務",
+                    "議論",
+                    "礼儀",
+                    "犠牲"
                 ],
-                "correct": 0,
-                "explanation": "義務（ぎむ）"
+                "answer": "義務",
+                "explanation": {
+                    "id": "義務（ぎむ）＝ kewajiban",
+                    "en": "義務 means duty or obligation."
+                },
+                "sourceKanji": [
+                    "義"
+                ]
             },
             {
                 "id": "d4-09",
-                "type": "choice",
-                "question": "（れいぎ）をわきまえる。漢字は？",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "社会人として（　）をわきまえる。",
+                "promptType": "reading",
                 "options": [
-                    "儀",
-                    "義",
-                    "礼",
-                    "議"
+                    "礼儀",
+                    "義務",
+                    "行儀",
+                    "議会"
                 ],
-                "correct": 2,
-                "explanation": "礼儀（れいぎ）"
+                "answer": "礼儀",
+                "explanation": {
+                    "id": "礼儀（れいぎ）＝ tata krama",
+                    "en": "礼儀 means manners or etiquette."
+                },
+                "sourceKanji": [
+                    "儀"
+                ]
             },
             {
                 "id": "d4-10",
-                "type": "choice",
-                "question": "パリのエッフェル（とう）。漢字は？",
+                "type": "kanji",
+                "question": {
+                    "id": "「とう」に当たる正しい漢字を選びなさい。",
+                    "en": "Choose the correct kanji for the reading 'とう'."
+                },
+                "prompt": "パリのエッフェル（とう）。",
+                "promptType": "reading",
                 "options": [
-                    "搭",
                     "塔",
+                    "搭",
                     "呈",
                     "程"
                 ],
-                "correct": 1,
-                "explanation": "エッフェル塔"
+                "answer": "塔",
+                "explanation": {
+                    "id": "エッフェル塔（エッフェルとう）＝ Menara Eiffel",
+                    "en": "エッフェル塔 is the Eiffel Tower."
+                },
+                "sourceKanji": [
+                    "塔"
+                ]
             },
             {
                 "id": "d4-11",
-                "type": "choice",
-                "question": "飛行機の（とうじょうけん）。漢字は？",
+                "type": "kanji",
+                "question": {
+                    "id": "文脈に合う語を選びなさい。",
+                    "en": "Choose the word that best fits the context."
+                },
+                "prompt": "飛行機に乗る前に（　）を確認する。",
+                "promptType": "reading",
                 "options": [
                     "搭乗券",
                     "塔乗券",
                     "搭上券",
                     "登乗券"
                 ],
-                "correct": 0,
-                "explanation": "搭乗券（とうじょうけん）"
+                "answer": "搭乗券",
+                "explanation": {
+                    "id": "搭乗券（とうじょうけん）＝ boarding pass",
+                    "en": "搭乗券 means boarding pass."
+                },
+                "sourceKanji": [
+                    "搭"
+                ]
             },
             {
                 "id": "d4-12",
-                "type": "choice",
-                "question": "異文化に（てきおう）する。漢字は？",
+                "type": "kanji",
+                "question": {
+                    "id": "読み方に合う正しい熟語を選びなさい。",
+                    "en": "Choose the correct word matching the reading."
+                },
+                "prompt": "異文化に（てきおう）する。",
+                "promptType": "reading",
                 "options": [
                     "適応",
                     "摘応",
                     "滴応",
                     "敵応"
                 ],
-                "correct": 0,
-                "explanation": "適応する（てきおうする）"
+                "answer": "適応",
+                "explanation": {
+                    "id": "適応する（てきおうする）＝ beradaptasi",
+                    "en": "適応する means to adapt."
+                },
+                "sourceKanji": [
+                    "適"
+                ]
             },
             {
                 "id": "d4-13",
-                "type": "choice",
-                "question": "プロに（ひってき）する実力。漢字は？",
+                "type": "kanji",
+                "question": {
+                    "id": "読み方に合う正しい熟語を選びなさい。",
+                    "en": "Choose the correct word matching the reading."
+                },
+                "prompt": "プロに（ひってき）する実力。",
+                "promptType": "reading",
                 "options": [
                     "匹敵",
                     "筆敵",
                     "匹適",
                     "必敵"
                 ],
-                "correct": 0,
-                "explanation": "匹敵する（ひってきする）"
+                "answer": "匹敵",
+                "explanation": {
+                    "id": "匹敵する（ひってきする）＝ sebanding",
+                    "en": "匹敵する means to be equal or comparable to."
+                },
+                "sourceKanji": [
+                    "敵"
+                ]
             },
             {
                 "id": "d4-14",
-                "type": "choice",
-                "question": "サンプルを（しんてい）する。漢字は？",
+                "type": "kanji",
+                "question": {
+                    "id": "読み方に合う正しい熟語を選びなさい。",
+                    "en": "Choose the correct word matching the reading."
+                },
+                "prompt": "サンプルを（しんてい）する。",
+                "promptType": "reading",
                 "options": [
                     "進呈",
                     "進廷",
                     "新呈",
                     "真程"
                 ],
-                "correct": 0,
-                "explanation": "進呈する（しんていする）"
+                "answer": "進呈",
+                "explanation": {
+                    "id": "進呈する（しんていする）＝ memberikan",
+                    "en": "進呈する means to present or give something."
+                },
+                "sourceKanji": [
+                    "呈"
+                ]
             },
             {
                 "id": "d4-15",
-                "type": "choice",
-                "question": "（ほうてい）で争う。漢字は？",
+                "type": "kanji",
+                "question": {
+                    "id": "読み方に合う正しい熟語を選びなさい。",
+                    "en": "Choose the correct word matching the reading."
+                },
+                "prompt": "（ほうてい）で争う。",
+                "promptType": "reading",
                 "options": [
                     "法廷",
                     "法庭",
                     "方廷",
                     "法程"
                 ],
-                "correct": 0,
-                "explanation": "法廷（ほうてい）"
+                "answer": "法廷",
+                "explanation": {
+                    "id": "法廷（ほうてい）＝ pengadilan",
+                    "en": "法廷 means a court of law."
+                },
+                "sourceKanji": [
+                    "廷"
+                ]
             }
         ]
     }
