@@ -5,212 +5,51 @@ const SESSION_KEY = 'soumatome_n1_session'
 
 const translations = {
   id: {
-    courseProgress: 'Progress Course',
-    course: 'KURSUS',
-    weeks: 'Minggu',
-    navigate: 'NAVIGASI',
-    weekDay: 'Minggu & Hari',
-    week: 'Minggu',
-    day: 'Hari',
-    previous: 'Sebelumnya',
-    next: 'Berikutnya',
-    search: 'CARI',
-    searchKanji: 'Cari Kanji',
-    searchPlaceholder: 'Cari kanji, kosakata, furigana, bacaan, arti...',
-    startSearch: 'Ketik untuk mencari materi yang tersedia.',
-    searching: 'Mencari...',
-    studyMode: 'Mode Hafalan',
-    studyModeDesc: 'Sembunyikan petunjuk sampai kamu siap.',
-    music: 'Musik',
-    musicDesc: 'Gunakan file lokal di assets/audio/.',
-    memorized: 'Hafal',
-    somewhat: 'Agak Hafal',
-    notMemorized: 'Tidak Hafal',
-    notStudied: 'Belum dipelajari',
-    onyomi: 'Onyomi',
-    kunyomi: 'Kunyomi',
-    usage: 'Penggunaan',
-    nuance: 'Nuansa',
-    philosophy: 'Filosofi / Konsep',
-    vocabulary: 'Kosakata',
-    vocabularyCount: 'kosakata',
-    memoryStatus: 'Status hafalan',
-    studyReveal: 'Tampilkan Jawaban',
-    hideAnswer: 'Sembunyikan Jawaban',
-    completeDay: 'Tandai Hari Selesai',
-    completed: 'Hari selesai',
-    completeHint:
-      'Tandai selesai setelah semua kanji hari ini sudah diberi status.',
-    template: 'TEMPLATE',
-    templateHint:
-      'Materi hari ini belum diisi. Struktur data sudah siap digunakan.',
-    weekProgress: 'Progress Mingguan',
-    daysCompleted: 'hari selesai',
-    kanjiProgress: 'Progress Kanji',
-    bonus: 'BONUS',
-    bonusLocked: 'BONUS masih terkunci',
-    bonusUnlocked: 'BONUS terbuka',
-    sevenDaysCompleted: '7 HARI SELESAI',
-    unlockBonus: 'BONUS TERBUKA',
-    lockedUntil: 'Selesaikan Hari 1 sampai Hari 7 untuk membuka bonus.',
-    continueNextWeek: 'Setelah bonus, lanjut ke Minggu berikutnya.',
-    home: 'Beranda',
-    emptyBonus:
-      'Isi bagian di bonus.js untuk menambahkan review, kuis, mini game, scene, atau dialog.',
-    noReading: 'Belum ada data.',
-    speak: 'Bacakan',
-    searchJump: 'Buka',
-    matches: 'hasil',
-    sourceOnly: 'MATERI',
-    theme: 'Tema',
-    language: 'Bahasa',
-    humanMode: 'Human Mode',
-    vampireMode: 'Vampire Mode',
-    systemMode: 'System Mode',
-    studyOn: 'Mode hafalan aktif',
-    studyOff: 'Mode hafalan mati',
-    musicOn: 'Musik aktif',
-    musicOff: 'Musik mati',
-    noAudio: 'Belum ada file musik lokal. Tambahkan file di assets/audio/.',
-    dayNeedsStatus: 'Beri status pada semua kanji untuk menandai hari selesai.',
-    dayComplete: 'Hari ini selesai. Kerja bagus.',
-    weekComplete: 'Satu minggu selesai. BONUS terbuka.',
-    bonusStillLocked: 'BONUS terkunci sampai 7 hari selesai.',
-    searchTip: 'Cari kanji, kosakata, furigana, bacaan, arti, dan penjelasan.',
-    ttsUnavailable: 'Speech Synthesis tidak tersedia di browser ini.',
-    kanjiCards: 'Kanji Cards',
-    loading: 'Memuat materi...',
-    loadingHint: 'Menyiapkan halaman belajar...',
-    dataError: 'Data materi tidak dapat dimuat.',
-    dataErrorHint:
-      'Periksa struktur folder dan jalankan static server, misalnya',
-    readNotes: 'Catatan Bacaan',
-    start: 'Mulai',
-    randomCard: 'Kartu acak',
-    quizCorrect: 'Benar.',
-    quizWrong: 'Belum tepat.',
-    sectionText: 'teks',
-    sectionReview: 'review',
-    sectionImage: 'gambar',
-    sectionScene: 'scene',
-    sectionKanji: 'kanji',
-    sectionVocabulary: 'kosakata',
-    sectionDialogue: 'dialog',
-    sectionQuiz: 'kuis',
-    sectionMiniGame: 'mini game',
-    brandSubtitle: 'Buku Belajar Kanji',
-    footerStack: 'Vanilla HTML • CSS • JavaScript • Bootstrap Icons',
-    mascotAlt: 'Maskot Mitsuki Nocturne',
-    mascotToast: 'Mitsuki: 一緒に頑張ろう ✦',
-    vampireToast: '01:00 ✦ Jam belajar malam',
-    vampireSpecial: 'Waktu khusus pukul 01:00.',
-    fallbackDay: 'Hari'
+    // Masukkan seluruh properti bahasa Indonesia
   },
-
   en: {
-    courseProgress: 'Course Progress',
-    course: 'COURSE',
-    weeks: 'Weeks',
-    navigate: 'NAVIGATE',
-    weekDay: 'Week & Day',
-    week: 'Week',
-    day: 'Day',
-    previous: 'Previous',
-    next: 'Next',
-    search: 'SEARCH',
-    searchKanji: 'Search Kanji',
-    searchPlaceholder:
-      'Search kanji, vocabulary, furigana, readings, meanings...',
-    startSearch: 'Type to search the available material.',
-    searching: 'Searching...',
-    studyMode: 'Study Mode',
-    studyModeDesc: 'Hide clues until you are ready.',
-    music: 'Music',
-    musicDesc: 'Use local files in assets/audio/.',
-    memorized: 'Memorized',
-    somewhat: 'Somewhat Memorized',
-    notMemorized: 'Not Memorized',
-    notStudied: 'Not studied',
-    onyomi: 'Onyomi',
-    kunyomi: 'Kun-yomi',
-    usage: 'Usage',
-    nuance: 'Nuance',
-    philosophy: 'Memory Concept',
-    vocabulary: 'Vocabulary',
-    vocabularyCount: 'vocabulary items',
-    memoryStatus: 'Memory status',
-    studyReveal: 'Show Answer',
-    hideAnswer: 'Hide Answer',
-    completeDay: 'Mark Day Complete',
-    completed: 'Day completed',
-    completeHint: 'Complete the day after every kanji has a memory status.',
-    template: 'TEMPLATE',
-    templateHint:
-      'No lesson material has been added yet. The data structure is ready to use.',
-    weekProgress: 'Weekly Progress',
-    daysCompleted: 'days completed',
-    kanjiProgress: 'Kanji Progress',
-    bonus: 'BONUS',
-    bonusLocked: 'BONUS is locked',
-    bonusUnlocked: 'BONUS is unlocked',
-    sevenDaysCompleted: '7 DAYS COMPLETED',
-    unlockBonus: 'BONUS UNLOCKED',
-    lockedUntil: 'Complete Day 1 through Day 7 to unlock the bonus.',
-    continueNextWeek: 'After the bonus, continue to the next week.',
-    home: 'Home',
-    emptyBonus:
-      'Fill sections in bonus.js to add reviews, quizzes, mini games, scenes, or dialogue.',
-    noReading: 'No data yet.',
-    speak: 'Speak',
-    searchJump: 'Open',
-    matches: 'results',
-    sourceOnly: 'MATERIAL',
-    theme: 'Theme',
-    language: 'Language',
-    humanMode: 'Human Mode',
-    vampireMode: 'Vampire Mode',
-    systemMode: 'System Mode',
-    studyOn: 'Study mode active',
-    studyOff: 'Study mode off',
-    musicOn: 'Music on',
-    musicOff: 'Music off',
-    noAudio: 'No local music file yet. Add a file under assets/audio/.',
-    dayNeedsStatus: 'Give every kanji a status before completing this day.',
-    dayComplete: 'Today is complete. Nice work.',
-    weekComplete: 'A week is complete. BONUS is unlocked.',
-    bonusStillLocked: 'BONUS stays locked until all 7 days are complete.',
-    searchTip:
-      'Search kanji, vocabulary, furigana, readings, meanings, and explanations.',
-    ttsUnavailable: 'Speech Synthesis is not available in this browser.',
-    kanjiCards: 'Kanji Cards',
-    loading: 'Loading lesson...',
-    loadingHint: 'Preparing your study page...',
-    dataError: 'Lesson data could not be loaded.',
-    dataErrorHint:
-      'Check the folder structure and run a static server, for example',
-    readNotes: 'Reading Notes',
-    start: 'Start',
-    randomCard: 'Random card',
-    quizCorrect: 'Correct.',
-    quizWrong: 'Not quite.',
-    sectionText: 'text',
-    sectionReview: 'review',
-    sectionImage: 'image',
-    sectionScene: 'scene',
-    sectionKanji: 'kanji',
-    sectionVocabulary: 'vocabulary',
-    sectionDialogue: 'dialogue',
-    sectionQuiz: 'quiz',
-    sectionMiniGame: 'mini game',
-    brandSubtitle: 'Kanji Study Notebook',
-    footerStack: 'Vanilla HTML • CSS • JavaScript • Bootstrap Icons',
-    mascotAlt: 'Mitsuki Nocturne mascot',
-    mascotToast: 'Mitsuki: 一緒に頑張ろう ✦',
-    vampireToast: '01:00 ✦ Late-night study hour',
-    vampireSpecial: 'A special moment at 01:00.',
-    fallbackDay: 'Day'
+    // Masukkan seluruh properti bahasa Inggris
   }
+};
+
+let currentLanguage = localStorage.getItem('language') || 'id';
+
+function t(key) {
+  return translations[currentLanguage]?.[key]
+    ?? translations.id[key]
+    ?? key;
 }
+
+function setLanguage(language) {
+  if (!translations[language]) return;
+
+  currentLanguage = language;
+  localStorage.setItem('language', language);
+
+  updateLanguage();
+}
+
+function updateLanguage() {
+  document.querySelectorAll('[data-i18n]').forEach(element => {
+    const key = element.dataset.i18n;
+    element.textContent = t(key);
+  });
+
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
+    const key = element.dataset.i18nPlaceholder;
+    element.placeholder = t(key);
+  });
+
+  document.documentElement.lang = currentLanguage;
+}
+
+function getLanguage() {
+  return currentLanguage;
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  updateLanguage();
+});
 
 const curriculum = {
   1: {
@@ -859,18 +698,14 @@ function showToast (message) {
 
 function isBonusUnlocked (week) {
   return Array.from(
-    {
-      length: 7
-    },
+    { length: 6 },
     (_, i) => i + 1
   ).every(day => StorageManager.isDayCompleted(week, day))
 }
 
 function getWeekCompletionCount (week) {
   return Array.from(
-    {
-      length: 7
-    },
+    { length: 6 },
     (_, i) => i + 1
   ).filter(day => StorageManager.isDayCompleted(week, day)).length
 }
@@ -1317,52 +1152,50 @@ function renderWeekMap () {
   if (!target) return
 
   target.innerHTML = Array.from(
-    {
-      length: 8
-    },
+    { length: 8 },
     (_, i) => {
       const week = i + 1
 
       const count = getWeekCompletionCount(week)
 
-      const complete = count === 7
+      const complete = count === 6
 
       const active = state.currentWeek === week
 
       return `
-          <button
-            class="week-pill ${active ? 'active' : ''} ${
-        complete ? 'complete' : ''
-      }"
-            type="button"
-            data-week="${week}"
+        <button
+          class="week-pill ${active ? 'active' : ''} ${
+            complete ? 'complete' : ''
+          }"
+          type="button"
+          data-week="${week}"
+        >
+
+          <span class="week-num">
+            ${String(week).padStart(2, '0')}
+          </span>
+
+          <span>
+            <strong>
+              ${escapeHTML(t('week'))}
+              ${week}
+            </strong>
+
+            <small>
+              ${count}/6
+              ${escapeHTML(t('daysCompleted'))}
+            </small>
+          </span>
+
+          <span
+            class="week-check"
+            aria-hidden="true"
           >
+            ${complete ? icon('check') : ''}
+          </span>
 
-            <span class="week-num">
-              ${String(week).padStart(2, '0')}
-            </span>
-
-            <span>
-              <strong>
-                ${escapeHTML(t('week'))}
-                ${week}
-              </strong>
-
-              <small>
-                ${count}/7
-                ${escapeHTML(t('daysCompleted'))}
-              </small>
-            </span>
-
-            <span
-              class="week-check"
-              aria-hidden="true"
-            >
-              ${complete ? icon('check') : ''}
-            </span>
-
-          </button>
-        `
+        </button>
+      `
     }
   ).join('')
 
@@ -1372,7 +1205,6 @@ function renderWeekMap () {
     )
   )
 }
-
 /* =========================================================
  * DAY RENDER
  * ========================================================= */
@@ -1532,9 +1364,9 @@ function renderDay (data) {
         </strong>
 
         <span>
-          ${escapeHTML(t('weekProgress'))}:
+${escapeHTML(t('weekProgress'))}:
 
-          ${getWeekCompletionCount(week)} / 7
+${getWeekCompletionCount(week)} / 6
         </span>
 
       </div>
@@ -1543,9 +1375,11 @@ function renderDay (data) {
 
     ${renderProgressPanel(data)}
 
-    ${isEmpty ? renderEmptyTemplate(data) : renderKanjiSection(data)}
+${isEmpty ? renderEmptyTemplate(data) : renderKanjiSection(data)}
 
-    ${!isEmpty ? renderCompletionControl(data, counts) : ''}
+${!isEmpty && Number(day) !== 7
+  ? renderCompletionControl(data, counts)
+  : ''}
   `
 
   $$('.notebook-tab[data-route-day]').forEach(el =>
@@ -2139,56 +1973,41 @@ function renderStatusButton (id, status, label, active) {
 }
 
 /* =========================================================
- * WEEKLY EXAM DAY EXCEPTION
- * ========================================================= */
-
-function isWeekOneToEightExamDay(data) {
-  const week = Number(data?.week)
-  const day = Number(data?.day)
-
-  return week >= 1 && week <= 8 && day === 7
-}
-
-/* =========================================================
  * COMPLETION
  * ========================================================= */
 
-function renderCompletionControl(data, counts) {
-  const complete = StorageManager.isDayCompleted(
-    data.week,
-    data.day
-  )
+function renderCompletionControl (data, counts) {
+  const complete = StorageManager.isDayCompleted(data.week, data.day)
 
-  // Minggu 1-8 hari ke-7 merupakan hari ujian,
-  // sehingga tidak membutuhkan materi kanji.
-  const isExamDay = isWeekOneToEightExamDay(data)
-
-  const canComplete =
-    isExamDay ||
-    (counts.total > 0 && counts.notStudied === 0)
-
-  const message = complete
-    ? t('dayComplete')
-    : isExamDay
-    ? 'Hari ujian. Setelah mengerjakan ujian, tekan tombol untuk menyelesaikan hari ini.'
-    : canComplete
-    ? t('completeHint')
-    : t('dayNeedsStatus')
+  const canComplete = counts.total > 0 && counts.notStudied === 0
 
   return `
-    <section class="complete-row">
+    <section
+      class="complete-row"
+    >
 
-      <div class="complete-copy">
+      <div
+        class="complete-copy"
+      >
 
         <h3>
+
           ${icon(complete ? 'check' : 'trophy')}
-          ${escapeHTML(
-            complete ? t('completed') : t('completeDay')
-          )}
+
+          ${escapeHTML(complete ? t('completed') : t('completeDay'))}
+
         </h3>
 
         <p>
-          ${escapeHTML(message)}
+
+          ${escapeHTML(
+            complete
+              ? t('dayComplete')
+              : canComplete
+              ? t('completeHint')
+              : t('dayNeedsStatus')
+          )}
+
         </p>
 
       </div>
@@ -2201,15 +2020,14 @@ function renderCompletionControl(data, counts) {
 
         ${icon(complete ? 'check' : 'sparkles')}
 
-        ${escapeHTML(
-          complete ? t('completed') : t('completeDay')
-        )}
+        ${escapeHTML(complete ? t('completed') : t('completeDay'))}
 
       </button>
 
     </section>
   `
 }
+
 function renderEmptyTemplate (data) {
   return `
     <section
@@ -2351,9 +2169,9 @@ function renderBonus (data) {
                 class="bonus-mini"
               >
 
-                <strong>
-                  7 / 7
-                </strong>
+<strong>
+  6 / 6
+</strong>
 
                 <p>
                   ${escapeHTML(t('sevenDaysCompleted'))}
@@ -2776,33 +2594,24 @@ function bindBonusSectionInteractions () {
  * COMPLETE DAY
  * ========================================================= */
 
-function markCurrentDayComplete(data) {
+function markCurrentDayComplete (data) {
+  // Hari 7 tidak menggunakan fitur penyelesaian hari.
+  if (Number(data?.day) === 7) {
+    return
+  }
+
   const counts = getDayKanjiCounts(data)
 
-  // Pengecualian khusus minggu 1-8 hari ke-7.
-  const isExamDay = isWeekOneToEightExamDay(data)
-
-  // Hari biasa tetap wajib memiliki materi dan
-  // seluruh kanji harus sudah dipelajari.
-  // Hari ujian tidak membutuhkan status kanji.
-  if (
-    !isExamDay &&
-    (!data.kanji?.length || counts.notStudied > 0)
-  ) {
+  if (!data.kanji?.length || counts.notStudied > 0) {
     showToast(t('dayNeedsStatus'))
     return
   }
 
-  // Tandai hari sebagai selesai.
-  StorageManager.setDayCompleted(
-    data.week,
-    data.day,
-    true
-  )
+  StorageManager.setDayCompleted(data.week, data.day, true)
 
-  // Periksa apakah seluruh 7 hari dalam minggu sudah selesai.
+  // BONUS terbuka jika Hari 1 sampai Hari 6 selesai.
   const weekComplete = Array.from(
-    { length: 7 },
+    { length: 6 },
     (_, i) => i + 1
   ).every(day =>
     StorageManager.isDayCompleted(data.week, day)
@@ -2820,7 +2629,6 @@ function markCurrentDayComplete(data) {
     fireConfetti(22)
   }
 
-  // Perbarui tampilan aplikasi.
   renderWeekMap()
 
   populateDaySelector()
@@ -2901,8 +2709,8 @@ function updateCourseProgress () {
 
   const value =
     state.storage.getLanguage() === 'id'
-      ? `${done} / 56 hari`
-      : `${done} / 56 days`
+      ? `${done} / 48 hari`
+      : `${done} / 48 days`
 
   if ($('#courseProgressValue')) {
     $('#courseProgressValue').textContent = value
