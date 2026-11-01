@@ -1,365 +1,477 @@
+
 const bonusWeek1 = {
-    "week": 1,
-    "type": "bonus",
+    week: 1,
+    type: "bonus",
 
-    "title": {
-        "id": "BONUS Minggu 1",
-        "en": "WEEK 1 BONUS"
+    title: {
+        id: "BONUS Minggu 1",
+        en: "WEEK 1 BONUS"
     },
 
-    "subtitle": {
-        "id": "Kanji in Daily Life",
-        "en": "Spot the kanji around you"
+    subtitle: {
+        id: "Kanji in Daily Life",
+        en: "Spot the kanji around you"
     },
 
-    "description": {
-        "id": "Temukan kanji dari dunia sehari-hari.",
-        "en": "Find kanji in everyday life."
+    description: {
+        id: "Temukan kanji dari dunia sehari-hari.",
+        en: "Find kanji in everyday life."
     },
 
-    "sections": [
+    sections: [
+
+        // ========================================================
+        // SECTION 1 — JAPANESE SIGNS
+        // ========================================================
+
         {
-            "id": "sign1",
-            "title": {
-                "id": "サイン① — Tanda/Rambu 1",
-                "en": "サイン① — Signs 1"
+            id: "sign1",
+            type: "vocabulary",
+
+            title: {
+                id: "サイン① — Tanda/Rambu 1",
+                en: "サイン① — Signs 1"
             },
 
-            "description": {
-                "id": "Pelajari kanji yang sering ditemukan pada tanda dan fasilitas umum.",
-                "en": "Learn kanji commonly found on signs and public facilities."
+            description: {
+                id: "Pelajari tulisan Jepang yang sering ditemukan pada tanda dan fasilitas umum.",
+                en: "Learn Japanese expressions commonly found on signs and public facilities."
             },
 
-            "signs": [
+            items: [
                 {
-                    "text": "休憩コーナー",
-                    "reading": "きゅうけいコーナー",
-                    "meaning": {
-                        "id": "Area istirahat",
-                        "en": "Rest area"
+                    word: "休憩コーナー",
+                    reading: "きゅうけいコーナー",
+                    meaning: {
+                        id: "Area istirahat",
+                        en: "Rest area"
                     }
                 },
                 {
-                    "text": "化粧室 ⬅",
-                    "reading": "けしょうしつ",
-                    "meaning": {
-                        "id": "Toilet / ruang rias",
-                        "en": "Restroom / powder room"
+                    word: "化粧室",
+                    reading: "けしょうしつ",
+                    meaning: {
+                        id: "Toilet / ruang rias",
+                        en: "Restroom / powder room"
                     }
                 },
                 {
-                    "text": "清潔に",
-                    "reading": "せいけつに",
-                    "meaning": {
-                        "id": "Jaga kebersihan",
-                        "en": "Keep clean"
+                    word: "清潔に",
+                    reading: "せいけつに",
+                    meaning: {
+                        id: "Jaga kebersihan",
+                        en: "Keep clean"
                     }
                 },
                 {
-                    "text": "ゴミ入れ",
-                    "reading": "ゴミいれ",
-                    "meaning": {
-                        "id": "Tempat sampah",
-                        "en": "Trash bin"
+                    word: "ゴミ入れ",
+                    reading: "ゴミいれ",
+                    meaning: {
+                        id: "Tempat sampah",
+                        en: "Trash bin"
                     }
                 },
                 {
-                    "text": "空き缶",
-                    "reading": "あきかん",
-                    "meaning": {
-                        "id": "Kaleng kosong",
-                        "en": "Empty can"
+                    word: "空き缶",
+                    reading: "あきかん",
+                    meaning: {
+                        id: "Kaleng kosong",
+                        en: "Empty can"
                     }
                 },
                 {
-                    "text": "空き瓶",
-                    "reading": "あきびん",
-                    "meaning": {
-                        "id": "Botol kosong",
-                        "en": "Empty bottle"
+                    word: "空き瓶",
+                    reading: "あきびん",
+                    meaning: {
+                        id: "Botol kosong",
+                        en: "Empty bottle"
                     }
                 },
                 {
-                    "text": "自動扉",
-                    "reading": "じどうとびら",
-                    "meaning": {
-                        "id": "Pintu otomatis",
-                        "en": "Automatic door"
+                    word: "自動扉",
+                    reading: "じどうとびら",
+                    meaning: {
+                        id: "Pintu otomatis",
+                        en: "Automatic door"
                     }
                 },
                 {
-                    "text": "洗浄中",
-                    "reading": "せんじょうちゅう",
-                    "meaning": {
-                        "id": "Sedang dibersihkan / dicuci",
-                        "en": "Being cleaned / washed"
+                    word: "洗浄中",
+                    reading: "せんじょうちゅう",
+                    meaning: {
+                        id: "Sedang dibersihkan / dicuci",
+                        en: "Being cleaned / washed"
                     }
                 },
                 {
-                    "text": "砂糖",
-                    "reading": "さとう",
-                    "meaning": {
-                        "id": "Gula",
-                        "en": "Sugar"
+                    word: "砂糖",
+                    reading: "さとう",
+                    meaning: {
+                        id: "Gula",
+                        en: "Sugar"
                     }
                 }
-            ],
+            ]
+        },
 
-            "kanji": [
+        // ========================================================
+        // SECTION 2 — KANJI
+        // ========================================================
+
+        {
+            id: "kanji-憩",
+            type: "kanji",
+
+            title: {
+                id: "憩 — Istirahat",
+                en: "憩 — Rest"
+            },
+
+            character: "憩",
+
+            reading: "音読み：ケイ\n訓読み：いこ.い",
+
+            meaning: {
+                id: "Istirahat, relaksasi",
+                en: "Rest, relaxation"
+            }
+        },
+
+        {
+            id: "kanji-粧",
+            type: "kanji",
+
+            title: {
+                id: "粧 — Riasan",
+                en: "粧 — Makeup"
+            },
+
+            character: "粧",
+
+            reading: "音読み：ショウ",
+
+            meaning: {
+                id: "Riasan; kosmetik",
+                en: "Makeup; cosmetics"
+            }
+        },
+
+        {
+            id: "kanji-潔",
+            type: "kanji",
+
+            title: {
+                id: "潔 — Bersih",
+                en: "潔 — Clean"
+            },
+
+            character: "潔",
+
+            reading: "音読み：ケツ",
+
+            meaning: {
+                id: "Bersih; murni",
+                en: "Clean; pure"
+            }
+        },
+
+        {
+            id: "kanji-缶",
+            type: "kanji",
+
+            title: {
+                id: "缶 — Kaleng",
+                en: "缶 — Can"
+            },
+
+            character: "缶",
+
+            reading: "音読み：カン",
+
+            meaning: {
+                id: "Kaleng",
+                en: "Can"
+            }
+        },
+
+        {
+            id: "kanji-瓶",
+            type: "kanji",
+
+            title: {
+                id: "瓶 — Botol",
+                en: "瓶 — Bottle"
+            },
+
+            character: "瓶",
+
+            reading: "音読み：ビン",
+
+            meaning: {
+                id: "Botol",
+                en: "Bottle"
+            }
+        },
+
+        {
+            id: "kanji-糖",
+            type: "kanji",
+
+            title: {
+                id: "糖 — Gula",
+                en: "糖 — Sugar"
+            },
+
+            character: "糖",
+
+            reading: "音読み：トウ",
+
+            meaning: {
+                id: "Gula",
+                en: "Sugar"
+            }
+        },
+
+        {
+            id: "kanji-扉",
+            type: "kanji",
+
+            title: {
+                id: "扉 — Pintu",
+                en: "扉 — Door"
+            },
+
+            character: "扉",
+
+            reading: "訓読み：とびら",
+
+            meaning: {
+                id: "Pintu",
+                en: "Door"
+            }
+        },
+
+        {
+            id: "kanji-浄",
+            type: "kanji",
+
+            title: {
+                id: "浄 — Memurnikan",
+                en: "浄 — Purify"
+            },
+
+            character: "浄",
+
+            reading: "音読み：ジョウ",
+
+            meaning: {
+                id: "Bersih; murni; memurnikan",
+                en: "Clean; pure; purify"
+            }
+        },
+
+        // ========================================================
+        // SECTION 3 — VOCABULARY
+        // ========================================================
+
+        {
+            id: "vocabulary-sign1",
+            type: "vocabulary",
+
+            title: {
+                id: "関連語彙 — Kosakata Tambahan",
+                en: "関連語彙 — Related Vocabulary"
+            },
+
+            description: {
+                id: "Pelajari kosakata yang menggunakan kanji dari tanda di atas.",
+                en: "Learn vocabulary using the kanji introduced above."
+            },
+
+            items: [
+
+                // 憩
+
                 {
-                    "character": "憩",
-                    "onyomi": "ケイ",
-                    "kunyomi": "いこ.い",
-                    "meaning": {
-                        "id": "istirahat, relaksasi",
-                        "en": "rest, relaxation"
-                    },
-                    "words": [
-                        {
-                            "word": "休憩",
-                            "reading": "きゅうけい",
-                            "meaning": {
-                                "id": "istirahat",
-                                "en": "a break"
-                            }
-                        },
-                        {
-                            "word": "憩い",
-                            "reading": "いこい",
-                            "meaning": {
-                                "id": "relaksasi",
-                                "en": "relaxation"
-                            }
-                        }
-                    ]
+                    word: "休憩",
+                    reading: "きゅうけい",
+                    meaning: {
+                        id: "Istirahat",
+                        en: "A break"
+                    }
+                },
+                {
+                    word: "憩い",
+                    reading: "いこい",
+                    meaning: {
+                        id: "Relaksasi",
+                        en: "Relaxation"
+                    }
                 },
 
-                {
-                    "character": "粧",
-                    "onyomi": "ショウ",
-                    "kunyomi": null,
-                    "meaning": {
-                        "id": "riasan",
-                        "en": "makeup"
-                    },
-                    "words": [
-                        {
-                            "word": "化粧品",
-                            "reading": "けしょうひん",
-                            "meaning": {
-                                "id": "kosmetik",
-                                "en": "cosmetics"
-                            }
-                        },
-                        {
-                            "word": "化粧室",
-                            "reading": "けしょうしつ",
-                            "meaning": {
-                                "id": "toilet / ruang rias",
-                                "en": "restroom / powder room"
-                            }
-                        }
-                    ]
-                },
+                // 粧
 
                 {
-                    "character": "潔",
-                    "onyomi": "ケツ",
-                    "kunyomi": null,
-                    "meaning": {
-                        "id": "bersih, murni",
-                        "en": "clean, pure"
-                    },
-                    "words": [
-                        {
-                            "word": "清潔な",
-                            "reading": "せいけつな",
-                            "meaning": {
-                                "id": "bersih",
-                                "en": "clean"
-                            }
-                        },
-                        {
-                            "word": "不潔な",
-                            "reading": "ふけつな",
-                            "meaning": {
-                                "id": "tidak bersih / kotor",
-                                "en": "unclean"
-                            }
-                        },
-                        {
-                            "word": "簡潔な",
-                            "reading": "かんけつな",
-                            "meaning": {
-                                "id": "ringkas; padat",
-                                "en": "concise"
-                            }
-                        }
-                    ]
+                    word: "化粧品",
+                    reading: "けしょうひん",
+                    meaning: {
+                        id: "Kosmetik",
+                        en: "Cosmetics"
+                    }
+                },
+                {
+                    word: "化粧室",
+                    reading: "けしょうしつ",
+                    meaning: {
+                        id: "Toilet / ruang rias",
+                        en: "Restroom / powder room"
+                    }
                 },
 
-                {
-                    "character": "缶",
-                    "onyomi": "カン",
-                    "kunyomi": null,
-                    "meaning": {
-                        "id": "kaleng",
-                        "en": "can"
-                    },
-                    "words": [
-                        {
-                            "word": "空き缶",
-                            "reading": "あきかん",
-                            "meaning": {
-                                "id": "kaleng kosong",
-                                "en": "empty can"
-                            }
-                        },
-                        {
-                            "word": "缶詰",
-                            "reading": "かんづめ",
-                            "meaning": {
-                                "id": "makanan kaleng",
-                                "en": "canned food"
-                            }
-                        }
-                    ]
-                },
+                // 潔
 
                 {
-                    "character": "瓶",
-                    "onyomi": "ビン",
-                    "kunyomi": null,
-                    "meaning": {
-                        "id": "botol",
-                        "en": "bottle"
-                    },
-                    "words": [
-                        {
-                            "word": "瓶",
-                            "reading": "びん",
-                            "meaning": {
-                                "id": "botol",
-                                "en": "a bottle"
-                            }
-                        },
-                        {
-                            "word": "花瓶",
-                            "reading": "かびん",
-                            "meaning": {
-                                "id": "vas bunga",
-                                "en": "flower vase"
-                            }
-                        },
-                        {
-                            "word": "瓶詰",
-                            "reading": "びんづめ",
-                            "meaning": {
-                                "id": "makanan atau barang dalam botol",
-                                "en": "bottled"
-                            }
-                        },
-                        {
-                            "word": "空き瓶",
-                            "reading": "あきびん",
-                            "meaning": {
-                                "id": "botol kosong",
-                                "en": "empty bottle"
-                            }
-                        }
-                    ]
+                    word: "清潔な",
+                    reading: "せいけつな",
+                    meaning: {
+                        id: "Bersih",
+                        en: "Clean"
+                    }
+                },
+                {
+                    word: "不潔な",
+                    reading: "ふけつな",
+                    meaning: {
+                        id: "Tidak bersih; kotor",
+                        en: "Unclean"
+                    }
+                },
+                {
+                    word: "簡潔な",
+                    reading: "かんけつな",
+                    meaning: {
+                        id: "Ringkas; padat",
+                        en: "Concise"
+                    }
                 },
 
-                {
-                    "character": "糖",
-                    "onyomi": "トウ",
-                    "kunyomi": null,
-                    "meaning": {
-                        "id": "gula",
-                        "en": "sugar"
-                    },
-                    "words": [
-                        {
-                            "word": "砂糖",
-                            "reading": "さとう",
-                            "meaning": {
-                                "id": "gula",
-                                "en": "sugar"
-                            }
-                        },
-                        {
-                            "word": "糖分",
-                            "reading": "とうぶん",
-                            "meaning": {
-                                "id": "kandungan gula",
-                                "en": "sugar content"
-                            }
-                        },
-                        {
-                            "word": "糖尿病",
-                            "reading": "とうにょうびょう",
-                            "meaning": {
-                                "id": "penyakit diabetes",
-                                "en": "diabetes"
-                            }
-                        }
-                    ]
-                },
+                // 缶
 
                 {
-                    "character": "扉",
-                    "onyomi": null,
-                    "kunyomi": "とびら",
-                    "meaning": {
-                        "id": "pintu",
-                        "en": "door"
-                    },
-                    "words": [
-                        {
-                            "word": "扉",
-                            "reading": "とびら",
-                            "meaning": {
-                                "id": "pintu",
-                                "en": "a door"
-                            }
-                        },
-                        {
-                            "word": "自動扉",
-                            "reading": "じどうとびら",
-                            "meaning": {
-                                "id": "pintu otomatis",
-                                "en": "automatic door"
-                            }
-                        }
-                    ]
+                    word: "空き缶",
+                    reading: "あきかん",
+                    meaning: {
+                        id: "Kaleng kosong",
+                        en: "Empty can"
+                    }
+                },
+                {
+                    word: "缶詰",
+                    reading: "かんづめ",
+                    meaning: {
+                        id: "Makanan kaleng",
+                        en: "Canned food"
+                    }
                 },
 
+                // 瓶
+
                 {
-                    "character": "浄",
-                    "onyomi": "ジョウ",
-                    "kunyomi": null,
-                    "meaning": {
-                        "id": "bersih, murni, memurnikan",
-                        "en": "clean, pure, purify"
-                    },
-                    "words": [
-                        {
-                            "word": "洗浄剤",
-                            "reading": "せんじょうざい",
-                            "meaning": {
-                                "id": "deterjen / bahan pembersih",
-                                "en": "detergent / cleaning agent"
-                            }
-                        },
-                        {
-                            "word": "浄化する",
-                            "reading": "じょうかする",
-                            "meaning": {
-                                "id": "memurnikan / menjernihkan",
-                                "en": "to purify"
-                            }
-                        }
-                    ]
+                    word: "瓶",
+                    reading: "びん",
+                    meaning: {
+                        id: "Botol",
+                        en: "A bottle"
+                    }
+                },
+                {
+                    word: "花瓶",
+                    reading: "かびん",
+                    meaning: {
+                        id: "Vas bunga",
+                        en: "Flower vase"
+                    }
+                },
+                {
+                    word: "瓶詰",
+                    reading: "びんづめ",
+                    meaning: {
+                        id: "Barang dalam botol; dibotolkan",
+                        en: "Bottled"
+                    }
+                },
+                {
+                    word: "空き瓶",
+                    reading: "あきびん",
+                    meaning: {
+                        id: "Botol kosong",
+                        en: "Empty bottle"
+                    }
+                },
+
+                // 糖
+
+                {
+                    word: "砂糖",
+                    reading: "さとう",
+                    meaning: {
+                        id: "Gula",
+                        en: "Sugar"
+                    }
+                },
+                {
+                    word: "糖分",
+                    reading: "とうぶん",
+                    meaning: {
+                        id: "Kandungan gula",
+                        en: "Sugar content"
+                    }
+                },
+                {
+                    word: "糖尿病",
+                    reading: "とうにょうびょう",
+                    meaning: {
+                        id: "Penyakit diabetes",
+                        en: "Diabetes"
+                    }
+                },
+
+                // 扉
+
+                {
+                    word: "扉",
+                    reading: "とびら",
+                    meaning: {
+                        id: "Pintu",
+                        en: "A door"
+                    }
+                },
+                {
+                    word: "自動扉",
+                    reading: "じどうとびら",
+                    meaning: {
+                        id: "Pintu otomatis",
+                        en: "Automatic door"
+                    }
+                },
+
+                // 浄
+
+                {
+                    word: "洗浄剤",
+                    reading: "せんじょうざい",
+                    meaning: {
+                        id: "Deterjen; bahan pembersih",
+                        en: "Detergent; cleaning agent"
+                    }
+                },
+                {
+                    word: "浄化する",
+                    reading: "じょうかする",
+                    meaning: {
+                        id: "Memurnikan; menjernihkan",
+                        en: "To purify"
+                    }
                 }
             ]
         }
