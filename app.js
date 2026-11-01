@@ -2139,41 +2139,56 @@ function renderStatusButton (id, status, label, active) {
 }
 
 /* =========================================================
+ * WEEKLY EXAM DAY EXCEPTION
+ * ========================================================= */
+
+function isWeekOneToEightExamDay(data) {
+  const week = Number(data?.week)
+  const day = Number(data?.day)
+
+  return week >= 1 && week <= 8 && day === 7
+}
+
+/* =========================================================
  * COMPLETION
  * ========================================================= */
 
-function renderCompletionControl (data, counts) {
-  const complete = StorageManager.isDayCompleted(data.week, data.day)
+function renderCompletionControl(data, counts) {
+  const complete = StorageManager.isDayCompleted(
+    data.week,
+    data.day
+  )
 
-  const canComplete = counts.total > 0 && counts.notStudied === 0
+  // Minggu 1-8 hari ke-7 merupakan hari ujian,
+  // sehingga tidak membutuhkan materi kanji.
+  const isExamDay = isWeekOneToEightExamDay(data)
+
+  const canComplete =
+    isExamDay ||
+    (counts.total > 0 && counts.notStudied === 0)
+
+  const message = complete
+    ? t('dayComplete')
+    : isExamDay
+    ? 'Hari ujian. Setelah mengerjakan ujian, tekan tombol untuk menyelesaikan hari ini.'
+    : canComplete
+    ? t('completeHint')
+    : t('dayNeedsStatus')
 
   return `
-    <section
-      class="complete-row"
-    >
+    <section class="complete-row">
 
-      <div
-        class="complete-copy"
-      >
+      <div class="complete-copy">
 
         <h3>
-
           ${icon(complete ? 'check' : 'trophy')}
-
-          ${escapeHTML(complete ? t('completed') : t('completeDay'))}
-
+          ${escapeHTML(
+            complete ? t('completed') : t('completeDay')
+          )}
         </h3>
 
         <p>
-
-          ${escapeHTML(
-            complete
-              ? t('dayComplete')
-              : canComplete
-              ? t('completeHint')
-              : t('dayNeedsStatus')
-          )}
-
+          ${escapeHTML(message)}
         </p>
 
       </div>
@@ -2186,14 +2201,15 @@ function renderCompletionControl (data, counts) {
 
         ${icon(complete ? 'check' : 'sparkles')}
 
-        ${escapeHTML(complete ? t('completed') : t('completeDay'))}
+        ${escapeHTML(
+          complete ? t('completed') : t('completeDay')
+        )}
 
       </button>
 
     </section>
   `
 }
-
 function renderEmptyTemplate (data) {
   return `
     <section
@@ -2760,23 +2776,37 @@ function bindBonusSectionInteractions () {
  * COMPLETE DAY
  * ========================================================= */
 
-function markCurrentDayComplete (data) {
+function markCurrentDayComplete(data) {
   const counts = getDayKanjiCounts(data)
 
-  if (!data.kanji?.length || counts.notStudied > 0) {
-    showToast(t('dayNeedsStatus'))
+  // Pengecualian khusus minggu 1-8 hari ke-7.
+  const isExamDay = isWeekOneToEightExamDay(data)
 
+  // Hari biasa tetap wajib memiliki materi dan
+  // seluruh kanji harus sudah dipelajari.
+  // Hari ujian tidak membutuhkan status kanji.
+  if (
+    !isExamDay &&
+    (!data.kanji?.length || counts.notStudied > 0)
+  ) {
+    showToast(t('dayNeedsStatus'))
     return
   }
 
-  StorageManager.setDayCompleted(data.week, data.day, true)
+  // Tandai hari sebagai selesai.
+  StorageManager.setDayCompleted(
+    data.week,
+    data.day,
+    true
+  )
 
+  // Periksa apakah seluruh 7 hari dalam minggu sudah selesai.
   const weekComplete = Array.from(
-    {
-      length: 7
-    },
+    { length: 7 },
     (_, i) => i + 1
-  ).every(day => StorageManager.isDayCompleted(data.week, day))
+  ).every(day =>
+    StorageManager.isDayCompleted(data.week, day)
+  )
 
   if (weekComplete) {
     StorageManager.setWeekCompleted(data.week, true)
@@ -2790,6 +2820,7 @@ function markCurrentDayComplete (data) {
     fireConfetti(22)
   }
 
+  // Perbarui tampilan aplikasi.
   renderWeekMap()
 
   populateDaySelector()
