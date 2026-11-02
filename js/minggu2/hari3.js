@@ -119,7 +119,12 @@ const minggu2Hari3 = {
                     "reading": "ヤク"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "わけ",
+                    "reading": "わけ"
+                }
+            ],
             "usage": {
                 "id": "Materi mengelompokkan 訳 pada kelompok 尺 (訳・択・沢 - ヤク・タク); contoh yang dicantumkan: 翻訳、通訳.",
                 "en": "The source groups 訳 under 尺 (訳・択・沢 - ヤク・タク); listed examples: 翻訳、通訳."
@@ -211,7 +216,12 @@ const minggu2Hari3 = {
                     "reading": "タク"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "さわ",
+                    "reading": "さわ"
+                }
+            ],
             "usage": {
                 "id": "Materi mengelompokkan 沢 pada kelompok 尺 (訳・択・沢 - ヤク・タク); contoh yang dicantumkan: 光沢、贅沢.",
                 "en": "The source groups 沢 under 尺 (訳・択・沢 - ヤク・タク); listed examples: 光沢、贅沢."
@@ -265,7 +275,7 @@ const minggu2Hari3 = {
             ],
             "usage": {
                 "id": "Materi mengelompokkan 東 pada kelompok 東 (トウ); contoh yang dicantumkan: contoh kelompok pada materi.",
-                "en": "The source groups 東 under 東 (トウ); listed examples: contoh kelompok pada materi."
+                "en": "The source groups 東 under 東 (トウ); listed examples: examples from the source group."
             },
             "nuance": {
                 "id": "Kenali bacaan トウ melalui kosakata utuh. Bunyi unsur yang sama tidak selalu membuat semua kata memiliki arti yang sama.",
@@ -291,7 +301,16 @@ const minggu2Hari3 = {
                     "reading": "トウ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "こおる",
+                    "reading": "こおる"
+                },
+                {
+                    "text": "こごえる",
+                    "reading": "こごえる"
+                }
+            ],
             "usage": {
                 "id": "Materi mengelompokkan 凍 pada kelompok 東 (トウ); contoh yang dicantumkan: 凍結.",
                 "en": "The source groups 凍 under 東 (トウ); listed examples: 凍結."
@@ -329,7 +348,16 @@ const minggu2Hari3 = {
                     "reading": "トウ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "むね",
+                    "reading": "むね"
+                },
+                {
+                    "text": "むな",
+                    "reading": "むな"
+                }
+            ],
             "usage": {
                 "id": "Materi mengelompokkan 棟 pada kelompok 東 (トウ); contoh yang dicantumkan: 病棟、A棟・B棟.",
                 "en": "The source groups 棟 under 東 (トウ); listed examples: 病棟、A棟・B棟."
@@ -375,7 +403,12 @@ const minggu2Hari3 = {
                     "reading": "レン"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "ねる",
+                    "reading": "ねる"
+                }
+            ],
             "usage": {
                 "id": "Materi mengelompokkan 練 pada kelompok 東 (練 - レン); contoh yang dicantumkan: 訓練、試練.",
                 "en": "The source groups 練 under 東 (練 - レン); listed examples: 訓練、試練."
@@ -467,7 +500,12 @@ const minggu2Hari3 = {
                     "reading": "ジ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "てら",
+                    "reading": "てら"
+                }
+            ],
             "usage": {
                 "id": "Materi mengelompokkan 寺 pada kelompok 寺 (ジ); contoh yang dicantumkan: 寺院、〇〇寺.",
                 "en": "The source groups 寺 under 寺 (ジ); listed examples: 寺院、〇〇寺."
@@ -513,7 +551,12 @@ const minggu2Hari3 = {
                     "reading": "ジ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "とき",
+                    "reading": "とき"
+                }
+            ],
             "usage": {
                 "id": "Materi mengelompokkan 時 pada kelompok 寺 (ジ); contoh yang dicantumkan: 時差、臨時.",
                 "en": "The source groups 時 under 寺 (ジ); listed examples: 時差、臨時."
@@ -559,7 +602,12 @@ const minggu2Hari3 = {
                     "reading": "ジ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "もつ",
+                    "reading": "もつ"
+                }
+            ],
             "usage": {
                 "id": "Materi mengelompokkan 持 pada kelompok 寺 (ジ); contoh yang dicantumkan: 維持、支持.",
                 "en": "The source groups 持 under 寺 (ジ); listed examples: 維持、支持."
@@ -651,7 +699,12 @@ const minggu2Hari3 = {
                     "reading": "タイ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "まつ",
+                    "reading": "まつ"
+                }
+            ],
             "usage": {
                 "id": "Materi mengelompokkan 待 pada kelompok 寺 (待 - タイ); contoh yang dicantumkan: 待遇、待望.",
                 "en": "The source groups 待 under 寺 (待 - タイ); listed examples: 待遇、待望."
@@ -742,6 +795,14 @@ const minggu2Hari3 = {
                 {
                     "text": "さむらい",
                     "reading": "さむらい"
+                },
+                {
+                    "text": "はべる",
+                    "reading": "はべる"
+                },
+                {
+                    "text": "さぶらう",
+                    "reading": "さぶらう"
                 }
             ],
             "usage": {
@@ -749,8 +810,8 @@ const minggu2Hari3 = {
                 "en": "The source groups 侍 under 寺 (侍); listed examples: 侍."
             },
             "nuance": {
-                "id": "Kenali bacaan bacaan kun melalui kosakata utuh. Bunyi unsur yang sama tidak selalu membuat semua kata memiliki arti yang sama.",
-                "en": "Learn the reading bacaan kun through complete vocabulary items. Sharing a component does not mean the words share the same meaning."
+                "id": "Kenali kunyomi melalui kosakata utuh. Tidak semua kanji memiliki kunyomi yang lazim digunakan.",
+                "en": "Learn the kun’yomi through complete vocabulary items. Not every kanji has a commonly used kun’yomi."
             },
             "philosophy": {
                 "id": "Hafalkan 侍 bersama bacaan dan pasangan kosakatanya, bukan hanya dari bentuk kanji secara terpisah.",
@@ -770,7 +831,7 @@ const minggu2Hari3 = {
             "readingNotes": [
                 {
                     "id": "侍は主に訓読みをする。",
-                    "en": "侍 is mainly read with its kun'yomi."
+                    "en": "侍 is mainly read with its kun’yomi."
                 }
             ]
         },
@@ -825,7 +886,16 @@ const minggu2Hari3 = {
                     "reading": "ク"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "かける",
+                    "reading": "かける"
+                },
+                {
+                    "text": "かる",
+                    "reading": "かる"
+                }
+            ],
             "usage": {
                 "id": "Materi mengelompokkan 駆 pada kelompok 区 (ク); contoh yang dicantumkan: 駆使、駆除.",
                 "en": "The source groups 駆 under 区 (ク); listed examples: 駆使、駆除."
@@ -871,7 +941,12 @@ const minggu2Hari3 = {
                     "reading": "スウ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "かなめ",
+                    "reading": "かなめ"
+                }
+            ],
             "usage": {
                 "id": "Materi mengelompokkan 枢 pada kelompok 区 (枢 - スウ); contoh yang dicantumkan: 中枢.",
                 "en": "The source groups 枢 under 区 (枢 - スウ); listed examples: 中枢."
@@ -955,7 +1030,12 @@ const minggu2Hari3 = {
                     "reading": "オウ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "なぐる",
+                    "reading": "なぐる"
+                }
+            ],
             "usage": {
                 "id": "Materi mengelompokkan 殴 pada kelompok 区 (欧・殴 - オウ); contoh yang dicantumkan: 殴打.",
                 "en": "The source groups 殴 under 区 (欧・殴 - オウ); listed examples: 殴打."
@@ -993,7 +1073,12 @@ const minggu2Hari3 = {
                     "reading": "シツ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "うしなう",
+                    "reading": "うしなう"
+                }
+            ],
             "usage": {
                 "id": "Materi mengelompokkan 失 pada kelompok 失 (シツ); contoh yang dicantumkan: 損失、失脚.",
                 "en": "The source groups 失 under 失 (シツ); listed examples: 損失、失脚."
@@ -1207,7 +1292,36 @@ const minggu2Hari3 = {
                     "reading": "ハク"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "うすい",
+                    "reading": "うすい"
+                },
+                {
+                    "text": "うすめる",
+                    "reading": "うすめる"
+                },
+                {
+                    "text": "うすまる",
+                    "reading": "うすまる"
+                },
+                {
+                    "text": "うすらぐ",
+                    "reading": "うすらぐ"
+                },
+                {
+                    "text": "うすれる",
+                    "reading": "うすれる"
+                },
+                {
+                    "text": "せまる",
+                    "reading": "せまる"
+                },
+                {
+                    "text": "すすき",
+                    "reading": "すすき"
+                }
+            ],
             "usage": {
                 "id": "Materi mengelompokkan 薄 pada kelompok 専 (ハク); contoh yang dicantumkan: 薄弱な、希薄な.",
                 "en": "The source groups 薄 under 専 (ハク); listed examples: 薄弱な、希薄な."
@@ -1253,10 +1367,15 @@ const minggu2Hari3 = {
                     "reading": "バク"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "しばる",
+                    "reading": "しばる"
+                }
+            ],
             "usage": {
                 "id": "Materi mengelompokkan 縛 pada kelompok 専 (縛 - バク; muncul dalam 束縛); contoh yang dicantumkan: 束縛.",
-                "en": "The source groups 縛 under 専 (縛 - バク; muncul dalam 束縛); listed examples: 束縛."
+                "en": "The source groups 縛 under 専 (縛 - バク; appears in 束縛); listed examples: 束縛."
             },
             "nuance": {
                 "id": "Kenali bacaan バク melalui kosakata utuh. Bunyi unsur yang sama tidak selalu membuat semua kata memiliki arti yang sama.",
@@ -1340,7 +1459,11 @@ const minggu2Hari3 = {
         },
         {
             "id": "侍 terutama dibaca dengan kunyomi さむらい; sumber menandainya sebagai pengecualian.",
-            "en": "侍 is mainly read with the kun'yomi さむらい; the source marks it as an exception."
+            "en": "侍 is mainly read with the kun’yomi さむらい; the source marks it as an exception."
+        },
+        {
+            "id": "Kunyomi ditulis dalam hiragana. Kanji yang tidak memiliki kunyomi umum dibiarkan dengan daftar kunyomi kosong.",
+            "en": "Kunyomi are written in hiragana. Kanji without a commonly used kun’yomi are left with an empty kunyomi list."
         }
     ],
     "exam": {
@@ -1640,7 +1763,7 @@ const minggu2Hari3 = {
                 ],
                 "answer": "選択",
                 "explanation": {
-                    "id": "「pilihan hidup」adalah人生の選択（せんたく）。",
+                    "id": "「pilihan hidup」は人生の選択（せんたく）。",
                     "en": "A life choice is 人生の選択（せんたく）."
                 },
                 "sourceKanji": [

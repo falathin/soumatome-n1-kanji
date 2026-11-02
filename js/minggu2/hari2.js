@@ -27,7 +27,7 @@ const minggu2Hari2 = {
                     "reading": "レツ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"つらねる","reading":"つらねる"},{"text":"つらなる","reading":"つらなる"},{"text":"ならべる","reading":"ならべる"}],
             "usage": {
                 "id": "Materi mengelompokkan 列 pada kelompok 列 (レツ); contoh yang dicantumkan: 行列、強烈な.",
                 "en": "The source groups 列 under 列 (レツ); listed examples: 行列、強烈な."
@@ -73,7 +73,7 @@ const minggu2Hari2 = {
                     "reading": "レイ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"たとえる","reading":"たとえる"}],
             "usage": {
                 "id": "Materi mengelompokkan 例 pada kelompok 列 (例 - レイ); contoh yang dicantumkan: 慣例.",
                 "en": "The source groups 例 under 列 (例 - レイ); listed examples: 慣例."
@@ -111,7 +111,7 @@ const minggu2Hari2 = {
                     "reading": "イ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"ちがう","reading":"ちがう"},{"text":"ちがえる","reading":"ちがえる"}],
             "usage": {
                 "id": "Materi mengelompokkan 違 pada kelompok 韋 (イ); contoh yang dicantumkan: 相違.",
                 "en": "The source groups 違 under 韋 (イ); listed examples: 相違."
@@ -149,7 +149,7 @@ const minggu2Hari2 = {
                     "reading": "イ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"えらい","reading":"えらい"}],
             "usage": {
                 "id": "Materi mengelompokkan 偉 pada kelompok 韋 (イ); contoh yang dicantumkan: 偉大な.",
                 "en": "The source groups 偉 under 韋 (イ); listed examples: 偉大な."
@@ -187,7 +187,7 @@ const minggu2Hari2 = {
                     "reading": "イ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"よこいと","reading":"よこいと"},{"text":"ぬき","reading":"ぬき"}],
             "usage": {
                 "id": "Materi mengelompokkan 緯 pada kelompok 韋 (イ); contoh yang dicantumkan: 経緯.",
                 "en": "The source groups 緯 under 韋 (イ); listed examples: 経緯."
@@ -301,7 +301,7 @@ const minggu2Hari2 = {
                     "reading": "バイ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"つちかう","reading":"つちかう"}],
             "usage": {
                 "id": "Materi mengelompokkan 培 pada kelompok 倍 (培・陪・賠 - バイ); contoh yang dicantumkan: 栽培.",
                 "en": "The source groups 培 under 倍 (培・陪・賠 - バイ); listed examples: 栽培."
@@ -453,7 +453,7 @@ const minggu2Hari2 = {
                     "reading": "イン"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"よる","reading":"よる"}],
             "usage": {
                 "id": "Materi mengelompokkan 因 pada kelompok 因 (イン); contoh yang dicantumkan: 原因.",
                 "en": "The source groups 因 under 因 (イン); listed examples: 原因."
@@ -651,7 +651,7 @@ const minggu2Hari2 = {
                     "reading": "グウ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"たまたま","reading":"たまたま"},{"text":"たぐい","reading":"たぐい"},{"text":"ひとがた","reading":"ひとがた"}],
             "usage": {
                 "id": "Materi mengelompokkan 偶 pada kelompok 禺 (グウ); contoh yang dicantumkan: 偶然.",
                 "en": "The source groups 偶 under 禺 (グウ); listed examples: 偶然."
@@ -689,7 +689,7 @@ const minggu2Hari2 = {
                     "reading": "グウ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"すみ","reading":"すみ"}],
             "usage": {
                 "id": "Materi mengelompokkan 隅 pada kelompok 禺 (グウ); contoh yang dicantumkan: 一隅.",
                 "en": "The source groups 隅 under 禺 (グウ); listed examples: 一隅."
@@ -727,7 +727,7 @@ const minggu2Hari2 = {
                     "reading": "グウ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"あう","reading":"あう"},{"text":"もてなす","reading":"もてなす"},{"text":"たまたま","reading":"たまたま"}],
             "usage": {
                 "id": "Materi mengelompokkan 遇 pada kelompok 禺 (グウ); contoh yang dicantumkan: 待遇.",
                 "en": "The source groups 遇 under 禺 (グウ); listed examples: 待遇."
@@ -765,7 +765,7 @@ const minggu2Hari2 = {
                     "reading": "グ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"おろか","reading":"おろか"}],
             "usage": {
                 "id": "Materi mengelompokkan 愚 pada kelompok 禺 (愚 - グ); contoh yang dicantumkan: 愚痴.",
                 "en": "The source groups 愚 under 禺 (愚 - グ); listed examples: 愚痴."
@@ -803,7 +803,7 @@ const minggu2Hari2 = {
                     "reading": "ギ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"うたがう","reading":"うたがう"}],
             "usage": {
                 "id": "Materi mengelompokkan 疑 pada kelompok 疑 (ギ); contoh yang dicantumkan: 疑問.",
                 "en": "The source groups 疑 under 疑 (ギ); listed examples: 疑問."
@@ -879,7 +879,7 @@ const minggu2Hari2 = {
                     "reading": "ギョウ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"こる","reading":"こる"},{"text":"こらす","reading":"こらす"}],
             "usage": {
                 "id": "Materi mengelompokkan 凝 pada kelompok 疑 (凝 - ギョウ); contoh yang dicantumkan: 凝視.",
                 "en": "The source groups 凝 under 疑 (凝 - ギョウ); listed examples: 凝視."
@@ -955,7 +955,7 @@ const minggu2Hari2 = {
                     "reading": "ロウ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"ほがらか","reading":"ほがらか"},{"text":"あきらか","reading":"あきらか"},{"text":"たからか","reading":"たからか"}],
             "usage": {
                 "id": "Materi mengelompokkan 朗 pada kelompok 良 (ロウ); contoh yang dicantumkan: 朗読.",
                 "en": "The source groups 朗 under 良 (ロウ); listed examples: 朗読."
@@ -1069,7 +1069,7 @@ const minggu2Hari2 = {
                     "reading": "リョウ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"よい","reading":"よい"},{"text":"やや","reading":"やや"}],
             "usage": {
                 "id": "Materi mengelompokkan 良 pada kelompok 良 (リョウ); contoh yang dicantumkan: 善良な.",
                 "en": "The source groups 良 under 良 (リョウ); listed examples: 善良な."
@@ -1183,7 +1183,7 @@ const minggu2Hari2 = {
                     "reading": "オク"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"おしはかる","reading":"おしはかる"}],
             "usage": {
                 "id": "Materi mengelompokkan 臆 pada kelompok 意 (オク); contoh yang dicantumkan: 臆病な.",
                 "en": "The source groups 臆 under 意 (オク); listed examples: 臆病な."
@@ -1259,7 +1259,7 @@ const minggu2Hari2 = {
                     "reading": "ゼ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"これ","reading":"これ"},{"text":"この","reading":"この"},{"text":"ただしい","reading":"ただしい"}],
             "usage": {
                 "id": "Materi mengelompokkan 是 pada kelompok 是 (ゼ); contoh yang dicantumkan: 是非、是正.",
                 "en": "The source groups 是 under 是 (ゼ); listed examples: 是非、是正."
@@ -1305,7 +1305,7 @@ const minggu2Hari2 = {
                     "reading": "テイ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"さげる","reading":"さげる"}],
             "usage": {
                 "id": "Materi mengelompokkan 提 pada kelompok 是 (提・堤 - テイ); contoh yang dicantumkan: 提出.",
                 "en": "The source groups 提 under 是 (提・堤 - テイ); listed examples: 提出."
@@ -1343,7 +1343,7 @@ const minggu2Hari2 = {
                     "reading": "テイ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"つつみ","reading":"つつみ"}],
             "usage": {
                 "id": "Materi mengelompokkan 堤 pada kelompok 是 (提・堤 - テイ); contoh yang dicantumkan: 堤防.",
                 "en": "The source groups 堤 under 是 (提・堤 - テイ); listed examples: 堤防."
@@ -1381,7 +1381,7 @@ const minggu2Hari2 = {
                     "reading": "キ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"すでに","reading":"すでに"}],
             "usage": {
                 "id": "Materi mengelompokkan 既 pada kelompok 既 (キ); contoh yang dicantumkan: 既成、既製品.",
                 "en": "The source groups 既 under 既 (キ); listed examples: 既成、既製品."
@@ -1427,7 +1427,7 @@ const minggu2Hari2 = {
                     "reading": "ガイ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"おおむね","reading":"おおむね"}],
             "usage": {
                 "id": "Materi mengelompokkan 概 pada kelompok 既 (概・慨 - ガイ); contoh yang dicantumkan: 概念.",
                 "en": "The source groups 概 under 既 (概・慨 - ガイ); listed examples: 概念."
@@ -1503,7 +1503,7 @@ const minggu2Hari2 = {
                     "reading": "ケイ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"かかげる","reading":"かかげる"}],
             "usage": {
                 "id": "Materi mengelompokkan 掲 pada kelompok 曷 (ケイ); contoh yang dicantumkan: 掲示、掲示板.",
                 "en": "The source groups 掲 under 曷 (ケイ); listed examples: 掲示、掲示板."
@@ -1549,7 +1549,7 @@ const minggu2Hari2 = {
                     "reading": "カツ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"しかる","reading":"しかる"},{"text":"おどす","reading":"おどす"}],
             "usage": {
                 "id": "Materi mengelompokkan 喝 pada kelompok 曷 (喝・渇・褐 - カツ); contoh yang dicantumkan: 恐喝.",
                 "en": "The source groups 喝 under 曷 (喝・渇・褐 - カツ); listed examples: 恐喝."
@@ -1587,7 +1587,7 @@ const minggu2Hari2 = {
                     "reading": "カツ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"かわく","reading":"かわく"}],
             "usage": {
                 "id": "Materi mengelompokkan 渇 pada kelompok 曷 (喝・渇・褐 - カツ); contoh yang dicantumkan: 渇水.",
                 "en": "The source groups 渇 under 曷 (喝・渇・褐 - カツ); listed examples: 渇水."
@@ -1625,7 +1625,7 @@ const minggu2Hari2 = {
                     "reading": "カツ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [{"text":"ぬのこ","reading":"ぬのこ"}],
             "usage": {
                 "id": "Materi mengelompokkan 褐 pada kelompok 曷 (喝・渇・褐 - カツ); contoh yang dicantumkan: 褐色.",
                 "en": "The source groups 褐 under 曷 (喝・渇・褐 - カツ); listed examples: 褐色."
@@ -1652,6 +1652,10 @@ const minggu2Hari2 = {
         }
     ],
     "notes": [
+        {
+            "id": "Kunyomi ditulis dalam hiragana. Sebagian kanji tidak memiliki kunyomi umum; untuk kanji tersebut daftar kunyomi dibiarkan kosong. Bacaan yang bertanda kunjungan/luar pemakaian umum dicantumkan sebagai referensi tambahan.",
+            "en": "Kunyomi are written in hiragana. Some kanji have no commonly used kun'yomi; their kunyomi arrays are left empty. Less common readings are included as supplementary references."
+        },
         {
             "id": "Materi berfokus pada kanji yang memiliki bagian serupa dan berbagi bunyi on'yomi; perhatikan pengecualian bacaan.",
             "en": "The material focuses on kanji with similar components and shared on'yomi; pay attention to reading exceptions."
