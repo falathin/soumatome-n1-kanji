@@ -6,8 +6,8 @@ const minggu4Hari2 = {
         "en": "Day 2"
     },
     "subtitle": {
-        "id": "難しい音読み — 情緒・仮病・天然など",
-        "en": "Week 4 Day 2 — Difficult on’yomi"
+        "id": "第4週 難しい音読み",
+        "en": "Week 4 — Day 2"
     },
     "source": {
         "label": "Minggu 4 Hari 2",
@@ -18,64 +18,55 @@ const minggu4Hari2 = {
             "id": "week4-day2-001",
             "character": "弟",
             "meaning": {
-                "id": "adik laki-laki; murid (dalam 弟子)",
-                "en": "younger brother; apprentice"
+                "id": "adik laki-laki",
+                "en": "adik laki-laki"
             },
             "onyomi": [
+                {
+                    "text": "テイ",
+                    "reading": "テイ"
+                },
                 {
                     "text": "テ",
                     "reading": "テ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "おとうと",
+                    "reading": "おとうと"
+                }
+            ],
             "usage": {
-                "id": "Dalam 弟子, karakter 弟 menggunakan bacaan khusus で; kosakata ini berarti murid atau pengikut seorang ahli.\nContoh kalimat:\n彼は有名な職人の弟子になった。 — Ia menjadi murid seorang perajin terkenal。",
-                "en": "This character appears in 弟子. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "弟子 memiliki bacaan khusus でし; sumber menyoroti unsur bacaan テ pada 弟.",
+                "en": "弟子 memiliki bacaan khusus でし; sumber menyoroti unsur bacaan テ pada 弟."
             },
             "nuance": {
-                "id": "Jangan menebak bacaan 弟子 dari テ saja. Hafalkan seluruh kata でし dan pasangkan dengan kebalikan peran 師匠.",
-                "en": "The reading and nuance of 弟 depend on the complete expression. In this lesson, pay particular attention to 弟子; do not assume that one reading or meaning applies in every compound."
+                "id": "Jangan membaca 弟子 sebagai gabungan bacaan yang ditebak satu per satu. Hafalkan bentuk tetap でし.",
+                "en": "Jangan membaca 弟子 sebagai gabungan bacaan yang ditebak satu per satu. Hafalkan bentuk tetap でし."
             },
             "philosophy": {
-                "id": "Bayangkan hubungan seorang ahli dan muridnya: 師匠 mengajar, 弟子 belajar.",
-                "en": "Use 弟 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Hubungkan 弟 dengan hubungan belajar: seorang 弟子 belajar dari 師匠. Ingat kata utuhnya sebagai pasangan peran.",
+                "en": "Hubungkan 弟 dengan hubungan belajar: seorang 弟子 belajar dari 師匠. Ingat kata utuhnya sebagai pasangan peran."
             },
             "vocabulary": [
                 {
                     "word": "弟子",
                     "reading": "でし",
                     "meaning": {
-                        "id": "murid; murid magang",
-                        "en": "apprentice"
-                    },
-                    "example": {
-                        "sentence": "彼は有名な職人の弟子になった。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Ia menjadi murid seorang perajin terkenal。",
-                            "en": "Ia menjadi murid seorang perajin terkenal。"
-                        }
+                        "id": "murid magang",
+                        "en": "murid magang"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "彼は有名な職人の弟子になった。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Ia menjadi murid seorang perajin terkenal。",
-                        "en": "Ia menjadi murid seorang perajin terkenal。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
             "id": "week4-day2-002",
             "character": "緒",
             "meaning": {
-                "id": "tali; awal; emosi dalam 情緒",
-                "en": "cord; beginning; emotion in 情緒"
+                "id": "tali pengikat; awal; rangkaian",
+                "en": "tali pengikat; awal; rangkaian"
             },
             "onyomi": [
                 {
@@ -83,74 +74,78 @@ const minggu4Hari2 = {
                     "reading": "チョ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "お",
+                    "reading": "お"
+                }
+            ],
             "usage": {
-                "id": "Dalam materi ini 緒 dipelajari melalui 情緒（じょうちょ）, yaitu suasana atau nuansa emosional.\nContoh kalimat:\nこの町には昔ながらの情緒が残っている。 — Suasana tradisional masih terasa di kota ini。",
-                "en": "This character appears in 情緒. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "Dalam sumber, 緒 diperkenalkan melalui bacaan チョ pada 情緒.",
+                "en": "Dalam sumber, 緒 diperkenalkan melalui bacaan チョ pada 情緒."
             },
             "nuance": {
-                "id": "Bacaan チョ bukan bacaan umum yang bisa ditebak dari tiap gabungan; kunci kata ini adalah 情緒豊かな町並み.",
-                "en": "The reading and nuance of 緒 depend on the complete expression. In this lesson, pay particular attention to 情緒; do not assume that one reading or meaning applies in every compound."
+                "id": "情緒 merujuk suasana atau nuansa emosional, bukan sekadar emosi sesaat.",
+                "en": "情緒 merujuk suasana atau nuansa emosional, bukan sekadar emosi sesaat."
             },
             "philosophy": {
-                "id": "Hubungkan 情緒 dengan kesan perasaan yang timbul ketika melihat sebuah kota atau suasana.",
-                "en": "Use 緒 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Bayangkan suasana sebuah kota yang membangkitkan perasaan. 緒 menjadi pengingat bahwa kata dapat membawa ikatan rasa.",
+                "en": "Bayangkan suasana sebuah kota yang membangkitkan perasaan. 緒 menjadi pengingat bahwa kata dapat membawa ikatan rasa."
             },
             "vocabulary": [
                 {
                     "word": "情緒",
                     "reading": "じょうちょ",
                     "meaning": {
-                        "id": "emosi; suasana perasaan",
-                        "en": "emotion; atmosphere"
-                    },
-                    "example": {
-                        "sentence": "この町には昔ながらの情緒が残っている。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Suasana tradisional masih terasa di kota ini。",
-                            "en": "Suasana tradisional masih terasa di kota ini。"
-                        }
+                        "id": "emosi; suasana",
+                        "en": "emosi; suasana"
                     }
-                }
-            ],
-            "examples": [
+                },
                 {
-                    "sentence": "この町には昔ながらの情緒が残っている。",
-                    "reading": "",
+                    "word": "情緒豊かな町並み",
+                    "reading": "じょうちょゆたかなまちなみ",
                     "meaning": {
-                        "id": "Suasana tradisional masih terasa di kota ini。",
-                        "en": "Suasana tradisional masih terasa di kota ini。"
+                        "id": "kawasan kota yang kaya suasana",
+                        "en": "kawasan kota yang kaya suasana"
                     }
                 }
             ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
             "id": "week4-day2-003",
             "character": "仮",
             "meaning": {
-                "id": "sementara; palsu",
-                "en": "temporary; provisional; false"
+                "id": "sementara; pura-pura",
+                "en": "sementara; pura-pura"
             },
             "onyomi": [
+                {
+                    "text": "カ",
+                    "reading": "カ"
+                },
                 {
                     "text": "ケ",
                     "reading": "ケ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "かり",
+                    "reading": "かり"
+                }
+            ],
             "usage": {
-                "id": "仮病 adalah alasan sakit yang dibuat-buat; 仮 di sini memiliki bacaan ケ.\nContoh kalimat:\n彼は学校を休むために仮病を使った。 — Ia berpura-pura sakit agar dapat bolos sekolah。",
-                "en": "This character appears in 仮病. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "仮病 memakai bacaan khusus ケ pada 仮.",
+                "en": "仮病 memakai bacaan khusus ケ pada 仮."
             },
             "nuance": {
-                "id": "仮病 bukan 病気 yang sebenarnya. Bedakan bunyi khusus ケ dari bacaan umum かり pada kata seperti 仮の名前.",
-                "en": "The reading and nuance of 仮 depend on the complete expression. In this lesson, pay particular attention to 仮病; do not assume that one reading or meaning applies in every compound."
+                "id": "Makna 仮 dalam 仮病 adalah berpura-pura atau tidak sungguh-sungguh; jangan tertukar dengan bacaan umum カ.",
+                "en": "Makna 仮 dalam 仮病 adalah berpura-pura atau tidak sungguh-sungguh; jangan tertukar dengan bacaan umum カ."
             },
             "philosophy": {
-                "id": "Ingat kontras antara kondisi nyata dan kondisi yang hanya dibuat seolah-olah nyata.",
-                "en": "Use 仮 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Ingat kontras antara keadaan sebenarnya dan keadaan yang hanya dibuat seolah-olah. 仮病 adalah contoh jelas dari kepura-puraan.",
+                "en": "Ingat kontras antara keadaan sebenarnya dan keadaan yang hanya dibuat seolah-olah. 仮病 adalah contoh jelas dari kepura-puraan."
             },
             "vocabulary": [
                 {
@@ -158,71 +153,66 @@ const minggu4Hari2 = {
                     "reading": "けびょう",
                     "meaning": {
                         "id": "berpura-pura sakit",
-                        "en": "feigned illness"
-                    },
-                    "example": {
-                        "sentence": "彼は学校を休むために仮病を使った。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Ia berpura-pura sakit agar dapat bolos sekolah。",
-                            "en": "Ia berpura-pura sakit agar dapat bolos sekolah。"
-                        }
+                        "en": "berpura-pura sakit"
                     }
-                }
-            ],
-            "examples": [
+                },
                 {
-                    "sentence": "彼は学校を休むために仮病を使った。",
-                    "reading": "",
+                    "word": "仮病を使う",
+                    "reading": "けびょうをつかう",
                     "meaning": {
-                        "id": "Ia berpura-pura sakit agar dapat bolos sekolah。",
-                        "en": "Ia berpura-pura sakit agar dapat bolos sekolah。"
+                        "id": "berpura-pura sakit",
+                        "en": "berpura-pura sakit"
                     }
                 }
             ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
             "id": "week4-day2-004",
             "character": "然",
             "meaning": {
-                "id": "alami; demikian",
-                "en": "natural; so; thus"
+                "id": "begitu; alami",
+                "en": "begitu; alami"
             },
             "onyomi": [
+                {
+                    "text": "ゼン",
+                    "reading": "ゼン"
+                },
                 {
                     "text": "ネン",
                     "reading": "ネン"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "しか",
+                    "reading": "しか"
+                },
+                {
+                    "text": "さ",
+                    "reading": "さ"
+                }
+            ],
             "usage": {
-                "id": "然 muncul dalam 天然 dan istilah turunannya, dengan bacaan ネン.\nContoh kalimat:\nこの森は天然の環境がよく保たれている。 — Lingkungan alami hutan ini terjaga dengan baik。\nこの鳥は天然記念物に指定されている。 — Burung ini ditetapkan sebagai monumen alam。\n古い写真を天然色で再現した。 — Foto lama itu direproduksi dengan warna alami。",
-                "en": "This character appears in 天然、天然記念物、天然色. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "天然 menggunakan bacaan ネン pada 然.",
+                "en": "天然 menggunakan bacaan ネン pada 然."
             },
             "nuance": {
-                "id": "Dalam set ini, bacaan yang harus dikenali adalah ネン pada 天然. Maknanya berkaitan dengan keadaan yang alami, bukan dibuat-buat.",
-                "en": "The reading and nuance of 然 depend on the complete expression. In this lesson, pay particular attention to 天然、天然記念物、天然色; do not assume that one reading or meaning applies in every compound."
+                "id": "Pada 天然, kata ini mengarah pada sesuatu yang alami. Bacaan ネン perlu dihafalkan melalui kata lengkap.",
+                "en": "Pada 天然, kata ini mengarah pada sesuatu yang alami. Bacaan ネン perlu dihafalkan melalui kata lengkap."
             },
             "philosophy": {
-                "id": "Gunakan 天然 sebagai kata jangkar, lalu perluas ke 天然記念物 dan 天然色.",
-                "en": "Use 然 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Hubungkan 天然 dengan sesuatu yang tumbuh atau hadir secara alami, bukan hasil dibuat-buat.",
+                "en": "Hubungkan 天然 dengan sesuatu yang tumbuh atau hadir secara alami, bukan hasil dibuat-buat."
             },
             "vocabulary": [
                 {
                     "word": "天然",
                     "reading": "てんねん",
                     "meaning": {
-                        "id": "alami; natural",
-                        "en": "natural"
-                    },
-                    "example": {
-                        "sentence": "この森は天然の環境がよく保たれている。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Lingkungan alami hutan ini terjaga dengan baik。",
-                            "en": "Lingkungan alami hutan ini terjaga dengan baik。"
-                        }
+                        "id": "alami",
+                        "en": "alami"
                     }
                 },
                 {
@@ -230,15 +220,7 @@ const minggu4Hari2 = {
                     "reading": "てんねんきねんぶつ",
                     "meaning": {
                         "id": "monumen alam",
-                        "en": "natural monument"
-                    },
-                    "example": {
-                        "sentence": "この鳥は天然記念物に指定されている。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Burung ini ditetapkan sebagai monumen alam。",
-                            "en": "Burung ini ditetapkan sebagai monumen alam。"
-                        }
+                        "en": "monumen alam"
                     }
                 },
                 {
@@ -246,87 +228,54 @@ const minggu4Hari2 = {
                     "reading": "てんねんしょく",
                     "meaning": {
                         "id": "warna alami",
-                        "en": "natural colour"
-                    },
-                    "example": {
-                        "sentence": "古い写真を天然色で再現した。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Foto lama itu direproduksi dengan warna alami。",
-                            "en": "Foto lama itu direproduksi dengan warna alami。"
-                        }
+                        "en": "warna alami"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "この森は天然の環境がよく保たれている。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Lingkungan alami hutan ini terjaga dengan baik。",
-                        "en": "Lingkungan alami hutan ini terjaga dengan baik。"
-                    }
-                },
-                {
-                    "sentence": "この鳥は天然記念物に指定されている。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Burung ini ditetapkan sebagai monumen alam。",
-                        "en": "Burung ini ditetapkan sebagai monumen alam。"
-                    }
-                },
-                {
-                    "sentence": "古い写真を天然色で再現した。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Foto lama itu direproduksi dengan warna alami。",
-                        "en": "Foto lama itu direproduksi dengan warna alami。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
             "id": "week4-day2-005",
             "character": "封",
             "meaning": {
-                "id": "segel; penutupan; feodal",
-                "en": "seal; closure; feudal"
+                "id": "segel; menyegel",
+                "en": "segel; menyegel"
             },
             "onyomi": [
+                {
+                    "text": "フウ",
+                    "reading": "フウ"
+                },
                 {
                     "text": "ホウ",
                     "reading": "ホウ"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "ふう",
+                    "reading": "ふう"
+                }
+            ],
             "usage": {
-                "id": "Materi menampilkan 封 melalui 封建 dan 封建制度, istilah yang berkaitan dengan sistem feodal.\nContoh kalimat:\n封建制度について授業で学んだ。 — Kami mempelajari sistem feodal di kelas。\n封建制度は歴史の重要なテーマだ。 — Sistem feodal merupakan tema penting dalam sejarah。",
-                "en": "This character appears in 封建、封建制度. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "封建 memakai bacaan ホウ.",
+                "en": "封建 memakai bacaan ホウ."
             },
             "nuance": {
-                "id": "ホウ adalah bacaan pada kata-kata sumber. Jangan mengartikan 封建 sebagai “menyegel bangunan”; maknanya sudah menjadi istilah sejarah.",
-                "en": "The reading and nuance of 封 depend on the complete expression. In this lesson, pay particular attention to 封建、封建制度; do not assume that one reading or meaning applies in every compound."
+                "id": "封建 adalah kosakata historis yang perlu diingat sebagai satu kesatuan; jangan menebak bunyi dari bacaan yang lebih sering ditemui.",
+                "en": "封建 adalah kosakata historis yang perlu diingat sebagai satu kesatuan; jangan menebak bunyi dari bacaan yang lebih sering ditemui."
             },
             "philosophy": {
-                "id": "Ingat satu rangkaian tetap: 封建 → 封建制度, lalu kaitkan dengan pelajaran sejarah.",
-                "en": "Use 封 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Bayangkan sesuatu yang dibatasi oleh sistem atau aturan. Kata 封建 menjadi pengingat pada tatanan sosial feodal.",
+                "en": "Bayangkan sesuatu yang dibatasi oleh sistem atau aturan. Kata 封建 menjadi pengingat pada tatanan sosial feodal."
             },
             "vocabulary": [
                 {
                     "word": "封建",
                     "reading": "ほうけん",
                     "meaning": {
-                        "id": "feodal",
-                        "en": "feudal"
-                    },
-                    "example": {
-                        "sentence": "封建制度について授業で学んだ。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Kami mempelajari sistem feodal di kelas。",
-                            "en": "Kami mempelajari sistem feodal di kelas。"
-                        }
+                        "id": "feodalisme",
+                        "en": "feodalisme"
                     }
                 },
                 {
@@ -334,46 +283,91 @@ const minggu4Hari2 = {
                     "reading": "ほうけんせいど",
                     "meaning": {
                         "id": "sistem feodal",
-                        "en": "feudal system"
-                    },
-                    "example": {
-                        "sentence": "封建制度は歴史の重要なテーマだ。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Sistem feodal merupakan tema penting dalam sejarah。",
-                            "en": "Sistem feodal merupakan tema penting dalam sejarah。"
-                        }
+                        "en": "sistem feodal"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "封建制度について授業で学んだ。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Kami mempelajari sistem feodal di kelas。",
-                        "en": "Kami mempelajari sistem feodal di kelas。"
-                    }
-                },
-                {
-                    "sentence": "封建制度は歴史の重要なテーマだ。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Sistem feodal merupakan tema penting dalam sejarah。",
-                        "en": "Sistem feodal merupakan tema penting dalam sejarah。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
             "id": "week4-day2-006",
-            "character": "留",
+            "character": "度",
             "meaning": {
-                "id": "menahan; tinggal; menetap",
-                "en": "stay; detain"
+                "id": "derajat; tingkat; kali",
+                "en": "derajat; tingkat; kali"
             },
             "onyomi": [
+                {
+                    "text": "ド",
+                    "reading": "ド"
+                },
+                {
+                    "text": "ト",
+                    "reading": "ト"
+                },
+                {
+                    "text": "タク",
+                    "reading": "タク"
+                }
+            ],
+            "kunyomi": [
+                {
+                    "text": "たび",
+                    "reading": "たび"
+                }
+            ],
+            "usage": {
+                "id": "Pada 支度, 度 dibaca タク.",
+                "en": "Pada 支度, 度 dibaca タク."
+            },
+            "nuance": {
+                "id": "支度 merupakan bacaan khusus yang tidak dapat ditebak dari bacaan umum 度. Hafalkan bersama kata turunannya.",
+                "en": "支度 merupakan bacaan khusus yang tidak dapat ditebak dari bacaan umum 度. Hafalkan bersama kata turunannya."
+            },
+            "philosophy": {
+                "id": "Ingat 度 dalam 支度 melalui proses menyiapkan diri sebelum melakukan sesuatu.",
+                "en": "Ingat 度 dalam 支度 melalui proses menyiapkan diri sebelum melakukan sesuatu."
+            },
+            "vocabulary": [
+                {
+                    "word": "支度",
+                    "reading": "したく",
+                    "meaning": {
+                        "id": "persiapan",
+                        "en": "persiapan"
+                    }
+                },
+                {
+                    "word": "旅支度",
+                    "reading": "たびじたく",
+                    "meaning": {
+                        "id": "persiapan perjalanan",
+                        "en": "persiapan perjalanan"
+                    }
+                },
+                {
+                    "word": "身支度",
+                    "reading": "みじたく",
+                    "meaning": {
+                        "id": "bersiap/merapikan diri",
+                        "en": "bersiap/merapikan diri"
+                    }
+                }
+            ],
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
+        },
+        {
+            "id": "week4-day2-007",
+            "character": "留",
+            "meaning": {
+                "id": "tinggal; menahan",
+                "en": "tinggal; menahan"
+            },
+            "onyomi": [
+                {
+                    "text": "リュウ",
+                    "reading": "リュウ"
+                },
                 {
                     "text": "ル",
                     "reading": "ル"
@@ -381,25 +375,25 @@ const minggu4Hari2 = {
             ],
             "kunyomi": [
                 {
-                    "text": "と.める",
+                    "text": "と(める)",
                     "reading": "とめる"
                 },
                 {
-                    "text": "と.まる",
+                    "text": "と(まる)",
                     "reading": "とまる"
                 }
             ],
             "usage": {
-                "id": "留 dipelajari melalui 留守（るす）dan 留守番電話.\nContoh kalimat:\n昼間は留守にすることが多い。 — Saya sering tidak berada di rumah pada siang hari。\n留守番電話にメッセージを残した。 — Saya meninggalkan pesan di mesin penjawab telepon。",
-                "en": "This character appears in 留守、留守番電話. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "留守 memakai bacaan ル.",
+                "en": "留守 memakai bacaan ル."
             },
             "nuance": {
-                "id": "Bacaan ル dalam 留守 adalah bacaan khusus dalam gabungan kata ini; makna keseluruhan 留守 berarti tidak berada di rumah.",
-                "en": "The reading and nuance of 留 depend on the complete expression. In this lesson, pay particular attention to 留守、留守番電話; do not assume that one reading or meaning applies in every compound."
+                "id": "留守 berarti keadaan penghuni tidak ada di rumah. Bacaan ル perlu diingat lewat ungkapan tetap ini.",
+                "en": "留守 berarti keadaan penghuni tidak ada di rumah. Bacaan ル perlu diingat lewat ungkapan tetap ini."
             },
             "philosophy": {
-                "id": "Bayangkan rumah yang ditinggalkan sementara: 留守, lalu pesan ditangani 留守番電話.",
-                "en": "Use 留 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Bayangkan rumah yang ditinggalkan sementara. 留守 menjadi kata praktis untuk keadaan tidak berada di tempat.",
+                "en": "Bayangkan rumah yang ditinggalkan sementara. 留守 menjadi kata praktis untuk keadaan tidak berada di tempat."
             },
             "vocabulary": [
                 {
@@ -407,62 +401,32 @@ const minggu4Hari2 = {
                     "reading": "るす",
                     "meaning": {
                         "id": "tidak berada di rumah",
-                        "en": "absence from home"
-                    },
-                    "example": {
-                        "sentence": "昼間は留守にすることが多い。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya sering tidak berada di rumah pada siang hari。",
-                            "en": "Saya sering tidak berada di rumah pada siang hari。"
-                        }
+                        "en": "tidak berada di rumah"
                     }
                 },
                 {
                     "word": "留守番電話",
                     "reading": "るすばんでんわ",
                     "meaning": {
-                        "id": "mesin penjawab telepon",
-                        "en": "answering machine"
-                    },
-                    "example": {
-                        "sentence": "留守番電話にメッセージを残した。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya meninggalkan pesan di mesin penjawab telepon。",
-                            "en": "Saya meninggalkan pesan di mesin penjawab telepon。"
-                        }
+                        "id": "pesan suara/mesin penjawab",
+                        "en": "pesan suara/mesin penjawab"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "昼間は留守にすることが多い。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya sering tidak berada di rumah pada siang hari。",
-                        "en": "Saya sering tidak berada di rumah pada siang hari。"
-                    }
-                },
-                {
-                    "sentence": "留守番電話にメッセージを残した。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya meninggalkan pesan di mesin penjawab telepon。",
-                        "en": "Saya meninggalkan pesan di mesin penjawab telepon。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-007",
+            "id": "week4-day2-008",
             "character": "守",
             "meaning": {
                 "id": "menjaga; melindungi",
-                "en": "protect;守"
+                "en": "menjaga; melindungi"
             },
             "onyomi": [
+                {
+                    "text": "シュ",
+                    "reading": "シュ"
+                },
                 {
                     "text": "ス",
                     "reading": "ス"
@@ -470,25 +434,25 @@ const minggu4Hari2 = {
             ],
             "kunyomi": [
                 {
-                    "text": "まも.る",
+                    "text": "まも(る)",
                     "reading": "まもる"
                 },
                 {
-                    "text": "まも.り",
-                    "reading": "まもり"
+                    "text": "も(り)",
+                    "reading": "もり"
                 }
             ],
             "usage": {
-                "id": "Pada 留守, 守 memiliki bacaan khusus ス. Dalam kosakata sehari-hari, 守る dibaca まもる dan berarti menjaga.\nContoh kalimat:\n留守の間、隣人が荷物を預かってくれた。 — Saat saya tidak di rumah, tetangga menerima paket saya。",
-                "en": "This character appears in 留守. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "守 dalam 留守 dibaca ス.",
+                "en": "守 dalam 留守 dibaca ス."
             },
             "nuance": {
-                "id": "Bacaan ス di 留守 perlu dihafal sebagai pasangan; jangan menggeneralisasikannya ke 守る.",
-                "en": "The reading and nuance of 守 depend on the complete expression. In this lesson, pay particular attention to 留守; do not assume that one reading or meaning applies in every compound."
+                "id": "Bacaan ス di sini adalah bacaan khusus dalam kata 留守; kunyomi まもる lebih mudah dikenali pada kata lain.",
+                "en": "Bacaan ス di sini adalah bacaan khusus dalam kata 留守; kunyomi まもる lebih mudah dikenali pada kata lain."
             },
             "philosophy": {
-                "id": "Hubungkan bentuk dasar “menjaga” dengan keadaan rumah yang ditinggalkan dan pengaturan penjagaannya.",
-                "en": "Use 守 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Hubungkan 守 dengan tindakan menjaga. Dalam 留守, kata ini menjadi bagian dari ungkapan tetap tentang rumah yang kosong.",
+                "en": "Hubungkan 守 dengan tindakan menjaga. Dalam 留守, kata ini menjadi bagian dari ungkapan tetap tentang rumah yang kosong."
             },
             "vocabulary": [
                 {
@@ -496,45 +460,35 @@ const minggu4Hari2 = {
                     "reading": "るす",
                     "meaning": {
                         "id": "tidak berada di rumah",
-                        "en": "absence from home"
-                    },
-                    "example": {
-                        "sentence": "留守の間、隣人が荷物を預かってくれた。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saat saya tidak di rumah, tetangga menerima paket saya。",
-                            "en": "Saat saya tidak di rumah, tetangga menerima paket saya。"
-                        }
+                        "en": "tidak berada di rumah"
                     }
-                }
-            ],
-            "examples": [
+                },
                 {
-                    "sentence": "留守の間、隣人が荷物を預かってくれた。",
-                    "reading": "",
+                    "word": "留守番電話",
+                    "reading": "るすばんでんわ",
                     "meaning": {
-                        "id": "Saat saya tidak di rumah, tetangga menerima paket saya。",
-                        "en": "Saat saya tidak di rumah, tetangga menerima paket saya。"
+                        "id": "pesan suara/mesin penjawab",
+                        "en": "pesan suara/mesin penjawab"
                     }
                 }
             ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-008",
+            "id": "week4-day2-009",
             "character": "井",
             "meaning": {
                 "id": "sumur",
-                "en": "well"
+                "en": "sumur"
             },
             "onyomi": [
                 {
-                    "text": "ショウ",
-                    "reading": "ショウ"
-                },
-                {
                     "text": "セイ",
                     "reading": "セイ"
+                },
+                {
+                    "text": "ショウ",
+                    "reading": "ショウ"
                 }
             ],
             "kunyomi": [
@@ -544,16 +498,16 @@ const minggu4Hari2 = {
                 }
             ],
             "usage": {
-                "id": "井 muncul pada 天井（てんじょう）dengan bunyi じょう dalam kata ini.\nContoh kalimat:\n天井に丸い照明が付いている。 — Lampu bundar terpasang di langit-langit。",
-                "en": "This character appears in 天井. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "天井 memakai bacaan ショウ pada 井.",
+                "en": "天井 memakai bacaan ショウ pada 井."
             },
             "nuance": {
-                "id": "Tulisan sumber mencantumkan bacaan ショウ untuk 井, sedangkan kosakata 天井 dibaca てんじょう. Hafalkan bacaan kata utuh 天井.",
-                "en": "The reading and nuance of 井 depend on the complete expression. In this lesson, pay particular attention to 天井; do not assume that one reading or meaning applies in every compound."
+                "id": "Bacaan ショウ muncul dalam kata 天井; jangan tertukar dengan arti 'sumur' dari kunyomi い.",
+                "en": "Bacaan ショウ muncul dalam kata 天井; jangan tertukar dengan arti 'sumur' dari kunyomi い."
             },
             "philosophy": {
-                "id": "Bayangkan bagian atas ruangan sebagai “atap bagian dalam”; ini membantu mengingat 天井.",
-                "en": "Use 井 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Bayangkan batas atas sebuah ruangan. 天井 adalah permukaan yang menaungi ruang dari atas.",
+                "en": "Bayangkan batas atas sebuah ruangan. 天井 adalah permukaan yang menaungi ruang dari atas."
             },
             "vocabulary": [
                 {
@@ -561,45 +515,27 @@ const minggu4Hari2 = {
                     "reading": "てんじょう",
                     "meaning": {
                         "id": "langit-langit",
-                        "en": "ceiling"
-                    },
-                    "example": {
-                        "sentence": "天井に丸い照明が付いている。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Lampu bundar terpasang di langit-langit。",
-                            "en": "Lampu bundar terpasang di langit-langit。"
-                        }
+                        "en": "langit-langit"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "天井に丸い照明が付いている。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Lampu bundar terpasang di langit-langit。",
-                        "en": "Lampu bundar terpasang di langit-langit。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-009",
+            "id": "week4-day2-010",
             "character": "目",
             "meaning": {
-                "id": "mata; kehormatan dalam 面目",
-                "en": "eye; honour; face"
+                "id": "mata; pandangan",
+                "en": "mata; pandangan"
             },
             "onyomi": [
                 {
-                    "text": "ボク",
-                    "reading": "ボク"
-                },
-                {
                     "text": "モク",
                     "reading": "モク"
+                },
+                {
+                    "text": "ボク",
+                    "reading": "ボク"
                 }
             ],
             "kunyomi": [
@@ -613,77 +549,43 @@ const minggu4Hari2 = {
                 }
             ],
             "usage": {
-                "id": "目 berarti mata; dalam 面目, kata ini memiliki bacaan khusus ぼく dan bermakna kehormatan atau muka.\nContoh kalimat:\n失敗して面目を失った。 — Saya kehilangan muka karena kegagalan itu。\n期待に応えられず、面目ない。 — Saya merasa malu karena tidak dapat memenuhi harapan。",
-                "en": "This character appears in 面目、面目ない. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "面目 memakai bacaan ボク pada 目.",
+                "en": "面目 memakai bacaan ボク pada 目."
             },
             "nuance": {
-                "id": "面目 dibaca めんぼく, bukan めんもく pada materi ini. Gunakan kata utuh untuk mengingat bacaan.",
-                "en": "The reading and nuance of 目 depend on the complete expression. In this lesson, pay particular attention to 面目、面目ない; do not assume that one reading or meaning applies in every compound."
+                "id": "面目 berarti kehormatan atau reputasi; bukan makna fisik mata dalam konteks ini.",
+                "en": "面目 berarti kehormatan atau reputasi; bukan makna fisik mata dalam konteks ini."
             },
             "philosophy": {
-                "id": "Kaitkan “wajah yang dilihat orang lain” dengan kehormatan dan reputasi.",
-                "en": "Use 目 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Bayangkan 'wajah' sebagai harga diri seseorang. 面目 berkaitan dengan bagaimana seseorang dipandang.",
+                "en": "Bayangkan 'wajah' sebagai harga diri seseorang. 面目 berkaitan dengan bagaimana seseorang dipandang."
             },
             "vocabulary": [
                 {
                     "word": "面目",
                     "reading": "めんぼく",
                     "meaning": {
-                        "id": "kehormatan; muka",
-                        "en": "honour; face"
-                    },
-                    "example": {
-                        "sentence": "失敗して面目を失った。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya kehilangan muka karena kegagalan itu。",
-                            "en": "Saya kehilangan muka karena kegagalan itu。"
-                        }
+                        "id": "kehormatan/muka",
+                        "en": "kehormatan/muka"
                     }
                 },
                 {
                     "word": "面目ない",
                     "reading": "めんぼくない",
                     "meaning": {
-                        "id": "merasa malu; tidak punya muka",
-                        "en": "ashamed"
-                    },
-                    "example": {
-                        "sentence": "期待に応えられず、面目ない。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya merasa malu karena tidak dapat memenuhi harapan。",
-                            "en": "Saya merasa malu karena tidak dapat memenuhi harapan。"
-                        }
+                        "id": "merasa malu/tidak punya muka",
+                        "en": "merasa malu/tidak punya muka"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "失敗して面目を失った。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya kehilangan muka karena kegagalan itu。",
-                        "en": "Saya kehilangan muka karena kegagalan itu。"
-                    }
-                },
-                {
-                    "sentence": "期待に応えられず、面目ない。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya merasa malu karena tidak dapat memenuhi harapan。",
-                        "en": "Saya merasa malu karena tidak dapat memenuhi harapan。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-010",
+            "id": "week4-day2-011",
             "character": "川",
             "meaning": {
                 "id": "sungai",
-                "en": "river"
+                "en": "sungai"
             },
             "onyomi": [
                 {
@@ -698,146 +600,99 @@ const minggu4Hari2 = {
                 }
             ],
             "usage": {
-                "id": "川 berarti sungai; dalam 河川, bacaannya セン.\nContoh kalimat:\n河川の水質を定期的に調査する。 — Kualitas air sungai diperiksa secara berkala。",
-                "en": "This character appears in 河川. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "河川 memakai bacaan セン.",
+                "en": "河川 memakai bacaan セン."
             },
             "nuance": {
-                "id": "河川 adalah istilah formal yang mengacu pada sungai atau sistem aliran air; bacaan tiap kanji tidak selalu sama dengan kata tunggal.",
-                "en": "The reading and nuance of 川 depend on the complete expression. In this lesson, pay particular attention to 河川; do not assume that one reading or meaning applies in every compound."
+                "id": "Dalam 河川, 川 menjadi unsur kata majemuk formal yang berarti sungai.",
+                "en": "Dalam 河川, 川 menjadi unsur kata majemuk formal yang berarti sungai."
             },
             "philosophy": {
-                "id": "Ingat kontras 川（かわ）dalam bahasa sehari-hari dan 河川（かせん）dalam konteks formal.",
-                "en": "Use 川 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Bayangkan aliran air yang memanjang. Kata 河川 adalah istilah ringkas untuk sungai sebagai bentang alam.",
+                "en": "Bayangkan aliran air yang memanjang. Kata 河川 adalah istilah ringkas untuk sungai sebagai bentang alam."
             },
             "vocabulary": [
                 {
                     "word": "河川",
                     "reading": "かせん",
                     "meaning": {
-                        "id": "sungai; aliran sungai",
-                        "en": "river"
-                    },
-                    "example": {
-                        "sentence": "河川の水質を定期的に調査する。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Kualitas air sungai diperiksa secara berkala。",
-                            "en": "Kualitas air sungai diperiksa secara berkala。"
-                        }
+                        "id": "sungai-sungai",
+                        "en": "sungai-sungai"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "河川の水質を定期的に調査する。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Kualitas air sungai diperiksa secara berkala。",
-                        "en": "Kualitas air sungai diperiksa secara berkala。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-011",
+            "id": "week4-day2-012",
             "character": "団",
             "meaning": {
                 "id": "kelompok; bundar",
-                "en": "group; mass; round"
+                "en": "kelompok; bundar"
             },
             "onyomi": [
                 {
-                    "text": "トン",
-                    "reading": "トン"
-                },
-                {
                     "text": "ダン",
                     "reading": "ダン"
+                },
+                {
+                    "text": "トン",
+                    "reading": "トン"
                 }
             ],
-            "kunyomi": [],
+            "kunyomi": [
+                {
+                    "text": "",
+                    "reading": ""
+                }
+            ],
             "usage": {
-                "id": "団 dipelajari lewat 布団 dan 座布団. Dalam 布団, bacaan 団 adalah とん.\nContoh kalimat:\n寝る前に布団を敷いた。 — Saya menggelar futon sebelum tidur。\n座布団に座ってお茶を飲んだ。 — Saya duduk di atas bantalan sambil minum teh。",
-                "en": "This character appears in 布団、座布団. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "布団 dan 座布団 memakai bacaan トン pada 団.",
+                "en": "布団 dan 座布団 memakai bacaan トン pada 団."
             },
             "nuance": {
-                "id": "Bacaan トン dalam 布団 berbeda dari bacaan ダン yang tampak dalam kosakata lain seperti 集団.",
-                "en": "The reading and nuance of 団 depend on the complete expression. In this lesson, pay particular attention to 布団、座布団; do not assume that one reading or meaning applies in every compound."
+                "id": "Bacaan トン merupakan bagian dari kosakata tetap; jangan mengubahnya menjadi ダン.",
+                "en": "Bacaan トン merupakan bagian dari kosakata tetap; jangan mengubahnya menjadi ダン."
             },
             "philosophy": {
-                "id": "Hafalkan 布団 dan 座布団 sebagai pasangan budaya benda rumah tangga Jepang.",
-                "en": "Use 団 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Ingat bentuk kata 布団 dan 座布団 sebagai benda yang digunakan untuk beristirahat atau duduk.",
+                "en": "Ingat bentuk kata 布団 dan 座布団 sebagai benda yang digunakan untuk beristirahat atau duduk."
             },
             "vocabulary": [
                 {
                     "word": "布団",
                     "reading": "ふとん",
                     "meaning": {
-                        "id": "kasur lipat Jepang",
-                        "en": "futon"
-                    },
-                    "example": {
-                        "sentence": "寝る前に布団を敷いた。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya menggelar futon sebelum tidur。",
-                            "en": "Saya menggelar futon sebelum tidur。"
-                        }
+                        "id": "kasur/futon",
+                        "en": "kasur/futon"
                     }
                 },
                 {
                     "word": "座布団",
                     "reading": "ざぶとん",
                     "meaning": {
-                        "id": "bantalan duduk",
-                        "en": "floor cushion"
-                    },
-                    "example": {
-                        "sentence": "座布団に座ってお茶を飲んだ。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya duduk di atas bantalan sambil minum teh。",
-                            "en": "Saya duduk di atas bantalan sambil minum teh。"
-                        }
+                        "id": "bantal duduk",
+                        "en": "bantal duduk"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "寝る前に布団を敷いた。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya menggelar futon sebelum tidur。",
-                        "en": "Saya menggelar futon sebelum tidur。"
-                    }
-                },
-                {
-                    "sentence": "座布団に座ってお茶を飲んだ。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya duduk di atas bantalan sambil minum teh。",
-                        "en": "Saya duduk di atas bantalan sambil minum teh。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-012",
+            "id": "week4-day2-013",
             "character": "文",
             "meaning": {
-                "id": "tulisan; kalimat; budaya",
-                "en": "sentence; writing; culture"
+                "id": "tulisan; kalimat",
+                "en": "tulisan; kalimat"
             },
             "onyomi": [
                 {
-                    "text": "モン",
-                    "reading": "モン"
-                },
-                {
                     "text": "ブン",
                     "reading": "ブン"
+                },
+                {
+                    "text": "モン",
+                    "reading": "モン"
                 }
             ],
             "kunyomi": [
@@ -847,110 +702,60 @@ const minggu4Hari2 = {
                 }
             ],
             "usage": {
-                "id": "文 dapat berarti tulisan atau kalimat; bacaan モン muncul pada 文句 dan 文部科学省.\nContoh kalimat:\n文句があるなら、理由を説明してください。 — Jika ada keluhan, jelaskan alasannya。\n文部科学省の資料を読んだ。 — Saya membaca dokumen dari MEXT。\n店員に料理を注文した。 — Saya memesan makanan kepada pelayan。",
-                "en": "This character appears in 文句、文部科学省、注文. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "文句 memakai bacaan モン pada 文.",
+                "en": "文句 memakai bacaan モン pada 文."
             },
             "nuance": {
-                "id": "Jangan samakan semua gabungan 文: 文句（もんく）, 注文（ちゅうもん）, dan 文章（ぶんしょう）memakai bacaan berbeda.",
-                "en": "The reading and nuance of 文 depend on the complete expression. In this lesson, pay particular attention to 文句、文部科学省、注文; do not assume that one reading or meaning applies in every compound."
+                "id": "文句 dapat berarti keluhan atau kata-kata; makna tidak selalu sama dengan 'kalimat' secara netral.",
+                "en": "文句 dapat berarti keluhan atau kata-kata; makna tidak selalu sama dengan 'kalimat' secara netral."
             },
             "philosophy": {
-                "id": "Gunakan konteks untuk memilih makna: keluhan, institusi pendidikan, atau pesanan.",
-                "en": "Use 文 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Hubungkan 文 dengan bahasa tertulis atau ujaran. Dalam 文句, bahasa menjadi sesuatu yang diucapkan sebagai keluhan.",
+                "en": "Hubungkan 文 dengan bahasa tertulis atau ujaran. Dalam 文句, bahasa menjadi sesuatu yang diucapkan sebagai keluhan."
             },
             "vocabulary": [
                 {
                     "word": "文句",
                     "reading": "もんく",
                     "meaning": {
-                        "id": "keluhan; kata-kata",
-                        "en": "complaint; words"
-                    },
-                    "example": {
-                        "sentence": "文句があるなら、理由を説明してください。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Jika ada keluhan, jelaskan alasannya。",
-                            "en": "Jika ada keluhan, jelaskan alasannya。"
-                        }
+                        "id": "keluhan/kata-kata",
+                        "en": "keluhan/kata-kata"
                     }
                 },
                 {
                     "word": "文部科学省",
                     "reading": "もんぶかがくしょう",
                     "meaning": {
-                        "id": "Kementerian Pendidikan, Kebudayaan, Olahraga, Sains dan Teknologi Jepang",
-                        "en": "MEXT"
-                    },
-                    "example": {
-                        "sentence": "文部科学省の資料を読んだ。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya membaca dokumen dari MEXT。",
-                            "en": "Saya membaca dokumen dari MEXT。"
-                        }
+                        "id": "Kementerian Pendidikan, Kebudayaan, Olahraga, Sains dan Teknologi",
+                        "en": "Kementerian Pendidikan, Kebudayaan, Olahraga, Sains dan Teknologi"
                     }
                 },
                 {
                     "word": "注文",
                     "reading": "ちゅうもん",
                     "meaning": {
-                        "id": "pesanan; memesan",
-                        "en": "order"
-                    },
-                    "example": {
-                        "sentence": "店員に料理を注文した。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya memesan makanan kepada pelayan。",
-                            "en": "Saya memesan makanan kepada pelayan。"
-                        }
+                        "id": "pesanan",
+                        "en": "pesanan"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "文句があるなら、理由を説明してください。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Jika ada keluhan, jelaskan alasannya。",
-                        "en": "Jika ada keluhan, jelaskan alasannya。"
-                    }
-                },
-                {
-                    "sentence": "文部科学省の資料を読んだ。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya membaca dokumen dari MEXT。",
-                        "en": "Saya membaca dokumen dari MEXT。"
-                    }
-                },
-                {
-                    "sentence": "店員に料理を注文した。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya memesan makanan kepada pelayan。",
-                        "en": "Saya memesan makanan kepada pelayan。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-013",
+            "id": "week4-day2-014",
             "character": "都",
             "meaning": {
-                "id": "ibu kota; kota; keadaan yang cocok",
-                "en": "capital; metropolis; convenience"
+                "id": "ibu kota; metropolitan",
+                "en": "ibu kota; metropolitan"
             },
             "onyomi": [
                 {
-                    "text": "ツ",
-                    "reading": "ツ"
-                },
-                {
                     "text": "ト",
                     "reading": "ト"
+                },
+                {
+                    "text": "ツ",
+                    "reading": "ツ"
                 }
             ],
             "kunyomi": [
@@ -960,32 +765,24 @@ const minggu4Hari2 = {
                 }
             ],
             "usage": {
-                "id": "都 dalam materi ini dibaca ツ pada 都合 dan 都度.\nContoh kalimat:\n都合が悪ければ、別の日にしましょう。 — Jika waktunya tidak cocok, mari pilih hari lain。\n変更がある都度、連絡してください。 — Hubungi saya setiap kali ada perubahan。",
-                "en": "This character appears in 都合、都度. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "都合 dan 都度 memakai bacaan ツ.",
+                "en": "都合 dan 都度 memakai bacaan ツ."
             },
             "nuance": {
-                "id": "都合 berarti keadaan atau kecocokan, sedangkan 都度 berarti setiap kali; keduanya tidak boleh tertukar hanya karena bentuk awalnya sama.",
-                "en": "The reading and nuance of 都 depend on the complete expression. In this lesson, pay particular attention to 都合、都度; do not assume that one reading or meaning applies in every compound."
+                "id": "都度 berarti setiap kali; 都合 berarti keadaan atau kecocokan. Bacaan ツ diingat melalui kedua kata ini.",
+                "en": "都度 berarti setiap kali; 都合 berarti keadaan atau kecocokan. Bacaan ツ diingat melalui kedua kata ini."
             },
             "philosophy": {
-                "id": "Kaitkan 都度 dengan tindakan yang dilakukan “setiap kali”, dan 都合 dengan keadaan yang cocok atau tidak.",
-                "en": "Use 都 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Ingat bahwa satu unsur kanji dapat hidup dalam ungkapan yang maknanya sudah berkembang. Pelajari 都合 dan 都度 sebagai kosakata utuh.",
+                "en": "Ingat bahwa satu unsur kanji dapat hidup dalam ungkapan yang maknanya sudah berkembang. Pelajari 都合 dan 都度 sebagai kosakata utuh."
             },
             "vocabulary": [
                 {
                     "word": "都合",
                     "reading": "つごう",
                     "meaning": {
-                        "id": "keadaan; kenyamanan; kesesuaian",
-                        "en": "convenience"
-                    },
-                    "example": {
-                        "sentence": "都合が悪ければ、別の日にしましょう。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Jika waktunya tidak cocok, mari pilih hari lain。",
-                            "en": "Jika waktunya tidak cocok, mari pilih hari lain。"
-                        }
+                        "id": "keadaan/kenyamanan",
+                        "en": "keadaan/kenyamanan"
                     }
                 },
                 {
@@ -993,53 +790,27 @@ const minggu4Hari2 = {
                     "reading": "つど",
                     "meaning": {
                         "id": "setiap kali",
-                        "en": "each time"
-                    },
-                    "example": {
-                        "sentence": "変更がある都度、連絡してください。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Hubungi saya setiap kali ada perubahan。",
-                            "en": "Hubungi saya setiap kali ada perubahan。"
-                        }
+                        "en": "setiap kali"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "都合が悪ければ、別の日にしましょう。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Jika waktunya tidak cocok, mari pilih hari lain。",
-                        "en": "Jika waktunya tidak cocok, mari pilih hari lain。"
-                    }
-                },
-                {
-                    "sentence": "変更がある都度、連絡してください。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Hubungi saya setiap kali ada perubahan。",
-                        "en": "Hubungi saya setiap kali ada perubahan。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-014",
+            "id": "week4-day2-015",
             "character": "行",
             "meaning": {
-                "id": "pergi; melakukan; baris",
-                "en": "go; conduct; row"
+                "id": "pergi; baris; tindakan",
+                "en": "pergi; baris; tindakan"
             },
             "onyomi": [
                 {
-                    "text": "ギョウ",
-                    "reading": "ギョウ"
-                },
-                {
                     "text": "コウ",
                     "reading": "コウ"
+                },
+                {
+                    "text": "ギョウ",
+                    "reading": "ギョウ"
                 },
                 {
                     "text": "アン",
@@ -1048,61 +819,41 @@ const minggu4Hari2 = {
             ],
             "kunyomi": [
                 {
-                    "text": "い.く",
+                    "text": "い(く)",
                     "reading": "いく"
                 },
                 {
-                    "text": "おこな.う",
+                    "text": "おこな(う)",
                     "reading": "おこなう"
-                },
-                {
-                    "text": "ゆ.く",
-                    "reading": "ゆく"
                 }
             ],
             "usage": {
-                "id": "行 memiliki banyak bacaan. Set sumber menekankan ギョウ dalam 行事・行列・行政.\nContoh kalimat:\n学校の行事に参加した。 — Saya mengikuti acara sekolah。\n店の前に長い行列ができていた。 — Antrean panjang terbentuk di depan toko。\n行政の仕組みを学ぶ。 — Mempelajari sistem administrasi pemerintahan。",
-                "en": "This character appears in 行事、行列、行政. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "Kata 行事・行列・行政 menggunakan bacaan ギョウ.",
+                "en": "Kata 行事・行列・行政 menggunakan bacaan ギョウ."
             },
             "nuance": {
-                "id": "Bacaan 行 berubah sesuai kata; bacaan kun いく dan おこなう juga sangat umum. Hafalkan bacaan gabungan sesuai kosakata.",
-                "en": "The reading and nuance of 行 depend on the complete expression. In this lesson, pay particular attention to 行事、行列、行政; do not assume that one reading or meaning applies in every compound."
+                "id": "Bacaan ギョウ muncul dalam kata formal terkait kegiatan, barisan, dan administrasi.",
+                "en": "Bacaan ギョウ muncul dalam kata formal terkait kegiatan, barisan, dan administrasi."
             },
             "philosophy": {
-                "id": "Pisahkan makna “pergi” (行く) dari “melaksanakan” (行う) dan istilah formal seperti 行政.",
-                "en": "Use 行 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Bayangkan 行 sebagai gerak atau pelaksanaan. Kegiatan, barisan, dan administrasi sama-sama melibatkan sesuatu yang dijalankan.",
+                "en": "Bayangkan 行 sebagai gerak atau pelaksanaan. Kegiatan, barisan, dan administrasi sama-sama melibatkan sesuatu yang dijalankan."
             },
             "vocabulary": [
                 {
                     "word": "行事",
                     "reading": "ぎょうじ",
                     "meaning": {
-                        "id": "acara; kegiatan",
-                        "en": "event"
-                    },
-                    "example": {
-                        "sentence": "学校の行事に参加した。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya mengikuti acara sekolah。",
-                            "en": "Saya mengikuti acara sekolah。"
-                        }
+                        "id": "acara/kegiatan",
+                        "en": "acara/kegiatan"
                     }
                 },
                 {
                     "word": "行列",
                     "reading": "ぎょうれつ",
                     "meaning": {
-                        "id": "antrean; barisan",
-                        "en": "queue; line"
-                    },
-                    "example": {
-                        "sentence": "店の前に長い行列ができていた。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Antrean panjang terbentuk di depan toko。",
-                            "en": "Antrean panjang terbentuk di depan toko。"
-                        }
+                        "id": "antrean/barisan",
+                        "en": "antrean/barisan"
                     }
                 },
                 {
@@ -1110,61 +861,27 @@ const minggu4Hari2 = {
                     "reading": "ぎょうせい",
                     "meaning": {
                         "id": "administrasi pemerintahan",
-                        "en": "administration"
-                    },
-                    "example": {
-                        "sentence": "行政の仕組みを学ぶ。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Mempelajari sistem administrasi pemerintahan。",
-                            "en": "Mempelajari sistem administrasi pemerintahan。"
-                        }
+                        "en": "administrasi pemerintahan"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "学校の行事に参加した。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya mengikuti acara sekolah。",
-                        "en": "Saya mengikuti acara sekolah。"
-                    }
-                },
-                {
-                    "sentence": "店の前に長い行列ができていた。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Antrean panjang terbentuk di depan toko。",
-                        "en": "Antrean panjang terbentuk di depan toko。"
-                    }
-                },
-                {
-                    "sentence": "行政の仕組みを学ぶ。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Mempelajari sistem administrasi pemerintahan。",
-                        "en": "Mempelajari sistem administrasi pemerintahan。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-015",
+            "id": "week4-day2-016",
             "character": "体",
             "meaning": {
-                "id": "tubuh; bentuk; keadaan",
-                "en": "body; form; condition"
+                "id": "tubuh; bentuk",
+                "en": "tubuh; bentuk"
             },
             "onyomi": [
                 {
-                    "text": "テイ",
-                    "reading": "テイ"
-                },
-                {
                     "text": "タイ",
                     "reading": "タイ"
+                },
+                {
+                    "text": "テイ",
+                    "reading": "テイ"
                 }
             ],
             "kunyomi": [
@@ -1174,125 +891,83 @@ const minggu4Hari2 = {
                 }
             ],
             "usage": {
-                "id": "体 berarti tubuh atau bentuk; bacaan テイ muncul pada 世間体 dan 体裁.\nContoh kalimat:\n世間体を気にして本音を隠した。 — Ia menyembunyikan perasaan sebenarnya karena memikirkan pandangan masyarakat。\n報告書の体裁を整えた。 — Saya merapikan format laporan。",
-                "en": "This character appears in 世間体、体裁. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "体 dibaca テイ pada 世間体 dan 体裁.",
+                "en": "体 dibaca テイ pada 世間体 dan 体裁."
             },
             "nuance": {
-                "id": "世間体 menunjuk penilaian sosial, sedangkan 体裁 menunjuk bentuk atau tampilan luar.",
-                "en": "The reading and nuance of 体 depend on the complete expression. In this lesson, pay particular attention to 世間体、体裁; do not assume that one reading or meaning applies in every compound."
+                "id": "Dalam kata-kata ini, 体 tidak berarti tubuh secara harfiah, melainkan tampilan atau kesan yang terlihat.",
+                "en": "Dalam kata-kata ini, 体 tidak berarti tubuh secara harfiah, melainkan tampilan atau kesan yang terlihat."
             },
             "philosophy": {
-                "id": "Ingat bahwa “tubuh/bentuk” dapat berkembang menjadi “penampilan yang terlihat oleh orang lain”.",
-                "en": "Use 体 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Hubungkan 体 dengan bentuk yang tampak dari luar. 世間体 dan 体裁 sama-sama menyangkut bagaimana sesuatu terlihat.",
+                "en": "Hubungkan 体 dengan bentuk yang tampak dari luar. 世間体 dan 体裁 sama-sama menyangkut bagaimana sesuatu terlihat."
             },
             "vocabulary": [
                 {
                     "word": "世間体",
                     "reading": "せけんてい",
                     "meaning": {
-                        "id": "pandangan atau reputasi sosial",
-                        "en": "social appearance"
-                    },
-                    "example": {
-                        "sentence": "世間体を気にして本音を隠した。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Ia menyembunyikan perasaan sebenarnya karena memikirkan pandangan masyarakat。",
-                            "en": "Ia menyembunyikan perasaan sebenarnya karena memikirkan pandangan masyarakat。"
-                        }
+                        "id": "pandangan/reputasi di mata masyarakat",
+                        "en": "pandangan/reputasi di mata masyarakat"
                     }
                 },
                 {
                     "word": "体裁",
                     "reading": "ていさい",
                     "meaning": {
-                        "id": "bentuk luar; penampilan; susunan",
-                        "en": "appearance; format"
-                    },
-                    "example": {
-                        "sentence": "報告書の体裁を整えた。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya merapikan format laporan。",
-                            "en": "Saya merapikan format laporan。"
-                        }
+                        "id": "penampilan luar; format",
+                        "en": "penampilan luar; format"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "世間体を気にして本音を隠した。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Ia menyembunyikan perasaan sebenarnya karena memikirkan pandangan masyarakat。",
-                        "en": "Ia menyembunyikan perasaan sebenarnya karena memikirkan pandangan masyarakat。"
-                    }
-                },
-                {
-                    "sentence": "報告書の体裁を整えた。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya merapikan format laporan。",
-                        "en": "Saya merapikan format laporan。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-016",
+            "id": "week4-day2-017",
             "character": "発",
             "meaning": {
-                "id": "berangkat; memancarkan; memulai",
-                "en": "depart; emit; start"
+                "id": "berangkat; mengeluarkan",
+                "en": "berangkat; mengeluarkan"
             },
             "onyomi": [
                 {
-                    "text": "ホッ",
-                    "reading": "ホッ"
-                },
-                {
                     "text": "ハツ",
                     "reading": "ハツ"
+                },
+                {
+                    "text": "ホツ",
+                    "reading": "ホツ"
+                },
+                {
+                    "text": "ホッ",
+                    "reading": "ホッ"
                 }
             ],
             "kunyomi": [
                 {
-                    "text": "た.つ",
+                    "text": "た(つ)",
                     "reading": "たつ"
-                },
-                {
-                    "text": "はな.つ",
-                    "reading": "はなつ"
                 }
             ],
             "usage": {
-                "id": "発 dalam materi memakai bacaan ホッ pada 発作・発足・発起.\nContoh kalimat:\n突然、せきの発作が起きた。 — Tiba-tiba terjadi serangan batuk。\n新しい委員会が先月発足した。 — Komite baru mulai beroperasi bulan lalu。\n友人が会の発起人になった。 — Teman saya menjadi penggagas acara。",
-                "en": "This character appears in 発作、発足、発起. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "Kosakata pada sumber memakai bacaan ホッ untuk 発作・発足・発起.",
+                "en": "Kosakata pada sumber memakai bacaan ホッ untuk 発作・発足・発起."
             },
             "nuance": {
-                "id": "Perubahan bunyi ハツ menjadi ホッ muncul pada gabungan tertentu. Jangan menerapkan satu bacaan untuk semua kosakata 発.",
-                "en": "The reading and nuance of 発 depend on the complete expression. In this lesson, pay particular attention to 発作、発足、発起; do not assume that one reading or meaning applies in every compound."
+                "id": "Bacaan berubah dalam kata-kata tertentu. Hafalkan pola ホッ melalui tiga contoh sumber.",
+                "en": "Bacaan berubah dalam kata-kata tertentu. Hafalkan pola ホッ melalui tiga contoh sumber."
             },
             "philosophy": {
-                "id": "Hafalkan tiga kata sumber sebagai satu kelompok bunyi khusus ホッ.",
-                "en": "Use 発 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Bayangkan sesuatu yang mulai muncul atau bergerak keluar. 発作, 発足, dan 発起 menunjukkan awal atau kemunculan suatu tindakan.",
+                "en": "Bayangkan sesuatu yang mulai muncul atau bergerak keluar. 発作, 発足, dan 発起 menunjukkan awal atau kemunculan suatu tindakan."
             },
             "vocabulary": [
                 {
                     "word": "発作",
                     "reading": "ほっさ",
                     "meaning": {
-                        "id": "serangan mendadak; episode",
-                        "en": "fit; attack"
-                    },
-                    "example": {
-                        "sentence": "突然、せきの発作が起きた。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Tiba-tiba terjadi serangan batuk。",
-                            "en": "Tiba-tiba terjadi serangan batuk。"
-                        }
+                        "id": "serangan/kejang mendadak",
+                        "en": "serangan/kejang mendadak"
                     }
                 },
                 {
@@ -1300,77 +975,35 @@ const minggu4Hari2 = {
                     "reading": "ほっそく",
                     "meaning": {
                         "id": "mulai berdiri/beroperasi",
-                        "en": "inauguration; start"
-                    },
-                    "example": {
-                        "sentence": "新しい委員会が先月発足した。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Komite baru mulai beroperasi bulan lalu。",
-                            "en": "Komite baru mulai beroperasi bulan lalu。"
-                        }
+                        "en": "mulai berdiri/beroperasi"
                     }
                 },
                 {
                     "word": "発起",
                     "reading": "ほっき",
                     "meaning": {
-                        "id": "prakarsa; inisiatif",
-                        "en": "initiative"
-                    },
-                    "example": {
-                        "sentence": "友人が会の発起人になった。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Teman saya menjadi penggagas acara。",
-                            "en": "Teman saya menjadi penggagas acara。"
-                        }
+                        "id": "memprakarsai",
+                        "en": "memprakarsai"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "突然、せきの発作が起きた。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Tiba-tiba terjadi serangan batuk。",
-                        "en": "Tiba-tiba terjadi serangan batuk。"
-                    }
-                },
-                {
-                    "sentence": "新しい委員会が先月発足した。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Komite baru mulai beroperasi bulan lalu。",
-                        "en": "Komite baru mulai beroperasi bulan lalu。"
-                    }
-                },
-                {
-                    "sentence": "友人が会の発起人になった。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Teman saya menjadi penggagas acara。",
-                        "en": "Teman saya menjadi penggagas acara。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-017",
+            "id": "week4-day2-018",
             "character": "元",
             "meaning": {
-                "id": "asal; dasar; awal",
-                "en": "origin; source; beginning"
+                "id": "asal; dasar",
+                "en": "asal; dasar"
             },
             "onyomi": [
                 {
-                    "text": "ガン",
-                    "reading": "ガン"
-                },
-                {
                     "text": "ゲン",
                     "reading": "ゲン"
+                },
+                {
+                    "text": "ガン",
+                    "reading": "ガン"
                 }
             ],
             "kunyomi": [
@@ -1380,32 +1013,24 @@ const minggu4Hari2 = {
                 }
             ],
             "usage": {
-                "id": "元 berarti asal atau dasar; bacaan ガン tampak pada 元祖 dan 元日.\nContoh kalimat:\nこの店はラーメンの元祖として知られている。 — Toko ini dikenal sebagai pelopor ramen。\n元日は家族と過ごした。 — Saya menghabiskan Hari Tahun Baru bersama keluarga。",
-                "en": "This character appears in 元祖、元日. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "元祖 dan 元日 memakai bacaan ガン.",
+                "en": "元祖 dan 元日 memakai bacaan ガン."
             },
             "nuance": {
-                "id": "Bacaan ガン pada dua kosakata ini perlu diingat sebagai bacaan khusus; kata 元（もと）sendiri lazim dibaca もと.",
-                "en": "The reading and nuance of 元 depend on the complete expression. In this lesson, pay particular attention to 元祖、元日; do not assume that one reading or meaning applies in every compound."
+                "id": "元祖 menunjuk asal-usul suatu aliran atau produk; 元日 adalah hari pertama tahun.",
+                "en": "元祖 menunjuk asal-usul suatu aliran atau produk; 元日 adalah hari pertama tahun."
             },
             "philosophy": {
-                "id": "Hubungkan 元 dengan titik awal: pendiri pertama dan hari pertama tahun baru.",
-                "en": "Use 元 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Hubungkan 元 dengan titik mula. Dari titik asal, kita memahami pendiri pertama dan awal tahun.",
+                "en": "Hubungkan 元 dengan titik mula. Dari titik asal, kita memahami pendiri pertama dan awal tahun."
             },
             "vocabulary": [
                 {
                     "word": "元祖",
                     "reading": "がんそ",
                     "meaning": {
-                        "id": "pencetus; pendiri pertama",
-                        "en": "founder; originator"
-                    },
-                    "example": {
-                        "sentence": "この店はラーメンの元祖として知られている。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Toko ini dikenal sebagai pelopor ramen。",
-                            "en": "Toko ini dikenal sebagai pelopor ramen。"
-                        }
+                        "id": "pendiri/asli pertama",
+                        "en": "pendiri/asli pertama"
                     }
                 },
                 {
@@ -1413,100 +1038,62 @@ const minggu4Hari2 = {
                     "reading": "がんじつ",
                     "meaning": {
                         "id": "hari pertama tahun baru",
-                        "en": "New Year’s Day"
-                    },
-                    "example": {
-                        "sentence": "元日は家族と過ごした。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya menghabiskan Hari Tahun Baru bersama keluarga。",
-                            "en": "Saya menghabiskan Hari Tahun Baru bersama keluarga。"
-                        }
+                        "en": "hari pertama tahun baru"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "この店はラーメンの元祖として知られている。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Toko ini dikenal sebagai pelopor ramen。",
-                        "en": "Toko ini dikenal sebagai pelopor ramen。"
-                    }
-                },
-                {
-                    "sentence": "元日は家族と過ごした。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya menghabiskan Hari Tahun Baru bersama keluarga。",
-                        "en": "Saya menghabiskan Hari Tahun Baru bersama keluarga。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-018",
+            "id": "week4-day2-019",
             "character": "生",
             "meaning": {
-                "id": "hidup; lahir; tumbuh; mentah",
-                "en": "life; birth; grow; raw"
+                "id": "hidup; lahir; tumbuh",
+                "en": "hidup; lahir; tumbuh"
             },
             "onyomi": [
                 {
-                    "text": "ショウ",
-                    "reading": "ショウ"
-                },
-                {
                     "text": "セイ",
                     "reading": "セイ"
+                },
+                {
+                    "text": "ショウ",
+                    "reading": "ショウ"
                 }
             ],
             "kunyomi": [
                 {
-                    "text": "い.きる",
+                    "text": "い(きる)",
                     "reading": "いきる"
                 },
                 {
-                    "text": "う.まれる",
+                    "text": "う(まれる)",
                     "reading": "うまれる"
                 },
                 {
                     "text": "なま",
                     "reading": "なま"
-                },
-                {
-                    "text": "は.える",
-                    "reading": "はえる"
                 }
             ],
             "usage": {
-                "id": "生 memiliki banyak bacaan dan makna. Sumber menekankan ショウ pada 生じる・一生懸命・生涯.\nContoh kalimat:\n小さな誤解から問題が生じた。 — Masalah timbul dari kesalahpahaman kecil。\n彼女は一生懸命に勉強している。 — Ia belajar dengan sungguh-sungguh。\n生涯を通じて研究を続けた。 — Ia terus meneliti sepanjang hidupnya。",
-                "en": "This character appears in 生じる、一生懸命、生涯. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "Sumber menampilkan bacaan ショウ pada 生じる・一生懸命・生涯.",
+                "en": "Sumber menampilkan bacaan ショウ pada 生じる・一生懸命・生涯."
             },
             "nuance": {
-                "id": "生 dapat berarti hidup, lahir, tumbuh, atau mentah. Bacaan berubah besar menurut kosakata; pelajari kata utuh, bukan satu bacaan tunggal.",
-                "en": "The reading and nuance of 生 depend on the complete expression. In this lesson, pay particular attention to 生じる、一生懸命、生涯; do not assume that one reading or meaning applies in every compound."
+                "id": "生 memiliki banyak bacaan; fokus halaman ini adalah bunyi ショウ pada kata-kata yang tercantum.",
+                "en": "生 memiliki banyak bacaan; fokus halaman ini adalah bunyi ショウ pada kata-kata yang tercantum."
             },
             "philosophy": {
-                "id": "Kelompokkan bacaan 生 berdasarkan kata: しょう (生涯), せい (生命), いきる, うまれる, なま. Ini membantu mencegah generalisasi.",
-                "en": "Use 生 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Bayangkan kehidupan sebagai rentang dari munculnya sesuatu hingga seluruh perjalanan hidup. Kata-kata sumber memperlihatkan beberapa sisi dari gagasan itu.",
+                "en": "Bayangkan kehidupan sebagai rentang dari munculnya sesuatu hingga seluruh perjalanan hidup. Kata-kata sumber memperlihatkan beberapa sisi dari gagasan itu."
             },
             "vocabulary": [
                 {
                     "word": "生じる",
                     "reading": "しょうじる",
                     "meaning": {
-                        "id": "terjadi; timbul",
-                        "en": "occur"
-                    },
-                    "example": {
-                        "sentence": "小さな誤解から問題が生じた。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Masalah timbul dari kesalahpahaman kecil。",
-                            "en": "Masalah timbul dari kesalahpahaman kecil。"
-                        }
+                        "id": "timbul/terjadi",
+                        "en": "timbul/terjadi"
                     }
                 },
                 {
@@ -1514,77 +1101,35 @@ const minggu4Hari2 = {
                     "reading": "いっしょうけんめい",
                     "meaning": {
                         "id": "dengan sungguh-sungguh",
-                        "en": "with all one’s effort"
-                    },
-                    "example": {
-                        "sentence": "彼女は一生懸命に勉強している。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Ia belajar dengan sungguh-sungguh。",
-                            "en": "Ia belajar dengan sungguh-sungguh。"
-                        }
+                        "en": "dengan sungguh-sungguh"
                     }
                 },
                 {
                     "word": "生涯",
                     "reading": "しょうがい",
                     "meaning": {
-                        "id": "seumur hidup; sepanjang hayat",
-                        "en": "one’s lifetime"
-                    },
-                    "example": {
-                        "sentence": "生涯を通じて研究を続けた。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Ia terus meneliti sepanjang hidupnya。",
-                            "en": "Ia terus meneliti sepanjang hidupnya。"
-                        }
+                        "id": "seumur hidup",
+                        "en": "seumur hidup"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "小さな誤解から問題が生じた。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Masalah timbul dari kesalahpahaman kecil。",
-                        "en": "Masalah timbul dari kesalahpahaman kecil。"
-                    }
-                },
-                {
-                    "sentence": "彼女は一生懸命に勉強している。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Ia belajar dengan sungguh-sungguh。",
-                        "en": "Ia belajar dengan sungguh-sungguh。"
-                    }
-                },
-                {
-                    "sentence": "生涯を通じて研究を続けた。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Ia terus meneliti sepanjang hidupnya。",
-                        "en": "Ia terus meneliti sepanjang hidupnya。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-019",
+            "id": "week4-day2-020",
             "character": "名",
             "meaning": {
-                "id": "nama; reputasi",
-                "en": "name; reputation"
+                "id": "nama; terkenal",
+                "en": "nama; terkenal"
             },
             "onyomi": [
                 {
-                    "text": "ミョウ",
-                    "reading": "ミョウ"
-                },
-                {
                     "text": "メイ",
                     "reading": "メイ"
+                },
+                {
+                    "text": "ミョウ",
+                    "reading": "ミョウ"
                 }
             ],
             "kunyomi": [
@@ -1594,16 +1139,16 @@ const minggu4Hari2 = {
                 }
             ],
             "usage": {
-                "id": "名 berarti nama; sumber menyoroti bacaan ミョウ pada 本名・名字.\nContoh kalimat:\n彼の本名は別にある。 — Nama aslinya berbeda.\n申込書に名字を書いてください。 — Tuliskan nama keluarga pada formulir pendaftaran。",
-                "en": "This character appears in 本名、名字. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "本名 dan 名字 memakai bacaan ミョウ pada 名.",
+                "en": "本名 dan 名字 memakai bacaan ミョウ pada 名."
             },
             "nuance": {
-                "id": "本名 dibaca ほんみょう, sementara 名字 dibaca みょうじ. Keduanya perlu dihafal karena ミョウ bukan bacaan yang langsung ditebak.",
-                "en": "The reading and nuance of 名 depend on the complete expression. In this lesson, pay particular attention to 本名、名字; do not assume that one reading or meaning applies in every compound."
+                "id": "本名 berarti nama asli, sedangkan 名字 berarti nama keluarga. Hafalkan bacaan ミョウ melalui kedua contoh.",
+                "en": "本名 berarti nama asli, sedangkan 名字 berarti nama keluarga. Hafalkan bacaan ミョウ melalui kedua contoh."
             },
             "philosophy": {
-                "id": "Gunakan kata “nama” sebagai jangkar, lalu ingat pasangan 本名 dan 名字.",
-                "en": "Use 名 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Nama menghubungkan seseorang dengan identitasnya. Kedua kata ini menunjukkan nama pribadi dan nama keluarga.",
+                "en": "Nama menghubungkan seseorang dengan identitasnya. Kedua kata ini menunjukkan nama pribadi dan nama keluarga."
             },
             "vocabulary": [
                 {
@@ -1611,15 +1156,7 @@ const minggu4Hari2 = {
                     "reading": "ほんみょう",
                     "meaning": {
                         "id": "nama asli",
-                        "en": "real name"
-                    },
-                    "example": {
-                        "sentence": "彼の本名は別にある。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Nama aslinya berbeda.",
-                            "en": "Nama aslinya berbeda."
-                        }
+                        "en": "nama asli"
                     }
                 },
                 {
@@ -1627,92 +1164,54 @@ const minggu4Hari2 = {
                     "reading": "みょうじ",
                     "meaning": {
                         "id": "nama keluarga",
-                        "en": "family name"
-                    },
-                    "example": {
-                        "sentence": "申込書に名字を書いてください。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Tuliskan nama keluarga pada formulir pendaftaran。",
-                            "en": "Tuliskan nama keluarga pada formulir pendaftaran。"
-                        }
+                        "en": "nama keluarga"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "彼の本名は別にある。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Nama aslinya berbeda.",
-                        "en": "Nama aslinya berbeda."
-                    }
-                },
-                {
-                    "sentence": "申込書に名字を書いてください。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Tuliskan nama keluarga pada formulir pendaftaran。",
-                        "en": "Tuliskan nama keluarga pada formulir pendaftaran。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-020",
+            "id": "week4-day2-021",
             "character": "黄",
             "meaning": {
                 "id": "kuning",
-                "en": "yellow"
+                "en": "kuning"
             },
             "onyomi": [
                 {
-                    "text": "オウ",
-                    "reading": "オウ"
-                },
-                {
                     "text": "コウ",
                     "reading": "コウ"
+                },
+                {
+                    "text": "オウ",
+                    "reading": "オウ"
                 }
             ],
             "kunyomi": [
                 {
                     "text": "き",
                     "reading": "き"
-                },
-                {
-                    "text": "こ",
-                    "reading": "こ"
                 }
             ],
             "usage": {
-                "id": "黄 berarti kuning; bacaan オウ muncul pada 黄金 dan 緑黄色野菜.\nContoh kalimat:\n夕日が海を黄金色に染めた。 — Matahari terbenam mewarnai laut menjadi keemasan。\n緑黄色野菜を毎日の食事に取り入れる。 — Masukkan sayuran hijau-kuning ke dalam menu harian。",
-                "en": "This character appears in 黄金、緑黄色野菜. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "黄金 memakai bacaan オウ pada 黄.",
+                "en": "黄金 memakai bacaan オウ pada 黄."
             },
             "nuance": {
-                "id": "黄金 tidak dibaca おうきん, melainkan おうごん. Kosakata ini memiliki bentuk bunyi yang harus dihafalkan utuh.",
-                "en": "The reading and nuance of 黄 depend on the complete expression. In this lesson, pay particular attention to 黄金、緑黄色野菜; do not assume that one reading or meaning applies in every compound."
+                "id": "Dalam 黄金, 黄 menjadi unsur kata yang merujuk warna emas; jangan memaksakan bacaan umum き.",
+                "en": "Dalam 黄金, 黄 menjadi unsur kata yang merujuk warna emas; jangan memaksakan bacaan umum き."
             },
             "philosophy": {
-                "id": "Ingat warna kuning keemasan pada 黄金 lalu perluas ke nama kelompok sayuran.",
-                "en": "Use 黄 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Bayangkan warna kuning keemasan. Dari warna ini, mudah mengingat 黄金 sebagai emas.",
+                "en": "Bayangkan warna kuning keemasan. Dari warna ini, mudah mengingat 黄金 sebagai emas."
             },
             "vocabulary": [
                 {
                     "word": "黄金",
                     "reading": "おうごん",
                     "meaning": {
-                        "id": "emas; keemasan",
-                        "en": "gold"
-                    },
-                    "example": {
-                        "sentence": "夕日が海を黄金色に染めた。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Matahari terbenam mewarnai laut menjadi keemasan。",
-                            "en": "Matahari terbenam mewarnai laut menjadi keemasan。"
-                        }
+                        "id": "emas",
+                        "en": "emas"
                     }
                 },
                 {
@@ -1720,63 +1219,37 @@ const minggu4Hari2 = {
                     "reading": "りょくおうしょくやさい",
                     "meaning": {
                         "id": "sayuran hijau-kuning",
-                        "en": "green and yellow vegetables"
-                    },
-                    "example": {
-                        "sentence": "緑黄色野菜を毎日の食事に取り入れる。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Masukkan sayuran hijau-kuning ke dalam menu harian。",
-                            "en": "Masukkan sayuran hijau-kuning ke dalam menu harian。"
-                        }
+                        "en": "sayuran hijau-kuning"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "夕日が海を黄金色に染めた。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Matahari terbenam mewarnai laut menjadi keemasan。",
-                        "en": "Matahari terbenam mewarnai laut menjadi keemasan。"
-                    }
-                },
-                {
-                    "sentence": "緑黄色野菜を毎日の食事に取り入れる。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Masukkan sayuran hijau-kuning ke dalam menu harian。",
-                        "en": "Masukkan sayuran hijau-kuning ke dalam menu harian。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-021",
+            "id": "week4-day2-022",
             "character": "後",
             "meaning": {
-                "id": "belakang; setelah; kemudian",
-                "en": "behind; after; later"
+                "id": "belakang; setelah",
+                "en": "belakang; setelah"
             },
             "onyomi": [
                 {
-                    "text": "コウ",
-                    "reading": "コウ"
-                },
-                {
                     "text": "ゴ",
                     "reading": "ゴ"
+                },
+                {
+                    "text": "コウ",
+                    "reading": "コウ"
                 }
             ],
             "kunyomi": [
                 {
-                    "text": "うし.ろ",
-                    "reading": "うしろ"
-                },
-                {
                     "text": "あと",
                     "reading": "あと"
+                },
+                {
+                    "text": "うし(ろ)",
+                    "reading": "うしろ"
                 },
                 {
                     "text": "のち",
@@ -1784,32 +1257,24 @@ const minggu4Hari2 = {
                 }
             ],
             "usage": {
-                "id": "後 menunjukkan posisi belakang atau waktu setelah sesuatu. Materi menonjolkan bacaan コウ.\nContoh kalimat:\n試合の後半に得点が入った。 — Gol tercipta pada paruh kedua pertandingan。\n前者より後者のほうが適切だ。 — Yang disebut belakangan lebih tepat daripada yang pertama。\n後方の席に座った。 — Saya duduk di kursi bagian belakang。",
-                "en": "This character appears in 後半、後者、後方. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "Kata formal pada sumber memakai bacaan コウ.",
+                "en": "Kata formal pada sumber memakai bacaan コウ."
             },
             "nuance": {
-                "id": "後半・後者・後方 memakai コウ. Dalam kata asli Jepang, 後ろ・後で・後ほど memiliki bacaan berbeda.",
-                "en": "The reading and nuance of 後 depend on the complete expression. In this lesson, pay particular attention to 後半、後者、後方; do not assume that one reading or meaning applies in every compound."
+                "id": "後 dapat menunjuk waktu sesudah atau posisi belakang. Dalam kata majemuk formal, bacaan コウ sering muncul.",
+                "en": "後 dapat menunjuk waktu sesudah atau posisi belakang. Dalam kata majemuk formal, bacaan コウ sering muncul."
             },
             "philosophy": {
-                "id": "Bayangkan garis waktu atau ruang: 後 adalah sisi yang datang setelah atau berada di belakang.",
-                "en": "Use 後 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Hubungkan 後 dengan urutan: sesuatu datang setelah yang lain, atau berada di bagian belakang.",
+                "en": "Hubungkan 後 dengan urutan: sesuatu datang setelah yang lain, atau berada di bagian belakang."
             },
             "vocabulary": [
                 {
                     "word": "後半",
                     "reading": "こうはん",
                     "meaning": {
-                        "id": "paruh kedua",
-                        "en": "latter half"
-                    },
-                    "example": {
-                        "sentence": "試合の後半に得点が入った。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Gol tercipta pada paruh kedua pertandingan。",
-                            "en": "Gol tercipta pada paruh kedua pertandingan。"
-                        }
+                        "id": "paruh akhir",
+                        "en": "paruh akhir"
                     }
                 },
                 {
@@ -1817,15 +1282,7 @@ const minggu4Hari2 = {
                     "reading": "こうしゃ",
                     "meaning": {
                         "id": "yang disebut belakangan",
-                        "en": "the latter"
-                    },
-                    "example": {
-                        "sentence": "前者より後者のほうが適切だ。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Yang disebut belakangan lebih tepat daripada yang pertama。",
-                            "en": "Yang disebut belakangan lebih tepat daripada yang pertama。"
-                        }
+                        "en": "yang disebut belakangan"
                     }
                 },
                 {
@@ -1833,52 +1290,18 @@ const minggu4Hari2 = {
                     "reading": "こうほう",
                     "meaning": {
                         "id": "bagian belakang",
-                        "en": "rear; behind"
-                    },
-                    "example": {
-                        "sentence": "後方の席に座った。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya duduk di kursi bagian belakang。",
-                            "en": "Saya duduk di kursi bagian belakang。"
-                        }
+                        "en": "bagian belakang"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "試合の後半に得点が入った。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Gol tercipta pada paruh kedua pertandingan。",
-                        "en": "Gol tercipta pada paruh kedua pertandingan。"
-                    }
-                },
-                {
-                    "sentence": "前者より後者のほうが適切だ。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Yang disebut belakangan lebih tepat daripada yang pertama。",
-                        "en": "Yang disebut belakangan lebih tepat daripada yang pertama。"
-                    }
-                },
-                {
-                    "sentence": "後方の席に座った。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya duduk di kursi bagian belakang。",
-                        "en": "Saya duduk di kursi bagian belakang。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-022",
+            "id": "week4-day2-023",
             "character": "雨",
             "meaning": {
                 "id": "hujan",
-                "en": "rain"
+                "en": "hujan"
             },
             "onyomi": [
                 {
@@ -1897,16 +1320,16 @@ const minggu4Hari2 = {
                 }
             ],
             "usage": {
-                "id": "雨 memiliki bacaan kun あめ／あま dan bacaan on ウ pada 雨天・雨季.\nContoh kalimat:\n雨天の場合は体育館で行います。 — Jika hujan, acara dilaksanakan di gedung olahraga。\n雨季には道路が混雑しやすい。 — Pada musim hujan, jalan cenderung macet。",
-                "en": "This character appears in 雨天、雨季. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "雨天 dan 雨季 memakai bacaan ウ.",
+                "en": "雨天 dan 雨季 memakai bacaan ウ."
             },
             "nuance": {
-                "id": "雨天 adalah istilah formal untuk kondisi cuaca hujan; jangan dibaca あめてん.",
-                "en": "The reading and nuance of 雨 depend on the complete expression. In this lesson, pay particular attention to 雨天、雨季; do not assume that one reading or meaning applies in every compound."
+                "id": "Bacaan ウ muncul dalam gabungan formal; bentuk mandiri 雨 dibaca あめ.",
+                "en": "Bacaan ウ muncul dalam gabungan formal; bentuk mandiri 雨 dibaca あめ."
             },
             "philosophy": {
-                "id": "Hubungkan bentuk kanji dengan hujan, lalu bedakan ungkapan sehari-hari dan istilah formal.",
-                "en": "Use 雨 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Bayangkan hujan sebagai keadaan cuaca. Kosakata sumber menghubungkannya dengan cuaca dan musim.",
+                "en": "Bayangkan hujan sebagai keadaan cuaca. Kosakata sumber menghubungkannya dengan cuaca dan musim."
             },
             "vocabulary": [
                 {
@@ -1914,15 +1337,7 @@ const minggu4Hari2 = {
                     "reading": "うてん",
                     "meaning": {
                         "id": "cuaca hujan",
-                        "en": "rainy weather"
-                    },
-                    "example": {
-                        "sentence": "雨天の場合は体育館で行います。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Jika hujan, acara dilaksanakan di gedung olahraga。",
-                            "en": "Jika hujan, acara dilaksanakan di gedung olahraga。"
-                        }
+                        "en": "cuaca hujan"
                     }
                 },
                 {
@@ -1930,72 +1345,46 @@ const minggu4Hari2 = {
                     "reading": "うき",
                     "meaning": {
                         "id": "musim hujan",
-                        "en": "rainy season"
-                    },
-                    "example": {
-                        "sentence": "雨季には道路が混雑しやすい。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Pada musim hujan, jalan cenderung macet。",
-                            "en": "Pada musim hujan, jalan cenderung macet。"
-                        }
+                        "en": "musim hujan"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "雨天の場合は体育館で行います。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Jika hujan, acara dilaksanakan di gedung olahraga。",
-                        "en": "Jika hujan, acara dilaksanakan di gedung olahraga。"
-                    }
-                },
-                {
-                    "sentence": "雨季には道路が混雑しやすい。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Pada musim hujan, jalan cenderung macet。",
-                        "en": "Pada musim hujan, jalan cenderung macet。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-023",
+            "id": "week4-day2-024",
             "character": "有",
             "meaning": {
                 "id": "ada; memiliki",
-                "en": "exist; have"
+                "en": "ada; memiliki"
             },
             "onyomi": [
                 {
-                    "text": "ウ",
-                    "reading": "ウ"
-                },
-                {
                     "text": "ユウ",
                     "reading": "ユウ"
+                },
+                {
+                    "text": "ウ",
+                    "reading": "ウ"
                 }
             ],
             "kunyomi": [
                 {
-                    "text": "あ.る",
+                    "text": "あ(る)",
                     "reading": "ある"
                 }
             ],
             "usage": {
-                "id": "有 menunjukkan keberadaan atau kepemilikan; dalam materi, bacaan ウ muncul pada 有無・有頂天.\nContoh kalimat:\n参加の有無を確認してください。 — Tolong konfirmasi apakah akan hadir atau tidak。\n合格の知らせを聞いて有頂天になった。 — Ia sangat gembira setelah mendengar kabar kelulusan。\n未曾有の災害に備える必要がある。 — Kita perlu bersiap menghadapi bencana yang belum pernah terjadi sebelumnya。",
-                "en": "This character appears in 有無、有頂天、未曾有. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "Ketiga contoh sumber menampilkan bacaan ウ pada 有.",
+                "en": "Ketiga contoh sumber menampilkan bacaan ウ pada 有."
             },
             "nuance": {
-                "id": "未曾有 dibaca みぞう dan merupakan gabungan dengan bacaan khusus; jangan memaksakan ウ pada semua kata yang mengandung 有.",
-                "en": "The reading and nuance of 有 depend on the complete expression. In this lesson, pay particular attention to 有無、有頂天、未曾有; do not assume that one reading or meaning applies in every compound."
+                "id": "未曾有 adalah kata tetap dengan makna belum pernah terjadi; jangan menyusun bacaan dari aturan umum saja.",
+                "en": "未曾有 adalah kata tetap dengan makna belum pernah terjadi; jangan menyusun bacaan dari aturan umum saja."
             },
             "philosophy": {
-                "id": "Ingat 有無 sebagai “ada/tidak ada”, lalu gunakan itu sebagai dasar untuk memahami istilah yang lebih panjang.",
-                "en": "Use 有 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Hubungkan 有 dengan keberadaan. Kata-kata sumber menguji bacaan khusus yang perlu dikenali sebagai kosakata utuh.",
+                "en": "Hubungkan 有 dengan keberadaan. Kata-kata sumber menguji bacaan khusus yang perlu dikenali sebagai kosakata utuh."
             },
             "vocabulary": [
                 {
@@ -2003,136 +1392,74 @@ const minggu4Hari2 = {
                     "reading": "うむ",
                     "meaning": {
                         "id": "ada atau tidak ada",
-                        "en": "presence or absence"
-                    },
-                    "example": {
-                        "sentence": "参加の有無を確認してください。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Tolong konfirmasi apakah akan hadir atau tidak。",
-                            "en": "Tolong konfirmasi apakah akan hadir atau tidak。"
-                        }
+                        "en": "ada atau tidak ada"
                     }
                 },
                 {
                     "word": "有頂天",
                     "reading": "うちょうてん",
                     "meaning": {
-                        "id": "sangat gembira; lupa diri",
-                        "en": "ecstatic"
-                    },
-                    "example": {
-                        "sentence": "合格の知らせを聞いて有頂天になった。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Ia sangat gembira setelah mendengar kabar kelulusan。",
-                            "en": "Ia sangat gembira setelah mendengar kabar kelulusan。"
-                        }
+                        "id": "sangat gembira/terlena",
+                        "en": "sangat gembira/terlena"
                     }
                 },
                 {
                     "word": "未曾有",
                     "reading": "みぞう",
                     "meaning": {
-                        "id": "belum pernah terjadi sebelumnya",
-                        "en": "unprecedented"
-                    },
-                    "example": {
-                        "sentence": "未曾有の災害に備える必要がある。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Kita perlu bersiap menghadapi bencana yang belum pernah terjadi sebelumnya。",
-                            "en": "Kita perlu bersiap menghadapi bencana yang belum pernah terjadi sebelumnya。"
-                        }
+                        "id": "belum pernah terjadi",
+                        "en": "belum pernah terjadi"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "参加の有無を確認してください。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Tolong konfirmasi apakah akan hadir atau tidak。",
-                        "en": "Tolong konfirmasi apakah akan hadir atau tidak。"
-                    }
-                },
-                {
-                    "sentence": "合格の知らせを聞いて有頂天になった。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Ia sangat gembira setelah mendengar kabar kelulusan。",
-                        "en": "Ia sangat gembira setelah mendengar kabar kelulusan。"
-                    }
-                },
-                {
-                    "sentence": "未曾有の災害に備える必要がある。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Kita perlu bersiap menghadapi bencana yang belum pernah terjadi sebelumnya。",
-                        "en": "Kita perlu bersiap menghadapi bencana yang belum pernah terjadi sebelumnya。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-024",
+            "id": "week4-day2-025",
             "character": "解",
             "meaning": {
-                "id": "membuka; memecahkan; melepaskan",
-                "en": "untie; solve; explain"
+                "id": "memecahkan; melepaskan",
+                "en": "memecahkan; melepaskan"
             },
             "onyomi": [
                 {
-                    "text": "ゲ",
-                    "reading": "ゲ"
-                },
-                {
                     "text": "カイ",
                     "reading": "カイ"
+                },
+                {
+                    "text": "ゲ",
+                    "reading": "ゲ"
                 }
             ],
             "kunyomi": [
                 {
-                    "text": "と.く",
+                    "text": "と(く)",
                     "reading": "とく"
                 },
                 {
-                    "text": "と.ける",
+                    "text": "と(ける)",
                     "reading": "とける"
-                },
-                {
-                    "text": "ほど.く",
-                    "reading": "ほどく"
                 }
             ],
             "usage": {
-                "id": "解 dalam materi memakai bacaan ゲ pada 解毒 dan 解熱剤.\nContoh kalimat:\n病院で解毒の処置を受けた。 — Ia menerima penanganan detoksifikasi di rumah sakit。\n薬剤師に解熱剤について相談した。 — Saya berkonsultasi kepada apoteker mengenai obat penurun panas。",
-                "en": "This character appears in 解毒、解熱剤. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "解毒 dan 解熱剤 memakai bacaan ゲ pada 解.",
+                "en": "解毒 dan 解熱剤 memakai bacaan ゲ pada 解."
             },
             "nuance": {
-                "id": "解 memiliki bacaan umum カイ, tetapi kosakata sumber memakai ゲ. Kenali dua kosakata ini sebagai istilah tetap.",
-                "en": "The reading and nuance of 解 depend on the complete expression. In this lesson, pay particular attention to 解毒、解熱剤; do not assume that one reading or meaning applies in every compound."
+                "id": "Bacaan ゲ pada kosakata ini merupakan bacaan khusus yang harus diingat melalui kata lengkap.",
+                "en": "Bacaan ゲ pada kosakata ini merupakan bacaan khusus yang harus diingat melalui kata lengkap."
             },
             "philosophy": {
-                "id": "Pisahkan bacaan umum カイ dari kelompok khusus ゲ melalui pengulangan 解毒・解熱剤.",
-                "en": "Use 解 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Bayangkan sesuatu yang dilepaskan atau diurai. Dalam istilah medis sumber, 解 mengarah pada menghilangkan racun atau demam.",
+                "en": "Bayangkan sesuatu yang dilepaskan atau diurai. Dalam istilah medis sumber, 解 mengarah pada menghilangkan racun atau demam."
             },
             "vocabulary": [
                 {
                     "word": "解毒",
                     "reading": "げどく",
                     "meaning": {
-                        "id": "detoksifikasi; penawar racun",
-                        "en": "detoxification"
-                    },
-                    "example": {
-                        "sentence": "病院で解毒の処置を受けた。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Ia menerima penanganan detoksifikasi di rumah sakit。",
-                            "en": "Ia menerima penanganan detoksifikasi di rumah sakit。"
-                        }
+                        "id": "detoksifikasi/penawar racun",
+                        "en": "detoksifikasi/penawar racun"
                     }
                 },
                 {
@@ -2140,104 +1467,62 @@ const minggu4Hari2 = {
                     "reading": "げねつざい",
                     "meaning": {
                         "id": "obat penurun panas",
-                        "en": "fever reducer"
-                    },
-                    "example": {
-                        "sentence": "薬剤師に解熱剤について相談した。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya berkonsultasi kepada apoteker mengenai obat penurun panas。",
-                            "en": "Saya berkonsultasi kepada apoteker mengenai obat penurun panas。"
-                        }
+                        "en": "obat penurun panas"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "病院で解毒の処置を受けた。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Ia menerima penanganan detoksifikasi di rumah sakit。",
-                        "en": "Ia menerima penanganan detoksifikasi di rumah sakit。"
-                    }
-                },
-                {
-                    "sentence": "薬剤師に解熱剤について相談した。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya berkonsultasi kepada apoteker mengenai obat penurun panas。",
-                        "en": "Saya berkonsultasi kepada apoteker mengenai obat penurun panas。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-025",
+            "id": "week4-day2-026",
             "character": "工",
             "meaning": {
-                "id": "kerja; pengerjaan; keterampilan",
-                "en": "work; craft; skill"
+                "id": "pekerjaan; kerajinan",
+                "en": "pekerjaan; kerajinan"
             },
             "onyomi": [
                 {
-                    "text": "ク",
-                    "reading": "ク"
-                },
-                {
                     "text": "コウ",
                     "reading": "コウ"
+                },
+                {
+                    "text": "ク",
+                    "reading": "ク"
                 }
             ],
             "kunyomi": [
                 {
-                    "text": "たく.み",
-                    "reading": "たくみ"
+                    "text": "",
+                    "reading": ""
                 }
             ],
             "usage": {
-                "id": "工 memiliki arti kerja atau keterampilan; bacaan ク tampak dalam 工夫・工面, sedangkan 大工 dibaca だいく.\nContoh kalimat:\n時間を節約するために工夫した。 — Saya mencari cara kreatif untuk menghemat waktu。\n学費を工面するために働いた。 — Ia bekerja untuk mengusahakan biaya kuliah。\n大工が古い家を修理している。 — Tukang kayu sedang memperbaiki rumah tua。",
-                "en": "This character appears in 工夫、工面する、大工. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "Contoh sumber memperlihatkan bacaan ク pada 工夫・工面・大工.",
+                "en": "Contoh sumber memperlihatkan bacaan ク pada 工夫・工面・大工."
             },
             "nuance": {
-                "id": "工夫 dan 工面 sama-sama memakai ク tetapi maknanya berbeda: mencari cara dan mengatur dana.",
-                "en": "The reading and nuance of 工 depend on the complete expression. In this lesson, pay particular attention to 工夫、工面する、大工; do not assume that one reading or meaning applies in every compound."
+                "id": "工夫 berarti mencari cara; 工面する berarti mengusahakan dana. Keduanya tidak dapat diterjemahkan hanya dari unsur 工.",
+                "en": "工夫 berarti mencari cara; 工面する berarti mengusahakan dana. Keduanya tidak dapat diterjemahkan hanya dari unsur 工."
             },
             "philosophy": {
-                "id": "Kelompokkan kata menurut fungsi: 工夫 untuk solusi, 工面 untuk dana, 大工 untuk pekerjaan pertukangan.",
-                "en": "Use 工 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Hubungkan 工 dengan usaha membuat atau mengatur sesuatu. Kreativitas dan mengusahakan dana sama-sama memerlukan kecakapan praktis.",
+                "en": "Hubungkan 工 dengan usaha membuat atau mengatur sesuatu. Kreativitas dan mengusahakan dana sama-sama memerlukan kecakapan praktis."
             },
             "vocabulary": [
                 {
                     "word": "工夫",
                     "reading": "くふう",
                     "meaning": {
-                        "id": "ide; akal; cara kreatif",
-                        "en": "device; ingenuity"
-                    },
-                    "example": {
-                        "sentence": "時間を節約するために工夫した。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya mencari cara kreatif untuk menghemat waktu。",
-                            "en": "Saya mencari cara kreatif untuk menghemat waktu。"
-                        }
+                        "id": "akal/cara kreatif",
+                        "en": "akal/cara kreatif"
                     }
                 },
                 {
                     "word": "工面する",
                     "reading": "くめんする",
                     "meaning": {
-                        "id": "mengusahakan atau mengatur dana",
-                        "en": "raise/arrange money"
-                    },
-                    "example": {
-                        "sentence": "学費を工面するために働いた。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Ia bekerja untuk mengusahakan biaya kuliah。",
-                            "en": "Ia bekerja untuk mengusahakan biaya kuliah。"
-                        }
+                        "id": "mengusahakan dana",
+                        "en": "mengusahakan dana"
                     }
                 },
                 {
@@ -2245,88 +1530,50 @@ const minggu4Hari2 = {
                     "reading": "だいく",
                     "meaning": {
                         "id": "tukang kayu",
-                        "en": "carpenter"
-                    },
-                    "example": {
-                        "sentence": "大工が古い家を修理している。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Tukang kayu sedang memperbaiki rumah tua。",
-                            "en": "Tukang kayu sedang memperbaiki rumah tua。"
-                        }
+                        "en": "tukang kayu"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "時間を節約するために工夫した。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya mencari cara kreatif untuk menghemat waktu。",
-                        "en": "Saya mencari cara kreatif untuk menghemat waktu。"
-                    }
-                },
-                {
-                    "sentence": "学費を工面するために働いた。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Ia bekerja untuk mengusahakan biaya kuliah。",
-                        "en": "Ia bekerja untuk mengusahakan biaya kuliah。"
-                    }
-                },
-                {
-                    "sentence": "大工が古い家を修理している。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Tukang kayu sedang memperbaiki rumah tua。",
-                        "en": "Tukang kayu sedang memperbaiki rumah tua。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-026",
+            "id": "week4-day2-027",
             "character": "定",
             "meaning": {
-                "id": "menetapkan; tetap; menentukan",
-                "en": "decide; fixed; determine"
+                "id": "menetapkan; tetap",
+                "en": "menetapkan; tetap"
             },
             "onyomi": [
                 {
-                    "text": "ジョウ",
-                    "reading": "ジョウ"
-                },
-                {
                     "text": "テイ",
                     "reading": "テイ"
+                },
+                {
+                    "text": "ジョウ",
+                    "reading": "ジョウ"
                 }
             ],
             "kunyomi": [
                 {
-                    "text": "さだ.める",
+                    "text": "さだ(める)",
                     "reading": "さだめる"
                 },
                 {
-                    "text": "さだ.まる",
+                    "text": "さだ(まる)",
                     "reading": "さだまる"
-                },
-                {
-                    "text": "さだ.か",
-                    "reading": "さだか"
                 }
             ],
             "usage": {
-                "id": "定 berkaitan dengan sesuatu yang ditetapkan atau menjadi pasti; sumber menekankan ジョウ pada 定規・案の定.\nContoh kalimat:\n定規を使って直線を引いた。 — Saya menarik garis lurus menggunakan penggaris。\n案の定、電車は遅れていた。 — Seperti yang diduga, keretanya terlambat。\n食事の勘定を済ませた。 — Saya menyelesaikan pembayaran makanan。",
-                "en": "This character appears in 定規、案の定、勘定. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "定規・案の定・勘定 menggunakan bacaan ジョウ.",
+                "en": "定規・案の定・勘定 menggunakan bacaan ジョウ."
             },
             "nuance": {
-                "id": "定規 dibaca じょうぎ dan berarti penggaris; jangan menyamakannya dengan 定める（さだめる）.",
-                "en": "The reading and nuance of 定 depend on the complete expression. In this lesson, pay particular attention to 定規、案の定、勘定; do not assume that one reading or meaning applies in every compound."
+                "id": "Bacaan ジョウ muncul pada kosakata tetap yang maknanya berbeda-beda; hafalkan tiap kata secara utuh.",
+                "en": "Bacaan ジョウ muncul pada kosakata tetap yang maknanya berbeda-beda; hafalkan tiap kata secara utuh."
             },
             "philosophy": {
-                "id": "Ingat fungsi menetapkan atau memastikan, lalu simpan kosakata dengan bacaan khusus secara utuh.",
-                "en": "Use 定 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Hubungkan 定 dengan sesuatu yang ditetapkan atau diperhitungkan. Penggaris, dugaan, dan perhitungan memberi konteks berbeda.",
+                "en": "Hubungkan 定 dengan sesuatu yang ditetapkan atau diperhitungkan. Penggaris, dugaan, dan perhitungan memberi konteks berbeda."
             },
             "vocabulary": [
                 {
@@ -2334,15 +1581,7 @@ const minggu4Hari2 = {
                     "reading": "じょうぎ",
                     "meaning": {
                         "id": "penggaris",
-                        "en": "ruler"
-                    },
-                    "example": {
-                        "sentence": "定規を使って直線を引いた。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya menarik garis lurus menggunakan penggaris。",
-                            "en": "Saya menarik garis lurus menggunakan penggaris。"
-                        }
+                        "en": "penggaris"
                     }
                 },
                 {
@@ -2350,81 +1589,35 @@ const minggu4Hari2 = {
                     "reading": "あんのじょう",
                     "meaning": {
                         "id": "seperti yang diduga",
-                        "en": "as expected"
-                    },
-                    "example": {
-                        "sentence": "案の定、電車は遅れていた。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Seperti yang diduga, keretanya terlambat。",
-                            "en": "Seperti yang diduga, keretanya terlambat。"
-                        }
+                        "en": "seperti yang diduga"
                     }
                 },
                 {
                     "word": "勘定",
                     "reading": "かんじょう",
                     "meaning": {
-                        "id": "perhitungan; tagihan",
-                        "en": "calculation; bill"
-                    },
-                    "example": {
-                        "sentence": "食事の勘定を済ませた。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya menyelesaikan pembayaran makanan。",
-                            "en": "Saya menyelesaikan pembayaran makanan。"
-                        }
+                        "id": "perhitungan/tagihan",
+                        "en": "perhitungan/tagihan"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "定規を使って直線を引いた。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya menarik garis lurus menggunakan penggaris。",
-                        "en": "Saya menarik garis lurus menggunakan penggaris。"
-                    }
-                },
-                {
-                    "sentence": "案の定、電車は遅れていた。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Seperti yang diduga, keretanya terlambat。",
-                        "en": "Seperti yang diduga, keretanya terlambat。"
-                    }
-                },
-                {
-                    "sentence": "食事の勘定を済ませた。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya menyelesaikan pembayaran makanan。",
-                        "en": "Saya menyelesaikan pembayaran makanan。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-027",
+            "id": "week4-day2-028",
             "character": "質",
             "meaning": {
-                "id": "mutu; sifat; pertanyaan; sandera dalam 人質",
-                "en": "quality; nature; question; hostage"
+                "id": "mutu; sifat; jaminan",
+                "en": "mutu; sifat; jaminan"
             },
             "onyomi": [
-                {
-                    "text": "シチ",
-                    "reading": "シチ"
-                },
                 {
                     "text": "シツ",
                     "reading": "シツ"
                 },
                 {
-                    "text": "チ",
-                    "reading": "チ"
+                    "text": "シチ",
+                    "reading": "シチ"
                 }
             ],
             "kunyomi": [
@@ -2434,16 +1627,16 @@ const minggu4Hari2 = {
                 }
             ],
             "usage": {
-                "id": "質 dalam 人質 dan 質屋 dibaca シチ; makna keseluruhan 人質 adalah sandera.\nContoh kalimat:\n犯人は人質を解放した。 — Pelaku membebaskan sandera。\n祖父は昔、質屋を利用したことがある。 — Kakek pernah menggunakan jasa pegadaian。",
-                "en": "This character appears in 人質、質屋. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "人質 dan 質屋 memakai bacaan シチ pada 質.",
+                "en": "人質 dan 質屋 memakai bacaan シチ pada 質."
             },
             "nuance": {
-                "id": "Bacaan シチ adalah bacaan khusus yang muncul pada kosakata tersebut. Karakter 質 juga sering dibaca シツ dalam 品質・質問.",
-                "en": "The reading and nuance of 質 depend on the complete expression. In this lesson, pay particular attention to 人質、質屋; do not assume that one reading or meaning applies in every compound."
+                "id": "Makna 質 berubah sesuai kata: 人質 adalah orang yang ditahan sebagai jaminan, 質屋 adalah pegadaian.",
+                "en": "Makna 質 berubah sesuai kata: 人質 adalah orang yang ditahan sebagai jaminan, 質屋 adalah pegadaian."
             },
             "philosophy": {
-                "id": "Ingat pasangan 人質 dan 質屋 sebagai contoh bunyi シチ, lalu bandingkan dengan 品質 agar perbedaan bacaan melekat.",
-                "en": "Use 質 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Ingat bahwa satu kanji dapat hadir pada konteks jaminan dan transaksi. Bacaan シチ dipelajari lewat dua kata sumber.",
+                "en": "Ingat bahwa satu kanji dapat hadir pada konteks jaminan dan transaksi. Bacaan シチ dipelajari lewat dua kata sumber."
             },
             "vocabulary": [
                 {
@@ -2451,15 +1644,7 @@ const minggu4Hari2 = {
                     "reading": "ひとじち",
                     "meaning": {
                         "id": "sandera",
-                        "en": "hostage"
-                    },
-                    "example": {
-                        "sentence": "犯人は人質を解放した。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Pelaku membebaskan sandera。",
-                            "en": "Pelaku membebaskan sandera。"
-                        }
+                        "en": "sandera"
                     }
                 },
                 {
@@ -2467,53 +1652,27 @@ const minggu4Hari2 = {
                     "reading": "しちや",
                     "meaning": {
                         "id": "pegadaian",
-                        "en": "pawnshop"
-                    },
-                    "example": {
-                        "sentence": "祖父は昔、質屋を利用したことがある。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Kakek pernah menggunakan jasa pegadaian。",
-                            "en": "Kakek pernah menggunakan jasa pegadaian。"
-                        }
+                        "en": "pegadaian"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "犯人は人質を解放した。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Pelaku membebaskan sandera。",
-                        "en": "Pelaku membebaskan sandera。"
-                    }
-                },
-                {
-                    "sentence": "祖父は昔、質屋を利用したことがある。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Kakek pernah menggunakan jasa pegadaian。",
-                        "en": "Kakek pernah menggunakan jasa pegadaian。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-028",
+            "id": "week4-day2-029",
             "character": "子",
             "meaning": {
-                "id": "anak; benda kecil; akhiran nama benda",
-                "en": "child; small object; suffix"
+                "id": "anak",
+                "en": "anak"
             },
             "onyomi": [
                 {
-                    "text": "ス",
-                    "reading": "ス"
-                },
-                {
                     "text": "シ",
                     "reading": "シ"
+                },
+                {
+                    "text": "ス",
+                    "reading": "ス"
                 }
             ],
             "kunyomi": [
@@ -2523,48 +1682,32 @@ const minggu4Hari2 = {
                 }
             ],
             "usage": {
-                "id": "子 berarti anak; pada 様子・扇子・椅子, 子 memakai bunyi ス.\nContoh kalimat:\n外の様子を見てきます。 — Saya akan melihat keadaan di luar。\n暑い日に扇子を使った。 — Saya menggunakan kipas lipat pada hari yang panas。\n窓の近くに椅子を置いた。 — Saya meletakkan kursi dekat jendela。",
-                "en": "This character appears in 様子、扇子、椅子. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "様子・扇子・椅子 memakai bacaan ス pada 子.",
+                "en": "様子・扇子・椅子 memakai bacaan ス pada 子."
             },
             "nuance": {
-                "id": "Bunyi ス pada kata-kata ini tidak berarti “anak” secara harfiah. Perhatikan bahwa 子 juga sering dibaca こ.",
-                "en": "The reading and nuance of 子 depend on the complete expression. In this lesson, pay particular attention to 様子、扇子、椅子; do not assume that one reading or meaning applies in every compound."
+                "id": "子 tidak selalu berarti anak dalam kata majemuk ini. Bacaan ス harus dihafalkan melalui kosakata lengkap.",
+                "en": "子 tidak selalu berarti anak dalam kata majemuk ini. Bacaan ス harus dihafalkan melalui kosakata lengkap."
             },
             "philosophy": {
-                "id": "Hafalkan sebagai kelompok kosakata: ようす・せんす・いす, semuanya berakhir dengan 子/ス.",
-                "en": "Use 子 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Bayangkan 子 sebagai unsur yang bunyinya menetap dalam sejumlah benda atau ungkapan. Jangan menerjemahkan karakter secara harfiah.",
+                "en": "Bayangkan 子 sebagai unsur yang bunyinya menetap dalam sejumlah benda atau ungkapan. Jangan menerjemahkan karakter secara harfiah."
             },
             "vocabulary": [
                 {
                     "word": "様子",
                     "reading": "ようす",
                     "meaning": {
-                        "id": "keadaan; penampilan",
-                        "en": "state; appearance"
-                    },
-                    "example": {
-                        "sentence": "外の様子を見てきます。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya akan melihat keadaan di luar。",
-                            "en": "Saya akan melihat keadaan di luar。"
-                        }
+                        "id": "keadaan/tampak",
+                        "en": "keadaan/tampak"
                     }
                 },
                 {
                     "word": "扇子",
                     "reading": "せんす",
                     "meaning": {
-                        "id": "kipas lipat Jepang",
-                        "en": "folding fan"
-                    },
-                    "example": {
-                        "sentence": "暑い日に扇子を使った。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya menggunakan kipas lipat pada hari yang panas。",
-                            "en": "Saya menggunakan kipas lipat pada hari yang panas。"
-                        }
+                        "id": "kipas lipat",
+                        "en": "kipas lipat"
                     }
                 },
                 {
@@ -2572,52 +1715,18 @@ const minggu4Hari2 = {
                     "reading": "いす",
                     "meaning": {
                         "id": "kursi",
-                        "en": "chair"
-                    },
-                    "example": {
-                        "sentence": "窓の近くに椅子を置いた。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya meletakkan kursi dekat jendela。",
-                            "en": "Saya meletakkan kursi dekat jendela。"
-                        }
+                        "en": "kursi"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "外の様子を見てきます。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya akan melihat keadaan di luar。",
-                        "en": "Saya akan melihat keadaan di luar。"
-                    }
-                },
-                {
-                    "sentence": "暑い日に扇子を使った。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya menggunakan kipas lipat pada hari yang panas。",
-                        "en": "Saya menggunakan kipas lipat pada hari yang panas。"
-                    }
-                },
-                {
-                    "sentence": "窓の近くに椅子を置いた。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya meletakkan kursi dekat jendela。",
-                        "en": "Saya meletakkan kursi dekat jendela。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-029",
+            "id": "week4-day2-030",
             "character": "右",
             "meaning": {
                 "id": "kanan",
-                "en": "right"
+                "en": "kanan"
             },
             "onyomi": [
                 {
@@ -2636,16 +1745,16 @@ const minggu4Hari2 = {
                 }
             ],
             "usage": {
-                "id": "右 berarti arah kanan; sumber menekankan bacaan ウ pada 右折・右派・右翼.\nContoh kalimat:\n次の交差点を右折してください。 — Silakan belok kanan di persimpangan berikutnya。\n記事では右派の動向を説明している。 — Artikel itu menjelaskan pergerakan kelompok sayap kanan。\n右翼という言葉は政治の文脈で使われる。 — Istilah sayap kanan digunakan dalam konteks politik。",
-                "en": "This character appears in 右折、右派、右翼. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "Kata pada sumber memakai bacaan ウ.",
+                "en": "Kata pada sumber memakai bacaan ウ."
             },
             "nuance": {
-                "id": "右 sendiri dibaca みぎ dalam percakapan, sedangkan gabungan formal ini memakai ウ.",
-                "en": "The reading and nuance of 右 depend on the complete expression. In this lesson, pay particular attention to 右折、右派、右翼; do not assume that one reading or meaning applies in every compound."
+                "id": "右折 adalah istilah lalu lintas; 右派 dan 右翼 digunakan dalam konteks politik atau orientasi.",
+                "en": "右折 adalah istilah lalu lintas; 右派 dan 右翼 digunakan dalam konteks politik atau orientasi."
             },
             "philosophy": {
-                "id": "Gunakan asosiasi arah kanan untuk mengingat makna, kemudian hafalkan bacaan formal dalam kata majemuk.",
-                "en": "Use 右 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Hubungkan 右 dengan arah kanan. Dari arah fisik, makna berkembang ke istilah posisi dan kelompok.",
+                "en": "Hubungkan 右 dengan arah kanan. Dari arah fisik, makna berkembang ke istilah posisi dan kelompok."
             },
             "vocabulary": [
                 {
@@ -2653,31 +1762,15 @@ const minggu4Hari2 = {
                     "reading": "うせつ",
                     "meaning": {
                         "id": "belok kanan",
-                        "en": "right turn"
-                    },
-                    "example": {
-                        "sentence": "次の交差点を右折してください。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Silakan belok kanan di persimpangan berikutnya。",
-                            "en": "Silakan belok kanan di persimpangan berikutnya。"
-                        }
+                        "en": "belok kanan"
                     }
                 },
                 {
                     "word": "右派",
                     "reading": "うは",
                     "meaning": {
-                        "id": "kelompok sayap kanan",
-                        "en": "right wing"
-                    },
-                    "example": {
-                        "sentence": "記事では右派の動向を説明している。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Artikel itu menjelaskan pergerakan kelompok sayap kanan。",
-                            "en": "Artikel itu menjelaskan pergerakan kelompok sayap kanan。"
-                        }
+                        "id": "kelompok kanan",
+                        "en": "kelompok kanan"
                     }
                 },
                 {
@@ -2685,61 +1778,27 @@ const minggu4Hari2 = {
                     "reading": "うよく",
                     "meaning": {
                         "id": "sayap kanan",
-                        "en": "right wing"
-                    },
-                    "example": {
-                        "sentence": "右翼という言葉は政治の文脈で使われる。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Istilah sayap kanan digunakan dalam konteks politik。",
-                            "en": "Istilah sayap kanan digunakan dalam konteks politik。"
-                        }
+                        "en": "sayap kanan"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "次の交差点を右折してください。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Silakan belok kanan di persimpangan berikutnya。",
-                        "en": "Silakan belok kanan di persimpangan berikutnya。"
-                    }
-                },
-                {
-                    "sentence": "記事では右派の動向を説明している。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Artikel itu menjelaskan pergerakan kelompok sayap kanan。",
-                        "en": "Artikel itu menjelaskan pergerakan kelompok sayap kanan。"
-                    }
-                },
-                {
-                    "sentence": "右翼という言葉は政治の文脈で使われる。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Istilah sayap kanan digunakan dalam konteks politik。",
-                        "en": "Istilah sayap kanan digunakan dalam konteks politik。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-030",
+            "id": "week4-day2-031",
             "character": "下",
             "meaning": {
-                "id": "bawah; turun; berikutnya",
-                "en": "below; down; lower"
+                "id": "bawah; turun",
+                "en": "bawah; turun"
             },
             "onyomi": [
                 {
-                    "text": "ゲ",
-                    "reading": "ゲ"
-                },
-                {
                     "text": "カ",
                     "reading": "カ"
+                },
+                {
+                    "text": "ゲ",
+                    "reading": "ゲ"
                 }
             ],
             "kunyomi": [
@@ -2748,41 +1807,25 @@ const minggu4Hari2 = {
                     "reading": "した"
                 },
                 {
-                    "text": "しも",
-                    "reading": "しも"
-                },
-                {
-                    "text": "もと",
-                    "reading": "もと"
-                },
-                {
-                    "text": "さ.げる",
-                    "reading": "さげる"
-                },
-                {
-                    "text": "さ.がる",
+                    "text": "さ(がる)",
                     "reading": "さがる"
                 },
                 {
-                    "text": "くだ.る",
-                    "reading": "くだる"
-                },
-                {
-                    "text": "お.りる",
+                    "text": "お(りる)",
                     "reading": "おりる"
                 }
             ],
             "usage": {
-                "id": "下 menunjukkan posisi lebih rendah atau bagian berikutnya; sumber menguji bacaan ゲ pada 下旬・下水道.\nContoh kalimat:\n上下の関係を考える。 — Memikirkan hubungan atasan dan bawahan。\n会議は来月の下旬に開かれる。 — Rapat akan diadakan pada sepuluh hari terakhir bulan depan。\n下水道の整備が進んでいる。 — Perbaikan sistem saluran pembuangan terus berlangsung。",
-                "en": "This character appears in 上下、下旬、下水道. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "下旬・下水道 memakai bacaan ゲ; 上下 juga dibaca じょうげ.",
+                "en": "下旬・下水道 memakai bacaan ゲ; 上下 juga dibaca じょうげ."
             },
             "nuance": {
-                "id": "Bacaan ゲ muncul pada kosakata formal tertentu, sementara した adalah bacaan sehari-hari.",
-                "en": "The reading and nuance of 下 depend on the complete expression. In this lesson, pay particular attention to 上下、下旬、下水道; do not assume that one reading or meaning applies in every compound."
+                "id": "下旬 adalah istilah kalender. Bacaan ゲ perlu diingat dalam gabungan kata formal.",
+                "en": "下旬 adalah istilah kalender. Bacaan ゲ perlu diingat dalam gabungan kata formal."
             },
             "philosophy": {
-                "id": "Bayangkan posisi di bawah lalu perluas ke istilah waktu dan infrastruktur.",
-                "en": "Use 下 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Bayangkan pembagian ruang atau waktu dari atas ke bawah. 下旬 menandai bagian akhir bulan.",
+                "en": "Bayangkan pembagian ruang atau waktu dari atas ke bawah. 下旬 menandai bagian akhir bulan."
             },
             "vocabulary": [
                 {
@@ -2790,112 +1833,62 @@ const minggu4Hari2 = {
                     "reading": "じょうげ",
                     "meaning": {
                         "id": "atas dan bawah",
-                        "en": "up and down"
-                    },
-                    "example": {
-                        "sentence": "上下の関係を考える。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Memikirkan hubungan atasan dan bawahan。",
-                            "en": "Memikirkan hubungan atasan dan bawahan。"
-                        }
+                        "en": "atas dan bawah"
                     }
                 },
                 {
                     "word": "下旬",
                     "reading": "げじゅん",
                     "meaning": {
-                        "id": "sepuluh hari terakhir dalam bulan",
-                        "en": "the last ten days of a month"
-                    },
-                    "example": {
-                        "sentence": "会議は来月の下旬に開かれる。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Rapat akan diadakan pada sepuluh hari terakhir bulan depan。",
-                            "en": "Rapat akan diadakan pada sepuluh hari terakhir bulan depan。"
-                        }
+                        "id": "sepuluh hari terakhir bulan",
+                        "en": "sepuluh hari terakhir bulan"
                     }
                 },
                 {
                     "word": "下水道",
                     "reading": "げすいどう",
                     "meaning": {
-                        "id": "saluran pembuangan bawah tanah",
-                        "en": "sewer system"
-                    },
-                    "example": {
-                        "sentence": "下水道の整備が進んでいる。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Perbaikan sistem saluran pembuangan terus berlangsung。",
-                            "en": "Perbaikan sistem saluran pembuangan terus berlangsung。"
-                        }
+                        "id": "saluran pembuangan",
+                        "en": "saluran pembuangan"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "上下の関係を考える。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Memikirkan hubungan atasan dan bawahan。",
-                        "en": "Memikirkan hubungan atasan dan bawahan。"
-                    }
-                },
-                {
-                    "sentence": "会議は来月の下旬に開かれる。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Rapat akan diadakan pada sepuluh hari terakhir bulan depan。",
-                        "en": "Rapat akan diadakan pada sepuluh hari terakhir bulan depan。"
-                    }
-                },
-                {
-                    "sentence": "下水道の整備が進んでいる。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Perbaikan sistem saluran pembuangan terus berlangsung。",
-                        "en": "Perbaikan sistem saluran pembuangan terus berlangsung。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-031",
+            "id": "week4-day2-032",
             "character": "対",
             "meaning": {
-                "id": "berhadapan; pasangan; terhadap",
-                "en": "opposite; pair; versus"
+                "id": "pasangan; berhadapan",
+                "en": "pasangan; berhadapan"
             },
             "onyomi": [
                 {
-                    "text": "ツイ",
-                    "reading": "ツイ"
-                },
-                {
                     "text": "タイ",
                     "reading": "タイ"
+                },
+                {
+                    "text": "ツイ",
+                    "reading": "ツイ"
                 }
             ],
             "kunyomi": [
                 {
-                    "text": "たい.する",
-                    "reading": "たいする"
+                    "text": "",
+                    "reading": ""
                 }
             ],
             "usage": {
-                "id": "対 menunjukkan hubungan dua pihak yang saling berhadapan atau membentuk pasangan.\nContoh kalimat:\n一対の鳥が枝に止まっている。 — Sepasang burung hinggap di dahan。\nこの二つは対になる表現だ。 — Kedua hal ini merupakan ungkapan berpasangan。",
-                "en": "This character appears in 一対、対になる. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "対 dalam 一対 dan 対になる dibaca ツイ.",
+                "en": "対 dalam 一対 dan 対になる dibaca ツイ."
             },
             "nuance": {
-                "id": "一対 dibaca いっつい dengan perubahan bunyi; jangan membaca setiap kanji secara terpisah.",
-                "en": "The reading and nuance of 対 depend on the complete expression. In this lesson, pay particular attention to 一対、対になる; do not assume that one reading or meaning applies in every compound."
+                "id": "ツイ merupakan bacaan yang ditonjolkan sumber; maknanya berhubungan dengan pasangan.",
+                "en": "ツイ merupakan bacaan yang ditonjolkan sumber; maknanya berhubungan dengan pasangan."
             },
             "philosophy": {
-                "id": "Bayangkan dua benda yang saling melengkapi sebagai satu pasangan.",
-                "en": "Use 対 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Ingat dua benda yang saling melengkapi. 対 menandai hubungan berpasangan.",
+                "en": "Ingat dua benda yang saling melengkapi. 対 menandai hubungan berpasangan."
             },
             "vocabulary": [
                 {
@@ -2903,15 +1896,7 @@ const minggu4Hari2 = {
                     "reading": "いっつい",
                     "meaning": {
                         "id": "sepasang",
-                        "en": "one pair"
-                    },
-                    "example": {
-                        "sentence": "一対の鳥が枝に止まっている。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Sepasang burung hinggap di dahan。",
-                            "en": "Sepasang burung hinggap di dahan。"
-                        }
+                        "en": "sepasang"
                     }
                 },
                 {
@@ -2919,44 +1904,18 @@ const minggu4Hari2 = {
                     "reading": "ついになる",
                     "meaning": {
                         "id": "menjadi pasangan",
-                        "en": "form a pair"
-                    },
-                    "example": {
-                        "sentence": "この二つは対になる表現だ。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Kedua hal ini merupakan ungkapan berpasangan。",
-                            "en": "Kedua hal ini merupakan ungkapan berpasangan。"
-                        }
+                        "en": "menjadi pasangan"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "一対の鳥が枝に止まっている。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Sepasang burung hinggap di dahan。",
-                        "en": "Sepasang burung hinggap di dahan。"
-                    }
-                },
-                {
-                    "sentence": "この二つは対になる表現だ。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Kedua hal ini merupakan ungkapan berpasangan。",
-                        "en": "Kedua hal ini merupakan ungkapan berpasangan。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-032",
+            "id": "week4-day2-033",
             "character": "似",
             "meaning": {
-                "id": "mirip; menyerupai",
-                "en": "resemble; similar"
+                "id": "mirip",
+                "en": "mirip"
             },
             "onyomi": [
                 {
@@ -2966,21 +1925,21 @@ const minggu4Hari2 = {
             ],
             "kunyomi": [
                 {
-                    "text": "に.る",
+                    "text": "に(る)",
                     "reading": "にる"
                 }
             ],
             "usage": {
-                "id": "似 berhubungan dengan kemiripan; bacaan ジ muncul dalam 類似.\nContoh kalimat:\n二つの事件には類似点がある。 — Ada kesamaan di antara dua kasus itu。\n研修で擬似体験を行った。 — Kami melakukan pengalaman simulasi dalam pelatihan。",
-                "en": "This character appears in 類似、擬似体験. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "類似 dan 擬似体験 memakai bacaan ジ pada 似.",
+                "en": "類似 dan 擬似体験 memakai bacaan ジ pada 似."
             },
             "nuance": {
-                "id": "類似 berarti kemiripan, sedangkan 擬似 berarti sesuatu yang dibuat menyerupai keadaan asli.",
-                "en": "The reading and nuance of 似 depend on the complete expression. In this lesson, pay particular attention to 類似、擬似体験; do not assume that one reading or meaning applies in every compound."
+                "id": "類似 berarti kemiripan; 擬似 berarti tiruan atau simulasi. Konteks menentukan nuansa.",
+                "en": "類似 berarti kemiripan; 擬似 berarti tiruan atau simulasi. Konteks menentukan nuansa."
             },
             "philosophy": {
-                "id": "Hubungkan bentuk dan makna dengan ide “mirip, tetapi belum tentu sama”.",
-                "en": "Use 似 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Hubungkan 似 dengan keserupaan. Sesuatu dapat mirip secara nyata atau hanya dibuat menyerupai.",
+                "en": "Hubungkan 似 dengan keserupaan. Sesuatu dapat mirip secara nyata atau hanya dibuat menyerupai."
             },
             "vocabulary": [
                 {
@@ -2988,15 +1947,7 @@ const minggu4Hari2 = {
                     "reading": "るいじ",
                     "meaning": {
                         "id": "kemiripan",
-                        "en": "resemblance"
-                    },
-                    "example": {
-                        "sentence": "二つの事件には類似点がある。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Ada kesamaan di antara dua kasus itu。",
-                            "en": "Ada kesamaan di antara dua kasus itu。"
-                        }
+                        "en": "kemiripan"
                     }
                 },
                 {
@@ -3004,44 +1955,18 @@ const minggu4Hari2 = {
                     "reading": "ぎじたいけん",
                     "meaning": {
                         "id": "pengalaman simulasi",
-                        "en": "simulated experience"
-                    },
-                    "example": {
-                        "sentence": "研修で擬似体験を行った。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Kami melakukan pengalaman simulasi dalam pelatihan。",
-                            "en": "Kami melakukan pengalaman simulasi dalam pelatihan。"
-                        }
+                        "en": "pengalaman simulasi"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "二つの事件には類似点がある。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Ada kesamaan di antara dua kasus itu。",
-                        "en": "Ada kesamaan di antara dua kasus itu。"
-                    }
-                },
-                {
-                    "sentence": "研修で擬似体験を行った。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Kami melakukan pengalaman simulasi dalam pelatihan。",
-                        "en": "Kami melakukan pengalaman simulasi dalam pelatihan。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-033",
+            "id": "week4-day2-034",
             "character": "汚",
             "meaning": {
-                "id": "kotor; menodai; mencemari",
-                "en": "dirty; pollute; disgrace"
+                "id": "kotor; mencemari",
+                "en": "kotor; mencemari"
             },
             "onyomi": [
                 {
@@ -3051,37 +1976,29 @@ const minggu4Hari2 = {
             ],
             "kunyomi": [
                 {
-                    "text": "よご.す",
+                    "text": "よご(す)",
                     "reading": "よごす"
                 },
                 {
-                    "text": "よご.れる",
+                    "text": "よご(れる)",
                     "reading": "よごれる"
                 },
                 {
-                    "text": "きたな.い",
-                    "reading": "きたない"
-                },
-                {
-                    "text": "けが.す",
+                    "text": "けが(す)",
                     "reading": "けがす"
-                },
-                {
-                    "text": "けが.れる",
-                    "reading": "けがれる"
                 }
             ],
             "usage": {
-                "id": "汚 berkaitan dengan kotoran secara fisik maupun noda pada reputasi; sumber memberikan 汚染・汚名返上・汚職.\nContoh kalimat:\n工場の排水が川を汚染した。 — Limbah pabrik mencemari sungai。\nチームは次の試合で汚名返上を目指す。 — Tim berusaha memulihkan nama baik pada pertandingan berikutnya。\n汚職を防ぐ仕組みが必要だ。 — Diperlukan sistem untuk mencegah korupsi。",
-                "en": "This character appears in 汚染、汚名返上、汚職. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "Kata sumber memakai bacaan オ pada gabungan formal.",
+                "en": "Kata sumber memakai bacaan オ pada gabungan formal."
             },
             "nuance": {
-                "id": "よごす／よごれる lebih sering untuk mengotori atau menjadi kotor; けがす dapat berarti menodai kehormatan. Bacaan オ muncul dalam gabungan formal.",
-                "en": "The reading and nuance of 汚 depend on the complete expression. In this lesson, pay particular attention to 汚染、汚名返上、汚職; do not assume that one reading or meaning applies in every compound."
+                "id": "汚染 merujuk pencemaran, 汚職 pada penyalahgunaan jabatan, dan 汚名 pada reputasi buruk. Makna kotor meluas secara metaforis.",
+                "en": "汚染 merujuk pencemaran, 汚職 pada penyalahgunaan jabatan, dan 汚名 pada reputasi buruk. Makna kotor meluas secara metaforis."
             },
             "philosophy": {
-                "id": "Bedakan noda yang terlihat dan noda abstrak pada nama baik. Ini membantu memahami 汚染 dan 汚名返上.",
-                "en": "Use 汚 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Bayangkan noda yang dapat melekat pada lingkungan maupun reputasi. Kanji ini menghubungkan kotor secara fisik dan tercemar secara sosial.",
+                "en": "Bayangkan noda yang dapat melekat pada lingkungan maupun reputasi. Kanji ini menghubungkan kotor secara fisik dan tercemar secara sosial."
             },
             "vocabulary": [
                 {
@@ -3089,15 +2006,7 @@ const minggu4Hari2 = {
                     "reading": "おせん",
                     "meaning": {
                         "id": "pencemaran",
-                        "en": "pollution"
-                    },
-                    "example": {
-                        "sentence": "工場の排水が川を汚染した。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Limbah pabrik mencemari sungai。",
-                            "en": "Limbah pabrik mencemari sungai。"
-                        }
+                        "en": "pencemaran"
                     }
                 },
                 {
@@ -3105,15 +2014,7 @@ const minggu4Hari2 = {
                     "reading": "おめいへんじょう",
                     "meaning": {
                         "id": "memulihkan nama baik",
-                        "en": "clear one’s tarnished name"
-                    },
-                    "example": {
-                        "sentence": "チームは次の試合で汚名返上を目指す。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Tim berusaha memulihkan nama baik pada pertandingan berikutnya。",
-                            "en": "Tim berusaha memulihkan nama baik pada pertandingan berikutnya。"
-                        }
+                        "en": "memulihkan nama baik"
                     }
                 },
                 {
@@ -3121,52 +2022,18 @@ const minggu4Hari2 = {
                     "reading": "おしょく",
                     "meaning": {
                         "id": "korupsi",
-                        "en": "corruption"
-                    },
-                    "example": {
-                        "sentence": "汚職を防ぐ仕組みが必要だ。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Diperlukan sistem untuk mencegah korupsi。",
-                            "en": "Diperlukan sistem untuk mencegah korupsi。"
-                        }
+                        "en": "korupsi"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "工場の排水が川を汚染した。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Limbah pabrik mencemari sungai。",
-                        "en": "Limbah pabrik mencemari sungai。"
-                    }
-                },
-                {
-                    "sentence": "チームは次の試合で汚名返上を目指す。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Tim berusaha memulihkan nama baik pada pertandingan berikutnya。",
-                        "en": "Tim berusaha memulihkan nama baik pada pertandingan berikutnya。"
-                    }
-                },
-                {
-                    "sentence": "汚職を防ぐ仕組みが必要だ。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Diperlukan sistem untuk mencegah korupsi。",
-                        "en": "Diperlukan sistem untuk mencegah korupsi。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         },
         {
-            "id": "week4-day2-034",
+            "id": "week4-day2-035",
             "character": "戸",
             "meaning": {
-                "id": "pintu; rumah tangga dalam catatan keluarga",
-                "en": "door; household"
+                "id": "pintu; rumah tangga",
+                "en": "pintu; rumah tangga"
             },
             "onyomi": [
                 {
@@ -3181,189 +2048,36 @@ const minggu4Hari2 = {
                 }
             ],
             "usage": {
-                "id": "戸 berarti pintu atau unit rumah; pada 戸籍 dan 一戸建て, sumber menonjolkan bacaan コ.\nContoh kalimat:\n戸籍の証明書を申請した。 — Saya mengajukan sertifikat catatan keluarga。\n郊外に一戸建てを買った。 — Saya membeli rumah tapak di pinggiran kota。",
-                "en": "This character appears in 戸籍、一戸建て. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
+                "id": "戸籍 dan 一戸建て memakai bacaan コ.",
+                "en": "戸籍 dan 一戸建て memakai bacaan コ."
             },
             "nuance": {
-                "id": "戸籍 adalah istilah administratif, sedangkan 一戸建て merujuk pada tipe hunian.",
-                "en": "The reading and nuance of 戸 depend on the complete expression. In this lesson, pay particular attention to 戸籍、一戸建て; do not assume that one reading or meaning applies in every compound."
+                "id": "Dalam kosakata administrasi dan perumahan, 戸 menjadi unsur yang dibaca コ.",
+                "en": "Dalam kosakata administrasi dan perumahan, 戸 menjadi unsur yang dibaca コ."
             },
             "philosophy": {
-                "id": "Bayangkan 戸 sebagai satu unit rumah, lalu hubungkan ke catatan keluarga dan rumah terpisah.",
-                "en": "Use 戸 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
+                "id": "Hubungkan 戸 dengan pintu rumah. Dari satu rumah, makna berkembang menjadi unit keluarga dan hunian.",
+                "en": "Hubungkan 戸 dengan pintu rumah. Dari satu rumah, makna berkembang menjadi unit keluarga dan hunian."
             },
             "vocabulary": [
                 {
                     "word": "戸籍",
                     "reading": "こせき",
                     "meaning": {
-                        "id": "catatan keluarga resmi",
-                        "en": "family register"
-                    },
-                    "example": {
-                        "sentence": "戸籍の証明書を申請した。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya mengajukan sertifikat catatan keluarga。",
-                            "en": "Saya mengajukan sertifikat catatan keluarga。"
-                        }
+                        "id": "daftar keluarga",
+                        "en": "daftar keluarga"
                     }
                 },
                 {
                     "word": "一戸建て",
                     "reading": "いっこだて",
                     "meaning": {
-                        "id": "rumah terpisah; rumah tapak",
-                        "en": "detached house"
-                    },
-                    "example": {
-                        "sentence": "郊外に一戸建てを買った。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya membeli rumah tapak di pinggiran kota。",
-                            "en": "Saya membeli rumah tapak di pinggiran kota。"
-                        }
+                        "id": "rumah tapak",
+                        "en": "rumah tapak"
                     }
                 }
             ],
-            "examples": [
-                {
-                    "sentence": "戸籍の証明書を申請した。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya mengajukan sertifikat catatan keluarga。",
-                        "en": "Saya mengajukan sertifikat catatan keluarga。"
-                    }
-                },
-                {
-                    "sentence": "郊外に一戸建てを買った。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya membeli rumah tapak di pinggiran kota。",
-                        "en": "Saya membeli rumah tapak di pinggiran kota。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
-        },
-        {
-            "id": "week4-day2-035",
-            "character": "度",
-            "meaning": {
-                "id": "tingkat; derajat; kesempatan; persiapan dalam 支度",
-                "en": "degree; time; preparation"
-            },
-            "onyomi": [
-                {
-                    "text": "タク",
-                    "reading": "タク"
-                },
-                {
-                    "text": "ド",
-                    "reading": "ド"
-                }
-            ],
-            "kunyomi": [
-                {
-                    "text": "たび",
-                    "reading": "たび"
-                }
-            ],
-            "usage": {
-                "id": "度 umumnya berkaitan dengan derajat atau frekuensi, tetapi pada 支度 menjadi bagian dari kata “persiapan”.\nContoh kalimat:\n旅行の支度を早めに済ませた。 — Saya menyelesaikan persiapan perjalanan lebih awal。\n旅支度をして駅へ向かった。 — Saya menyiapkan perlengkapan perjalanan lalu menuju stasiun。\n出発前に身支度を整えた。 — Saya merapikan diri sebelum berangkat。",
-                "en": "This character appears in 支度、旅支度、身支度. The Japanese example sentences and their Indonesian translations are included in this section to show each expression in context."
-            },
-            "nuance": {
-                "id": "Bacaan タク pada 支度 adalah bacaan khusus; jangan menebak dari bacaan ド yang umum pada 温度・何度.",
-                "en": "The reading and nuance of 度 depend on the complete expression. In this lesson, pay particular attention to 支度、旅支度、身支度; do not assume that one reading or meaning applies in every compound."
-            },
-            "philosophy": {
-                "id": "Hafalkan 支度 bersama kata turunannya 旅支度 dan 身支度 agar bacaan タク langsung teringat.",
-                "en": "Use 度 as a visual and semantic cue, then connect it to the listed vocabulary and example situations. Practise the complete words aloud so their special readings become familiar."
-            },
-            "vocabulary": [
-                {
-                    "word": "支度",
-                    "reading": "したく",
-                    "meaning": {
-                        "id": "persiapan",
-                        "en": "preparation"
-                    },
-                    "example": {
-                        "sentence": "旅行の支度を早めに済ませた。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya menyelesaikan persiapan perjalanan lebih awal。",
-                            "en": "Saya menyelesaikan persiapan perjalanan lebih awal。"
-                        }
-                    }
-                },
-                {
-                    "word": "旅支度",
-                    "reading": "たびじたく",
-                    "meaning": {
-                        "id": "persiapan perjalanan",
-                        "en": "travel preparations"
-                    },
-                    "example": {
-                        "sentence": "旅支度をして駅へ向かった。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya menyiapkan perlengkapan perjalanan lalu menuju stasiun。",
-                            "en": "Saya menyiapkan perlengkapan perjalanan lalu menuju stasiun。"
-                        }
-                    }
-                },
-                {
-                    "word": "身支度",
-                    "reading": "みじたく",
-                    "meaning": {
-                        "id": "bersiap-siap; merapikan diri",
-                        "en": "getting dressed; preparing oneself"
-                    },
-                    "example": {
-                        "sentence": "出発前に身支度を整えた。",
-                        "reading": "",
-                        "meaning": {
-                            "id": "Saya merapikan diri sebelum berangkat。",
-                            "en": "Saya merapikan diri sebelum berangkat。"
-                        }
-                    }
-                }
-            ],
-            "examples": [
-                {
-                    "sentence": "旅行の支度を早めに済ませた。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya menyelesaikan persiapan perjalanan lebih awal。",
-                        "en": "Saya menyelesaikan persiapan perjalanan lebih awal。"
-                    }
-                },
-                {
-                    "sentence": "旅支度をして駅へ向かった。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya menyiapkan perlengkapan perjalanan lalu menuju stasiun。",
-                        "en": "Saya menyiapkan perlengkapan perjalanan lalu menuju stasiun。"
-                    }
-                },
-                {
-                    "sentence": "出発前に身支度を整えた。",
-                    "reading": "",
-                    "meaning": {
-                        "id": "Saya merapikan diri sebelum berangkat。",
-                        "en": "Saya merapikan diri sebelum berangkat。"
-                    }
-                }
-            ],
-            "sourceNote": "Disusun berdasarkan transkripsi materi 第4週 yang diberikan. Contoh kalimat tambahan dibuat untuk memperjelas pemakaian."
-        }
-    ],
-    "notes": [
-        {
-            "id": "Materi 第4週 menekankan bacaan khusus yang perlu diingat melalui kosakata dan konteks, bukan dengan menebak bacaan satu kanji secara terpisah.",
-            "en": "Week 4 focuses on special readings that should be learned through vocabulary and context rather than guessed from isolated kanji."
+            "sourceNote": "Berdasarkan kosakata dan bacaan pada transkripsi sumber Minggu 4."
         }
     ],
     "exam": {
@@ -3374,8 +2088,8 @@ const minggu4Hari2 = {
             "en": "Week 4 - Day 2 Exam"
         },
         "description": {
-            "id": "Ujian membaca kosakata dan memilih bentuk yang tepat berdasarkan latihan sumber.",
-            "en": "A vocabulary-reading and context-selection exam based on the source exercises."
+            "id": "Latihan bacaan dan pemilihan kosakata berdasarkan contoh pada materi hari ini. Pilih jawaban yang sesuai dengan konteks.",
+            "en": "Reading and vocabulary practice based on today's source examples. Choose the answer that fits the context."
         },
         "settings": {
             "totalQuestions": 14,
@@ -3393,15 +2107,15 @@ const minggu4Hari2 = {
             {
                 "id": "reading",
                 "label": {
-                    "id": "Pilih bacaan atau kata yang benar",
-                    "en": "Choose the correct reading or word"
+                    "id": "Pilih kosakata atau bacaan yang tepat",
+                    "en": "Choose the correct vocabulary or reading"
                 }
             },
             {
                 "id": "kanji",
                 "label": {
-                    "id": "Pilih kanji yang benar",
-                    "en": "Choose the correct kanji"
+                    "id": "Pilih penulisan kanji yang tepat",
+                    "en": "Choose the correct kanji spelling"
                 }
             }
         ],
@@ -3410,8 +2124,8 @@ const minggu4Hari2 = {
                 "id": "w4d2-exam-001",
                 "type": "reading",
                 "question": {
-                    "id": "次の言葉の読み方として正しいものを選びなさい。",
-                    "en": "Choose the correct reading of the following word."
+                    "id": "次の文・語に合うものを選びなさい。",
+                    "en": "Choose the best answer for the sentence or expression."
                 },
                 "prompt": "子どもの教育費を（　）するために昼夜を問わず働く。",
                 "promptType": "word",
@@ -3421,8 +2135,8 @@ const minggu4Hari2 = {
                 ],
                 "answer": "工面",
                 "explanation": {
-                    "id": "工面する（くめんする）は mengusahakan atau mengatur dana. 工夫する berarti mencari cara/ide.",
-                    "en": "工面する（くめんする）は mengusahakan atau mengatur dana. 工夫する berarti mencari cara/ide."
+                    "id": "工面する berarti mengusahakan atau menyediakan dana. 工夫 berarti mencari cara atau akal.",
+                    "en": "工面する berarti mengusahakan atau menyediakan dana. 工夫 berarti mencari cara atau akal."
                 },
                 "sourceKanji": [
                     "工"
@@ -3432,8 +2146,8 @@ const minggu4Hari2 = {
                 "id": "w4d2-exam-002",
                 "type": "reading",
                 "question": {
-                    "id": "次の言葉の読み方として正しいものを選びなさい。",
-                    "en": "Choose the correct reading of the following word."
+                    "id": "次の文・語に合うものを選びなさい。",
+                    "en": "Choose the best answer for the sentence or expression."
                 },
                 "prompt": "（　）の水害に見舞われる。",
                 "promptType": "word",
@@ -3443,8 +2157,8 @@ const minggu4Hari2 = {
                 ],
                 "answer": "未曾有",
                 "explanation": {
-                    "id": "未曾有（みぞう）は sesuatu yang belum pernah terjadi sebelumnya. 有頂天 berarti sangat gembira.",
-                    "en": "未曾有（みぞう）は sesuatu yang belum pernah terjadi sebelumnya. 有頂天 berarti sangat gembira."
+                    "id": "未曾有 berarti belum pernah terjadi; cocok untuk bencana yang luar biasa. 有頂天 berarti sangat gembira atau terlena.",
+                    "en": "未曾有 berarti belum pernah terjadi; cocok untuk bencana yang luar biasa. 有頂天 berarti sangat gembira atau terlena."
                 },
                 "sourceKanji": [
                     "有"
@@ -3454,8 +2168,8 @@ const minggu4Hari2 = {
                 "id": "w4d2-exam-003",
                 "type": "reading",
                 "question": {
-                    "id": "次の言葉の読み方として正しいものを選びなさい。",
-                    "en": "Choose the correct reading of the following word."
+                    "id": "次の文・語に合うものを選びなさい。",
+                    "en": "Choose the best answer for the sentence or expression."
                 },
                 "prompt": "トキという鳥は（　）記念物に指定されている。",
                 "promptType": "word",
@@ -3465,8 +2179,8 @@ const minggu4Hari2 = {
                 ],
                 "answer": "天然",
                 "explanation": {
-                    "id": "天然記念物（てんねんきねんぶつ）berarti monumen alam.",
-                    "en": "天然記念物（てんねんきねんぶつ）berarti monumen alam."
+                    "id": "天然記念物 berarti monumen alam. 黄金 berarti emas.",
+                    "en": "天然記念物 berarti monumen alam. 黄金 berarti emas."
                 },
                 "sourceKanji": [
                     "然"
@@ -3476,8 +2190,8 @@ const minggu4Hari2 = {
                 "id": "w4d2-exam-004",
                 "type": "reading",
                 "question": {
-                    "id": "次の言葉の読み方として正しいものを選びなさい。",
-                    "en": "Choose the correct reading of the following word."
+                    "id": "次の文・語に合うものを選びなさい。",
+                    "en": "Choose the best answer for the sentence or expression."
                 },
                 "prompt": "必要な時、その（　）発行できる1回限りのクレジットカードがあるらしい。",
                 "promptType": "word",
@@ -3487,8 +2201,8 @@ const minggu4Hari2 = {
                 ],
                 "answer": "都度",
                 "explanation": {
-                    "id": "その都度（つど） berarti setiap kali. 都合 berarti keadaan/kecocokan.",
-                    "en": "その都度（つど） berarti setiap kali. 都合 berarti keadaan/kecocokan."
+                    "id": "都度 berarti setiap kali. 都合 berarti keadaan, kecocokan, atau kenyamanan.",
+                    "en": "都度 berarti setiap kali. 都合 berarti keadaan, kecocokan, atau kenyamanan."
                 },
                 "sourceKanji": [
                     "都"
@@ -3498,8 +2212,8 @@ const minggu4Hari2 = {
                 "id": "w4d2-exam-005",
                 "type": "reading",
                 "question": {
-                    "id": "次の言葉の読み方として正しいものを選びなさい。",
-                    "en": "Choose the correct reading of the following word."
+                    "id": "次の文・語に合うものを選びなさい。",
+                    "en": "Choose the best answer for the sentence or expression."
                 },
                 "prompt": "この商品の（　）品にご注意ください。",
                 "promptType": "word",
@@ -3509,8 +2223,8 @@ const minggu4Hari2 = {
                 ],
                 "answer": "類似",
                 "explanation": {
-                    "id": "類似品（るいじひん）adalah barang yang menyerupai produk lain. 疑似 juga berarti simulasi/imitasi, tetapi pasangan sumber memilih 類似.",
-                    "en": "類似品（るいじひん）adalah barang yang menyerupai produk lain. 疑似 juga berarti simulasi/imitasi, tetapi pasangan sumber memilih 類似."
+                    "id": "類似品 berarti produk serupa. 疑似 berarti tiruan/simulasi dan tidak menjadi pilihan yang dimaksud dalam ungkapan sumber.",
+                    "en": "類似品 berarti produk serupa. 疑似 berarti tiruan/simulasi dan tidak menjadi pilihan yang dimaksud dalam ungkapan sumber."
                 },
                 "sourceKanji": [
                     "似"
@@ -3520,8 +2234,8 @@ const minggu4Hari2 = {
                 "id": "w4d2-exam-006",
                 "type": "reading",
                 "question": {
-                    "id": "次の言葉の読み方として正しいものを選びなさい。",
-                    "en": "Choose the correct reading of the following word."
+                    "id": "次の文・語に合うものを選びなさい。",
+                    "en": "Choose the best answer for the sentence or expression."
                 },
                 "prompt": "ハイジャック犯は乗客を（　）に、燃料補給と食糧を要求した。",
                 "promptType": "word",
@@ -3531,8 +2245,8 @@ const minggu4Hari2 = {
                 ],
                 "answer": "人質",
                 "explanation": {
-                    "id": "人質（ひとじち）berarti sandera. 弟子（でし）berarti murid.",
-                    "en": "人質（ひとじち）berarti sandera. 弟子（でし）berarti murid."
+                    "id": "人質 berarti sandera. 弟子 berarti murid atau apprentice.",
+                    "en": "人質 berarti sandera. 弟子 berarti murid atau apprentice."
                 },
                 "sourceKanji": [
                     "質"
@@ -3540,31 +2254,21 @@ const minggu4Hari2 = {
             },
             {
                 "id": "w4d2-exam-007",
-                "type": "kanji",
+                "type": "reading",
                 "question": {
-                    "id": "文脈に合う言葉を選びなさい。",
-                    "en": "Choose the word that best fits the context."
+                    "id": "次の文・語に合うものを選びなさい。",
+                    "en": "Choose the best answer for the sentence or expression."
                 },
-                "prompt": "雨天決行。読み「う」：＿＿天",
+                "prompt": "うてん決行 → （　）天",
                 "promptType": "reading",
                 "options": [
                     "雨",
-                    "右",
-                    "井",
-                    "定",
-                    "子",
-                    "守",
-                    "下",
-                    "解",
-                    "有",
-                    "仮",
-                    "生",
-                    "工"
+                    "有"
                 ],
                 "answer": "雨",
                 "explanation": {
-                    "id": "雨天（うてん）は cuaca hujan; 雨 dibaca ウ.",
-                    "en": "雨天（うてん）は cuaca hujan; 雨 dibaca ウ."
+                    "id": "雨天 dibaca うてん.",
+                    "en": "雨天 dibaca うてん."
                 },
                 "sourceKanji": [
                     "雨"
@@ -3572,31 +2276,21 @@ const minggu4Hari2 = {
             },
             {
                 "id": "w4d2-exam-008",
-                "type": "kanji",
+                "type": "reading",
                 "question": {
-                    "id": "文脈に合う言葉を選びなさい。",
-                    "en": "Choose the word that best fits the context."
+                    "id": "次の文・語に合うものを選びなさい。",
+                    "en": "Choose the best answer for the sentence or expression."
                 },
-                "prompt": "右折禁止。読み「う」：＿＿折",
+                "prompt": "うせつ禁止 → （　）折",
                 "promptType": "reading",
                 "options": [
-                    "雨",
                     "右",
-                    "井",
-                    "定",
-                    "子",
-                    "守",
-                    "下",
-                    "解",
-                    "有",
-                    "仮",
-                    "生",
-                    "工"
+                    "下"
                 ],
                 "answer": "右",
                 "explanation": {
-                    "id": "右折（うせつ）は belok kanan; 右 dibaca ウ.",
-                    "en": "右折（うせつ）は belok kanan; 右 dibaca ウ."
+                    "id": "右折 dibaca うせつ.",
+                    "en": "右折 dibaca うせつ."
                 },
                 "sourceKanji": [
                     "右"
@@ -3604,31 +2298,21 @@ const minggu4Hari2 = {
             },
             {
                 "id": "w4d2-exam-009",
-                "type": "kanji",
+                "type": "reading",
                 "question": {
-                    "id": "文脈に合う言葉を選びなさい。",
-                    "en": "Choose the word that best fits the context."
+                    "id": "次の文・語に合うものを選びなさい。",
+                    "en": "Choose the best answer for the sentence or expression."
                 },
-                "prompt": "天井に描かれた絵。読み「じょう」：天＿＿",
+                "prompt": "天じょうに描かれた絵 → 天（　）",
                 "promptType": "reading",
                 "options": [
-                    "雨",
-                    "右",
                     "井",
-                    "定",
-                    "子",
-                    "守",
-                    "下",
-                    "解",
-                    "有",
-                    "仮",
-                    "生",
-                    "工"
+                    "子"
                 ],
                 "answer": "井",
                 "explanation": {
-                    "id": "天井（てんじょう）は langit-langit.",
-                    "en": "天井（てんじょう）は langit-langit."
+                    "id": "天井 dibaca てんじょう.",
+                    "en": "天井 dibaca てんじょう."
                 },
                 "sourceKanji": [
                     "井"
@@ -3636,31 +2320,21 @@ const minggu4Hari2 = {
             },
             {
                 "id": "w4d2-exam-010",
-                "type": "kanji",
+                "type": "reading",
                 "question": {
-                    "id": "文脈に合う言葉を選びなさい。",
-                    "en": "Choose the word that best fits the context."
+                    "id": "次の文・語に合うものを選びなさい。",
+                    "en": "Choose the best answer for the sentence or expression."
                 },
-                "prompt": "三角定規。読み「じょう」：三角＿＿規",
+                "prompt": "三角じょうぎ → （　）規",
                 "promptType": "reading",
                 "options": [
-                    "雨",
-                    "右",
-                    "井",
                     "定",
-                    "子",
-                    "守",
-                    "下",
-                    "解",
-                    "有",
-                    "仮",
-                    "生",
                     "工"
                 ],
                 "answer": "定",
                 "explanation": {
-                    "id": "定規（じょうぎ）は penggaris.",
-                    "en": "定規（じょうぎ）は penggaris."
+                    "id": "定規 dibaca じょうぎ.",
+                    "en": "定規 dibaca じょうぎ."
                 },
                 "sourceKanji": [
                     "定"
@@ -3668,31 +2342,21 @@ const minggu4Hari2 = {
             },
             {
                 "id": "w4d2-exam-011",
-                "type": "kanji",
+                "type": "reading",
                 "question": {
-                    "id": "文脈に合う言葉を選びなさい。",
-                    "en": "Choose the word that best fits the context."
+                    "id": "次の文・語に合うものを選びなさい。",
+                    "en": "Choose the best answer for the sentence or expression."
                 },
-                "prompt": "様子を見に行く。読み「す」：様＿＿",
+                "prompt": "ようすを見に行く。 → 様（　）",
                 "promptType": "reading",
                 "options": [
-                    "雨",
-                    "右",
-                    "井",
-                    "定",
                     "子",
-                    "守",
-                    "下",
-                    "解",
-                    "有",
-                    "仮",
-                    "生",
-                    "工"
+                    "守"
                 ],
                 "answer": "子",
                 "explanation": {
-                    "id": "様子（ようす）は keadaan atau penampilan.",
-                    "en": "様子（ようす）は keadaan atau penampilan."
+                    "id": "様子 dibaca ようす.",
+                    "en": "様子 dibaca ようす."
                 },
                 "sourceKanji": [
                     "子"
@@ -3700,31 +2364,21 @@ const minggu4Hari2 = {
             },
             {
                 "id": "w4d2-exam-012",
-                "type": "kanji",
+                "type": "reading",
                 "question": {
-                    "id": "文脈に合う言葉を選びなさい。",
-                    "en": "Choose the word that best fits the context."
+                    "id": "次の文・語に合うものを選びなさい。",
+                    "en": "Choose the best answer for the sentence or expression."
                 },
-                "prompt": "留守番電話。読み「す」：留＿＿番電話",
+                "prompt": "るすばん電話 → 留（　）番",
                 "promptType": "reading",
                 "options": [
-                    "雨",
-                    "右",
-                    "井",
-                    "定",
-                    "子",
                     "守",
-                    "下",
-                    "解",
-                    "有",
-                    "仮",
-                    "生",
-                    "工"
+                    "子"
                 ],
                 "answer": "守",
                 "explanation": {
-                    "id": "留守（るす）memiliki bacaan khusus ス pada 守.",
-                    "en": "留守（るす）memiliki bacaan khusus ス pada 守."
+                    "id": "留守番電話 dibaca るすばんでんわ.",
+                    "en": "留守番電話 dibaca るすばんでんわ."
                 },
                 "sourceKanji": [
                     "守"
@@ -3732,31 +2386,21 @@ const minggu4Hari2 = {
             },
             {
                 "id": "w4d2-exam-013",
-                "type": "kanji",
+                "type": "reading",
                 "question": {
-                    "id": "文脈に合う言葉を選びなさい。",
-                    "en": "Choose the word that best fits the context."
+                    "id": "次の文・語に合うものを選びなさい。",
+                    "en": "Choose the best answer for the sentence or expression."
                 },
-                "prompt": "来月の下旬。読み「げ」：＿＿旬",
+                "prompt": "来月のげじゅん → （　）旬",
                 "promptType": "reading",
                 "options": [
-                    "雨",
-                    "右",
-                    "井",
-                    "定",
-                    "子",
-                    "守",
                     "下",
-                    "解",
-                    "有",
-                    "仮",
-                    "生",
-                    "工"
+                    "後"
                 ],
                 "answer": "下",
                 "explanation": {
-                    "id": "下旬（げじゅん）は sepuluh hari terakhir bulan.",
-                    "en": "下旬（げじゅん）は sepuluh hari terakhir bulan."
+                    "id": "下旬 dibaca げじゅん.",
+                    "en": "下旬 dibaca げじゅん."
                 },
                 "sourceKanji": [
                     "下"
@@ -3764,31 +2408,21 @@ const minggu4Hari2 = {
             },
             {
                 "id": "w4d2-exam-014",
-                "type": "kanji",
+                "type": "reading",
                 "question": {
-                    "id": "文脈に合う言葉を選びなさい。",
-                    "en": "Choose the word that best fits the context."
+                    "id": "次の文・語に合うものを選びなさい。",
+                    "en": "Choose the best answer for the sentence or expression."
                 },
-                "prompt": "解熱剤。読み「げ」：＿＿熱剤",
+                "prompt": "げねつざい → （　）熱剤",
                 "promptType": "reading",
                 "options": [
-                    "雨",
-                    "右",
-                    "井",
-                    "定",
-                    "子",
-                    "守",
-                    "下",
                     "解",
-                    "有",
-                    "仮",
-                    "生",
-                    "工"
+                    "仮"
                 ],
                 "answer": "解",
                 "explanation": {
-                    "id": "解熱剤（げねつざい）は obat penurun panas; 解 dibaca ゲ.",
-                    "en": "解熱剤（げねつざい）は obat penurun panas; 解 dibaca ゲ."
+                    "id": "解熱剤 dibaca げねつざい.",
+                    "en": "解熱剤 dibaca げねつざい."
                 },
                 "sourceKanji": [
                     "解"
@@ -3798,4 +2432,4 @@ const minggu4Hari2 = {
     }
 };
 
-export default minggu4Hari2;
+if (typeof module !== "undefined" && module.exports) module.exports = minggu4Hari2;
