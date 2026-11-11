@@ -11,7 +11,7 @@ const minggu5Hari3 = {
     },
     "source": {
         "label": "Minggu 5 Hari 3",
-        "image": "assets/images/backgrounds/mobile-normal.png"
+        "image": "assets/images/backgrounds/desktop-normal.png"
     },
     "kanji": [
         {
