@@ -6,205 +6,149 @@ const minggu6Hari2 = {
         "en": "Day 2"
     },
     "subtitle": {
-        "id": "返済・返却・返還 serta perbedaan kosakata yang mirip",
-        "en": "返済・返却・返還 and distinctions between similar vocabulary"
+        "id": "返済・返却・返還 dan pembedaan kosakata",
+        "en": "返済・返却・返還 and vocabulary distinctions"
     },
     "source": {
         "label": "Minggu 6 Hari 2",
         "image": "assets/images/backgrounds/mobile-normal.png"
+    },
+    "description": {
+        "id": "Kosakata yang dibedakan berdasarkan pemakaian dan konteks.",
+        "en": "Vocabulary distinguished by usage and context."
     },
     "kanji": [
         {
             "id": "week6-day2-001",
             "character": "復旧",
             "meaning": {
-                "id": "pemulihan; pemulihan kembali layanan",
+                "id": "pemulihan; pengembalian ke kondisi berfungsi",
                 "en": "restoration; recovery of services"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 交通が復旧する、通信が復旧する、電気・ガスが復旧する。",
-                "en": "Examples from the lesson: 交通が復旧する, 通信が復旧する, 電気・ガスが復旧する."
-            },
-            "explanation": {
-                "id": "復旧 berarti mengembalikan fungsi sistem atau infrastruktur yang sempat terhenti.",
-                "en": "復旧 means restoring a system or infrastructure whose function was interrupted."
+                "id": "Dipakai untuk pulihnya transportasi, komunikasi, listrik, atau gas.",
+                "en": "Used for transport, communications, electricity, or gas services being restored."
             },
             "nuance": {
-                "id": "Biasanya dipakai untuk transportasi, komunikasi, listrik, dan gas; fokusnya pada layanan atau fasilitas yang kembali berfungsi.",
-                "en": "It is commonly used for transportation, communications, electricity, and gas; the focus is restoring services or facilities."
+                "id": "Menekankan pemulihan fungsi infrastruktur atau layanan yang sempat terganggu.",
+                "en": "It emphasizes restoring the function of disrupted infrastructure or services."
             },
             "philosophy": {
-                "id": "Ingat pasangan: gangguan layanan terjadi, lalu sistem dipulihkan.",
-                "en": "Remember the sequence: a service is disrupted, then restored."
+                "id": "Pasangkan dengan layanan publik yang kembali beroperasi.",
+                "en": "Pair it with a public service returning to operation."
             },
             "vocabulary": [
                 {
-                    "word": "交通が復旧する",
-                    "reading": "こうつうがふっきゅうする",
+                    "word": "復旧",
+                    "reading": "ふっきゅう",
                     "meaning": {
-                        "id": "transportasi kembali beroperasi",
-                        "en": "transportation is restored"
-                    }
-                },
-                {
-                    "word": "通信が復旧する",
-                    "reading": "つうしんがふっきゅうする",
-                    "meaning": {
-                        "id": "komunikasi pulih",
-                        "en": "communications are restored"
-                    }
-                },
-                {
-                    "word": "電気・ガスが復旧する",
-                    "reading": "でんき・ガスがふっきゅうする",
-                    "meaning": {
-                        "id": "listrik dan gas kembali berfungsi",
-                        "en": "electricity and gas service is restored"
+                        "id": "pemulihan; pengembalian ke kondisi berfungsi",
+                        "en": "restoration; recovery of services"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "ふっきゅう",
-            "category": {
-                "id": "回復・復帰との使い分け",
-                "en": "回復・復帰との使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-002",
             "character": "回復",
             "meaning": {
-                "id": "pemulihan; kembali pulih",
+                "id": "pemulihan; sembuh",
                 "en": "recovery; recuperation"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 天気が回復する、病気が回復する。",
-                "en": "Examples from the lesson: 天気が回復する, 病気が回復する."
-            },
-            "explanation": {
-                "id": "回復 menyatakan keadaan yang kembali membaik setelah menurun atau terganggu.",
-                "en": "回復 describes a condition returning to a better or normal state after declining or being disrupted."
+                "id": "Sumber mencontohkan cuaca dan penyakit yang 回復する.",
+                "en": "The source uses weather and illness as things that 回復する."
             },
             "nuance": {
-                "id": "Sumber memberi contoh cuaca dan penyakit; kata ini menekankan kondisi yang membaik, bukan infrastruktur yang diperbaiki.",
-                "en": "The source uses weather and illness; this word emphasizes an improving condition rather than repaired infrastructure."
+                "id": "Lebih alami untuk kondisi atau keadaan yang membaik, termasuk kesehatan dan cuaca.",
+                "en": "It naturally describes a condition improving, including health and weather."
             },
             "philosophy": {
-                "id": "Bayangkan kondisi yang perlahan kembali normal.",
-                "en": "Picture a condition gradually returning to normal."
+                "id": "Ingat keadaan yang berangsur kembali membaik.",
+                "en": "Remember a condition gradually returning to a better state."
             },
             "vocabulary": [
                 {
-                    "word": "天気が回復する",
-                    "reading": "てんきがかいふくする",
+                    "word": "回復",
+                    "reading": "かいふく",
                     "meaning": {
-                        "id": "cuaca membaik",
-                        "en": "the weather improves"
-                    }
-                },
-                {
-                    "word": "病気が回復する",
-                    "reading": "びょうきがかいふくする",
-                    "meaning": {
-                        "id": "penyakit/kondisi kesehatan pulih",
-                        "en": "an illness condition improves"
+                        "id": "pemulihan; sembuh",
+                        "en": "recovery; recuperation"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "かいふく",
-            "category": {
-                "id": "回復・復旧との使い分け",
-                "en": "回復・復旧との使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-003",
             "character": "復帰",
             "meaning": {
-                "id": "kembali bertugas; kembali ke posisi",
+                "id": "kembali; kembali bertugas",
                 "en": "return; comeback"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 仕事に復帰する。",
-                "en": "Examples from the lesson: 仕事に復帰する."
-            },
-            "explanation": {
-                "id": "復帰 berarti kembali ke pekerjaan, peran, atau aktivitas setelah sempat tidak menjalaninya.",
-                "en": "復帰 means returning to a job, role, or activity after an absence."
+                "id": "Sumber memberi contoh 仕事に復帰する.",
+                "en": "The source gives 仕事に復帰する as an example."
             },
             "nuance": {
-                "id": "Fokusnya adalah orang atau pihak yang kembali berpartisipasi, seperti kembali bekerja.",
-                "en": "The focus is a person or party resuming participation, such as returning to work."
+                "id": "Menunjukkan seseorang atau pihak yang kembali ke posisi atau aktivitas sebelumnya.",
+                "en": "It describes a person or party returning to a former role or activity."
             },
             "philosophy": {
-                "id": "Ingat gerakan kembali masuk ke peran atau aktivitas semula.",
-                "en": "Remember the act of re-entering a former role or activity."
+                "id": "Bayangkan seseorang kembali bekerja setelah jeda.",
+                "en": "Picture someone returning to work after a break."
             },
             "vocabulary": [
                 {
-                    "word": "仕事に復帰する",
-                    "reading": "しごとにふっきする",
+                    "word": "復帰",
+                    "reading": "ふっき",
                     "meaning": {
-                        "id": "kembali bekerja",
-                        "en": "return to work"
+                        "id": "kembali; kembali bertugas",
+                        "en": "return; comeback"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "ふっき",
-            "category": {
-                "id": "復旧・回復との使い分け",
-                "en": "復旧・回復との使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-004",
             "character": "復活",
             "meaning": {
-                "id": "kebangkitan; menghidupkan kembali",
-                "en": "revival; resurrection"
+                "id": "kebangkitan; dihidupkan kembali",
+                "en": "revival; restoration"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 昔の行事が復活する。",
-                "en": "Examples from the lesson: 昔の行事が復活する."
-            },
-            "explanation": {
-                "id": "復活 berarti sesuatu yang pernah berhenti atau hilang kembali diadakan atau digunakan.",
-                "en": "復活 means something that had stopped or disappeared is brought back."
+                "id": "Sumber memberi contoh 昔の行事が復活する.",
+                "en": "The source gives 昔の行事が復活する as an example."
             },
             "nuance": {
-                "id": "Dalam contoh sumber, yang dihidupkan kembali adalah acara atau tradisi lama.",
-                "en": "In the source example, what is revived is an old event or tradition."
+                "id": "Menyoroti sesuatu yang pernah berhenti lalu diadakan atau digunakan kembali.",
+                "en": "It highlights something that had stopped and is brought back."
             },
             "philosophy": {
-                "id": "Hubungkan 復活 dengan sesuatu yang kembali hadir setelah sempat tidak ada.",
-                "en": "Associate 復活 with something returning after being absent."
+                "id": "Hubungkan dengan acara lama yang kembali diselenggarakan.",
+                "en": "Connect it with an old event being held again."
             },
             "vocabulary": [
                 {
-                    "word": "昔の行事が復活する",
-                    "reading": "むかしのぎょうじがふっかつする",
+                    "word": "復活",
+                    "reading": "ふっかつ",
                     "meaning": {
-                        "id": "acara lama dihidupkan kembali",
-                        "en": "an old event is revived"
+                        "id": "kebangkitan; dihidupkan kembali",
+                        "en": "revival; restoration"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "ふっかつ",
-            "category": {
-                "id": "復旧・回復との使い分け",
-                "en": "復旧・回復との使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-005",
@@ -216,245 +160,160 @@ const minggu6Hari2 = {
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 国が復興する、経済が復興する。",
-                "en": "Examples from the lesson: 国が復興する, 経済が復興する."
-            },
-            "explanation": {
-                "id": "復興 berarti membangun kembali wilayah, negara, atau ekonomi setelah mengalami kerusakan atau kemunduran besar.",
-                "en": "復興 means rebuilding a region, country, or economy after major damage or decline."
+                "id": "Sumber mencontohkan negara atau ekonomi yang 復興する.",
+                "en": "The source uses a country or economy undergoing 復興."
             },
             "nuance": {
-                "id": "Skalanya sering lebih luas daripada pemulihan biasa dan melibatkan pembangunan kembali masyarakat atau ekonomi.",
-                "en": "Its scale is often broader than ordinary recovery and involves rebuilding society or the economy."
+                "id": "Biasanya menyangkut pemulihan berskala luas setelah kerusakan atau kemunduran.",
+                "en": "It usually concerns large-scale rebuilding after damage or decline."
             },
             "philosophy": {
-                "id": "Bayangkan kota atau ekonomi yang dibangun lagi setelah bencana.",
-                "en": "Picture a city or economy being rebuilt after a disaster."
+                "id": "Bayangkan wilayah yang dibangun kembali setelah bencana.",
+                "en": "Picture an area being rebuilt after a disaster."
             },
             "vocabulary": [
                 {
-                    "word": "国が復興する",
-                    "reading": "くにがふっこうする",
+                    "word": "復興",
+                    "reading": "ふっこう",
                     "meaning": {
-                        "id": "negara bangkit dan membangun kembali",
-                        "en": "a country is reconstructed"
-                    }
-                },
-                {
-                    "word": "経済が復興する",
-                    "reading": "けいざいがふっこうする",
-                    "meaning": {
-                        "id": "ekonomi pulih dan dibangun kembali",
-                        "en": "the economy is rebuilt"
+                        "id": "rekonstruksi; pembangunan kembali",
+                        "en": "reconstruction; rebuilding"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "ふっこう",
-            "category": {
-                "id": "復旧・回復との使い分け",
-                "en": "復旧・回復との使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-006",
             "character": "返済",
             "meaning": {
-                "id": "pelunasan; pembayaran kembali utang",
+                "id": "pelunasan; pembayaran kembali",
                 "en": "repayment"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 借金を返済する、ローンを返済する。",
-                "en": "Examples from the lesson: 借金を返済する, ローンを返済する."
-            },
-            "explanation": {
-                "id": "返済 berarti membayar kembali uang yang dipinjam, termasuk utang atau pinjaman.",
-                "en": "返済 means paying back borrowed money, including debts or loans."
+                "id": "Dipakai untuk membayar kembali utang atau pinjaman.",
+                "en": "Used for paying back debt or a loan."
             },
             "nuance": {
-                "id": "Objek khasnya adalah kewajiban uang; bukan barang yang dipinjam.",
-                "en": "Its typical object is a monetary obligation, not a borrowed item."
+                "id": "Objek yang dikembalikan berupa uang atau kewajiban finansial.",
+                "en": "What is returned is money or a financial obligation."
             },
             "philosophy": {
-                "id": "Kaitkan 返済 dengan uang yang harus dibayar kembali.",
-                "en": "Link 返済 with money that must be paid back."
+                "id": "Ingat pasangan 借金・ローン sebagai petunjuk kata ini.",
+                "en": "Remember 借金 and ローン as clues for this word."
             },
             "vocabulary": [
                 {
-                    "word": "借金を返済する",
-                    "reading": "しゃっきんをへんさいする",
+                    "word": "返済",
+                    "reading": "へんさい",
                     "meaning": {
-                        "id": "melunasi utang",
-                        "en": "repay a debt"
-                    }
-                },
-                {
-                    "word": "ローンを返済する",
-                    "reading": "ローンをへんさいする",
-                    "meaning": {
-                        "id": "membayar cicilan/pinjaman",
-                        "en": "repay a loan"
+                        "id": "pelunasan; pembayaran kembali",
+                        "en": "repayment"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "へんさい",
-            "category": {
-                "id": "返済・返却・返還の使い分け",
-                "en": "返済・返却・返還の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-007",
             "character": "返却",
             "meaning": {
-                "id": "pengembalian barang pinjaman",
-                "en": "return of borrowed items"
+                "id": "pengembalian barang",
+                "en": "return of an item"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 図書を返却する、DVDを返却する、機材を返却する。",
-                "en": "Examples from the lesson: 図書を返却する, DVDを返却する, 機材を返却する."
-            },
-            "explanation": {
-                "id": "返却 berarti mengembalikan barang atau bahan yang sebelumnya dipinjam atau digunakan.",
-                "en": "返却 means returning an item or material that was borrowed or used."
+                "id": "Dipakai untuk mengembalikan buku, DVD, atau peralatan.",
+                "en": "Used for returning books, DVDs, or equipment."
             },
             "nuance": {
-                "id": "Sumber mencontohkan buku, DVD, dan perlengkapan; fokusnya barang yang dikembalikan kepada pemilik atau tempat asal.",
-                "en": "The source mentions books, DVDs, and equipment; the focus is on returning an item to its owner or original place."
+                "id": "Berfokus pada barang yang dipinjam dan harus dikembalikan.",
+                "en": "It focuses on a borrowed item that must be returned."
             },
             "philosophy": {
-                "id": "Bayangkan mengembalikan buku ke perpustakaan setelah dipinjam.",
-                "en": "Picture returning a borrowed book to the library."
+                "id": "Bayangkan mengembalikan buku ke perpustakaan.",
+                "en": "Picture returning a book to the library."
             },
             "vocabulary": [
                 {
-                    "word": "図書を返却する",
-                    "reading": "としょをへんきゃくする",
+                    "word": "返却",
+                    "reading": "へんきゃく",
                     "meaning": {
-                        "id": "mengembalikan buku",
-                        "en": "return library books"
-                    }
-                },
-                {
-                    "word": "DVDを返却する",
-                    "reading": "ディーブイディーをへんきゃくする",
-                    "meaning": {
-                        "id": "mengembalikan DVD",
-                        "en": "return a DVD"
-                    }
-                },
-                {
-                    "word": "機材を返却する",
-                    "reading": "きざいをへんきゃくする",
-                    "meaning": {
-                        "id": "mengembalikan peralatan",
-                        "en": "return equipment"
+                        "id": "pengembalian barang",
+                        "en": "return of an item"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "へんきゃく",
-            "category": {
-                "id": "返済・返却・返還の使い分け",
-                "en": "返済・返却・返還の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-008",
             "character": "返還",
             "meaning": {
-                "id": "pengembalian kepada pemilik atau pihak semula",
-                "en": "return; restoration to the original holder"
+                "id": "pengembalian; restitusi",
+                "en": "restitution; return"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 領土を返還する。",
-                "en": "Examples from the lesson: 領土を返還する."
-            },
-            "explanation": {
-                "id": "返還 berarti mengembalikan sesuatu kepada pihak yang berhak atau pemilik semula.",
-                "en": "返還 means giving something back to the rightful party or original owner."
+                "id": "Sumber mencontohkan wilayah yang dikembalikan kepada pemilik asal.",
+                "en": "The source uses territory being returned to its original owner."
             },
             "nuance": {
-                "id": "Sumber mencontohkan wilayah; nuansanya lebih formal dan sering menyangkut hak, wilayah, atau benda bernilai.",
-                "en": "The source gives territory as an example; the nuance is formal and often concerns rights, territory, or significant property."
+                "id": "Mengandung nuansa pengembalian hak atau kepemilikan kepada pihak asal.",
+                "en": "It carries the sense of restoring a right or possession to its original holder."
             },
             "philosophy": {
-                "id": "Ingat 返還 sebagai pengembalian hak atau kepemilikan ke pihak asal.",
-                "en": "Remember 返還 as restoring rights or ownership to the original party."
+                "id": "Hubungkan dengan wilayah atau hak yang dikembalikan.",
+                "en": "Connect it with territory or rights being restored."
             },
             "vocabulary": [
                 {
-                    "word": "領土を返還する",
-                    "reading": "りょうどをへんかんする",
+                    "word": "返還",
+                    "reading": "へんかん",
                     "meaning": {
-                        "id": "mengembalikan wilayah",
-                        "en": "return territory"
+                        "id": "pengembalian; restitusi",
+                        "en": "restitution; return"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "へんかん",
-            "category": {
-                "id": "返済・返却・返還の使い分け",
-                "en": "返済・返却・返還の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-009",
             "character": "遠慮",
             "meaning": {
                 "id": "menahan diri; sungkan",
-                "en": "reserve; restraint"
+                "en": "restraint; reserve"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 誘いを遠慮する、申し出を遠慮する。",
-                "en": "Examples from the lesson: 誘いを遠慮する, 申し出を遠慮する."
-            },
-            "explanation": {
-                "id": "遠慮 berarti menahan diri dari melakukan atau menerima sesuatu karena kesopanan atau pertimbangan.",
-                "en": "遠慮 means holding back from doing or accepting something out of politeness or consideration."
+                "id": "Dipakai ketika menahan diri dari undangan atau tawaran.",
+                "en": "Used when declining or holding back from an invitation or offer."
             },
             "nuance": {
-                "id": "Sering muncul pada ajakan atau tawaran; 遠慮なく dapat berarti tanpa sungkan.",
-                "en": "It often appears with invitations or offers; 遠慮なく means without hesitation or reserve."
+                "id": "Menekankan sikap sungkan atau pembatasan diri dalam interaksi sosial.",
+                "en": "It emphasizes modest restraint in social interaction."
             },
             "philosophy": {
-                "id": "Bayangkan seseorang menolak atau menahan diri dengan sopan.",
-                "en": "Picture someone politely declining or holding back."
+                "id": "Bayangkan menolak tawaran dengan sopan karena sungkan.",
+                "en": "Picture politely declining an offer out of reserve."
             },
             "vocabulary": [
                 {
-                    "word": "誘いを遠慮する",
-                    "reading": "さそいをえんりょする",
+                    "word": "遠慮",
+                    "reading": "えんりょ",
                     "meaning": {
-                        "id": "menolak ajakan dengan sungkan",
-                        "en": "decline an invitation out of reserve"
-                    }
-                },
-                {
-                    "word": "申し出を遠慮する",
-                    "reading": "もうしでをえんりょする",
-                    "meaning": {
-                        "id": "menahan diri menerima tawaran",
-                        "en": "refrain from accepting an offer"
+                        "id": "menahan diri; sungkan",
+                        "en": "restraint; reserve"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "えんりょ",
-            "category": {
-                "id": "考慮・配慮との使い分け",
-                "en": "考慮・配慮との使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-010",
@@ -466,79 +325,61 @@ const minggu6Hari2 = {
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 指摘された点を考慮に入れる。",
-                "en": "Examples from the lesson: 指摘された点を考慮に入れる."
-            },
-            "explanation": {
-                "id": "考慮 berarti mempertimbangkan suatu informasi atau sudut pandang saat mengambil keputusan.",
-                "en": "考慮 means taking information or a viewpoint into account when making a decision."
+                "id": "Sumber memberi contoh 指摘された点を考慮に入れる.",
+                "en": "The source gives 指摘された点を考慮に入れる as an example."
             },
             "nuance": {
-                "id": "Fokusnya pada proses berpikir dan memasukkan suatu poin ke dalam penilaian.",
-                "en": "The focus is on the thinking process and incorporating a point into an assessment."
+                "id": "Berarti memasukkan suatu faktor ke dalam proses berpikir sebelum memutuskan.",
+                "en": "It means taking a factor into account before making a decision."
             },
             "philosophy": {
-                "id": "Ingat 考慮 sebagai menimbang fakta sebelum memutuskan.",
-                "en": "Remember 考慮 as weighing facts before deciding."
+                "id": "Ingat bahwa suatu poin dipertimbangkan, bukan sekadar didengar.",
+                "en": "Remember that a point is considered, not merely heard."
             },
             "vocabulary": [
                 {
-                    "word": "指摘された点を考慮に入れる",
-                    "reading": "してきされたてんをこうりょにいれる",
+                    "word": "考慮",
+                    "reading": "こうりょ",
                     "meaning": {
-                        "id": "mempertimbangkan hal yang ditunjukkan",
-                        "en": "take the pointed-out issue into consideration"
+                        "id": "pertimbangan",
+                        "en": "consideration"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "こうりょ",
-            "category": {
-                "id": "考慮・配慮との使い分け",
-                "en": "考慮・配慮との使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-011",
             "character": "配慮",
             "meaning": {
-                "id": "perhatian; kepedulian terhadap orang lain",
+                "id": "perhatian; kepedulian; pertimbangan terhadap orang lain",
                 "en": "consideration; care"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 配慮に欠ける言動。",
-                "en": "Examples from the lesson: 配慮に欠ける言動."
-            },
-            "explanation": {
-                "id": "配慮 berarti memperhatikan keadaan, perasaan, atau kebutuhan pihak lain.",
-                "en": "配慮 means being attentive to another person's situation, feelings, or needs."
+                "id": "Sumber memberi contoh 配慮に欠ける言動.",
+                "en": "The source gives 配慮に欠ける言動 as an example."
             },
             "nuance": {
-                "id": "Berbeda dari 考慮 yang menimbang suatu poin, 配慮 lebih menonjolkan perhatian yang diberikan agar tidak merugikan atau merepotkan orang lain.",
-                "en": "Unlike 考慮, which weighs a point, 配慮 emphasizes care taken to avoid inconveniencing or harming others."
+                "id": "Lebih menonjolkan perhatian terhadap keadaan atau perasaan pihak lain.",
+                "en": "It places greater emphasis on care for another person’s situation or feelings."
             },
             "philosophy": {
-                "id": "Bayangkan menyesuaikan tindakan karena memikirkan kondisi orang lain.",
-                "en": "Picture adjusting your actions after considering someone else's circumstances."
+                "id": "Bayangkan memilih kata dan tindakan dengan memperhatikan orang lain.",
+                "en": "Picture choosing words and actions with others in mind."
             },
             "vocabulary": [
                 {
-                    "word": "配慮に欠ける言動",
-                    "reading": "はいりょにかけるげんどう",
+                    "word": "配慮",
+                    "reading": "はいりょ",
                     "meaning": {
-                        "id": "perkataan atau tindakan yang kurang mempertimbangkan orang lain",
-                        "en": "words or actions lacking consideration"
+                        "id": "perhatian; kepedulian; pertimbangan terhadap orang lain",
+                        "en": "consideration; care"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "はいりょ",
-            "category": {
-                "id": "考慮・配慮との使い分け",
-                "en": "考慮・配慮との使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-012",
@@ -550,229 +391,160 @@ const minggu6Hari2 = {
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 間違ったところを修正する。",
-                "en": "Examples from the lesson: 間違ったところを修正する."
-            },
-            "explanation": {
-                "id": "修正 berarti mengubah bagian yang keliru atau kurang tepat agar menjadi lebih sesuai.",
-                "en": "修正 means changing an incorrect or unsuitable part to make it more appropriate."
+                "id": "Dipakai untuk memperbaiki bagian yang salah.",
+                "en": "Used to correct an erroneous part."
             },
             "nuance": {
-                "id": "Dapat digunakan untuk teks, data, rencana, atau bagian pekerjaan yang perlu diperbaiki.",
-                "en": "It can be used for text, data, plans, or parts of work that need adjustment."
+                "id": "Cakupannya luas: isi, data, atau bentuk dapat disesuaikan agar benar.",
+                "en": "It is broad: content, data, or form can be adjusted to make it correct."
             },
             "philosophy": {
-                "id": "Ingat 修正 sebagai mengedit atau memperbaiki sesuatu yang sudah ada.",
-                "en": "Remember 修正 as editing or fixing something that already exists."
+                "id": "Gunakan sebagai istilah umum untuk mengubah bagian yang keliru.",
+                "en": "Use it as a general term for changing an incorrect part."
             },
             "vocabulary": [
                 {
-                    "word": "間違ったところを修正する",
-                    "reading": "まちがったところをしゅうせいする",
+                    "word": "修正",
+                    "reading": "しゅうせい",
                     "meaning": {
-                        "id": "memperbaiki bagian yang salah",
-                        "en": "correct the incorrect part"
+                        "id": "perbaikan; revisi",
+                        "en": "correction; modification"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "しゅうせい",
-            "category": {
-                "id": "修正・改正・訂正・是正の使い分け",
-                "en": "修正・改正・訂正・是正の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-013",
             "character": "改正",
             "meaning": {
-                "id": "amendemen; perubahan aturan",
-                "en": "amendment; revision of rules"
+                "id": "amendemen; perubahan resmi",
+                "en": "amendment; official revision"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: バスの料金を改正する、電車の時刻を改正する。",
-                "en": "Examples from the lesson: バスの料金を改正する, 電車の時刻を改正する."
-            },
-            "explanation": {
-                "id": "改正 berarti mengubah atau memperbarui aturan, ketentuan, atau sistem yang berlaku.",
-                "en": "改正 means amending or updating rules, regulations, or an existing system."
+                "id": "Sumber mencontohkan perubahan tarif dan jadwal bus atau kereta.",
+                "en": "The source uses changes to bus and train fares or timetables."
             },
             "nuance": {
-                "id": "Sumber memberi contoh tarif dan jadwal bus atau kereta; objeknya berupa ketentuan atau sistem resmi.",
-                "en": "The source gives bus and train fares or timetables; the object is an official rule or system."
+                "id": "Sering digunakan untuk merevisi aturan, tarif, atau ketentuan resmi.",
+                "en": "It is often used for revising rules, fares, or official provisions."
             },
             "philosophy": {
-                "id": "Hubungkan 改正 dengan perubahan aturan yang berlaku untuk banyak orang.",
-                "en": "Associate 改正 with changes to rules that apply to many people."
+                "id": "Hubungkan 改正 dengan aturan atau jadwal yang diperbarui.",
+                "en": "Connect 改正 with rules or schedules being revised."
             },
             "vocabulary": [
                 {
-                    "word": "バスの料金を改正する",
-                    "reading": "バスのりょうきんをかいせいする",
+                    "word": "改正",
+                    "reading": "かいせい",
                     "meaning": {
-                        "id": "mengubah tarif bus",
-                        "en": "revise bus fares"
-                    }
-                },
-                {
-                    "word": "電車の時刻を改正する",
-                    "reading": "でんしゃのじこくをかいせいする",
-                    "meaning": {
-                        "id": "mengubah jadwal kereta",
-                        "en": "revise train schedules"
+                        "id": "amendemen; perubahan resmi",
+                        "en": "amendment; official revision"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "かいせい",
-            "category": {
-                "id": "修正・改正・訂正・是正の使い分け",
-                "en": "修正・改正・訂正・是正の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-014",
             "character": "訂正",
             "meaning": {
                 "id": "koreksi; pembetulan",
-                "en": "correction; amendment"
+                "en": "correction"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 文章の間違いを訂正する、言葉の間違いを訂正する。",
-                "en": "Examples from the lesson: 文章の間違いを訂正する, 言葉の間違いを訂正する."
-            },
-            "explanation": {
-                "id": "訂正 berarti membetulkan kesalahan dalam tulisan, ucapan, atau informasi.",
-                "en": "訂正 means correcting an error in writing, speech, or information."
+                "id": "Dipakai untuk membetulkan kesalahan dalam tulisan atau ucapan.",
+                "en": "Used to correct mistakes in writing or speech."
             },
             "nuance": {
-                "id": "Lebih spesifik pada kesalahan yang perlu dibetulkan; tidak terutama merujuk pada revisi aturan resmi.",
-                "en": "It is more specific to an error that needs correction; it does not mainly refer to revising official rules."
+                "id": "Lebih spesifik pada kesalahan kata, kalimat, atau informasi yang perlu dibetulkan.",
+                "en": "It is more specific to errors in words, sentences, or information."
             },
             "philosophy": {
-                "id": "Bayangkan menemukan salah ketik lalu membetulkannya.",
-                "en": "Picture finding a typo and correcting it."
+                "id": "Bayangkan memperbaiki salah ketik pada sebuah kalimat.",
+                "en": "Picture correcting a typo in a sentence."
             },
             "vocabulary": [
                 {
-                    "word": "文章の間違いを訂正する",
-                    "reading": "ぶんしょうのまちがいをていせいする",
+                    "word": "訂正",
+                    "reading": "ていせい",
                     "meaning": {
-                        "id": "membetulkan kesalahan dalam tulisan",
-                        "en": "correct an error in a text"
-                    }
-                },
-                {
-                    "word": "言葉の間違いを訂正する",
-                    "reading": "ことばのまちがいをていせいする",
-                    "meaning": {
-                        "id": "membetulkan kesalahan kata-kata",
-                        "en": "correct a verbal mistake"
+                        "id": "koreksi; pembetulan",
+                        "en": "correction"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "ていせい",
-            "category": {
-                "id": "修正・改正・訂正・是正の使い分け",
-                "en": "修正・改正・訂正・是正の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-015",
             "character": "是正",
             "meaning": {
-                "id": "pembenahan; pelurusan",
+                "id": "perbaikan; pelurusan kondisi yang buruk",
                 "en": "rectification; correction"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 悪い点を是正する。",
-                "en": "Examples from the lesson: 悪い点を是正する."
-            },
-            "explanation": {
-                "id": "是正 berarti memperbaiki keadaan yang salah, tidak adil, atau menyimpang agar kembali semestinya.",
-                "en": "是正 means correcting a wrong, unfair, or abnormal condition so that it becomes proper."
+                "id": "Sumber memberi contoh 悪い点を是正する.",
+                "en": "The source gives 悪い点を是正する as an example."
             },
             "nuance": {
-                "id": "Biasanya menyasar masalah atau ketimpangan yang lebih luas, bukan sekadar salah ketik atau perubahan teknis.",
-                "en": "It usually targets a broader problem or inequality, not merely a typo or technical edit."
+                "id": "Menekankan penghilangan keadaan buruk atau ketidakberesan agar menjadi semestinya.",
+                "en": "It emphasizes remedying a bad or improper condition."
             },
             "philosophy": {
-                "id": "Ingat 是正 sebagai meluruskan kondisi yang tidak semestinya.",
-                "en": "Remember 是正 as putting an improper condition right."
+                "id": "Ingat upaya meluruskan ketimpangan atau masalah.",
+                "en": "Remember an effort to rectify an imbalance or problem."
             },
             "vocabulary": [
                 {
-                    "word": "悪い点を是正する",
-                    "reading": "わるいてんをぜせいする",
+                    "word": "是正",
+                    "reading": "ぜせい",
                     "meaning": {
-                        "id": "membenahi hal yang buruk",
-                        "en": "rectify a bad point"
+                        "id": "perbaikan; pelurusan kondisi yang buruk",
+                        "en": "rectification; correction"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "ぜせい",
-            "category": {
-                "id": "修正・改正・訂正・是正の使い分け",
-                "en": "修正・改正・訂正・是正の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-016",
             "character": "申請",
             "meaning": {
                 "id": "pengajuan; permohonan resmi",
-                "en": "application"
+                "en": "application; formal request"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: パスポートを申請する、ビザを申請する。",
-                "en": "Examples from the lesson: パスポートを申請する, ビザを申請する."
-            },
-            "explanation": {
-                "id": "申請 berarti mengajukan permohonan secara resmi kepada lembaga atau pihak berwenang.",
-                "en": "申請 means formally applying to an institution or authority."
+                "id": "Dipakai untuk mengajukan paspor atau visa.",
+                "en": "Used when applying for a passport or visa."
             },
             "nuance": {
-                "id": "Sumber memberi contoh paspor dan visa; biasanya ada prosedur dan persyaratan yang harus dipenuhi.",
-                "en": "The source gives passports and visas; there is usually a procedure and requirements to meet."
+                "id": "Menunjuk tindakan meminta izin atau layanan melalui prosedur resmi.",
+                "en": "It refers to requesting permission or a service through an official procedure."
             },
             "philosophy": {
-                "id": "Hubungkan 申請 dengan formulir dan proses meminta izin secara resmi.",
-                "en": "Associate 申請 with a form and a formal request for approval."
+                "id": "Bayangkan mengisi formulir untuk mengajukan dokumen.",
+                "en": "Picture completing a form to apply for a document."
             },
             "vocabulary": [
                 {
-                    "word": "パスポートを申請する",
-                    "reading": "パスポートをしんせいする",
+                    "word": "申請",
+                    "reading": "しんせい",
                     "meaning": {
-                        "id": "mengajukan paspor",
-                        "en": "apply for a passport"
-                    }
-                },
-                {
-                    "word": "ビザを申請する",
-                    "reading": "ビザをしんせいする",
-                    "meaning": {
-                        "id": "mengajukan visa",
-                        "en": "apply for a visa"
+                        "id": "pengajuan; permohonan resmi",
+                        "en": "application; formal request"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "しんせい",
-            "category": {
-                "id": "申請・申告の使い分け",
-                "en": "申請・申告の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-017",
@@ -784,171 +556,127 @@ const minggu6Hari2 = {
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 税金を申告する。",
-                "en": "Examples from the lesson: 税金を申告する."
-            },
-            "explanation": {
-                "id": "申告 berarti menyampaikan atau melaporkan informasi yang diwajibkan kepada pihak terkait.",
-                "en": "申告 means submitting or declaring required information to the relevant authority."
+                "id": "Sumber memberi contoh pelaporan pajak.",
+                "en": "The source gives tax reporting as an example."
             },
             "nuance": {
-                "id": "Contoh sumber adalah pelaporan pajak; fokusnya menyatakan fakta atau jumlah, bukan meminta izin.",
-                "en": "The source example is tax reporting; the focus is declaring facts or amounts, not requesting permission."
+                "id": "Menekankan penyampaian informasi atau keadaan kepada otoritas.",
+                "en": "It emphasizes reporting information or circumstances to an authority."
             },
             "philosophy": {
-                "id": "Bedakan: 申請 meminta persetujuan, 申告 melaporkan informasi.",
-                "en": "Distinguish them: 申請 requests approval, while 申告 reports information."
+                "id": "Hubungkan 申告 dengan menyatakan informasi yang diwajibkan.",
+                "en": "Connect 申告 with declaring required information."
             },
             "vocabulary": [
                 {
-                    "word": "税金を申告する",
-                    "reading": "ぜいきんをしんこくする",
+                    "word": "申告",
+                    "reading": "しんこく",
                     "meaning": {
-                        "id": "melaporkan pajak",
-                        "en": "declare taxes"
+                        "id": "pelaporan; deklarasi",
+                        "en": "report; declaration"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "しんこく",
-            "category": {
-                "id": "申請・申告の使い分け",
-                "en": "申請・申告の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-018",
             "character": "翻訳",
             "meaning": {
-                "id": "terjemahan; menerjemahkan teks",
+                "id": "terjemahan tertulis",
                 "en": "translation"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 『源氏物語』の翻訳。",
-                "en": "Examples from the lesson: 『源氏物語』の翻訳."
-            },
-            "explanation": {
-                "id": "翻訳 adalah pengalihan makna dari satu bahasa ke bahasa lain dalam bentuk tulisan atau teks.",
-                "en": "翻訳 is the transfer of meaning from one language to another in written form or text."
+                "id": "Sumber memberi contoh terjemahan 『源氏物語』.",
+                "en": "The source gives a translation of 『源氏物語』 as an example."
             },
             "nuance": {
-                "id": "Sumber mencontohkan terjemahan karya Genji Monogatari; bedakan dari 通訳 yang digunakan untuk komunikasi lisan.",
-                "en": "The source gives a translation of The Tale of Genji; distinguish it from 通訳, used for spoken communication."
+                "id": "Biasanya menunjuk pemindahan isi teks dari satu bahasa ke bahasa lain.",
+                "en": "It usually refers to transferring written content from one language to another."
             },
             "philosophy": {
-                "id": "Ingat 翻訳 sebagai pekerjaan menerjemahkan teks tertulis.",
-                "en": "Remember 翻訳 as translating written text."
+                "id": "Bayangkan sebuah karya tulis dialihkan ke bahasa pembaca lain.",
+                "en": "Picture a written work being rendered in another language."
             },
             "vocabulary": [
                 {
-                    "word": "『源氏物語』の翻訳",
-                    "reading": "げんじものがたりのほんやく",
+                    "word": "翻訳",
+                    "reading": "ほんやく",
                     "meaning": {
-                        "id": "terjemahan The Tale of Genji",
-                        "en": "a translation of The Tale of Genji"
+                        "id": "terjemahan tertulis",
+                        "en": "translation"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "ほんやく",
-            "category": {
-                "id": "翻訳・通訳の使い分け",
-                "en": "翻訳・通訳の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-019",
             "character": "通訳",
             "meaning": {
-                "id": "juru bahasa; interpretasi lisan",
-                "en": "interpreting; interpretation"
+                "id": "interpretasi lisan; juru bahasa",
+                "en": "interpretation; oral interpreting"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: インタビューの通訳。",
-                "en": "Examples from the lesson: インタビューの通訳."
-            },
-            "explanation": {
-                "id": "通訳 adalah menyampaikan ucapan seseorang ke bahasa lain secara lisan.",
-                "en": "通訳 is conveying someone's speech in another language orally."
+                "id": "Dipakai untuk interpretasi dalam wawancara.",
+                "en": "Used for interpreting in an interview."
             },
             "nuance": {
-                "id": "Sumber memberi contoh penerjemahan saat wawancara; berbeda dari 翻訳 yang berhubungan dengan teks.",
-                "en": "The source gives interpreting during an interview; it differs from 翻訳, which concerns text."
+                "id": "Berbeda dari 翻訳 karena berfokus pada komunikasi lisan secara langsung.",
+                "en": "Unlike 翻訳, it focuses on live spoken communication."
             },
             "philosophy": {
-                "id": "Bayangkan dua orang berbicara dan seorang interpreter menyampaikan ucapan secara langsung.",
-                "en": "Picture two people speaking while an interpreter conveys their words in real time."
+                "id": "Ingat penerjemah yang menyampaikan ucapan dua pihak secara langsung.",
+                "en": "Picture an interpreter relaying speech between two people."
             },
             "vocabulary": [
                 {
-                    "word": "インタビューの通訳",
-                    "reading": "インタビューのつうやく",
+                    "word": "通訳",
+                    "reading": "つうやく",
                     "meaning": {
-                        "id": "juru bahasa dalam wawancara",
-                        "en": "interpreting at an interview"
+                        "id": "interpretasi lisan; juru bahasa",
+                        "en": "interpretation; oral interpreting"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "つうやく",
-            "category": {
-                "id": "翻訳・通訳の使い分け",
-                "en": "翻訳・通訳の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-020",
             "character": "消化",
             "meaning": {
-                "id": "pencernaan; menyelesaikan jatah kegiatan",
-                "en": "digestion; working through a schedule"
+                "id": "pencernaan; penyelesaian/penyerapan",
+                "en": "digestion; processing"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 食物を消化する、日程を消化する。",
-                "en": "Examples from the lesson: 食物を消化する, 日程を消化する."
-            },
-            "explanation": {
-                "id": "消化 berarti proses tubuh menguraikan makanan; secara kiasan dapat berarti menuntaskan jadwal atau tugas.",
-                "en": "消化 means the body's process of digesting food; figuratively, it can mean working through a schedule or tasks."
+                "id": "Sumber memberi contoh mencerna makanan dan menyelesaikan jadwal.",
+                "en": "The source gives digesting food and working through a schedule as examples."
             },
             "nuance": {
-                "id": "Materi secara eksplisit memberi dua konteks: makanan dan jadwal.",
-                "en": "The lesson explicitly gives two contexts: food and schedules."
+                "id": "Dapat bermakna biologis atau kiasan: menuntaskan materi maupun agenda.",
+                "en": "It can be biological or figurative: processing food, material, or a schedule."
             },
             "philosophy": {
-                "id": "Bayangkan sesuatu yang diproses sampai selesai, baik makanan maupun daftar kegiatan.",
-                "en": "Picture something being processed through to completion, whether food or scheduled tasks."
+                "id": "Hubungkan makna fisik dan kiasan melalui gagasan memproses sampai selesai.",
+                "en": "Link its literal and figurative senses through processing something fully."
             },
             "vocabulary": [
                 {
-                    "word": "食物を消化する",
-                    "reading": "しょくもつをしょうかする",
+                    "word": "消化",
+                    "reading": "しょうか",
                     "meaning": {
-                        "id": "mencerna makanan",
-                        "en": "digest food"
-                    }
-                },
-                {
-                    "word": "日程を消化する",
-                    "reading": "にっていをしょうかする",
-                    "meaning": {
-                        "id": "menuntaskan jadwal",
-                        "en": "work through a schedule"
+                        "id": "pencernaan; penyelesaian/penyerapan",
+                        "en": "digestion; processing"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "しょうか",
-            "category": {
-                "id": "消化・消費・消耗の使い分け",
-                "en": "消化・消費・消耗の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-021",
@@ -960,87 +688,61 @@ const minggu6Hari2 = {
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 電力を消費する、消費者。",
-                "en": "Examples from the lesson: 電力を消費する, 消費者."
-            },
-            "explanation": {
-                "id": "消費 berarti menggunakan atau menghabiskan sumber daya, energi, atau barang.",
-                "en": "消費 means using up resources, energy, or goods."
+                "id": "Sumber mencontohkan pemakaian listrik dan 消費者.",
+                "en": "The source uses electricity consumption and 消費者 as examples."
             },
             "nuance": {
-                "id": "Sumber mencontohkan listrik dan 消費者; fokusnya pada penggunaan atau konsumsi, bukan kelelahan.",
-                "en": "The source mentions electricity and consumers; the focus is use or consumption, not exhaustion."
+                "id": "Menunjukkan penggunaan sumber daya atau barang oleh konsumen.",
+                "en": "It describes the use of resources or goods by consumers."
             },
             "philosophy": {
-                "id": "Hubungkan 消費 dengan sesuatu yang dipakai oleh konsumen atau pengguna.",
-                "en": "Link 消費 with something used by consumers or users."
+                "id": "Ingat listrik yang digunakan sebagai contoh konsumsi energi.",
+                "en": "Remember electricity use as an example of energy consumption."
             },
             "vocabulary": [
                 {
-                    "word": "電力を消費する",
-                    "reading": "でんりょくをしょうひする",
+                    "word": "消費",
+                    "reading": "しょうひ",
                     "meaning": {
-                        "id": "mengonsumsi listrik",
-                        "en": "consume electricity"
-                    }
-                },
-                {
-                    "word": "消費者",
-                    "reading": "しょうひしゃ",
-                    "meaning": {
-                        "id": "konsumen",
-                        "en": "consumer"
+                        "id": "konsumsi; pemakaian",
+                        "en": "consumption"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "しょうひ",
-            "category": {
-                "id": "消化・消費・消耗の使い分け",
-                "en": "消化・消費・消耗の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-022",
             "character": "消耗",
             "meaning": {
-                "id": "pengurasan; kelelahan",
-                "en": "depletion; exhaustion"
+                "id": "pengurasan; kehabisan tenaga",
+                "en": "exhaustion; depletion"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 体力を消耗する。",
-                "en": "Examples from the lesson: 体力を消耗する."
-            },
-            "explanation": {
-                "id": "消耗 berarti tenaga atau sumber daya terkuras akibat pemakaian atau aktivitas.",
-                "en": "消耗 means strength or resources being depleted through use or activity."
+                "id": "Sumber memberi contoh 体力を消耗する.",
+                "en": "The source gives 体力を消耗する as an example."
             },
             "nuance": {
-                "id": "Sumber mencontohkan tenaga fisik; nuansanya menyoroti berkurangnya energi atau kondisi tubuh.",
-                "en": "The source uses physical strength; the nuance highlights reduced energy or bodily condition."
+                "id": "Menekankan berkurangnya tenaga atau sumber daya akibat pemakaian.",
+                "en": "It emphasizes energy or resources being worn down through use."
             },
             "philosophy": {
-                "id": "Ingat 消耗 sebagai baterai yang semakin habis setelah digunakan.",
-                "en": "Remember 消耗 as a battery becoming depleted through use."
+                "id": "Bayangkan stamina yang terkuras setelah aktivitas berat.",
+                "en": "Picture stamina being depleted after strenuous activity."
             },
             "vocabulary": [
                 {
-                    "word": "体力を消耗する",
-                    "reading": "たいりょくをしょうもうする",
+                    "word": "消耗",
+                    "reading": "しょうもう",
                     "meaning": {
-                        "id": "menguras stamina",
-                        "en": "exhaust one's physical strength"
+                        "id": "pengurasan; kehabisan tenaga",
+                        "en": "exhaustion; depletion"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "しょうもう",
-            "category": {
-                "id": "消化・消費・消耗の使い分け",
-                "en": "消化・消費・消耗の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-023",
@@ -1052,45 +754,28 @@ const minggu6Hari2 = {
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 推薦状、推薦入学。",
-                "en": "Examples from the lesson: 推薦状, 推薦入学."
-            },
-            "explanation": {
-                "id": "推薦 berarti merekomendasikan seseorang atau sesuatu untuk dipilih atau diterima.",
-                "en": "推薦 means recommending someone or something for selection or admission."
+                "id": "Sumber memberi contoh 推薦状 dan 推薦入学.",
+                "en": "The source gives 推薦状 and 推薦入学 as examples."
             },
             "nuance": {
-                "id": "Sumber memberi contoh surat rekomendasi dan penerimaan melalui rekomendasi; sering melibatkan orang atau calon.",
-                "en": "The source gives a letter of recommendation and recommendation-based admission; it often involves a person or candidate."
+                "id": "Sering merujuk pada rekomendasi seseorang atau dukungan untuk masuk/terpilih.",
+                "en": "It often refers to recommending a person or supporting their admission or selection."
             },
             "philosophy": {
-                "id": "Bayangkan seseorang mengajukan nama kandidat yang dinilai layak.",
-                "en": "Picture someone putting forward a candidate considered suitable."
+                "id": "Hubungkan dengan surat rekomendasi yang mendukung seseorang.",
+                "en": "Connect it with a recommendation letter supporting someone."
             },
             "vocabulary": [
                 {
-                    "word": "推薦状",
-                    "reading": "すいせんじょう",
+                    "word": "推薦",
+                    "reading": "すいせん",
                     "meaning": {
-                        "id": "surat rekomendasi",
-                        "en": "letter of recommendation"
-                    }
-                },
-                {
-                    "word": "推薦入学",
-                    "reading": "すいせんにゅうがく",
-                    "meaning": {
-                        "id": "penerimaan melalui jalur rekomendasi",
-                        "en": "admission by recommendation"
+                        "id": "rekomendasi; pencalonan",
+                        "en": "recommendation; nomination"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "すいせん",
-            "category": {
-                "id": "推薦・推奨の使い分け",
-                "en": "推薦・推奨の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-024",
@@ -1102,129 +787,94 @@ const minggu6Hari2 = {
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 推奨される解決策。",
-                "en": "Examples from the lesson: 推奨される解決策."
-            },
-            "explanation": {
-                "id": "推奨 berarti menyarankan pilihan, metode, atau solusi sebagai sesuatu yang baik untuk digunakan.",
-                "en": "推奨 means recommending an option, method, or solution as desirable to use."
+                "id": "Sumber memberi contoh 推奨される解決策.",
+                "en": "The source gives 推奨される解決策 as an example."
             },
             "nuance": {
-                "id": "Lebih sering berfokus pada cara, produk, atau solusi yang dianjurkan daripada pencalonan seseorang.",
-                "en": "It more often focuses on a recommended method, product, or solution rather than nominating a person."
+                "id": "Lebih menekankan pilihan, metode, atau solusi yang dinilai layak dianjurkan.",
+                "en": "It more often recommends a choice, method, or solution considered suitable."
             },
             "philosophy": {
-                "id": "Bedakan: 推薦 mengusulkan kandidat; 推奨 menganjurkan pilihan atau cara.",
-                "en": "Distinguish them: 推薦 puts forward a candidate; 推奨 endorses an option or method."
+                "id": "Bayangkan solusi yang dianjurkan karena dianggap efektif.",
+                "en": "Picture a solution recommended because it is considered effective."
             },
             "vocabulary": [
                 {
-                    "word": "推奨される解決策",
-                    "reading": "すいしょうされるかいけつさく",
+                    "word": "推奨",
+                    "reading": "すいしょう",
                     "meaning": {
-                        "id": "solusi yang direkomendasikan",
-                        "en": "a recommended solution"
+                        "id": "anjuran; rekomendasi yang disarankan",
+                        "en": "recommendation; endorsement"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "すいしょう",
-            "category": {
-                "id": "推薦・推奨の使い分け",
-                "en": "推薦・推奨の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-025",
             "character": "障害",
             "meaning": {
                 "id": "gangguan; hambatan",
-                "en": "failure; obstacle; disruption"
+                "en": "obstacle; malfunction"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: サーバーの障害、電波の障害。",
-                "en": "Examples from the lesson: サーバーの障害, 電波の障害."
-            },
-            "explanation": {
-                "id": "障害 adalah gangguan atau hambatan yang menghalangi fungsi atau proses berjalan normal.",
-                "en": "障害 is a disruption or obstacle that prevents a function or process from operating normally."
+                "id": "Sumber mencontohkan gangguan server dan sinyal.",
+                "en": "The source uses server and signal failures as examples."
             },
             "nuance": {
-                "id": "Sumber mencontohkan server dan sinyal; dalam konteks ini, istilahnya merujuk pada gangguan teknis.",
-                "en": "The source mentions servers and signals; in this context, the term refers to technical disruptions."
+                "id": "Dapat merujuk pada hambatan besar atau gangguan teknis pada sistem.",
+                "en": "It can refer to a barrier or a technical failure in a system."
             },
             "philosophy": {
-                "id": "Bayangkan layanan yang tidak berjalan karena ada gangguan pada sistem.",
-                "en": "Picture a service that cannot run properly because of a system fault."
+                "id": "Ingat server atau sinyal yang terganggu sebagai konteks teknisnya.",
+                "en": "Remember a disrupted server or signal as its technical context."
             },
             "vocabulary": [
                 {
-                    "word": "サーバーの障害",
-                    "reading": "サーバーのしょうがい",
+                    "word": "障害",
+                    "reading": "しょうがい",
                     "meaning": {
-                        "id": "gangguan server",
-                        "en": "server failure"
-                    }
-                },
-                {
-                    "word": "電波の障害",
-                    "reading": "でんぱのしょうがい",
-                    "meaning": {
-                        "id": "gangguan sinyal",
-                        "en": "signal disruption"
+                        "id": "gangguan; hambatan",
+                        "en": "obstacle; malfunction"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "しょうがい",
-            "category": {
-                "id": "障害・支障の使い分け",
-                "en": "障害・支障の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-026",
             "character": "支障",
             "meaning": {
-                "id": "kendala; hambatan dalam pelaksanaan",
+                "id": "gangguan; kendala yang menghambat",
                 "en": "hindrance; interference"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 業務に支障を来す。",
-                "en": "Examples from the lesson: 業務に支障を来す."
-            },
-            "explanation": {
-                "id": "支障 berarti keadaan yang mengganggu kelancaran suatu pekerjaan atau aktivitas.",
-                "en": "支障 means a condition that interferes with the smooth progress of work or an activity."
+                "id": "Sumber memberi contoh 業務に支障を来す.",
+                "en": "The source gives 業務に支障を来す as an example."
             },
             "nuance": {
-                "id": "Umumnya digunakan dalam pola 支障を来す dan menekankan dampaknya terhadap kelancaran suatu kegiatan.",
-                "en": "It is commonly used in 支障を来す and emphasizes the effect on an activity's smooth progress."
+                "id": "Biasanya menyatakan dampak yang menghalangi kelancaran suatu kegiatan.",
+                "en": "It usually describes an impact that prevents an activity from proceeding smoothly."
             },
             "philosophy": {
-                "id": "Ingat 支障 sebagai masalah yang membuat pekerjaan tidak berjalan lancar.",
-                "en": "Remember 支障 as a problem that keeps work from proceeding smoothly."
+                "id": "Hubungkan dengan pekerjaan yang tidak dapat berjalan lancar.",
+                "en": "Connect it with work that cannot proceed smoothly."
             },
             "vocabulary": [
                 {
-                    "word": "業務に支障を来す",
-                    "reading": "ぎょうむにししょうをきたす",
+                    "word": "支障",
+                    "reading": "ししょう",
                     "meaning": {
-                        "id": "menimbulkan hambatan pada pekerjaan",
-                        "en": "hinder business operations"
+                        "id": "gangguan; kendala yang menghambat",
+                        "en": "hindrance; interference"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "ししょう",
-            "category": {
-                "id": "障害・支障の使い分け",
-                "en": "障害・支障の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-027",
@@ -1236,37 +886,28 @@ const minggu6Hari2 = {
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 所定の用紙を用いる。",
-                "en": "Examples from the lesson: 所定の用紙を用いる."
-            },
-            "explanation": {
-                "id": "所定 berarti sesuatu yang sudah ditentukan sebelumnya sebagai format, tempat, atau prosedur.",
-                "en": "所定 means something specified in advance as a format, place, or procedure."
+                "id": "Sumber memberi contoh 所定の用紙を用いる.",
+                "en": "The source gives 所定の用紙を用いる as an example."
             },
             "nuance": {
-                "id": "Contoh sumber adalah formulir yang telah ditetapkan; fokusnya pada ketentuan tertentu yang harus diikuti.",
-                "en": "The source example is a prescribed form; the focus is on a specific requirement to follow."
+                "id": "Menunjuk sesuatu yang sudah ditentukan sebelumnya, seperti formulir yang ditetapkan.",
+                "en": "It refers to something designated in advance, such as a prescribed form."
             },
             "philosophy": {
-                "id": "Bayangkan formulir resmi yang formatnya sudah ditentukan.",
-                "en": "Picture an official form whose format has already been specified."
+                "id": "Ingat formulir khusus yang harus digunakan sesuai ketentuan.",
+                "en": "Remember a specific form that must be used as prescribed."
             },
             "vocabulary": [
                 {
-                    "word": "所定の用紙を用いる",
-                    "reading": "しょていのようしをもちいる",
+                    "word": "所定",
+                    "reading": "しょてい",
                     "meaning": {
-                        "id": "menggunakan formulir yang telah ditentukan",
-                        "en": "use the prescribed form"
+                        "id": "yang telah ditentukan; yang ditetapkan",
+                        "en": "prescribed; designated"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "しょてい",
-            "category": {
-                "id": "所定・規定の使い分け",
-                "en": "所定・規定の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-028",
@@ -1278,263 +919,193 @@ const minggu6Hari2 = {
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 規定の料金を払う。",
-                "en": "Examples from the lesson: 規定の料金を払う."
-            },
-            "explanation": {
-                "id": "規定 berarti aturan atau ketentuan yang menetapkan standar, batas, atau tata cara.",
-                "en": "規定 means a rule or provision that sets a standard, limit, or procedure."
+                "id": "Sumber memberi contoh 規定の料金を払う.",
+                "en": "The source gives 規定の料金を払う as an example."
             },
             "nuance": {
-                "id": "Contoh sumber memakai tarif yang ditentukan oleh peraturan; kata ini menyoroti aturan atau ketetapannya.",
-                "en": "The source uses a fee set by regulation; this word highlights the rule or provision itself."
+                "id": "Menunjuk aturan atau standar yang menetapkan apa yang berlaku.",
+                "en": "It refers to a rule or standard specifying what applies."
             },
             "philosophy": {
-                "id": "Hubungkan 規定 dengan isi aturan yang harus dipatuhi.",
-                "en": "Associate 規定 with the content of a rule that must be followed."
+                "id": "Hubungkan 規定 dengan aturan yang menentukan tarif.",
+                "en": "Connect 規定 with a rule that sets a fee."
             },
             "vocabulary": [
                 {
-                    "word": "規定の料金を払う",
-                    "reading": "きていのりょうきんをはらう",
+                    "word": "規定",
+                    "reading": "きてい",
                     "meaning": {
-                        "id": "membayar tarif sesuai ketentuan",
-                        "en": "pay the prescribed fee"
+                        "id": "ketentuan; peraturan",
+                        "en": "regulation; provision"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "きてい",
-            "category": {
-                "id": "所定・規定の使い分け",
-                "en": "所定・規定の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-029",
-            "character": "窮屈な",
+            "character": "窮屈",
             "meaning": {
-                "id": "sempit; mengekang; tidak leluasa",
+                "id": "sempit; sesak; terkekang",
                 "en": "cramped; restrictive"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 狭くて窮屈な場所、自由がなく窮屈な生活。",
-                "en": "Examples from the lesson: 狭くて窮屈な場所, 自由がなく窮屈な生活."
-            },
-            "explanation": {
-                "id": "窮屈な menggambarkan ruang, pakaian, atau kehidupan yang terasa sempit dan tidak bebas.",
-                "en": "窮屈な describes a space, clothing, or life that feels tight or restrictive."
+                "id": "Sumber memberi contoh tempat yang sempit dan kehidupan tanpa kebebasan.",
+                "en": "The source gives a cramped place and a restrictive life as examples."
             },
             "nuance": {
-                "id": "Bisa bersifat fisik seperti ruangan sempit, atau kiasan seperti kehidupan dengan sedikit kebebasan.",
-                "en": "It can be physical, such as a cramped room, or figurative, such as a life with little freedom."
+                "id": "Bisa menggambarkan ruang fisik yang sempit atau keadaan yang terasa membatasi.",
+                "en": "It can describe a physically cramped space or a restrictive situation."
             },
             "philosophy": {
-                "id": "Bayangkan sesuatu yang membuat gerak terasa terbatas.",
-                "en": "Picture something that limits how freely you can move."
+                "id": "Bayangkan pakaian atau ruang yang membuat gerak terasa terbatas.",
+                "en": "Picture clothing or a space that restricts movement."
             },
             "vocabulary": [
                 {
-                    "word": "狭くて窮屈な場所",
-                    "reading": "せまくてきゅうくつなばしょ",
+                    "word": "窮屈",
+                    "reading": "きゅうくつ",
                     "meaning": {
-                        "id": "tempat yang sempit dan sesak",
-                        "en": "a narrow, cramped place"
-                    }
-                },
-                {
-                    "word": "自由がなく窮屈な生活",
-                    "reading": "じゆうがなくきゅうくつなせいかつ",
-                    "meaning": {
-                        "id": "kehidupan yang mengekang tanpa kebebasan",
-                        "en": "a restrictive life with little freedom"
+                        "id": "sempit; sesak; terkekang",
+                        "en": "cramped; restrictive"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "きゅうくつな",
-            "category": {
-                "id": "形容の使い分け",
-                "en": "形容の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-030",
-            "character": "退屈な",
+            "character": "退屈",
             "meaning": {
-                "id": "membosankan",
-                "en": "boring; tedious"
+                "id": "bosan; membosankan",
+                "en": "bored; boring"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: することがなく退屈な日、退屈な話。",
-                "en": "Examples from the lesson: することがなく退屈な日, 退屈な話."
-            },
-            "explanation": {
-                "id": "退屈な menggambarkan sesuatu yang membuat seseorang merasa bosan karena kurang menarik atau tidak ada kegiatan.",
-                "en": "退屈な describes something that makes someone bored because it is uninteresting or inactive."
+                "id": "Sumber memberi contoh hari tanpa kegiatan dan cerita yang membosankan.",
+                "en": "The source gives an idle day and a boring story as examples."
             },
             "nuance": {
-                "id": "Berbeda dari 窮屈な yang berarti sempit atau mengekang; 退屈な berhubungan dengan rasa bosan.",
-                "en": "Unlike 窮屈な, which means cramped or restrictive, 退屈な relates to boredom."
+                "id": "Berkaitan dengan rasa jenuh karena kurang kegiatan atau hal yang menarik.",
+                "en": "It concerns boredom caused by a lack of activity or interest."
             },
             "philosophy": {
-                "id": "Ingat 退屈 saat tidak ada hal menarik untuk dilakukan atau didengarkan.",
-                "en": "Remember 退屈 when there is nothing interesting to do or listen to."
+                "id": "Hubungkan dengan waktu kosong yang terasa berjalan lambat.",
+                "en": "Connect it with empty time that seems to pass slowly."
             },
             "vocabulary": [
                 {
-                    "word": "することがなく退屈な日",
-                    "reading": "することがなくたいくつなひ",
+                    "word": "退屈",
+                    "reading": "たいくつ",
                     "meaning": {
-                        "id": "hari yang membosankan karena tidak ada kegiatan",
-                        "en": "a boring day with nothing to do"
-                    }
-                },
-                {
-                    "word": "退屈な話",
-                    "reading": "たいくつなはなし",
-                    "meaning": {
-                        "id": "cerita yang membosankan",
-                        "en": "a boring story"
+                        "id": "bosan; membosankan",
+                        "en": "bored; boring"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "たいくつな",
-            "category": {
-                "id": "形容の使い分け",
-                "en": "形容の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-031",
-            "character": "怠慢な",
+            "character": "怠慢",
             "meaning": {
-                "id": "lalai; bermalas-malasan dalam tugas",
-                "en": "negligent; neglectful"
+                "id": "kelalaian; kemalasan dalam tugas",
+                "en": "negligence; neglect"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 職務怠慢。",
-                "en": "Examples from the lesson: 職務怠慢."
-            },
-            "explanation": {
-                "id": "怠慢な menunjukkan sikap mengabaikan kewajiban atau tidak menjalankan tugas dengan semestinya.",
-                "en": "怠慢な describes neglecting duties or failing to perform responsibilities properly."
+                "id": "Sumber memberi contoh 職務怠慢.",
+                "en": "The source gives 職務怠慢 as an example."
             },
             "nuance": {
-                "id": "職務怠慢 merupakan ungkapan yang lazim untuk kelalaian dalam pekerjaan atau tugas.",
-                "en": "職務怠慢 is a common expression for negligence in one's job or duties."
+                "id": "Mengandung penilaian negatif terhadap pengabaian tanggung jawab.",
+                "en": "It carries a negative judgment about neglecting responsibility."
             },
             "philosophy": {
-                "id": "Hubungkan 怠慢 dengan tanggung jawab yang tidak ditunaikan.",
-                "en": "Associate 怠慢 with responsibilities left unattended."
+                "id": "Ingat kewajiban yang tidak dikerjakan sebagaimana mestinya.",
+                "en": "Remember a duty that is not carried out properly."
             },
             "vocabulary": [
                 {
-                    "word": "職務怠慢",
-                    "reading": "しょくむたいまん",
+                    "word": "怠慢",
+                    "reading": "たいまん",
                     "meaning": {
-                        "id": "kelalaian dalam menjalankan tugas",
-                        "en": "neglect of duty"
+                        "id": "kelalaian; kemalasan dalam tugas",
+                        "en": "negligence; neglect"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "たいまんな",
-            "category": {
-                "id": "形容の使い分け",
-                "en": "形容の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-032",
-            "character": "緩慢な",
+            "character": "緩慢",
             "meaning": {
-                "id": "lambat; perlahan",
+                "id": "lamban; perlahan",
                 "en": "slow; sluggish"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 緩慢な動作。",
-                "en": "Examples from the lesson: 緩慢な動作."
-            },
-            "explanation": {
-                "id": "緩慢な menggambarkan gerakan atau proses yang berlangsung lambat dan tidak cepat.",
-                "en": "緩慢な describes a movement or process that is slow and unhurried."
+                "id": "Sumber memberi contoh 緩慢な動作.",
+                "en": "The source gives 緩慢な動作 as an example."
             },
             "nuance": {
-                "id": "Sumber memberi contoh gerakan; kata ini menilai tempo atau kecepatan, bukan rasa bosan.",
-                "en": "The source gives movement as an example; this word describes pace or speed, not boredom."
+                "id": "Menjelaskan gerakan atau proses yang berlangsung lambat, bukan kurang tanggung jawab.",
+                "en": "It describes slow movement or progress, not a lack of responsibility."
             },
             "philosophy": {
-                "id": "Bayangkan gerakan yang lambat dan tidak sigap.",
-                "en": "Picture movement that is slow and not brisk."
+                "id": "Bayangkan gerakan yang berjalan pelan tanpa terburu-buru.",
+                "en": "Picture movement proceeding slowly without haste."
             },
             "vocabulary": [
                 {
-                    "word": "緩慢な動作",
-                    "reading": "かんまんなどうさ",
+                    "word": "緩慢",
+                    "reading": "かんまん",
                     "meaning": {
-                        "id": "gerakan lambat",
-                        "en": "slow movement"
+                        "id": "lamban; perlahan",
+                        "en": "slow; sluggish"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "かんまんな",
-            "category": {
-                "id": "形容の使い分け",
-                "en": "形容の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-033",
-            "character": "散漫な",
+            "character": "散漫",
             "meaning": {
-                "id": "tidak fokus; buyar",
-                "en": "scattered; inattentive"
+                "id": "tidak terpusat; buyar",
+                "en": "inattentive; scattered"
             },
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 注意散漫。",
-                "en": "Examples from the lesson: 注意散漫."
-            },
-            "explanation": {
-                "id": "散漫な berarti perhatian atau keadaan yang tersebar sehingga tidak terarah.",
-                "en": "散漫な means attention or a state is scattered and unfocused."
+                "id": "Sumber memberi contoh 注意散漫.",
+                "en": "The source gives 注意散漫 as an example."
             },
             "nuance": {
-                "id": "Kerap digunakan untuk perhatian yang mudah terpecah, seperti 注意散漫.",
-                "en": "It is often used for easily distracted attention, as in 注意散漫."
+                "id": "Menunjukkan perhatian yang tersebar sehingga tidak fokus pada satu hal.",
+                "en": "It describes attention spread around rather than focused on one thing."
             },
             "philosophy": {
-                "id": "Bayangkan fokus yang terpecah ke banyak arah.",
-                "en": "Picture attention scattered in many directions."
+                "id": "Bayangkan pikiran yang mudah berpindah ke banyak hal.",
+                "en": "Picture a mind that keeps drifting between many things."
             },
             "vocabulary": [
                 {
-                    "word": "注意散漫",
-                    "reading": "ちゅういさんまん",
+                    "word": "散漫",
+                    "reading": "さんまん",
                     "meaning": {
-                        "id": "kurang konsentrasi; perhatian buyar",
-                        "en": "inattentiveness; scattered attention"
+                        "id": "tidak terpusat; buyar",
+                        "en": "inattentive; scattered"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "さんまんな",
-            "category": {
-                "id": "形容の使い分け",
-                "en": "形容の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         },
         {
             "id": "week6-day2-034",
@@ -1546,61 +1117,568 @@ const minggu6Hari2 = {
             "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Contoh materi: 天真爛漫、春爛漫。",
-                "en": "Examples from the lesson: 天真爛漫, 春爛漫."
-            },
-            "explanation": {
-                "id": "爛漫 menggambarkan keadaan yang berkembang atau mekar sepenuhnya.",
-                "en": "爛漫 describes a state of being fully blossomed or flourishing."
+                "id": "Sumber memberi contoh 天真爛漫 dan 春爛漫.",
+                "en": "The source gives 天真爛漫 and 春爛漫 as examples."
             },
             "nuance": {
-                "id": "Muncul dalam gabungan seperti 春爛漫 untuk musim semi yang semarak dan 天真爛漫 untuk sifat polos serta lepas.",
-                "en": "It appears in compounds such as 春爛漫 for spring in full bloom and 天真爛漫 for an innocent, carefree nature."
+                "id": "Sering memberi kesan penuh, melimpah, atau terbuka dengan cerah; bukan berarti lamban atau buyar.",
+                "en": "It suggests fullness, exuberance, or being in brilliant bloom, not slowness or distraction."
             },
             "philosophy": {
-                "id": "Ingat gambaran bunga yang mekar penuh dan suasana yang hidup.",
-                "en": "Remember the image of flowers in full bloom and a lively atmosphere."
+                "id": "Ingat pemandangan musim semi yang mekar sepenuhnya.",
+                "en": "Picture a spring scene in full bloom."
             },
             "vocabulary": [
                 {
-                    "word": "天真爛漫",
-                    "reading": "てんしんらんまん",
+                    "word": "爛漫",
+                    "reading": "らんまん",
                     "meaning": {
-                        "id": "polos dan apa adanya",
-                        "en": "innocent and carefree"
-                    }
-                },
-                {
-                    "word": "春爛漫",
-                    "reading": "はるらんまん",
-                    "meaning": {
-                        "id": "musim semi yang semarak dan mekar penuh",
-                        "en": "spring in full bloom"
+                        "id": "mekar penuh; semarak",
+                        "en": "in full bloom; exuberant"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2.",
-            "reading": "らんまん",
-            "category": {
-                "id": "形容の使い分け",
-                "en": "形容の使い分け"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 2 yang dilampirkan."
         }
     ],
     "notes": [
         {
-            "id": "Hari 2 berfokus pada membedakan kosakata berdasarkan objek, konteks, dan jenis tindakan.",
-            "en": "Day 2 focuses on distinguishing vocabulary by object, context, and type of action."
+            "id": "Materi mempertahankan kosakata dan konteks pemakaian yang tercantum pada sumber.",
+            "en": "The material preserves the vocabulary and usage contexts shown in the source."
         },
         {
-            "id": "Kolom reading menunjukkan bacaan kosakata utuh; onyomi dan kunyomi dikosongkan karena materi ini membahas pemakaian kata, bukan daftar bacaan kanji tunggal.",
-            "en": "The reading field shows the reading of the complete word; onyomi and kunyomi are empty because this lesson covers word usage rather than individual kanji readings."
-        },
-        {
-            "id": "早急 dicantumkan dengan dua bacaan yang ada di sumber: そうきゅう dan さっきゅう.",
-            "en": "早急 is listed with the two readings given in the source: そうきゅう and さっきゅう."
+            "id": "Bagian nuansa menjelaskan perbedaan fokus makna, sedangkan filosofi memberi kait singkat untuk mengingat kata.",
+            "en": "Nuance explains the difference in semantic focus, while philosophy provides a short memory hook."
         }
-    ]
+    ],
+    "exam": {
+        "enabled": true,
+        "id": "week6-day2-exam",
+        "title": {
+            "id": "Ujian Minggu 6 - Hari 2",
+            "en": "Week 6 - Day 2 Exam"
+        },
+        "description": {
+            "id": "Ujian bacaan dan pemilihan kosakata untuk membedakan kata-kata yang mirip.",
+            "en": "Reading and word-selection exam distinguishing similar vocabulary."
+        },
+        "settings": {
+            "totalQuestions": 20,
+            "timeLimitSeconds": 600,
+            "passingScore": 70,
+            "randomizeQuestions": true,
+            "randomizeOptions": true,
+            "showResultAfterSubmit": true,
+            "showCorrectAnswerAfterSubmit": true,
+            "showExplanationAfterSubmit": true,
+            "allowRetry": true,
+            "maxAttempts": 0
+        },
+        "questionTypes": [
+            {
+                "id": "reading",
+                "label": {
+                    "id": "Pilih bacaan yang benar",
+                    "en": "Choose the correct reading"
+                }
+            },
+            {
+                "id": "kanji",
+                "label": {
+                    "id": "Pilih kata atau kanji yang benar",
+                    "en": "Choose the correct word or kanji"
+                }
+            }
+        ],
+        "questions": [
+            {
+                "id": "w6d2-exam-001",
+                "type": "reading",
+                "question": {
+                    "id": "01 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "回復",
+                "promptType": "word",
+                "options": [
+                    "かいふく",
+                    "かいふっき",
+                    "かいふっこう",
+                    "かいふつ"
+                ],
+                "answer": "かいふく",
+                "explanation": {
+                    "id": "回復（かいふく）digunakan untuk keadaan yang membaik, seperti cuaca atau penyakit.",
+                    "en": "回復（かいふく）describes improving conditions such as weather or illness."
+                },
+                "sourceKanji": [
+                    "回復"
+                ]
+            },
+            {
+                "id": "w6d2-exam-002",
+                "type": "reading",
+                "question": {
+                    "id": "02 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "返還",
+                "promptType": "word",
+                "options": [
+                    "へんかん",
+                    "へんきゃく",
+                    "へんさい",
+                    "へんさん"
+                ],
+                "answer": "へんかん",
+                "explanation": {
+                    "id": "返還（へんかん）adalah pengembalian, misalnya wilayah kepada pemilik asal.",
+                    "en": "返還（へんかん）is restitution, such as territory returned to its original owner."
+                },
+                "sourceKanji": [
+                    "返還"
+                ]
+            },
+            {
+                "id": "w6d2-exam-003",
+                "type": "reading",
+                "question": {
+                    "id": "03 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "配慮",
+                "promptType": "word",
+                "options": [
+                    "はいりょ",
+                    "こうりょ",
+                    "えんりょ",
+                    "はいじょ"
+                ],
+                "answer": "はいりょ",
+                "explanation": {
+                    "id": "配慮（はいりょ）menekankan perhatian terhadap keadaan pihak lain.",
+                    "en": "配慮（はいりょ）emphasizes care for another person’s circumstances."
+                },
+                "sourceKanji": [
+                    "配慮"
+                ]
+            },
+            {
+                "id": "w6d2-exam-004",
+                "type": "reading",
+                "question": {
+                    "id": "04 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "訂正",
+                "promptType": "word",
+                "options": [
+                    "ていせい",
+                    "しゅうせい",
+                    "かいせい",
+                    "ぜせい"
+                ],
+                "answer": "ていせい",
+                "explanation": {
+                    "id": "訂正（ていせい）dipakai untuk membetulkan kesalahan tulisan atau ucapan.",
+                    "en": "訂正（ていせい）is used to correct mistakes in writing or speech."
+                },
+                "sourceKanji": [
+                    "訂正"
+                ]
+            },
+            {
+                "id": "w6d2-exam-005",
+                "type": "reading",
+                "question": {
+                    "id": "05 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "申告",
+                "promptType": "word",
+                "options": [
+                    "しんこく",
+                    "しんせい",
+                    "しんごく",
+                    "しんこう"
+                ],
+                "answer": "しんこく",
+                "explanation": {
+                    "id": "申告（しんこく）merupakan pelaporan, misalnya pajak.",
+                    "en": "申告（しんこく）is a report or declaration, such as a tax filing."
+                },
+                "sourceKanji": [
+                    "申告"
+                ]
+            },
+            {
+                "id": "w6d2-exam-006",
+                "type": "reading",
+                "question": {
+                    "id": "06 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "通訳",
+                "promptType": "word",
+                "options": [
+                    "つうやく",
+                    "ほんやく",
+                    "つうえき",
+                    "つうやっく"
+                ],
+                "answer": "つうやく",
+                "explanation": {
+                    "id": "通訳（つうやく）berfokus pada interpretasi lisan.",
+                    "en": "通訳（つうやく）focuses on oral interpreting."
+                },
+                "sourceKanji": [
+                    "通訳"
+                ]
+            },
+            {
+                "id": "w6d2-exam-007",
+                "type": "reading",
+                "question": {
+                    "id": "07 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "消耗",
+                "promptType": "word",
+                "options": [
+                    "しょうもう",
+                    "しょうひ",
+                    "しょうか",
+                    "しょうぼう"
+                ],
+                "answer": "しょうもう",
+                "explanation": {
+                    "id": "消耗（しょうもう）menunjukkan tenaga atau sumber daya yang terkuras.",
+                    "en": "消耗（しょうもう）describes energy or resources being depleted."
+                },
+                "sourceKanji": [
+                    "消耗"
+                ]
+            },
+            {
+                "id": "w6d2-exam-008",
+                "type": "reading",
+                "question": {
+                    "id": "08 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "推奨",
+                "promptType": "word",
+                "options": [
+                    "すいしょう",
+                    "すいせん",
+                    "すいじょう",
+                    "すいそう"
+                ],
+                "answer": "すいしょう",
+                "explanation": {
+                    "id": "推奨（すいしょう）adalah anjuran terhadap pilihan atau solusi.",
+                    "en": "推奨（すいしょう）is an endorsement of a choice or solution."
+                },
+                "sourceKanji": [
+                    "推奨"
+                ]
+            },
+            {
+                "id": "w6d2-exam-009",
+                "type": "reading",
+                "question": {
+                    "id": "09 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "障害",
+                "promptType": "word",
+                "options": [
+                    "しょうがい",
+                    "ししょう",
+                    "しょうかい",
+                    "しょうけい"
+                ],
+                "answer": "しょうがい",
+                "explanation": {
+                    "id": "障害（しょうがい）dapat merujuk pada gangguan server atau sinyal.",
+                    "en": "障害（しょうがい）can refer to server or signal failures."
+                },
+                "sourceKanji": [
+                    "障害"
+                ]
+            },
+            {
+                "id": "w6d2-exam-010",
+                "type": "reading",
+                "question": {
+                    "id": "10 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "規定",
+                "promptType": "word",
+                "options": [
+                    "きてい",
+                    "しょてい",
+                    "きたい",
+                    "きでい"
+                ],
+                "answer": "きてい",
+                "explanation": {
+                    "id": "規定（きてい）berarti ketentuan atau peraturan.",
+                    "en": "規定（きてい）means a regulation or provision."
+                },
+                "sourceKanji": [
+                    "規定"
+                ]
+            },
+            {
+                "id": "w6d2-exam-011",
+                "type": "kanji",
+                "question": {
+                    "id": "11 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "① 育児休暇を終えて、仕事に「復帰」する。 (kembali bekerja)",
+                "promptType": "reading",
+                "options": [
+                    "復活",
+                    "復帰",
+                    "復旧",
+                    "復興"
+                ],
+                "answer": "復帰",
+                "explanation": {
+                    "id": "復帰 berarti kembali ke pekerjaan atau aktivitas sebelumnya.",
+                    "en": "復帰 means returning to a former job or activity."
+                },
+                "sourceKanji": [
+                    "復帰",
+                    "復活"
+                ]
+            },
+            {
+                "id": "w6d2-exam-012",
+                "type": "kanji",
+                "question": {
+                    "id": "12 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "② 「所定」の用紙に必要事項を記入してください。 (formulir yang telah ditentukan)",
+                "promptType": "reading",
+                "options": [
+                    "所定",
+                    "規定",
+                    "訂正",
+                    "申請"
+                ],
+                "answer": "所定",
+                "explanation": {
+                    "id": "所定の用紙 adalah formulir yang telah ditetapkan untuk digunakan.",
+                    "en": "所定の用紙 is the designated form to be used."
+                },
+                "sourceKanji": [
+                    "所定",
+                    "規定"
+                ]
+            },
+            {
+                "id": "w6d2-exam-013",
+                "type": "kanji",
+                "question": {
+                    "id": "13 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "③ ネクタイやスーツは「窮屈」だ。 (terasa membatasi/tidak leluasa)",
+                "promptType": "reading",
+                "options": [
+                    "窮屈",
+                    "退屈",
+                    "緩慢",
+                    "散漫"
+                ],
+                "answer": "窮屈",
+                "explanation": {
+                    "id": "窮屈 menggambarkan keadaan sempit atau terkekang, bukan rasa bosan.",
+                    "en": "窮屈 describes something cramped or restrictive, not boring."
+                },
+                "sourceKanji": [
+                    "窮屈",
+                    "退屈"
+                ]
+            },
+            {
+                "id": "w6d2-exam-014",
+                "type": "kanji",
+                "question": {
+                    "id": "14 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "④ 被災地の「復興」支援をする。 (mendukung pembangunan kembali wilayah bencana)",
+                "promptType": "reading",
+                "options": [
+                    "回復",
+                    "復興",
+                    "復旧",
+                    "復活"
+                ],
+                "answer": "復興",
+                "explanation": {
+                    "id": "復興 merujuk pada pembangunan kembali negara, ekonomi, atau wilayah setelah kemunduran/kerusakan.",
+                    "en": "復興 refers to rebuilding a country, economy, or area after decline or damage."
+                },
+                "sourceKanji": [
+                    "復興",
+                    "復旧"
+                ]
+            },
+            {
+                "id": "w6d2-exam-015",
+                "type": "kanji",
+                "question": {
+                    "id": "15 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "⑤ 彼は職務「怠慢」で減給になった。 (kelalaian tugas)",
+                "promptType": "reading",
+                "options": [
+                    "怠慢",
+                    "緩慢",
+                    "散漫",
+                    "爛漫"
+                ],
+                "answer": "怠慢",
+                "explanation": {
+                    "id": "職務怠慢 berarti kelalaian dalam menjalankan tugas.",
+                    "en": "職務怠慢 means neglect of one’s duties."
+                },
+                "sourceKanji": [
+                    "怠慢",
+                    "緩慢"
+                ]
+            },
+            {
+                "id": "w6d2-exam-016",
+                "type": "kanji",
+                "question": {
+                    "id": "16 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "⑥ 腰痛がひどくなり、日常生活に「支障」を来すようになった。",
+                "promptType": "reading",
+                "options": [
+                    "支障",
+                    "障害",
+                    "配慮",
+                    "考慮"
+                ],
+                "answer": "支障",
+                "explanation": {
+                    "id": "支障を来す berarti menimbulkan kendala yang menghambat kelancaran kegiatan.",
+                    "en": "支障を来す means causing a hindrance to normal activity."
+                },
+                "sourceKanji": [
+                    "支障",
+                    "障害"
+                ]
+            },
+            {
+                "id": "w6d2-exam-017",
+                "type": "kanji",
+                "question": {
+                    "id": "17 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "⑦ 図書を「返」却する ／ ローンを「返」済する (kanji yang sama)",
+                "promptType": "reading",
+                "options": [
+                    "返",
+                    "復",
+                    "申",
+                    "正"
+                ],
+                "answer": "返",
+                "explanation": {
+                    "id": "返却 dan 返済 sama-sama menggunakan kanji 返.",
+                    "en": "返却 and 返済 both use the kanji 返."
+                },
+                "sourceKanji": [
+                    "返"
+                ]
+            },
+            {
+                "id": "w6d2-exam-018",
+                "type": "kanji",
+                "question": {
+                    "id": "18 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "⑧ 遠「慮」なく ／ 配「慮」に欠ける行動 (kanji yang sama)",
+                "promptType": "reading",
+                "options": [
+                    "慮",
+                    "正",
+                    "申",
+                    "推"
+                ],
+                "answer": "慮",
+                "explanation": {
+                    "id": "遠慮 dan 配慮 sama-sama mengandung kanji 慮.",
+                    "en": "遠慮 and 配慮 both contain 慮."
+                },
+                "sourceKanji": [
+                    "慮"
+                ]
+            },
+            {
+                "id": "w6d2-exam-019",
+                "type": "kanji",
+                "question": {
+                    "id": "19 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "⑨ バスの時刻を改「正」する ／ 不平等を是「正」する (kanji yang sama)",
+                "promptType": "reading",
+                "options": [
+                    "正",
+                    "慮",
+                    "申",
+                    "定"
+                ],
+                "answer": "正",
+                "explanation": {
+                    "id": "改正 dan 是正 sama-sama menggunakan kanji 正.",
+                    "en": "改正 and 是正 both use 正."
+                },
+                "sourceKanji": [
+                    "正"
+                ]
+            },
+            {
+                "id": "w6d2-exam-020",
+                "type": "kanji",
+                "question": {
+                    "id": "20 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "⑩ 「消」化器官 ／ 「消」費税 (kanji yang sama)",
+                "promptType": "reading",
+                "options": [
+                    "消",
+                    "推",
+                    "申",
+                    "定"
+                ],
+                "answer": "消",
+                "explanation": {
+                    "id": "消化 dan 消費 sama-sama menggunakan kanji 消.",
+                    "en": "消化 and 消費 both use 消."
+                },
+                "sourceKanji": [
+                    "消"
+                ]
+            }
+        ]
+    }
 };
 
 export default minggu6Hari2;

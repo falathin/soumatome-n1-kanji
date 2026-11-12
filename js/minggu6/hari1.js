@@ -7,11 +7,15 @@ const minggu6Hari1 = {
     },
     "subtitle": {
         "id": "弓・矢・盾 dan kosakata satu kanji berdasarkan kategori",
-        "en": "弓・矢・盾 and one-kanji vocabulary grouped by category"
+        "en": "弓・矢・盾 and single-kanji vocabulary grouped by category"
     },
     "source": {
         "label": "Minggu 6 Hari 1",
         "image": "assets/images/backgrounds/mobile-normal.png"
+    },
+    "description": {
+        "id": "Kosakata satu kanji: alat, bentuk, konsep, cuaca, tubuh, dan pakaian.",
+        "en": "Single-kanji vocabulary: tools, shapes, concepts, weather, body, and clothing."
     },
     "kanji": [
         {
@@ -29,44 +33,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 弓と矢、弓を引く。",
-                "en": "Examples from the lesson: 弓と矢, 弓を引く."
-            },
-            "explanation": {
-                "id": "弓 adalah alat untuk melontarkan anak panah.",
-                "en": "弓 is the tool used to launch an arrow."
+                "id": "Sumber memberi contoh 弓と矢 dan 弓を引く.",
+                "en": "The source uses 弓と矢 and 弓を引く as examples."
             },
             "nuance": {
-                "id": "Pasangannya dalam materi adalah 矢; 弓を引く berarti menarik tali busur.",
-                "en": "The lesson pairs it with 矢; 弓を引く means to draw a bow."
+                "id": "Dipakai untuk alat yang melontarkan anak panah; fokusnya pada busurnya.",
+                "en": "It names the bow itself, the tool used to launch an arrow."
             },
             "philosophy": {
-                "id": "Bayangkan bentuk busur dan gerakan menarik talinya.",
-                "en": "Picture the curved bow and the action of drawing its string."
+                "id": "Bayangkan bentuk busur yang ditarik sebelum anak panah dilepaskan.",
+                "en": "Picture a bow being drawn before an arrow is released."
             },
             "vocabulary": [
                 {
-                    "word": "弓と矢",
-                    "reading": "ゆみとや",
+                    "word": "弓",
+                    "reading": "ゆみ",
                     "meaning": {
-                        "id": "busur dan anak panah",
-                        "en": "a bow and arrow"
-                    }
-                },
-                {
-                    "word": "弓を引く",
-                    "reading": "ゆみをひく",
-                    "meaning": {
-                        "id": "menarik busur",
-                        "en": "draw a bow"
+                        "id": "busur",
+                        "en": "bow"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "道具",
-                "en": "道具"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-002",
@@ -83,51 +71,35 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 矢を射る、矢を放つ。",
-                "en": "Examples from the lesson: 矢を射る, 矢を放つ."
-            },
-            "explanation": {
-                "id": "矢 adalah benda yang dilepaskan dari busur.",
-                "en": "矢 is the projectile released from a bow."
+                "id": "Sumber memberi contoh 矢を射る dan 矢を放つ.",
+                "en": "The source gives 矢を射る and 矢を放つ as examples."
             },
             "nuance": {
-                "id": "射る menekankan tindakan memanah, sedangkan 放つ berarti melepaskan atau meluncurkan.",
-                "en": "射る emphasizes shooting; 放つ means to release or send forth."
+                "id": "Berbeda dari 弓: 矢 adalah benda yang melesat menuju sasaran.",
+                "en": "Unlike 弓, 矢 is the projectile that travels toward a target."
             },
             "philosophy": {
-                "id": "Hubungkan 矢 dengan arah gerak anak panah setelah dilepaskan.",
-                "en": "Associate 矢 with the arrow's path after it is released."
+                "id": "Ingat 矢 sebagai benda yang dilepaskan dari busur.",
+                "en": "Remember 矢 as the object released from the bow."
             },
             "vocabulary": [
                 {
-                    "word": "矢を射る",
-                    "reading": "やをいる",
+                    "word": "矢",
+                    "reading": "や",
                     "meaning": {
-                        "id": "memanah; menembakkan anak panah",
-                        "en": "shoot an arrow"
-                    }
-                },
-                {
-                    "word": "矢を放つ",
-                    "reading": "やをはなつ",
-                    "meaning": {
-                        "id": "melepaskan anak panah",
-                        "en": "release an arrow"
+                        "id": "anak panah",
+                        "en": "arrow"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "道具",
-                "en": "道具"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-003",
             "character": "盾",
             "meaning": {
-                "id": "perisai",
-                "en": "shield"
+                "id": "perisai; plakat penghargaan",
+                "en": "shield; plaque"
             },
             "onyomi": [],
             "kunyomi": [
@@ -137,44 +109,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 盾、記念の盾。",
-                "en": "Examples from the lesson: 盾, 記念の盾."
-            },
-            "explanation": {
-                "id": "盾 digunakan untuk melindungi diri dari serangan.",
-                "en": "A 盾 is used to protect oneself from attacks."
+                "id": "Sumber mencantumkan 盾 dan 記念の盾.",
+                "en": "The source lists 盾 and 記念の盾."
             },
             "nuance": {
-                "id": "Selain perisai, 記念の盾 merujuk pada plakat atau penghargaan berbentuk perisai.",
-                "en": "Besides a shield, 記念の盾 refers to a commemorative plaque or award."
+                "id": "Selain perisai, gabungan 記念の盾 merujuk pada plakat kenang-kenangan.",
+                "en": "Besides a shield, 記念の盾 refers to a commemorative plaque."
             },
             "philosophy": {
-                "id": "Ingat dua konteksnya: perlindungan dan plakat penghargaan.",
-                "en": "Remember its two contexts: protection and an award plaque."
+                "id": "Hubungkan makna perlindungan dengan bentuk benda penghargaan yang kokoh.",
+                "en": "Connect its protective sense with the solid form of an award plaque."
             },
             "vocabulary": [
                 {
                     "word": "盾",
                     "reading": "たて",
                     "meaning": {
-                        "id": "perisai",
-                        "en": "a shield"
-                    }
-                },
-                {
-                    "word": "記念の盾",
-                    "reading": "きねんのたて",
-                    "meaning": {
-                        "id": "plakat kenang-kenangan",
-                        "en": "a commemorative plaque"
+                        "id": "perisai; plakat penghargaan",
+                        "en": "shield; plaque"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "道具",
-                "en": "道具"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-004",
@@ -191,44 +147,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 旗を振る、旗を立てる。",
-                "en": "Examples from the lesson: 旗を振る, 旗を立てる."
-            },
-            "explanation": {
-                "id": "旗 adalah kain atau lambang yang dipasang sebagai penanda.",
-                "en": "A 旗 is a flag or emblem displayed as a marker."
+                "id": "Sumber memberi contoh 旗を振る dan 旗を立てる.",
+                "en": "The source gives 旗を振る and 旗を立てる as examples."
             },
             "nuance": {
-                "id": "Kata contoh memakai gerakan mengibarkan dan tindakan mendirikan bendera.",
-                "en": "The examples focus on waving a flag and putting one up."
+                "id": "Konteksnya menonjolkan bendera sebagai tanda yang dapat dikibarkan atau ditegakkan.",
+                "en": "The examples emphasize a flag as a visible sign that can be waved or raised."
             },
             "philosophy": {
-                "id": "Bayangkan bendera yang berkibar atau berdiri pada tiangnya.",
-                "en": "Picture a flag waving or standing on its pole."
+                "id": "Bayangkan bendera yang terlihat dari kejauhan sebagai penanda.",
+                "en": "Picture a flag serving as a marker visible from a distance."
             },
             "vocabulary": [
                 {
-                    "word": "旗を振る",
-                    "reading": "はたをふる",
+                    "word": "旗",
+                    "reading": "はた",
                     "meaning": {
-                        "id": "mengibarkan bendera",
-                        "en": "wave a flag"
-                    }
-                },
-                {
-                    "word": "旗を立てる",
-                    "reading": "はたをたてる",
-                    "meaning": {
-                        "id": "mendirikan bendera",
-                        "en": "raise a flag"
+                        "id": "bendera",
+                        "en": "flag"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "道具",
-                "en": "道具"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-005",
@@ -245,43 +185,35 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 傘をさす。",
-                "en": "Examples from the lesson: 傘をさす."
-            },
-            "explanation": {
-                "id": "傘 digunakan untuk melindungi tubuh dari hujan atau sinar matahari.",
-                "en": "A 傘 is used to protect someone from rain or sunlight."
+                "id": "Sumber memberi contoh 傘をさす.",
+                "en": "The source gives 傘をさす as its example."
             },
             "nuance": {
-                "id": "Pola 傘をさす dipakai untuk tindakan membuka atau memakai payung di atas kepala.",
-                "en": "傘をさす is the expression for putting up or using an umbrella overhead."
+                "id": "Kata ini langsung menunjuk alat pelindung dari hujan atau sinar matahari.",
+                "en": "It directly names an item used for protection from rain or sunlight."
             },
             "philosophy": {
-                "id": "Ingat 傘 bersama gerakan membukanya saat hujan.",
-                "en": "Remember 傘 with the action of opening it in the rain."
+                "id": "Ingat tindakan membuka payung saat cuaca berubah.",
+                "en": "Associate it with opening an umbrella when the weather changes."
             },
             "vocabulary": [
                 {
-                    "word": "傘をさす",
-                    "reading": "かさをさす",
+                    "word": "傘",
+                    "reading": "かさ",
                     "meaning": {
-                        "id": "memakai atau membuka payung",
-                        "en": "put up an umbrella"
+                        "id": "payung",
+                        "en": "umbrella"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "道具",
-                "en": "道具"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-006",
             "character": "綱",
             "meaning": {
-                "id": "tali tebal; tambang",
-                "en": "rope; thick cable"
+                "id": "tali besar; tambang",
+                "en": "thick rope; hawser"
             },
             "onyomi": [],
             "kunyomi": [
@@ -291,51 +223,35 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 綱引き、横綱。",
-                "en": "Examples from the lesson: 綱引き, 横綱."
-            },
-            "explanation": {
-                "id": "綱 merujuk pada tali yang tebal dan kuat.",
-                "en": "綱 refers to a thick, strong rope."
+                "id": "Sumber memberi contoh 綱引き dan 横綱.",
+                "en": "The source gives 綱引き and 横綱 as examples."
             },
             "nuance": {
-                "id": "綱引き adalah tarik tambang, sedangkan 横綱 adalah gelar pegulat sumo tingkat tertinggi.",
-                "en": "綱引き means tug-of-war, while 横綱 is the highest rank in sumo."
+                "id": "綱 cenderung menggambarkan tali besar; pada 横綱, kata ini menjadi bagian gelar sumo.",
+                "en": "綱 suggests a thick rope; in 横綱 it appears in a sumo title."
             },
             "philosophy": {
-                "id": "Jadikan 綱 sebagai gambaran tali besar; hafalkan 横綱 sebagai kosakata khusus.",
-                "en": "Use a thick rope as the image for 綱; memorize 横綱 as a special term."
+                "id": "Bedakan 綱 dari 縄 dengan membayangkan tambang yang tebal.",
+                "en": "Distinguish 綱 from 縄 by picturing a thick rope."
             },
             "vocabulary": [
                 {
-                    "word": "綱引き",
-                    "reading": "つなひき",
+                    "word": "綱",
+                    "reading": "つな",
                     "meaning": {
-                        "id": "tarik tambang",
-                        "en": "tug-of-war"
-                    }
-                },
-                {
-                    "word": "横綱",
-                    "reading": "よこづな",
-                    "meaning": {
-                        "id": "yokozuna; juara tertinggi sumo",
-                        "en": "yokozuna; grand champion sumo wrestler"
+                        "id": "tali besar; tambang",
+                        "en": "thick rope; hawser"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "道具",
-                "en": "道具"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-007",
             "character": "縄",
             "meaning": {
                 "id": "tali; tambang",
-                "en": "rope; cord"
+                "en": "rope"
             },
             "onyomi": [],
             "kunyomi": [
@@ -345,44 +261,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 縄跳び、縄張り。",
-                "en": "Examples from the lesson: 縄跳び, 縄張り."
-            },
-            "explanation": {
-                "id": "縄 adalah tali yang dapat digunakan untuk mengikat atau melompat.",
-                "en": "縄 is a cord or rope used for tying or jumping."
+                "id": "Sumber memberi contoh 縄跳び dan 縄張り.",
+                "en": "The source gives 縄跳び and 縄張り as examples."
             },
             "nuance": {
-                "id": "縄跳び adalah lompat tali, sedangkan 縄張り berarti wilayah kekuasaan atau teritori.",
-                "en": "縄跳び means rope skipping, while 縄張り means territory."
+                "id": "Contohnya bergerak dari tali untuk melompat hingga wilayah kekuasaan.",
+                "en": "Its examples range from a skipping rope to a defined territory."
             },
             "philosophy": {
-                "id": "Bedakan 綱 yang cenderung tebal dengan 縄 yang muncul pada lompat tali dan teritori.",
-                "en": "Distinguish thick 綱 from 縄 in rope skipping and territory."
+                "id": "Ingat tali yang dapat dipakai untuk melompat atau menandai batas.",
+                "en": "Picture a rope used for jumping or marking a boundary."
             },
             "vocabulary": [
                 {
-                    "word": "縄跳び",
-                    "reading": "なわとび",
+                    "word": "縄",
+                    "reading": "なわ",
                     "meaning": {
-                        "id": "lompat tali",
-                        "en": "rope skipping"
-                    }
-                },
-                {
-                    "word": "縄張り",
-                    "reading": "なわばり",
-                    "meaning": {
-                        "id": "wilayah kekuasaan; teritori",
-                        "en": "territory"
+                        "id": "tali; tambang",
+                        "en": "rope"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "道具",
-                "en": "道具"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-008",
@@ -399,20 +299,16 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 鎖、鎖につなぐ。",
-                "en": "Examples from the lesson: 鎖, 鎖につなぐ."
-            },
-            "explanation": {
-                "id": "鎖 adalah rangkaian mata rantai yang saling terhubung.",
-                "en": "鎖 is a series of connected links forming a chain."
+                "id": "Sumber memberi contoh 鎖 dan 鎖につなぐ.",
+                "en": "The source gives 鎖 and 鎖につなぐ as examples."
             },
             "nuance": {
-                "id": "Contoh sumber menunjukkan benda rantainya dan tindakan mengikat sesuatu dengan rantai.",
-                "en": "The source examples show both the chain itself and the act of chaining something."
+                "id": "Berbeda dari 綱 dan 縄, 鎖 tersusun dari mata-mata rantai yang saling terhubung.",
+                "en": "Unlike 綱 and 縄, 鎖 consists of connected links."
             },
             "philosophy": {
-                "id": "Bayangkan mata-mata rantai yang saling menyambung.",
-                "en": "Picture linked metal loops joined together."
+                "id": "Visualisasikan beberapa mata logam yang saling mengunci.",
+                "en": "Visualize interlocking metal links."
             },
             "vocabulary": [
                 {
@@ -420,29 +316,17 @@ const minggu6Hari1 = {
                     "reading": "くさり",
                     "meaning": {
                         "id": "rantai",
-                        "en": "a chain"
-                    }
-                },
-                {
-                    "word": "鎖につなぐ",
-                    "reading": "くさりにつなぐ",
-                    "meaning": {
-                        "id": "mengikat dengan rantai",
-                        "en": "chain something"
+                        "en": "chain"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "道具",
-                "en": "道具"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-009",
             "character": "網",
             "meaning": {
-                "id": "jaring; jala",
+                "id": "jaring",
                 "en": "net"
             },
             "onyomi": [],
@@ -453,44 +337,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 網で魚や虫を捕る、網の目。",
-                "en": "Examples from the lesson: 網で魚や虫を捕る, 網の目."
-            },
-            "explanation": {
-                "id": "網 adalah anyaman bersela yang digunakan untuk menangkap atau menyaring.",
-                "en": "網 is a mesh used for catching or straining things."
+                "id": "Sumber memberi contoh 網で魚や虫を捕る dan 網の目.",
+                "en": "The source gives 網で魚や虫を捕る and 網の目 as examples."
             },
             "nuance": {
-                "id": "網で魚や虫を捕る menunjukkan fungsi menangkap; 網の目 menunjuk pada celah-celah jaring.",
-                "en": "網で魚や虫を捕る shows its catching function; 網の目 refers to the mesh openings."
+                "id": "Ciri utamanya adalah anyaman berlubang yang dapat menangkap atau menyaring sesuatu.",
+                "en": "Its defining feature is a mesh that can catch or filter things."
             },
             "philosophy": {
-                "id": "Ingat bentuk jaring yang tersusun dari banyak lubang kecil.",
-                "en": "Remember the net as a structure made of many small openings."
+                "id": "Bayangkan pola lubang-lubang kecil pada jaring.",
+                "en": "Picture the small openings in a net."
             },
             "vocabulary": [
                 {
-                    "word": "網で魚や虫を捕る",
-                    "reading": "あみでさかなやむしをとる",
+                    "word": "網",
+                    "reading": "あみ",
                     "meaning": {
-                        "id": "menangkap ikan atau serangga dengan jaring",
-                        "en": "catch fish or insects with a net"
-                    }
-                },
-                {
-                    "word": "網の目",
-                    "reading": "あみのめ",
-                    "meaning": {
-                        "id": "lubang atau anyaman jaring",
-                        "en": "the meshes of a net"
+                        "id": "jaring",
+                        "en": "net"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "道具",
-                "en": "道具"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-010",
@@ -507,20 +375,16 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 塊、土の塊。",
-                "en": "Examples from the lesson: 塊, 土の塊."
-            },
-            "explanation": {
-                "id": "塊 menunjukkan benda atau bahan yang terkumpul menjadi satu massa.",
-                "en": "塊 refers to material gathered into one solid mass."
+                "id": "Sumber memberi contoh 塊 dan 土の塊.",
+                "en": "The source gives 塊 and 土の塊 as examples."
             },
             "nuance": {
-                "id": "Contoh 土の塊 membatasi gambaran pada bongkahan tanah.",
-                "en": "The example 土の塊 specifically presents a lump of soil."
+                "id": "Menunjukkan sesuatu yang terkumpul menjadi satu massa, bukan bagian yang terpisah.",
+                "en": "It describes things gathered into one mass rather than separate pieces."
             },
             "philosophy": {
-                "id": "Bayangkan beberapa bagian yang menyatu menjadi satu bongkahan.",
-                "en": "Picture separate bits gathered into one lump."
+                "id": "Bayangkan tanah yang menggumpal menjadi satu bongkahan.",
+                "en": "Picture soil gathered into one lump."
             },
             "vocabulary": [
                 {
@@ -528,30 +392,18 @@ const minggu6Hari1 = {
                     "reading": "かたまり",
                     "meaning": {
                         "id": "gumpalan; bongkahan",
-                        "en": "a lump"
-                    }
-                },
-                {
-                    "word": "土の塊",
-                    "reading": "つちのかたまり",
-                    "meaning": {
-                        "id": "bongkahan tanah",
-                        "en": "a lump of soil"
+                        "en": "lump; mass"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "形状",
-                "en": "形状"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-011",
             "character": "渦",
             "meaning": {
                 "id": "pusaran",
-                "en": "whirlpool; swirl"
+                "en": "whirlpool; vortex"
             },
             "onyomi": [],
             "kunyomi": [
@@ -561,51 +413,35 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 渦巻き、渦潮。",
-                "en": "Examples from the lesson: 渦巻き, 渦潮."
-            },
-            "explanation": {
-                "id": "渦 menggambarkan gerakan atau bentuk yang berputar melingkar.",
-                "en": "渦 describes a swirling or spiral movement or shape."
+                "id": "Sumber memberi contoh 渦巻き dan 渦潮.",
+                "en": "The source gives 渦巻き and 渦潮 as examples."
             },
             "nuance": {
-                "id": "渦巻き adalah bentuk spiral, sedangkan 渦潮 adalah arus laut berpusar.",
-                "en": "渦巻き is a spiral shape, while 渦潮 is a swirling ocean current."
+                "id": "Menunjukkan gerakan atau bentuk melingkar yang berputar ke arah pusat.",
+                "en": "It refers to a swirling movement or shape that turns toward a center."
             },
             "philosophy": {
-                "id": "Hubungkan 渦 dengan gerakan air atau udara yang berputar.",
-                "en": "Associate 渦 with water or air turning in a circular motion."
+                "id": "Ingat pola air yang berputar membentuk pusaran.",
+                "en": "Remember water rotating into a whirlpool."
             },
             "vocabulary": [
                 {
-                    "word": "渦巻き",
-                    "reading": "うずまき",
+                    "word": "渦",
+                    "reading": "うず",
                     "meaning": {
-                        "id": "pusaran; spiral",
-                        "en": "a spiral"
-                    }
-                },
-                {
-                    "word": "渦潮",
-                    "reading": "うずしお",
-                    "meaning": {
-                        "id": "pusaran arus laut",
-                        "en": "a whirlpool current"
+                        "id": "pusaran",
+                        "en": "whirlpool; vortex"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "形状",
-                "en": "形状"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-012",
             "character": "泡",
             "meaning": {
-                "id": "buih; gelembung",
-                "en": "foam; bubble"
+                "id": "gelembung; busa",
+                "en": "bubble; foam"
             },
             "onyomi": [],
             "kunyomi": [
@@ -615,44 +451,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 泡を立てる、泡が立つ。",
-                "en": "Examples from the lesson: 泡を立てる, 泡が立つ."
-            },
-            "explanation": {
-                "id": "泡 adalah gelembung kecil yang terbentuk pada cairan.",
-                "en": "泡 is a small bubble formed in a liquid."
+                "id": "Sumber memberi contoh 泡を立てる dan 泡が立つ.",
+                "en": "The source gives 泡を立てる and 泡が立つ as examples."
             },
             "nuance": {
-                "id": "泡を立てる menyoroti tindakan menghasilkan busa, sedangkan 泡が立つ menyatakan busa mulai terbentuk.",
-                "en": "泡を立てる focuses on making foam; 泡が立つ describes foam appearing."
+                "id": "Dapat muncul sebagai gelembung tunggal maupun kumpulan busa.",
+                "en": "It can refer to an individual bubble or a mass of foam."
             },
             "philosophy": {
-                "id": "Bayangkan gelembung yang muncul di permukaan air atau sabun.",
-                "en": "Picture bubbles forming on water or soap."
+                "id": "Bayangkan busa yang muncul ketika cairan dikocok.",
+                "en": "Picture foam appearing when liquid is whisked."
             },
             "vocabulary": [
                 {
-                    "word": "泡を立てる",
-                    "reading": "あわをたてる",
+                    "word": "泡",
+                    "reading": "あわ",
                     "meaning": {
-                        "id": "membuat busa",
-                        "en": "work into a lather"
-                    }
-                },
-                {
-                    "word": "泡が立つ",
-                    "reading": "あわがたつ",
-                    "meaning": {
-                        "id": "busa terbentuk",
-                        "en": "bubbles rise; foam forms"
+                        "id": "gelembung; busa",
+                        "en": "bubble; foam"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "形状",
-                "en": "形状"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-013",
@@ -669,44 +489,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 穴があく、穴を掘る。",
-                "en": "Examples from the lesson: 穴があく, 穴を掘る."
-            },
-            "explanation": {
-                "id": "穴 adalah ruang kosong atau celah yang terbuka pada suatu benda atau permukaan.",
-                "en": "穴 is an opening or hollow space in an object or surface."
+                "id": "Sumber memberi contoh 穴があく dan 穴を掘る.",
+                "en": "The source gives 穴があく and 穴を掘る as examples."
             },
             "nuance": {
-                "id": "穴があく menyatakan lubang terbentuk, sedangkan 穴を掘る berarti menggali lubang.",
-                "en": "穴があく describes a hole appearing; 穴を掘る means to dig one."
+                "id": "Konteksnya bisa berupa lubang yang terbentuk maupun lubang yang sengaja digali.",
+                "en": "The examples cover a hole forming and a hole being dug deliberately."
             },
             "philosophy": {
-                "id": "Ingat perbedaan lubang yang terbentuk dan lubang yang sengaja digali.",
-                "en": "Remember the difference between a hole appearing and one being dug."
+                "id": "Ingat ruang kosong yang menembus atau masuk ke suatu permukaan.",
+                "en": "Think of an opening or hollow in a surface."
             },
             "vocabulary": [
                 {
-                    "word": "穴があく",
-                    "reading": "あながあく",
+                    "word": "穴",
+                    "reading": "あな",
                     "meaning": {
-                        "id": "lubang terbentuk",
-                        "en": "a hole appears"
-                    }
-                },
-                {
-                    "word": "穴を掘る",
-                    "reading": "あなをほる",
-                    "meaning": {
-                        "id": "menggali lubang",
-                        "en": "dig a hole"
+                        "id": "lubang",
+                        "en": "hole"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "形状",
-                "en": "形状"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-014",
@@ -723,44 +527,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 公の場所、公になる。",
-                "en": "Examples from the lesson: 公の場所, 公になる."
-            },
-            "explanation": {
-                "id": "公 menunjuk pada sesuatu yang bersifat umum atau terbuka untuk masyarakat.",
-                "en": "公 refers to something public or open to society."
+                "id": "Sumber memberi contoh 公の場所 dan 公になる.",
+                "en": "The source gives 公の場所 and 公になる as examples."
             },
             "nuance": {
-                "id": "公の場所 adalah tempat umum; 公になる berarti suatu hal diketahui publik.",
-                "en": "公の場所 is a public place; 公になる means to become public."
+                "id": "Berhubungan dengan hal yang terbuka untuk masyarakat atau diketahui khalayak.",
+                "en": "It concerns something open to the public or made publicly known."
             },
             "philosophy": {
-                "id": "Pasangkan 公 dengan gagasan sesuatu yang bukan hanya milik pribadi.",
-                "en": "Link 公 to the idea of something beyond private or personal matters."
+                "id": "Hubungkan 公 dengan sesuatu yang bukan lagi bersifat pribadi.",
+                "en": "Connect 公 with something that is no longer private."
             },
             "vocabulary": [
                 {
-                    "word": "公の場所",
-                    "reading": "おおやけのばしょ",
+                    "word": "公",
+                    "reading": "おおやけ",
                     "meaning": {
-                        "id": "tempat umum",
-                        "en": "a public place"
-                    }
-                },
-                {
-                    "word": "公になる",
-                    "reading": "おおやけになる",
-                    "meaning": {
-                        "id": "menjadi konsumsi publik",
-                        "en": "be made public"
+                        "id": "umum; publik",
+                        "en": "public; official"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "観念",
-                "en": "観念"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-015",
@@ -777,51 +565,35 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 恥をかく、恥をさらす。",
-                "en": "Examples from the lesson: 恥をかく, 恥をさらす."
-            },
-            "explanation": {
-                "id": "恥 berkaitan dengan perasaan malu akibat tindakan atau keadaan tertentu.",
-                "en": "恥 relates to the feeling of shame caused by an action or situation."
+                "id": "Sumber memberi contoh 恥をかく dan 恥をさらす.",
+                "en": "The source gives 恥をかく and 恥をさらす as examples."
             },
             "nuance": {
-                "id": "恥をかく berarti mengalami rasa malu, sedangkan 恥をさらす lebih kuat: memperlihatkan aib kepada orang lain.",
-                "en": "恥をかく means to embarrass oneself; 恥をさらす more strongly means to expose one's disgrace."
+                "id": "Menekankan perasaan malu atau keadaan ketika seseorang dipermalukan.",
+                "en": "It emphasizes the feeling of shame or being disgraced."
             },
             "philosophy": {
-                "id": "Ingat tingkatannya: merasa malu lalu memperlihatkan aib secara terbuka.",
-                "en": "Remember the progression: feeling embarrassed versus exposing one's disgrace."
+                "id": "Ingat ungkapan 恥をかく sebagai mengalami rasa malu.",
+                "en": "Remember 恥をかく as the experience of feeling embarrassed."
             },
             "vocabulary": [
                 {
-                    "word": "恥をかく",
-                    "reading": "はじをかく",
+                    "word": "恥",
+                    "reading": "はじ",
                     "meaning": {
-                        "id": "mempermalukan diri; merasa malu",
-                        "en": "embarrass oneself"
-                    }
-                },
-                {
-                    "word": "恥をさらす",
-                    "reading": "はじをさらす",
-                    "meaning": {
-                        "id": "memperlihatkan aib",
-                        "en": "expose one's disgrace"
+                        "id": "rasa malu; aib",
+                        "en": "shame; disgrace"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "観念",
-                "en": "観念"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-016",
             "character": "罪",
             "meaning": {
                 "id": "dosa; kejahatan; kesalahan",
-                "en": "sin; crime; guilt"
+                "en": "crime; sin; guilt"
             },
             "onyomi": [],
             "kunyomi": [
@@ -831,51 +603,35 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 罪の意識、罪と罰。",
-                "en": "Examples from the lesson: 罪の意識, 罪と罰."
-            },
-            "explanation": {
-                "id": "罪 mengacu pada tindakan salah atau pelanggaran yang menimbulkan tanggung jawab.",
-                "en": "罪 refers to a wrongdoing or offense that carries responsibility."
+                "id": "Sumber memberi contoh 罪の意識 dan 『罪と罰』.",
+                "en": "The source gives 罪の意識 and 『罪と罰』 as examples."
             },
             "nuance": {
-                "id": "罪の意識 adalah kesadaran bersalah; 罪と罰 merupakan judul karya yang dikenal.",
-                "en": "罪の意識 is a sense of guilt; 罪と罰 is the title of a well-known work."
+                "id": "Lebih berkaitan dengan kesalahan atau pelanggaran daripada rasa malu sosial.",
+                "en": "It relates to wrongdoing or an offense rather than social embarrassment."
             },
             "philosophy": {
-                "id": "Hubungkan 罪 dengan tindakan yang dianggap melanggar aturan atau norma.",
-                "en": "Associate 罪 with an act that violates rules or moral standards."
+                "id": "Pisahkan 罪 sebagai kesalahan dari 恥 sebagai rasa malu.",
+                "en": "Separate 罪 as wrongdoing from 恥 as embarrassment."
             },
             "vocabulary": [
                 {
-                    "word": "罪の意識",
-                    "reading": "つみのいしき",
+                    "word": "罪",
+                    "reading": "つみ",
                     "meaning": {
-                        "id": "rasa bersalah",
-                        "en": "a sense of guilt"
-                    }
-                },
-                {
-                    "word": "罪と罰",
-                    "reading": "つみとばつ",
-                    "meaning": {
-                        "id": "Kejahatan dan Hukuman",
-                        "en": "Crime and Punishment"
+                        "id": "dosa; kejahatan; kesalahan",
+                        "en": "crime; sin; guilt"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "観念",
-                "en": "観念"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-017",
             "character": "趣",
             "meaning": {
-                "id": "nuansa; daya tarik khas",
-                "en": "charm; character; atmosphere"
+                "id": "suasana; cita rasa; daya tarik",
+                "en": "atmosphere; charm; taste"
             },
             "onyomi": [],
             "kunyomi": [
@@ -885,43 +641,35 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 趣のある庭。",
-                "en": "Examples from the lesson: 趣のある庭."
-            },
-            "explanation": {
-                "id": "趣 menunjukkan kesan atau karakter khas yang membuat sesuatu terasa menarik.",
-                "en": "趣 describes the distinctive character or atmosphere that gives something appeal."
+                "id": "Sumber memberi contoh 趣のある庭.",
+                "en": "The source gives 趣のある庭 as its example."
             },
             "nuance": {
-                "id": "趣のある庭 bukan sekadar taman yang ada, tetapi taman yang memiliki suasana atau cita rasa khas.",
-                "en": "趣のある庭 is not just a garden; it is a garden with distinctive atmosphere or taste."
+                "id": "Menggambarkan karakter atau keindahan khas yang terasa dari suatu tempat.",
+                "en": "It describes the distinctive character or charm felt in a place."
             },
             "philosophy": {
-                "id": "Ingat 趣 sebagai kesan khas yang terasa dari suatu tempat atau benda.",
-                "en": "Remember 趣 as the distinctive atmosphere felt in a place or object."
+                "id": "Bayangkan taman yang memiliki suasana khas dan menyenangkan.",
+                "en": "Picture a garden with a distinctive, pleasing atmosphere."
             },
             "vocabulary": [
                 {
-                    "word": "趣のある庭",
-                    "reading": "おもむきのあるにわ",
+                    "word": "趣",
+                    "reading": "おもむき",
                     "meaning": {
-                        "id": "taman yang memiliki nuansa khas",
-                        "en": "a tasteful garden"
+                        "id": "suasana; cita rasa; daya tarik",
+                        "en": "atmosphere; charm; taste"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "観念",
-                "en": "観念"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-018",
             "character": "技",
             "meaning": {
                 "id": "teknik; keterampilan",
-                "en": "technique; skill"
+                "en": "skill; technique"
             },
             "onyomi": [],
             "kunyomi": [
@@ -931,43 +679,35 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 技を磨く。",
-                "en": "Examples from the lesson: 技を磨く."
-            },
-            "explanation": {
-                "id": "技 adalah kemampuan praktis atau teknik untuk melakukan sesuatu.",
-                "en": "技 is a practical ability or technique for doing something."
+                "id": "Sumber memberi contoh 技を磨く.",
+                "en": "The source gives 技を磨く as its example."
             },
             "nuance": {
-                "id": "技を磨く menekankan latihan berulang untuk meningkatkan keterampilan.",
-                "en": "技を磨く emphasizes repeated practice to improve a skill."
+                "id": "Menunjuk kemampuan praktis yang dapat ditingkatkan melalui latihan.",
+                "en": "It refers to a practical ability that can be improved through practice."
             },
             "philosophy": {
-                "id": "Bayangkan keterampilan yang diasah sampai semakin terampil.",
-                "en": "Picture a skill being polished through practice."
+                "id": "Hubungkan 技 dengan keterampilan yang diasah berulang kali.",
+                "en": "Connect 技 with a skill sharpened through repeated practice."
             },
             "vocabulary": [
                 {
-                    "word": "技を磨く",
-                    "reading": "わざをみがく",
+                    "word": "技",
+                    "reading": "わざ",
                     "meaning": {
-                        "id": "mengasah keterampilan",
-                        "en": "polish one's skills"
+                        "id": "teknik; keterampilan",
+                        "en": "skill; technique"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "観念",
-                "en": "観念"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-019",
             "character": "志",
             "meaning": {
-                "id": "cita-cita; tekad",
-                "en": "aspiration; resolve"
+                "id": "tekad; cita-cita",
+                "en": "aspiration; ambition"
             },
             "onyomi": [],
             "kunyomi": [
@@ -977,36 +717,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 志を果たす。",
-                "en": "Examples from the lesson: 志を果たす."
-            },
-            "explanation": {
-                "id": "志 adalah tujuan atau tekad yang ingin diwujudkan seseorang.",
-                "en": "志 is an aspiration or resolve that someone wants to fulfill."
+                "id": "Sumber memberi contoh 志を果たす.",
+                "en": "The source gives 志を果たす as its example."
             },
             "nuance": {
-                "id": "志を果たす berfokus pada keberhasilan mewujudkan cita-cita tersebut.",
-                "en": "志を果たす focuses on accomplishing that aspiration."
+                "id": "Memuat tujuan yang dipegang dengan kesungguhan, bukan sekadar keinginan sesaat.",
+                "en": "It conveys a serious purpose, not merely a passing wish."
             },
             "philosophy": {
-                "id": "Hubungkan 志 dengan tujuan jangka panjang yang ingin dicapai.",
-                "en": "Link 志 to a long-term goal one wants to achieve."
+                "id": "Bayangkan tujuan besar yang tetap dipegang sampai tercapai.",
+                "en": "Picture a long-term goal held firmly until it is achieved."
             },
             "vocabulary": [
                 {
-                    "word": "志を果たす",
-                    "reading": "こころざしをはたす",
+                    "word": "志",
+                    "reading": "こころざし",
                     "meaning": {
-                        "id": "mewujudkan cita-cita",
-                        "en": "fulfill one's aspiration"
+                        "id": "tekad; cita-cita",
+                        "en": "aspiration; ambition"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "観念",
-                "en": "観念"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-020",
@@ -1023,44 +755,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 暇をつぶす、寝る暇も無い。",
-                "en": "Examples from the lesson: 暇をつぶす, 寝る暇も無い."
-            },
-            "explanation": {
-                "id": "暇 adalah keadaan ketika seseorang tidak sedang sibuk dan memiliki waktu kosong.",
-                "en": "暇 is a state of having free time and not being occupied."
+                "id": "Sumber memberi contoh 暇をつぶす dan 寝る暇も無い.",
+                "en": "The source gives 暇をつぶす and 寝る暇も無い as examples."
             },
             "nuance": {
-                "id": "暇をつぶす berarti mengisi waktu luang; 寝る暇も無い berarti sangat sibuk sampai tidak sempat tidur.",
-                "en": "暇をつぶす means to kill time; 寝る暇も無い means being too busy to sleep."
+                "id": "Bisa berarti waktu senggang maupun kesempatan yang tidak tersedia karena terlalu sibuk.",
+                "en": "It can mean leisure time or the time one lacks when too busy."
             },
             "philosophy": {
-                "id": "Ingat dua sisi konteksnya: ada waktu kosong atau justru tidak punya waktu.",
-                "en": "Remember both contexts: having spare time or having no time at all."
+                "id": "Bandingkan 暇をつぶす dengan 寝る暇も無い untuk melihat dua konteksnya.",
+                "en": "Compare 暇をつぶす with 寝る暇も無い to see its two contexts."
             },
             "vocabulary": [
                 {
-                    "word": "暇をつぶす",
-                    "reading": "ひまをつぶす",
+                    "word": "暇",
+                    "reading": "ひま",
                     "meaning": {
-                        "id": "mengisi waktu luang",
-                        "en": "kill time"
-                    }
-                },
-                {
-                    "word": "寝る暇も無い",
-                    "reading": "ねるひまもない",
-                    "meaning": {
-                        "id": "tidak sempat tidur",
-                        "en": "too busy to sleep"
+                        "id": "waktu luang",
+                        "en": "free time; leisure"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "観念",
-                "en": "観念"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-021",
@@ -1077,44 +793,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 元気の源、健康の源。",
-                "en": "Examples from the lesson: 元気の源, 健康の源."
-            },
-            "explanation": {
-                "id": "源 menunjukkan tempat atau hal yang menjadi asal sesuatu.",
-                "en": "源 indicates the place or thing from which something originates."
+                "id": "Sumber memberi contoh 元気の源 dan 健康の源.",
+                "en": "The source gives 元気の源 and 健康の源 as examples."
             },
             "nuance": {
-                "id": "元気の源 dan 健康の源 memakai kata ini untuk hal yang memberi tenaga atau menopang kesehatan.",
-                "en": "元気の源 and 健康の源 use it for something that provides energy or supports health."
+                "id": "Menunjukkan asal yang menghasilkan atau menopang sesuatu.",
+                "en": "It identifies an origin that produces or sustains something."
             },
             "philosophy": {
-                "id": "Bayangkan sumber mata air: dari sanalah sesuatu bermula.",
-                "en": "Picture a spring: it is where something begins."
+                "id": "Bayangkan mata air sebagai sumber yang mengalirkan sesuatu.",
+                "en": "Picture a spring as the source from which something flows."
             },
             "vocabulary": [
                 {
-                    "word": "元気の源",
-                    "reading": "げんきのみなもと",
+                    "word": "源",
+                    "reading": "みなもと",
                     "meaning": {
-                        "id": "sumber semangat",
-                        "en": "a source of energy"
-                    }
-                },
-                {
-                    "word": "健康の源",
-                    "reading": "けんこうのみなもと",
-                    "meaning": {
-                        "id": "sumber kesehatan",
-                        "en": "a source of health"
+                        "id": "sumber; asal",
+                        "en": "source; origin"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "観念",
-                "en": "観念"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-022",
@@ -1131,51 +831,35 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 肉体と魂、魂の叫び。",
-                "en": "Examples from the lesson: 肉体と魂, 魂の叫び."
-            },
-            "explanation": {
-                "id": "魂 merujuk pada jiwa atau unsur batin manusia.",
-                "en": "魂 refers to the soul or a person's inner spirit."
+                "id": "Sumber memberi contoh 肉体と魂 dan 魂の叫び.",
+                "en": "The source gives 肉体と魂 and 魂の叫び as examples."
             },
             "nuance": {
-                "id": "肉体と魂 mempertentangkan tubuh fisik dengan jiwa; 魂の叫び menggambarkan luapan batin yang kuat.",
-                "en": "肉体と魂 contrasts the body with the soul; 魂の叫び describes a powerful cry from within."
+                "id": "Berhubungan dengan sisi batin atau esensi seseorang, bukan tubuh fisik.",
+                "en": "It concerns a person’s inner essence rather than the physical body."
             },
             "philosophy": {
-                "id": "Ingat 魂 sebagai sisi batin yang tidak terlihat secara fisik.",
-                "en": "Remember 魂 as the inner side that cannot be seen physically."
+                "id": "Pasangkan 肉体 dengan 魂 untuk mengingat kontras tubuh dan jiwa.",
+                "en": "Pair 肉体 with 魂 to remember the contrast between body and soul."
             },
             "vocabulary": [
                 {
-                    "word": "肉体と魂",
-                    "reading": "にくたいとたましい",
+                    "word": "魂",
+                    "reading": "たましい",
                     "meaning": {
-                        "id": "tubuh dan jiwa",
-                        "en": "body and soul"
-                    }
-                },
-                {
-                    "word": "魂の叫び",
-                    "reading": "たましいのさけび",
-                    "meaning": {
-                        "id": "jeritan jiwa",
-                        "en": "a cry of the soul"
+                        "id": "jiwa; roh",
+                        "en": "soul; spirit"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "観念",
-                "en": "観念"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-023",
             "character": "幻",
             "meaning": {
                 "id": "ilusi; bayangan; sesuatu yang langka",
-                "en": "illusion; apparition; elusive thing"
+                "en": "illusion; apparition; rare thing"
             },
             "onyomi": [],
             "kunyomi": [
@@ -1185,50 +869,34 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 夢、幻、幻の酒。",
-                "en": "Examples from the lesson: 夢、幻, 幻の酒."
-            },
-            "explanation": {
-                "id": "幻 menggambarkan sesuatu yang tampak seperti khayalan atau sulit ditemukan.",
-                "en": "幻 describes something illusory or difficult to find."
+                "id": "Sumber memberi contoh 夢、幻 dan 幻の酒.",
+                "en": "The source gives 夢、幻 and 幻の酒 as examples."
             },
             "nuance": {
-                "id": "夢、幻 menyandingkan mimpi dan ilusi; 幻の酒 merujuk pada minuman yang sangat langka.",
-                "en": "夢、幻 pairs dreams with illusions; 幻の酒 refers to an exceptionally rare drink."
+                "id": "Dapat merujuk pada sesuatu yang tampak tidak nyata atau sangat sulit ditemukan.",
+                "en": "It can refer to something unreal or exceptionally hard to find."
             },
             "philosophy": {
-                "id": "Bayangkan sesuatu yang hanya sesekali terlihat atau hampir mustahil ditemukan.",
-                "en": "Picture something rarely seen or almost impossible to find."
+                "id": "Ingat 幻の酒 sebagai sesuatu yang keberadaannya terasa hampir tak terjangkau.",
+                "en": "Remember 幻の酒 as something that feels almost impossible to obtain."
             },
             "vocabulary": [
                 {
-                    "word": "夢、幻",
-                    "reading": "ゆめ、まぼろし",
+                    "word": "幻",
+                    "reading": "まぼろし",
                     "meaning": {
-                        "id": "mimpi dan ilusi",
-                        "en": "a dream and an illusion"
-                    }
-                },
-                {
-                    "word": "幻の酒",
-                    "reading": "まぼろしのさけ",
-                    "meaning": {
-                        "id": "minuman langka yang sulit didapat",
-                        "en": "a rare, elusive drink"
+                        "id": "ilusi; bayangan; sesuatu yang langka",
+                        "en": "illusion; apparition; rare thing"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "観念",
-                "en": "観念"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-024",
             "character": "雷",
             "meaning": {
-                "id": "petir; guntur",
+                "id": "guntur; petir",
                 "en": "thunder; lightning"
             },
             "onyomi": [],
@@ -1239,44 +907,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 雷が鳴る、雷が落ちる。",
-                "en": "Examples from the lesson: 雷が鳴る, 雷が落ちる."
-            },
-            "explanation": {
-                "id": "雷 merujuk pada fenomena badai yang menghasilkan suara guntur dan kilatan petir.",
-                "en": "雷 refers to the thunderstorm phenomenon involving thunder and lightning."
+                "id": "Sumber memberi contoh 雷が鳴る dan 雷が落ちる.",
+                "en": "The source gives 雷が鳴る and 雷が落ちる as examples."
             },
             "nuance": {
-                "id": "雷が鳴る berfokus pada bunyi guntur, sedangkan 雷が落ちる pada sambaran petir.",
-                "en": "雷が鳴る focuses on thunder sounding; 雷が落ちる on lightning striking."
+                "id": "Dapat menekankan bunyi guntur atau peristiwa petir menyambar.",
+                "en": "It can emphasize thunder rumbling or lightning striking."
             },
             "philosophy": {
-                "id": "Bedakan bunyi guntur dengan peristiwa petir menyambar.",
-                "en": "Distinguish the sound of thunder from a lightning strike."
+                "id": "Hubungkan dua frasa sumber dengan bunyi dan sambaran petir.",
+                "en": "Connect the source phrases with thunder and a lightning strike."
             },
             "vocabulary": [
                 {
-                    "word": "雷が鳴る",
-                    "reading": "かみなりがなる",
+                    "word": "雷",
+                    "reading": "かみなり",
                     "meaning": {
-                        "id": "guntur berbunyi",
-                        "en": "thunder rumbles"
-                    }
-                },
-                {
-                    "word": "雷が落ちる",
-                    "reading": "かみなりがおちる",
-                    "meaning": {
-                        "id": "petir menyambar",
-                        "en": "lightning strikes"
+                        "id": "guntur; petir",
+                        "en": "thunder; lightning"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "気象",
-                "en": "気象"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-025",
@@ -1293,44 +945,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 霧が出る、霧が晴れる。",
-                "en": "Examples from the lesson: 霧が出る, 霧が晴れる."
-            },
-            "explanation": {
-                "id": "霧 adalah kumpulan titik air kecil di udara dekat permukaan tanah yang mengurangi jarak pandang.",
-                "en": "霧 is a cloud of tiny water droplets near the ground that reduces visibility."
+                "id": "Sumber memberi contoh 霧が出る dan 霧が晴れる.",
+                "en": "The source gives 霧が出る and 霧が晴れる as examples."
             },
             "nuance": {
-                "id": "霧が出る berarti kabut muncul, sedangkan 霧が晴れる berarti kabut menghilang atau tersibak.",
-                "en": "霧が出る means fog sets in; 霧が晴れる means the fog clears."
+                "id": "Menunjukkan kabut yang muncul lalu dapat menghilang atau cerah kembali.",
+                "en": "It describes fog that appears and can later clear."
             },
             "philosophy": {
-                "id": "Ingat perubahan kondisi: kabut datang lalu dapat tersibak.",
-                "en": "Remember the change in condition: fog appears and later clears."
+                "id": "Bayangkan pandangan yang tertutup kabut lalu kembali jelas.",
+                "en": "Picture a view obscured by fog and then becoming clear."
             },
             "vocabulary": [
                 {
-                    "word": "霧が出る",
-                    "reading": "きりがでる",
+                    "word": "霧",
+                    "reading": "きり",
                     "meaning": {
-                        "id": "kabut muncul",
-                        "en": "fog sets in"
-                    }
-                },
-                {
-                    "word": "霧が晴れる",
-                    "reading": "きりがはれる",
-                    "meaning": {
-                        "id": "kabut menghilang",
-                        "en": "fog clears"
+                        "id": "kabut",
+                        "en": "fog; mist"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "気象",
-                "en": "気象"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-026",
@@ -1347,36 +983,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 霜が降りる。",
-                "en": "Examples from the lesson: 霜が降りる."
-            },
-            "explanation": {
-                "id": "霜 adalah lapisan kristal es yang terbentuk di permukaan ketika suhu sangat rendah.",
-                "en": "霜 is a layer of ice crystals that forms on surfaces in very cold conditions."
+                "id": "Sumber memberi contoh 霜が降りる.",
+                "en": "The source gives 霜が降りる as its example."
             },
             "nuance": {
-                "id": "Ungkapan 霜が降りる berarti embun beku terbentuk atau menyelimuti permukaan; bukan kabut turun.",
-                "en": "霜が降りる means frost forms or settles on a surface; it does not mean fog descends."
+                "id": "Berbeda dari 霧: 霜 berupa lapisan kristal es yang terbentuk di permukaan dingin.",
+                "en": "Unlike 霧, 霜 is a layer of ice crystals forming on a cold surface."
             },
             "philosophy": {
-                "id": "Bayangkan lapisan putih tipis di rumput atau atap pada pagi yang dingin.",
-                "en": "Picture a thin white layer on grass or a roof on a cold morning."
+                "id": "Ingat permukaan yang memutih karena suhu dingin.",
+                "en": "Picture a surface turning white in cold conditions."
             },
             "vocabulary": [
                 {
-                    "word": "霜が降りる",
-                    "reading": "しもがおりる",
+                    "word": "霜",
+                    "reading": "しも",
                     "meaning": {
-                        "id": "embun beku terbentuk/menyelimuti permukaan",
-                        "en": "frost forms; frost settles"
+                        "id": "embun beku",
+                        "en": "frost"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "気象",
-                "en": "気象"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-027",
@@ -1393,51 +1021,35 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 舌を噛む、舌を出す。",
-                "en": "Examples from the lesson: 舌を噛む, 舌を出す."
-            },
-            "explanation": {
-                "id": "舌 adalah organ di dalam mulut yang berperan dalam mengecap dan berbicara.",
-                "en": "舌 is the organ in the mouth used for tasting and speaking."
+                "id": "Sumber memberi contoh 舌を噛む dan 舌を出す.",
+                "en": "The source gives 舌を噛む and 舌を出す as examples."
             },
             "nuance": {
-                "id": "舌を噛む berarti menggigit lidah; 舌を出す berarti menjulurkan lidah.",
-                "en": "舌を噛む means to bite one's tongue; 舌を出す means to stick out one's tongue."
+                "id": "Digunakan untuk bagian tubuh di dalam mulut dan gerakannya.",
+                "en": "It names the body part inside the mouth and its actions."
             },
             "philosophy": {
-                "id": "Pasangkan kanji ini dengan dua gerakan lidah pada contoh.",
-                "en": "Pair this kanji with the two tongue actions in the examples."
+                "id": "Hubungkan 舌 dengan dua gerakan yang dicontohkan: menggigit dan menjulurkan.",
+                "en": "Connect 舌 with the two actions shown: biting and sticking it out."
             },
             "vocabulary": [
                 {
-                    "word": "舌を噛む",
-                    "reading": "したをかむ",
+                    "word": "舌",
+                    "reading": "した",
                     "meaning": {
-                        "id": "menggigit lidah",
-                        "en": "bite one's tongue"
-                    }
-                },
-                {
-                    "word": "舌を出す",
-                    "reading": "したをだす",
-                    "meaning": {
-                        "id": "menjulurkan lidah",
-                        "en": "stick out one's tongue"
+                        "id": "lidah",
+                        "en": "tongue"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "身体",
-                "en": "身体"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-028",
             "character": "唇",
             "meaning": {
                 "id": "bibir",
-                "en": "lip; lips"
+                "en": "lip"
             },
             "onyomi": [],
             "kunyomi": [
@@ -1447,36 +1059,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 唇を噛む。",
-                "en": "Examples from the lesson: 唇を噛む."
-            },
-            "explanation": {
-                "id": "唇 adalah bagian tepi luar mulut.",
-                "en": "唇 refers to the outer edges of the mouth."
+                "id": "Sumber memberi contoh 唇を噛む.",
+                "en": "The source gives 唇を噛む as its example."
             },
             "nuance": {
-                "id": "Sumber memberi contoh 唇を噛む, yaitu menggigit bibir, biasanya sebagai ekspresi emosi atau menahan diri.",
-                "en": "The source gives 唇を噛む, biting one's lip, often an expression of emotion or restraint."
+                "id": "Berbeda dari 舌, kata ini menunjuk bagian luar mulut berupa bibir.",
+                "en": "Unlike 舌, it refers to the lips at the outside of the mouth."
             },
             "philosophy": {
-                "id": "Bedakan 舌 yang berada di dalam mulut dengan 唇 yang berada di bagian luar.",
-                "en": "Distinguish 舌 inside the mouth from 唇 on the outside."
+                "id": "Ingat letaknya di tepi mulut, bukan di dalam rongga mulut.",
+                "en": "Remember its position at the edge of the mouth, not inside it."
             },
             "vocabulary": [
                 {
-                    "word": "唇を噛む",
-                    "reading": "くちびるをかむ",
+                    "word": "唇",
+                    "reading": "くちびる",
                     "meaning": {
-                        "id": "menggigit bibir",
-                        "en": "bite one's lip"
+                        "id": "bibir",
+                        "en": "lip"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "身体",
-                "en": "身体"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-029",
@@ -1493,44 +1097,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 姿を現す、姿を消す。",
-                "en": "Examples from the lesson: 姿を現す, 姿を消す."
-            },
-            "explanation": {
-                "id": "姿 merujuk pada bentuk atau sosok seseorang atau sesuatu yang terlihat.",
-                "en": "姿 refers to the visible figure or appearance of a person or thing."
+                "id": "Sumber memberi contoh 姿を現す dan 姿を消す.",
+                "en": "The source gives 姿を現す and 姿を消す as examples."
             },
             "nuance": {
-                "id": "姿を現す berarti menampakkan diri; 姿を消す berarti menghilang dari pandangan.",
-                "en": "姿を現す means to appear; 姿を消す means to disappear from view."
+                "id": "Menunjuk wujud atau sosok yang terlihat, yang dapat muncul maupun menghilang.",
+                "en": "It refers to a visible figure or form that can appear or disappear."
             },
             "philosophy": {
-                "id": "Ingat dua arah makna: sosok muncul dan sosok menghilang.",
-                "en": "Remember the two opposite actions: a figure appears and disappears."
+                "id": "Gunakan pasangan 現す dan 消す untuk mengingat perubahan kemunculan sosok.",
+                "en": "Use the pair 現す and 消す to remember a figure appearing or disappearing."
             },
             "vocabulary": [
                 {
-                    "word": "姿を現す",
-                    "reading": "すがたをあらわす",
+                    "word": "姿",
+                    "reading": "すがた",
                     "meaning": {
-                        "id": "menampakkan diri",
-                        "en": "appear"
-                    }
-                },
-                {
-                    "word": "姿を消す",
-                    "reading": "すがたをけす",
-                    "meaning": {
-                        "id": "menghilang",
-                        "en": "disappear"
+                        "id": "sosok; penampilan; wujud",
+                        "en": "figure; appearance; form"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "身体",
-                "en": "身体"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-030",
@@ -1547,44 +1135,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: シャツの襟、襟を正す。",
-                "en": "Examples from the lesson: シャツの襟, 襟を正す."
-            },
-            "explanation": {
-                "id": "襟 adalah bagian pakaian yang mengelilingi leher.",
-                "en": "襟 is the part of a garment that surrounds the neck."
+                "id": "Sumber memberi contoh シャツの襟 dan 襟を正す.",
+                "en": "The source gives シャツの襟 and 襟を正す as examples."
             },
             "nuance": {
-                "id": "襟を正す secara harfiah berarti merapikan kerah, tetapi juga dipakai untuk menyatakan sikap kembali serius dan tertib.",
-                "en": "襟を正す literally means to straighten one's collar and can also mean to compose oneself and become serious."
+                "id": "Selain kerah pakaian, 襟を正す dipakai untuk menggambarkan sikap yang dibenahi.",
+                "en": "Besides a clothing collar, 襟を正す describes straightening one’s attitude."
             },
             "philosophy": {
-                "id": "Ingat makna konkret kerah dan ungkapan kiasannya tentang membenahi sikap.",
-                "en": "Remember the literal collar and the figurative idea of correcting one's attitude."
+                "id": "Hubungkan kerah yang dirapikan dengan sikap yang menjadi lebih tertib.",
+                "en": "Connect straightening a collar with putting one’s attitude in order."
             },
             "vocabulary": [
                 {
-                    "word": "シャツの襟",
-                    "reading": "シャツのえり",
+                    "word": "襟",
+                    "reading": "えり",
                     "meaning": {
-                        "id": "kerah kemeja",
-                        "en": "the collar of a shirt"
-                    }
-                },
-                {
-                    "word": "襟を正す",
-                    "reading": "えりをただす",
-                    "meaning": {
-                        "id": "membenahi sikap; bersikap serius kembali",
-                        "en": "straighten up; compose oneself"
+                        "id": "kerah",
+                        "en": "collar"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "服飾",
-                "en": "服飾"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-031",
@@ -1601,36 +1173,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: コートの丈。",
-                "en": "Examples from the lesson: コートの丈."
-            },
-            "explanation": {
-                "id": "丈 menunjukkan ukuran panjang, terutama panjang pakaian pada contoh sumber.",
-                "en": "丈 indicates length, especially the length of clothing in the source example."
+                "id": "Sumber memberi contoh コートの丈.",
+                "en": "The source gives コートの丈 as its example."
             },
             "nuance": {
-                "id": "コートの丈 berarti panjang mantel, bukan tinggi badan atau ukuran umum tanpa konteks.",
-                "en": "コートの丈 means the length of a coat, not a person's height or an unspecified measurement."
+                "id": "Dalam konteks sumber, ukurannya adalah panjang pakaian, bukan tinggi badan.",
+                "en": "In the source context, it means garment length, not a person’s height."
             },
             "philosophy": {
-                "id": "Bayangkan panjang mantel dari bagian atas sampai ujung bawahnya.",
-                "en": "Picture the coat's length from its top to its hem."
+                "id": "Bayangkan panjang mantel dari bagian atas hingga ujungnya.",
+                "en": "Picture a coat’s length from its top to its hem."
             },
             "vocabulary": [
                 {
-                    "word": "コートの丈",
-                    "reading": "コートのたけ",
+                    "word": "丈",
+                    "reading": "たけ",
                     "meaning": {
-                        "id": "panjang mantel",
-                        "en": "the length of a coat"
+                        "id": "panjang; ukuran panjang pakaian",
+                        "en": "length; garment length"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "服飾",
-                "en": "服飾"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-032",
@@ -1647,36 +1211,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 絹のスカーフ。",
-                "en": "Examples from the lesson: 絹のスカーフ."
-            },
-            "explanation": {
-                "id": "絹 adalah serat atau kain halus yang dihasilkan dari kepompong ulat sutra.",
-                "en": "絹 is the fine fiber or fabric produced by silkworm cocoons."
+                "id": "Sumber memberi contoh 絹のスカーフ.",
+                "en": "The source gives 絹のスカーフ as its example."
             },
             "nuance": {
-                "id": "絹のスカーフ menunjukkan penggunaan絹 sebagai bahan pakaian atau aksesori.",
-                "en": "絹のスカーフ shows 絹 used as a clothing or accessory material."
+                "id": "Menamai bahan kain, bukan bentuk atau model pakaian.",
+                "en": "It names a fabric material rather than a clothing shape or style."
             },
             "philosophy": {
-                "id": "Hubungkan 絹 dengan tekstur kain yang halus dan lembut.",
-                "en": "Associate 絹 with the smooth, delicate texture of silk."
+                "id": "Hubungkan 絹 dengan tekstur halus pada syal sutra.",
+                "en": "Connect 絹 with the smooth texture of a silk scarf."
             },
             "vocabulary": [
                 {
-                    "word": "絹のスカーフ",
-                    "reading": "きぬのスカーフ",
+                    "word": "絹",
+                    "reading": "きぬ",
                     "meaning": {
-                        "id": "syal sutra",
-                        "en": "a silk scarf"
+                        "id": "sutra",
+                        "en": "silk"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "服飾",
-                "en": "服飾"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-033",
@@ -1693,36 +1249,28 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 紫色のセーター。",
-                "en": "Examples from the lesson: 紫色のセーター."
-            },
-            "explanation": {
-                "id": "紫 adalah nama warna ungu.",
-                "en": "紫 is the color purple."
+                "id": "Sumber memberi contoh 紫色のセーター.",
+                "en": "The source gives 紫色のセーター as its example."
             },
             "nuance": {
-                "id": "紫色のセーター menunjukkan warna tersebut sebagai warna pakaian.",
-                "en": "紫色のセーター shows the color used for an item of clothing."
+                "id": "Digunakan sebagai nama warna yang menerangkan benda.",
+                "en": "It is a color name used to describe an object."
             },
             "philosophy": {
-                "id": "Ingat warna ungu lewat contoh sweater.",
+                "id": "Ingat warna ungu melalui contoh sweter.",
                 "en": "Remember the color purple through the sweater example."
             },
             "vocabulary": [
                 {
-                    "word": "紫色のセーター",
-                    "reading": "むらさきいろのセーター",
+                    "word": "紫",
+                    "reading": "むらさき",
                     "meaning": {
-                        "id": "sweter ungu",
-                        "en": "a purple sweater"
+                        "id": "ungu",
+                        "en": "purple"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "服飾",
-                "en": "服飾"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         },
         {
             "id": "week6-day1-034",
@@ -1739,52 +1287,568 @@ const minggu6Hari1 = {
                 }
             ],
             "usage": {
-                "id": "Contoh materi: 紺色のスーツ。",
-                "en": "Examples from the lesson: 紺色のスーツ."
-            },
-            "explanation": {
-                "id": "紺 merujuk pada warna biru tua yang dikenal sebagai navy.",
-                "en": "紺 refers to a dark blue color known as navy."
+                "id": "Sumber memberi contoh 紺色のスーツ.",
+                "en": "The source gives 紺色のスーツ as its example."
             },
             "nuance": {
-                "id": "紺色のスーツ adalah setelan berwarna navy; jangan disamakan dengan 紫 yang berarti ungu.",
-                "en": "紺色のスーツ is a navy suit; do not confuse it with 紫, which means purple."
+                "id": "Menunjuk warna biru tua yang lazim dipakai untuk menggambarkan pakaian formal.",
+                "en": "It refers to dark navy blue, often used to describe formal clothing."
             },
             "philosophy": {
-                "id": "Bandingkan warna navy pada 紺 dengan ungu pada 紫.",
-                "en": "Compare the navy shade of 紺 with the purple of 紫."
+                "id": "Bandingkan 紺色 dengan 紫色 agar nama warnanya tidak tertukar.",
+                "en": "Compare 紺色 with 紫色 to keep the color names distinct."
             },
             "vocabulary": [
                 {
-                    "word": "紺色のスーツ",
-                    "reading": "こんいろのスーツ",
+                    "word": "紺",
+                    "reading": "こん",
                     "meaning": {
-                        "id": "setelan biru tua/navy",
-                        "en": "a dark blue suit"
+                        "id": "biru tua; navy",
+                        "en": "dark blue; navy"
                     }
                 }
             ],
-            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1.",
-            "category": {
-                "id": "服飾",
-                "en": "服飾"
-            }
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 1 yang dilampirkan."
         }
     ],
     "notes": [
         {
-            "id": "Hari 1 mengelompokkan kosakata satu kanji berdasarkan kategori: alat, bentuk, konsep, cuaca, tubuh, dan pakaian.",
-            "en": "Day 1 groups one-kanji vocabulary by category: tools, shapes, concepts, weather, body, and clothing."
+            "id": "Materi mempertahankan kosakata dan konteks pemakaian yang tercantum pada sumber.",
+            "en": "The material preserves the vocabulary and usage contexts shown in the source."
         },
         {
-            "id": "Bacaan yang dicantumkan pada kartu mengikuti bacaan yang terlihat pada materi sumber; onyomi tidak ditambahkan bila tidak dicantumkan.",
-            "en": "Readings on the cards follow those shown in the source; onyomi readings are not added when the source does not list them."
-        },
-        {
-            "id": "霜が降りる berarti embun beku terbentuk atau menyelimuti permukaan.",
-            "en": "霜が降りる means frost forms or settles on a surface."
+            "id": "Bagian nuansa menjelaskan perbedaan fokus makna, sedangkan filosofi memberi kait singkat untuk mengingat kata.",
+            "en": "Nuance explains the difference in semantic focus, while philosophy provides a short memory hook."
         }
-    ]
+    ],
+    "exam": {
+        "enabled": true,
+        "id": "week6-day1-exam",
+        "title": {
+            "id": "Ujian Minggu 6 - Hari 1",
+            "en": "Week 6 - Day 1 Exam"
+        },
+        "description": {
+            "id": "Ujian bacaan dan pemilihan kanji berdasarkan kosakata satu karakter serta latihan pada sumber.",
+            "en": "Reading and kanji-selection exam based on single-character vocabulary and the source exercises."
+        },
+        "settings": {
+            "totalQuestions": 20,
+            "timeLimitSeconds": 600,
+            "passingScore": 70,
+            "randomizeQuestions": true,
+            "randomizeOptions": true,
+            "showResultAfterSubmit": true,
+            "showCorrectAnswerAfterSubmit": true,
+            "showExplanationAfterSubmit": true,
+            "allowRetry": true,
+            "maxAttempts": 0
+        },
+        "questionTypes": [
+            {
+                "id": "reading",
+                "label": {
+                    "id": "Pilih bacaan yang benar",
+                    "en": "Choose the correct reading"
+                }
+            },
+            {
+                "id": "kanji",
+                "label": {
+                    "id": "Pilih kata atau kanji yang benar",
+                    "en": "Choose the correct word or kanji"
+                }
+            }
+        ],
+        "questions": [
+            {
+                "id": "w6d1-exam-001",
+                "type": "reading",
+                "question": {
+                    "id": "01 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "塊",
+                "promptType": "word",
+                "options": [
+                    "かたまり",
+                    "かたまりい",
+                    "かたり",
+                    "かたな"
+                ],
+                "answer": "かたまり",
+                "explanation": {
+                    "id": "塊（かたまり）= gumpalan atau bongkahan; contoh sumbernya 土の塊.",
+                    "en": "塊（かたまり）means a lump or mass; the source uses 土の塊."
+                },
+                "sourceKanji": [
+                    "塊"
+                ]
+            },
+            {
+                "id": "w6d1-exam-002",
+                "type": "reading",
+                "question": {
+                    "id": "02 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "渦",
+                "promptType": "word",
+                "options": [
+                    "うず",
+                    "うずみ",
+                    "うし",
+                    "うす"
+                ],
+                "answer": "うず",
+                "explanation": {
+                    "id": "渦（うず）= pusaran; perhatikan bunyi akhir ず.",
+                    "en": "渦（うず）means a whirlpool; note the final ず sound."
+                },
+                "sourceKanji": [
+                    "渦"
+                ]
+            },
+            {
+                "id": "w6d1-exam-003",
+                "type": "reading",
+                "question": {
+                    "id": "03 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "泡",
+                "promptType": "word",
+                "options": [
+                    "あわ",
+                    "あめ",
+                    "あな",
+                    "あみ"
+                ],
+                "answer": "あわ",
+                "explanation": {
+                    "id": "泡（あわ）= gelembung atau busa.",
+                    "en": "泡（あわ）means a bubble or foam."
+                },
+                "sourceKanji": [
+                    "泡"
+                ]
+            },
+            {
+                "id": "w6d1-exam-004",
+                "type": "reading",
+                "question": {
+                    "id": "04 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "穴",
+                "promptType": "word",
+                "options": [
+                    "あな",
+                    "あわ",
+                    "あめ",
+                    "あし"
+                ],
+                "answer": "あな",
+                "explanation": {
+                    "id": "穴（あな）= lubang; jangan tertukar dengan 泡（あわ）.",
+                    "en": "穴（あな）means a hole; do not confuse it with 泡（あわ）."
+                },
+                "sourceKanji": [
+                    "穴"
+                ]
+            },
+            {
+                "id": "w6d1-exam-005",
+                "type": "reading",
+                "question": {
+                    "id": "05 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "公",
+                "promptType": "word",
+                "options": [
+                    "おおやけ",
+                    "おおき",
+                    "おおや",
+                    "おおさけ"
+                ],
+                "answer": "おおやけ",
+                "explanation": {
+                    "id": "公（おおやけ）berarti publik atau umum.",
+                    "en": "公（おおやけ）means public or official."
+                },
+                "sourceKanji": [
+                    "公"
+                ]
+            },
+            {
+                "id": "w6d1-exam-006",
+                "type": "reading",
+                "question": {
+                    "id": "06 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "恥",
+                "promptType": "word",
+                "options": [
+                    "はじ",
+                    "はし",
+                    "はぜ",
+                    "はた"
+                ],
+                "answer": "はじ",
+                "explanation": {
+                    "id": "恥（はじ）berarti rasa malu atau aib.",
+                    "en": "恥（はじ）means shame or disgrace."
+                },
+                "sourceKanji": [
+                    "恥"
+                ]
+            },
+            {
+                "id": "w6d1-exam-007",
+                "type": "reading",
+                "question": {
+                    "id": "07 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "趣",
+                "promptType": "word",
+                "options": [
+                    "おもむき",
+                    "おもいき",
+                    "おもむく",
+                    "おもかげ"
+                ],
+                "answer": "おもむき",
+                "explanation": {
+                    "id": "趣（おもむき）berarti suasana atau daya tarik khas.",
+                    "en": "趣（おもむき）means atmosphere or distinctive charm."
+                },
+                "sourceKanji": [
+                    "趣"
+                ]
+            },
+            {
+                "id": "w6d1-exam-008",
+                "type": "reading",
+                "question": {
+                    "id": "08 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "志",
+                "promptType": "word",
+                "options": [
+                    "こころざし",
+                    "こころざす",
+                    "こころいき",
+                    "こころなし"
+                ],
+                "answer": "こころざし",
+                "explanation": {
+                    "id": "志（こころざし）berarti tekad atau cita-cita.",
+                    "en": "志（こころざし）means aspiration or ambition."
+                },
+                "sourceKanji": [
+                    "志"
+                ]
+            },
+            {
+                "id": "w6d1-exam-009",
+                "type": "reading",
+                "question": {
+                    "id": "09 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "源",
+                "promptType": "word",
+                "options": [
+                    "みなもと",
+                    "みなかた",
+                    "みなと",
+                    "みなも"
+                ],
+                "answer": "みなもと",
+                "explanation": {
+                    "id": "源（みなもと）berarti sumber atau asal.",
+                    "en": "源（みなもと）means a source or origin."
+                },
+                "sourceKanji": [
+                    "源"
+                ]
+            },
+            {
+                "id": "w6d1-exam-010",
+                "type": "reading",
+                "question": {
+                    "id": "10 次の言葉の読み方として正しいものを選びなさい。",
+                    "en": "Choose the correct reading of the following word."
+                },
+                "prompt": "魂",
+                "promptType": "word",
+                "options": [
+                    "たましい",
+                    "たまし",
+                    "たまゆら",
+                    "たまご"
+                ],
+                "answer": "たましい",
+                "explanation": {
+                    "id": "魂（たましい）berarti jiwa atau roh.",
+                    "en": "魂（たましい）means soul or spirit."
+                },
+                "sourceKanji": [
+                    "魂"
+                ]
+            },
+            {
+                "id": "w6d1-exam-011",
+                "type": "kanji",
+                "question": {
+                    "id": "11 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "① 国民に隠されていた事実が「公」になった。 (fakta yang disembunyikan dari masyarakat menjadi publik)",
+                "promptType": "reading",
+                "options": [
+                    "穴",
+                    "公",
+                    "恥",
+                    "罪"
+                ],
+                "answer": "公",
+                "explanation": {
+                    "id": "公になる berarti menjadi diketahui publik; 穴 berarti lubang.",
+                    "en": "公になる means becoming public; 穴 means a hole."
+                },
+                "sourceKanji": [
+                    "公",
+                    "穴"
+                ]
+            },
+            {
+                "id": "w6d1-exam-012",
+                "type": "kanji",
+                "question": {
+                    "id": "12 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "② 家族の笑顔が私の元気の「源」です。 (sumber semangat)",
+                "promptType": "reading",
+                "options": [
+                    "塊",
+                    "源",
+                    "魂",
+                    "幻"
+                ],
+                "answer": "源",
+                "explanation": {
+                    "id": "元気の源 berarti sumber semangat atau energi.",
+                    "en": "元気の源 means a source of energy or vitality."
+                },
+                "sourceKanji": [
+                    "源",
+                    "塊"
+                ]
+            },
+            {
+                "id": "w6d1-exam-013",
+                "type": "kanji",
+                "question": {
+                    "id": "13 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "③ 漢字の読み方を間違えて「恥」をかいた。 (merasa malu)",
+                "promptType": "reading",
+                "options": [
+                    "恥",
+                    "罪",
+                    "趣",
+                    "志"
+                ],
+                "answer": "恥",
+                "explanation": {
+                    "id": "恥をかく adalah mengalami rasa malu; 罪 berkaitan dengan kesalahan atau kejahatan.",
+                    "en": "恥をかく means to embarrass oneself; 罪 concerns wrongdoing or crime."
+                },
+                "sourceKanji": [
+                    "恥",
+                    "罪"
+                ]
+            },
+            {
+                "id": "w6d1-exam-014",
+                "type": "kanji",
+                "question": {
+                    "id": "14 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "④ 悔しくて「唇」を噛んだ。 (menggigit bibir)",
+                "promptType": "reading",
+                "options": [
+                    "舌",
+                    "唇",
+                    "姿",
+                    "襟"
+                ],
+                "answer": "唇",
+                "explanation": {
+                    "id": "唇 adalah bibir, sedangkan 舌 adalah lidah.",
+                    "en": "唇 means lips, whereas 舌 means tongue."
+                },
+                "sourceKanji": [
+                    "唇",
+                    "舌"
+                ]
+            },
+            {
+                "id": "w6d1-exam-015",
+                "type": "kanji",
+                "question": {
+                    "id": "15 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "⑤ 幼い子の立派な行動に大人は「襟」を正した。",
+                "promptType": "reading",
+                "options": [
+                    "丈",
+                    "襟",
+                    "紫",
+                    "紺"
+                ],
+                "answer": "襟",
+                "explanation": {
+                    "id": "襟を正す berarti membenahi sikap; 襟 secara harfiah adalah kerah.",
+                    "en": "襟を正す means to straighten one’s attitude; 襟 literally means collar."
+                },
+                "sourceKanji": [
+                    "襟",
+                    "丈"
+                ]
+            },
+            {
+                "id": "w6d1-exam-016",
+                "type": "kanji",
+                "question": {
+                    "id": "16 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "⑥ なかなか手に入らないので「幻」の酒と呼ばれている。 (minuman langka)",
+                "promptType": "reading",
+                "options": [
+                    "幻",
+                    "紫",
+                    "魂",
+                    "趣"
+                ],
+                "answer": "幻",
+                "explanation": {
+                    "id": "幻の酒 menggambarkan minuman yang sangat sulit diperoleh.",
+                    "en": "幻の酒 describes a drink that is very difficult to obtain."
+                },
+                "sourceKanji": [
+                    "幻",
+                    "紫"
+                ]
+            },
+            {
+                "id": "w6d1-exam-017",
+                "type": "kanji",
+                "question": {
+                    "id": "17 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "⑦ 「綱」引き ／ 横「綱」 (kanji yang sama)",
+                "promptType": "reading",
+                "options": [
+                    "縄",
+                    "綱",
+                    "鎖",
+                    "網"
+                ],
+                "answer": "綱",
+                "explanation": {
+                    "id": "綱引き dan 横綱 sama-sama memakai 綱.",
+                    "en": "綱引き and 横綱 both use 綱."
+                },
+                "sourceKanji": [
+                    "綱"
+                ]
+            },
+            {
+                "id": "w6d1-exam-018",
+                "type": "kanji",
+                "question": {
+                    "id": "18 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "⑧ 「縄」跳び ／ 「縄」張り (kanji yang sama)",
+                "promptType": "reading",
+                "options": [
+                    "縄",
+                    "綱",
+                    "網",
+                    "鎖"
+                ],
+                "answer": "縄",
+                "explanation": {
+                    "id": "縄跳び dan 縄張り sama-sama memakai 縄.",
+                    "en": "縄跳び and 縄張り both use 縄."
+                },
+                "sourceKanji": [
+                    "縄"
+                ]
+            },
+            {
+                "id": "w6d1-exam-019",
+                "type": "kanji",
+                "question": {
+                    "id": "19 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "⑨ 「渦」潮 ／ 「渦」巻き (kanji yang sama)",
+                "promptType": "reading",
+                "options": [
+                    "渦",
+                    "泡",
+                    "霧",
+                    "穴"
+                ],
+                "answer": "渦",
+                "explanation": {
+                    "id": "渦潮 dan 渦巻き sama-sama memakai 渦.",
+                    "en": "渦潮 and 渦巻き both use 渦."
+                },
+                "sourceKanji": [
+                    "渦"
+                ]
+            },
+            {
+                "id": "w6d1-exam-020",
+                "type": "kanji",
+                "question": {
+                    "id": "20 意味や文脈に合う言葉・漢字を選びなさい。",
+                    "en": "Choose the word or kanji that fits the meaning or context."
+                },
+                "prompt": "⑩ 「雷」が鳴る ／ 「雷」が落ちる (kanji yang sama)",
+                "promptType": "reading",
+                "options": [
+                    "雷",
+                    "霜",
+                    "霧",
+                    "泡"
+                ],
+                "answer": "雷",
+                "explanation": {
+                    "id": "雷が鳴る dan 雷が落ちる sama-sama menggunakan 雷.",
+                    "en": "雷が鳴る and 雷が落ちる both use 雷."
+                },
+                "sourceKanji": [
+                    "雷"
+                ]
+            }
+        ]
+    }
 };
 
 export default minggu6Hari1;
