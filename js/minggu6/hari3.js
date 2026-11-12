@@ -6,8 +6,8 @@ const minggu6Hari3 = {
         "en": "Day 3"
     },
     "subtitle": {
-        "id": "了解・承諾・分解・分析など、意味の近い語彙を使い分ける",
-        "en": "Distinguishing related vocabulary such as 了解・承諾・分解・分析"
+        "id": "分解・分析・分類・分配 serta perbedaan kosakata",
+        "en": "分解・分析・分類・分配 and vocabulary distinctions"
     },
     "source": {
         "label": "Minggu 6 Hari 3",
@@ -18,37 +18,28 @@ const minggu6Hari3 = {
             "id": "week6-day3-001",
             "character": "了解",
             "meaning": {
-                "id": "mengerti; paham",
+                "id": "mengerti; memahami; siap",
                 "en": "understanding; acknowledgment"
             },
-            "onyomi": [
-                {
-                    "text": "リョウカイ",
-                    "reading": "リョウカイ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Menyatakan bahwa informasi atau maksud yang disampaikan sudah dipahami.",
-                "en": "Explanation: Menyatakan bahwa informasi atau maksud yang disampaikan sudah dipahami."
+                "id": "Contoh materi: 了解しました、了解です。",
+                "en": "Examples from the lesson: 了解しました, 了解です."
+            },
+            "explanation": {
+                "id": "了解 menyatakan bahwa seseorang telah memahami informasi atau instruksi.",
+                "en": "了解 indicates that someone has understood information or an instruction."
             },
             "nuance": {
-                "id": "Nuansa: Umum dalam percakapan dan komunikasi kerja; dapat terdengar ringkas dan cukup santai.",
-                "en": "Nuance: Umum dalam percakapan dan komunikasi kerja; dapat terdengar ringkas dan cukup santai."
+                "id": "Sering dipakai sebagai tanggapan singkat seperti 了解しました atau 了解です; nuansanya langsung dan praktis.",
+                "en": "It is often used as a brief response such as 了解しました or 了解です; the tone is direct and practical."
             },
             "philosophy": {
-                "id": "Cara membedakan: Pakai 了解 ketika ingin menyatakan bahwa pesan sudah dimengerti.",
-                "en": "Distinction tip: Pakai 了解 ketika ingin menyatakan bahwa pesan sudah dimengerti."
+                "id": "Ingat sebagai respons ketika pesan atau instruksi sudah dipahami.",
+                "en": "Remember it as a response when a message or instruction has been understood."
             },
             "vocabulary": [
-                {
-                    "word": "了解",
-                    "reading": "りょうかい",
-                    "meaning": {
-                        "id": "mengerti; paham",
-                        "en": "understanding; acknowledgment"
-                    }
-                },
                 {
                     "word": "了解しました",
                     "reading": "りょうかいしました",
@@ -56,91 +47,99 @@ const minggu6Hari3 = {
                         "id": "saya mengerti",
                         "en": "understood"
                     }
+                },
+                {
+                    "word": "了解です",
+                    "reading": "りょうかいです",
+                    "meaning": {
+                        "id": "mengerti; siap",
+                        "en": "got it"
+                    }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 了解・承諾・了承・認証."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "りょうかい",
+            "category": {
+                "id": "返答・承諾・了承の使い分け",
+                "en": "返答・承諾・了承の使い分け"
+            }
         },
         {
             "id": "week6-day3-002",
             "character": "承諾",
             "meaning": {
                 "id": "persetujuan; menyetujui permintaan",
-                "en": "consent; agreement"
+                "en": "consent; acceptance"
             },
-            "onyomi": [
-                {
-                    "text": "ショウダク",
-                    "reading": "ショウダク"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Menerima permintaan, tawaran, atau syarat yang diajukan pihak lain.",
-                "en": "Explanation: Menerima permintaan, tawaran, atau syarat yang diajukan pihak lain."
+                "id": "Contoh materi: 依頼を承諾する、要求を承諾する。",
+                "en": "Examples from the lesson: 依頼を承諾する, 要求を承諾する."
+            },
+            "explanation": {
+                "id": "承諾 berarti menerima dan menyetujui permintaan, permohonan, atau tuntutan.",
+                "en": "承諾 means accepting and agreeing to a request, application, or demand."
             },
             "nuance": {
-                "id": "Nuansa: Lebih tegas menekankan pemberian persetujuan daripada sekadar memahami informasi.",
-                "en": "Nuance: Lebih tegas menekankan pemberian persetujuan daripada sekadar memahami informasi."
+                "id": "Fokusnya pada tindakan memberikan persetujuan terhadap sesuatu yang diminta.",
+                "en": "The focus is on granting consent to something that has been requested."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 承諾 sebagai keputusan untuk menerima atau menyetujui sesuatu.",
-                "en": "Distinction tip: Ingat 承諾 sebagai keputusan untuk menerima atau menyetujui sesuatu."
+                "id": "Bayangkan seseorang menerima permintaan setelah mempertimbangkannya.",
+                "en": "Picture someone accepting a request after considering it."
             },
             "vocabulary": [
-                {
-                    "word": "承諾",
-                    "reading": "しょうだく",
-                    "meaning": {
-                        "id": "persetujuan; menyetujui permintaan",
-                        "en": "consent; agreement"
-                    }
-                },
                 {
                     "word": "依頼を承諾する",
                     "reading": "いらいをしょうだくする",
                     "meaning": {
                         "id": "menyetujui permintaan",
-                        "en": "to consent to a request"
+                        "en": "accept a request"
+                    }
+                },
+                {
+                    "word": "要求を承諾する",
+                    "reading": "ようきゅうをしょうだくする",
+                    "meaning": {
+                        "id": "menyetujui tuntutan",
+                        "en": "consent to a demand"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 了解・承諾・了承・認証."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "しょうだく",
+            "category": {
+                "id": "返答・承諾・了承の使い分け",
+                "en": "返答・承諾・了承の使い分け"
+            }
         },
         {
             "id": "week6-day3-003",
             "character": "了承",
             "meaning": {
-                "id": "pemahaman dan penerimaan; persetujuan",
+                "id": "pemahaman dan persetujuan; maklum",
                 "en": "acknowledgment; acceptance"
             },
-            "onyomi": [
-                {
-                    "text": "リョウショウ",
-                    "reading": "リョウショウ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Meminta atau menyatakan bahwa suatu keadaan telah dipahami dan diterima.",
-                "en": "Explanation: Meminta atau menyatakan bahwa suatu keadaan telah dipahami dan diterima."
+                "id": "Contoh materi: 予めご了承ください。",
+                "en": "Examples from the lesson: 予めご了承ください."
+            },
+            "explanation": {
+                "id": "了承 berarti memahami keadaan atau ketentuan lalu menerimanya.",
+                "en": "了承 means understanding a situation or condition and accepting it."
             },
             "nuance": {
-                "id": "Nuansa: Sering dipakai dalam ungkapan sopan seperti 予めご了承ください; dapat mengandung permintaan pengertian dari lawan bicara.",
-                "en": "Nuance: Sering dipakai dalam ungkapan sopan seperti 予めご了承ください; dapat mengandung permintaan pengertian dari lawan bicara."
+                "id": "Sering muncul dalam ungkapan sopan 予めご了承ください untuk meminta orang memahami dan menerima keadaan sebelumnya.",
+                "en": "It often appears in the polite phrase 予めご了承ください, asking people to understand and accept something in advance."
             },
             "philosophy": {
-                "id": "Cara membedakan: Bedakan dari 了解 yang lebih langsung: 了承 sering muncul dalam pemberitahuan resmi atau sopan.",
-                "en": "Distinction tip: Bedakan dari 了解 yang lebih langsung: 了承 sering muncul dalam pemberitahuan resmi atau sopan."
+                "id": "Ingat 了承 sebagai penerimaan setelah memahami kondisi yang dijelaskan.",
+                "en": "Remember 了承 as acceptance after understanding the stated circumstances."
             },
             "vocabulary": [
-                {
-                    "word": "了承",
-                    "reading": "りょうしょう",
-                    "meaning": {
-                        "id": "pemahaman dan penerimaan; persetujuan",
-                        "en": "acknowledgment; acceptance"
-                    }
-                },
                 {
                     "word": "予めご了承ください",
                     "reading": "あらかじめご了承ください",
@@ -150,191 +149,188 @@ const minggu6Hari3 = {
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 了解・承諾・了承・認証."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "りょうしょう",
+            "category": {
+                "id": "返答・承諾・了承の使い分け",
+                "en": "返答・承諾・了承の使い分け"
+            }
         },
         {
             "id": "week6-day3-004",
             "character": "認証",
             "meaning": {
-                "id": "autentikasi; pengesahan identitas",
-                "en": "authentication; certification"
+                "id": "autentikasi; verifikasi identitas",
+                "en": "authentication; verification"
             },
-            "onyomi": [
-                {
-                    "text": "ニンショウ",
-                    "reading": "ニンショウ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Memastikan identitas seseorang atau keabsahan sesuatu berdasarkan data atau prosedur.",
-                "en": "Explanation: Memastikan identitas seseorang atau keabsahan sesuatu berdasarkan data atau prosedur."
+                "id": "Contoh materi: 本人であることを認証する。",
+                "en": "Examples from the lesson: 本人であることを認証する."
+            },
+            "explanation": {
+                "id": "認証 adalah proses memastikan bahwa identitas atau keaslian sesuatu benar.",
+                "en": "認証 is the process of confirming that an identity or something's authenticity is valid."
             },
             "nuance": {
-                "id": "Nuansa: Banyak digunakan dalam sistem digital, login, sertifikat, dan pemeriksaan identitas.",
-                "en": "Nuance: Banyak digunakan dalam sistem digital, login, sertifikat, dan pemeriksaan identitas."
+                "id": "Sumber menekankan konfirmasi bahwa seseorang benar-benar orang yang bersangkutan; sering digunakan dalam sistem atau layanan.",
+                "en": "The source emphasizes confirming that a person is who they claim to be; it is often used in systems or services."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 認証 sebagai proses verifikasi untuk memastikan bahwa sesuatu benar atau sah.",
-                "en": "Distinction tip: Ingat 認証 sebagai proses verifikasi untuk memastikan bahwa sesuatu benar atau sah."
+                "id": "Bayangkan proses login yang memeriksa identitas pengguna.",
+                "en": "Picture a login process that checks a user's identity."
             },
             "vocabulary": [
-                {
-                    "word": "認証",
-                    "reading": "にんしょう",
-                    "meaning": {
-                        "id": "autentikasi; pengesahan identitas",
-                        "en": "authentication; certification"
-                    }
-                },
                 {
                     "word": "本人であることを認証する",
                     "reading": "ほんにんであることをにんしょうする",
                     "meaning": {
-                        "id": "memverifikasi bahwa orang tersebut benar pemilik identitas",
-                        "en": "to authenticate a person’s identity"
+                        "id": "memverifikasi bahwa orang tersebut benar-benar dirinya",
+                        "en": "authenticate that the person is who they claim to be"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 了解・承諾・了承・認証."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "にんしょう",
+            "category": {
+                "id": "返答・承諾・了承の使い分け",
+                "en": "返答・承諾・了承の使い分け"
+            }
         },
         {
             "id": "week6-day3-005",
             "character": "分解",
             "meaning": {
-                "id": "membongkar; menguraikan menjadi bagian",
+                "id": "membongkar; menguraikan bagian",
                 "en": "disassembly; decomposition"
             },
-            "onyomi": [
-                {
-                    "text": "ブンカイ",
-                    "reading": "ブンカイ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Memisahkan suatu benda atau struktur menjadi bagian-bagian penyusunnya.",
-                "en": "Explanation: Memisahkan suatu benda atau struktur menjadi bagian-bagian penyusunnya."
+                "id": "Contoh materi: 機械を分解する、組み立てる。",
+                "en": "Examples from the lesson: 機械を分解する, 組み立てる."
+            },
+            "explanation": {
+                "id": "分解 berarti memisahkan benda atau struktur menjadi bagian-bagian penyusunnya.",
+                "en": "分解 means separating an object or structure into its component parts."
             },
             "nuance": {
-                "id": "Nuansa: Sering digunakan untuk mesin atau perangkat; merupakan kebalikan dari 組み立てる.",
-                "en": "Nuance: Sering digunakan untuk mesin atau perangkat; merupakan kebalikan dari 組み立てる."
+                "id": "Sumber memakai mesin sebagai objek dan memperlihatkan 組み立てる sebagai tindakan kebalikannya.",
+                "en": "The source uses a machine as its object and gives 組み立てる as its opposite action."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 分解 sebagai proses membongkar sesuatu menjadi komponen-komponennya.",
-                "en": "Distinction tip: Ingat 分解 sebagai proses membongkar sesuatu menjadi komponen-komponennya."
+                "id": "Bayangkan mesin dibongkar menjadi komponen-komponen kecil.",
+                "en": "Picture a machine being taken apart into smaller components."
             },
             "vocabulary": [
-                {
-                    "word": "分解",
-                    "reading": "ぶんかい",
-                    "meaning": {
-                        "id": "membongkar; menguraikan menjadi bagian",
-                        "en": "disassembly; decomposition"
-                    }
-                },
                 {
                     "word": "機械を分解する",
                     "reading": "きかいをぶんかいする",
                     "meaning": {
                         "id": "membongkar mesin",
-                        "en": "to disassemble a machine"
+                        "en": "disassemble a machine"
+                    }
+                },
+                {
+                    "word": "組み立てる",
+                    "reading": "くみたてる",
+                    "meaning": {
+                        "id": "merakit; menyusun kembali",
+                        "en": "assemble"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 分解・分析・分類・分配."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "ぶんかい",
+            "category": {
+                "id": "分解・分析・分類・分配の使い分け",
+                "en": "分解・分析・分類・分配の使い分け"
+            }
         },
         {
             "id": "week6-day3-006",
             "character": "分析",
             "meaning": {
-                "id": "analisis",
+                "id": "analisis; menganalisis",
                 "en": "analysis"
             },
-            "onyomi": [
-                {
-                    "text": "ブンセキ",
-                    "reading": "ブンセキ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Meneliti suatu hal dengan memeriksa unsur, data, atau penyebabnya secara terperinci.",
-                "en": "Explanation: Meneliti suatu hal dengan memeriksa unsur, data, atau penyebabnya secara terperinci."
+                "id": "Contoh materi: 実験結果を分析する。",
+                "en": "Examples from the lesson: 実験結果を分析する."
+            },
+            "explanation": {
+                "id": "分析 berarti menelaah suatu hal dengan memeriksa unsur atau datanya secara terperinci.",
+                "en": "分析 means examining something by studying its elements or data in detail."
             },
             "nuance": {
-                "id": "Nuansa: Fokusnya pada memahami struktur atau alasan melalui pemeriksaan, bukan memisahkan benda secara fisik.",
-                "en": "Nuance: Fokusnya pada memahami struktur atau alasan melalui pemeriksaan, bukan memisahkan benda secara fisik."
+                "id": "Berbeda dari 分解 yang membongkar benda secara fisik, 分析 mengurai informasi atau hasil untuk dipahami.",
+                "en": "Unlike 分解, which physically takes an object apart, 分析 examines information or results to understand them."
             },
             "philosophy": {
-                "id": "Cara membedakan: Pakai 分析 untuk mengkaji data, hasil eksperimen, atau masalah.",
-                "en": "Distinction tip: Pakai 分析 untuk mengkaji data, hasil eksperimen, atau masalah."
+                "id": "Bayangkan data percobaan yang dipilah dan diperiksa untuk menemukan pola.",
+                "en": "Picture experiment data being examined to identify patterns."
             },
             "vocabulary": [
-                {
-                    "word": "分析",
-                    "reading": "ぶんせき",
-                    "meaning": {
-                        "id": "analisis",
-                        "en": "analysis"
-                    }
-                },
                 {
                     "word": "実験結果を分析する",
                     "reading": "じっけんけっかをぶんせきする",
                     "meaning": {
                         "id": "menganalisis hasil eksperimen",
-                        "en": "to analyze experimental results"
+                        "en": "analyze experimental results"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 分解・分析・分類・分配."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "ぶんせき",
+            "category": {
+                "id": "分解・分析・分類・分配の使い分け",
+                "en": "分解・分析・分類・分配の使い分け"
+            }
         },
         {
             "id": "week6-day3-007",
             "character": "分類",
             "meaning": {
-                "id": "klasifikasi; pengelompokan",
+                "id": "klasifikasi; mengelompokkan",
                 "en": "classification"
             },
-            "onyomi": [
-                {
-                    "text": "ブンルイ",
-                    "reading": "ブンルイ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Mengelompokkan benda atau informasi menurut jenis atau ciri tertentu.",
-                "en": "Explanation: Mengelompokkan benda atau informasi menurut jenis atau ciri tertentu."
+                "id": "Contoh materi: 図書を分類する。",
+                "en": "Examples from the lesson: 図書を分類する."
+            },
+            "explanation": {
+                "id": "分類 berarti mengelompokkan benda atau informasi berdasarkan jenis atau ciri tertentu.",
+                "en": "分類 means grouping objects or information according to type or particular characteristics."
             },
             "nuance": {
-                "id": "Nuansa: Hasilnya berupa kategori atau kelompok yang dibedakan berdasarkan kriteria.",
-                "en": "Nuance: Hasilnya berupa kategori atau kelompok yang dibedakan berdasarkan kriteria."
+                "id": "Fokusnya membuat kategori; bukan menguraikan secara detail atau membagikan sesuatu kepada orang.",
+                "en": "The focus is creating categories, not detailed analysis or distributing something to people."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 分類 sebagai menaruh hal-hal sejenis ke dalam kelompok yang sama.",
-                "en": "Distinction tip: Ingat 分類 sebagai menaruh hal-hal sejenis ke dalam kelompok yang sama."
+                "id": "Bayangkan buku di perpustakaan dikelompokkan berdasarkan kategori.",
+                "en": "Picture library books grouped by category."
             },
             "vocabulary": [
-                {
-                    "word": "分類",
-                    "reading": "ぶんるい",
-                    "meaning": {
-                        "id": "klasifikasi; pengelompokan",
-                        "en": "classification"
-                    }
-                },
                 {
                     "word": "図書を分類する",
                     "reading": "としょをぶんるいする",
                     "meaning": {
                         "id": "mengklasifikasikan buku",
-                        "en": "to classify books"
+                        "en": "classify books"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 分解・分析・分類・分配."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "ぶんるい",
+            "category": {
+                "id": "分解・分析・分類・分配の使い分け",
+                "en": "分解・分析・分類・分配の使い分け"
+            }
         },
         {
             "id": "week6-day3-008",
@@ -343,80 +339,67 @@ const minggu6Hari3 = {
                 "id": "pembagian; distribusi",
                 "en": "distribution; allocation"
             },
-            "onyomi": [
-                {
-                    "text": "ブンパイ",
-                    "reading": "ブンパイ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Membagikan sesuatu kepada beberapa orang atau pihak sesuai bagian masing-masing.",
-                "en": "Explanation: Membagikan sesuatu kepada beberapa orang atau pihak sesuai bagian masing-masing."
+                "id": "Contoh materi: 利益を分配する。",
+                "en": "Examples from the lesson: 利益を分配する."
+            },
+            "explanation": {
+                "id": "分配 berarti membagikan uang, barang, atau keuntungan kepada beberapa pihak.",
+                "en": "分配 means distributing money, goods, or profits among several parties."
             },
             "nuance": {
-                "id": "Nuansa: Sering digunakan untuk keuntungan, barang, dana, atau sumber daya yang dibagikan.",
-                "en": "Nuance: Sering digunakan untuk keuntungan, barang, dana, atau sumber daya yang dibagikan."
+                "id": "Sumber mencontohkan keuntungan; fokusnya pada pembagian hasil atau sumber daya.",
+                "en": "The source gives profits as an example; the focus is dividing proceeds or resources."
             },
             "philosophy": {
-                "id": "Cara membedakan: Pakai 分配 ketika sesuatu dibagikan kepada penerima yang berbeda.",
-                "en": "Distinction tip: Pakai 分配 ketika sesuatu dibagikan kepada penerima yang berbeda."
+                "id": "Bayangkan satu jumlah keuntungan dibagi ke beberapa penerima.",
+                "en": "Picture a sum of profits being shared among several recipients."
             },
             "vocabulary": [
-                {
-                    "word": "分配",
-                    "reading": "ぶんぱい",
-                    "meaning": {
-                        "id": "pembagian; distribusi",
-                        "en": "distribution; allocation"
-                    }
-                },
                 {
                     "word": "利益を分配する",
                     "reading": "りえきをぶんぱいする",
                     "meaning": {
                         "id": "membagikan keuntungan",
-                        "en": "to distribute profits"
+                        "en": "distribute profits"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 分解・分析・分類・分配."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "ぶんぱい",
+            "category": {
+                "id": "分解・分析・分類・分配の使い分け",
+                "en": "分解・分析・分類・分配の使い分け"
+            }
         },
         {
             "id": "week6-day3-009",
             "character": "観覧",
             "meaning": {
-                "id": "menonton; melihat pertunjukan atau pemandangan",
+                "id": "menonton; melihat untuk dinikmati",
                 "en": "viewing; watching"
             },
-            "onyomi": [
-                {
-                    "text": "カンラン",
-                    "reading": "カンラン"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Melihat atau menyaksikan sesuatu yang disediakan untuk dinikmati pengunjung.",
-                "en": "Explanation: Melihat atau menyaksikan sesuatu yang disediakan untuk dinikmati pengunjung."
+                "id": "Contoh materi: 観覧車。",
+                "en": "Examples from the lesson: 観覧車."
+            },
+            "explanation": {
+                "id": "観覧 berarti melihat atau menonton sesuatu sebagai pengunjung atau penonton.",
+                "en": "観覧 means viewing or watching something as a visitor or spectator."
             },
             "nuance": {
-                "id": "Nuansa: Sering berkaitan dengan pertunjukan, tempat wisata, atau fasilitas tontonan seperti 観覧車.",
-                "en": "Nuance: Sering berkaitan dengan pertunjukan, tempat wisata, atau fasilitas tontonan seperti 観覧車."
+                "id": "Materi memberi contoh 観覧車; kata ini berkaitan dengan aktivitas melihat atau menikmati tontonan, bukan membaca bahan.",
+                "en": "The lesson gives 観覧車 as an example; the word relates to viewing or enjoying a sight, not reading material."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 観覧 sebagai kegiatan melihat sesuatu secara langsung sebagai pengunjung.",
-                "en": "Distinction tip: Ingat 観覧 sebagai kegiatan melihat sesuatu secara langsung sebagai pengunjung."
+                "id": "Hubungkan 観覧 dengan pengalaman melihat atraksi atau pemandangan.",
+                "en": "Associate 観覧 with viewing an attraction or sight."
             },
             "vocabulary": [
-                {
-                    "word": "観覧",
-                    "reading": "かんらん",
-                    "meaning": {
-                        "id": "menonton; melihat pertunjukan atau pemandangan",
-                        "en": "viewing; watching"
-                    }
-                },
                 {
                     "word": "観覧車",
                     "reading": "かんらんしゃ",
@@ -426,89 +409,81 @@ const minggu6Hari3 = {
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 観覧・回覧・閲覧・展覧."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "かんらん",
+            "category": {
+                "id": "観覧・回覧・閲覧・展覧の使い分け",
+                "en": "観覧・回覧・閲覧・展覧の使い分け"
+            }
         },
         {
             "id": "week6-day3-010",
             "character": "回覧",
             "meaning": {
-                "id": "pengedaran dokumen secara bergiliran",
+                "id": "peredaran; membagikan untuk dibaca bergiliran",
                 "en": "circulation; passing around"
             },
-            "onyomi": [
-                {
-                    "text": "カイラン",
-                    "reading": "カイラン"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Mengedarkan dokumen atau pemberitahuan dari satu orang ke orang berikutnya.",
-                "en": "Explanation: Mengedarkan dokumen atau pemberitahuan dari satu orang ke orang berikutnya."
+                "id": "Contoh materi: 自治会の回覧板。",
+                "en": "Examples from the lesson: 自治会の回覧板."
+            },
+            "explanation": {
+                "id": "回覧 berarti mengedarkan dokumen atau pemberitahuan dari satu orang ke orang lain secara bergiliran.",
+                "en": "回覧 means circulating a document or notice from one person to another in turn."
             },
             "nuance": {
-                "id": "Nuansa: Menekankan perpindahan bahan bacaan antarpenerima secara berurutan, bukan membaca di satu tempat.",
-                "en": "Nuance: Menekankan perpindahan bahan bacaan antarpenerima secara berurutan, bukan membaca di satu tempat."
+                "id": "Sumber memberi contoh papan pemberitahuan lingkungan yang diedarkan antaranggota.",
+                "en": "The source gives a neighborhood notice board circulated among members as an example."
             },
             "philosophy": {
-                "id": "Cara membedakan: Bayangkan 回覧板 yang berkeliling dari satu rumah ke rumah berikutnya.",
-                "en": "Distinction tip: Bayangkan 回覧板 yang berkeliling dari satu rumah ke rumah berikutnya."
+                "id": "Bayangkan satu dokumen berpindah dari satu anggota ke anggota berikutnya.",
+                "en": "Picture one document passing from one member to the next."
             },
             "vocabulary": [
-                {
-                    "word": "回覧",
-                    "reading": "かいらん",
-                    "meaning": {
-                        "id": "pengedaran dokumen secara bergiliran",
-                        "en": "circulation; passing around"
-                    }
-                },
                 {
                     "word": "自治会の回覧板",
                     "reading": "じちかいのかいらんばん",
                     "meaning": {
-                        "id": "papan pengumuman keliling lingkungan",
+                        "id": "papan pemberitahuan keliling warga",
                         "en": "a neighborhood circular notice board"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 観覧・回覧・閲覧・展覧."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "かいらん",
+            "category": {
+                "id": "観覧・回覧・閲覧・展覧の使い分け",
+                "en": "観覧・回覧・閲覧・展覧の使い分け"
+            }
         },
         {
             "id": "week6-day3-011",
             "character": "閲覧",
             "meaning": {
-                "id": "membaca; menelusuri isi dokumen atau situs",
+                "id": "membaca atau menelusuri untuk diperiksa",
                 "en": "browsing; perusal"
             },
-            "onyomi": [
-                {
-                    "text": "エツラン",
-                    "reading": "エツラン"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Membaca atau memeriksa isi buku, dokumen, arsip, maupun halaman web.",
-                "en": "Explanation: Membaca atau memeriksa isi buku, dokumen, arsip, maupun halaman web."
+                "id": "Contoh materi: 図書館の閲覧室。",
+                "en": "Examples from the lesson: 図書館の閲覧室."
+            },
+            "explanation": {
+                "id": "閲覧 berarti melihat, membaca, atau menelusuri bahan tertulis maupun informasi.",
+                "en": "閲覧 means looking through, reading, or browsing written material or information."
             },
             "nuance": {
-                "id": "Nuansa: Fokusnya pada mengakses dan membaca informasi; tidak berarti mengedarkan atau mengadakan pameran.",
-                "en": "Nuance: Fokusnya pada mengakses dan membaca informasi; tidak berarti mengedarkan atau mengadakan pameran."
+                "id": "Materi memberi contoh ruang baca perpustakaan dan akses situs; fokusnya pada kegiatan menelusuri isi.",
+                "en": "The lesson gives a library reading room and website access as contexts; the focus is browsing content."
             },
             "philosophy": {
-                "id": "Cara membedakan: Pakai 閲覧 ketika seseorang membuka dan membaca bahan informasi.",
-                "en": "Distinction tip: Pakai 閲覧 ketika seseorang membuka dan membaca bahan informasi."
+                "id": "Ingat 閲覧 sebagai membuka dan menelusuri isi dokumen, buku, atau situs.",
+                "en": "Remember 閲覧 as opening and browsing the contents of a document, book, or website."
             },
             "vocabulary": [
-                {
-                    "word": "閲覧",
-                    "reading": "えつらん",
-                    "meaning": {
-                        "id": "membaca; menelusuri isi dokumen atau situs",
-                        "en": "browsing; perusal"
-                    }
-                },
                 {
                     "word": "図書館の閲覧室",
                     "reading": "としょかんのえつらんしつ",
@@ -518,89 +493,81 @@ const minggu6Hari3 = {
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 観覧・回覧・閲覧・展覧."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "えつらん",
+            "category": {
+                "id": "観覧・回覧・閲覧・展覧の使い分け",
+                "en": "観覧・回覧・閲覧・展覧の使い分け"
+            }
         },
         {
             "id": "week6-day3-012",
             "character": "展覧",
             "meaning": {
-                "id": "pameran; memamerkan karya",
+                "id": "pameran; memamerkan",
                 "en": "exhibition; display"
             },
-            "onyomi": [
-                {
-                    "text": "テンラン",
-                    "reading": "テンラン"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Memperlihatkan karya atau benda kepada publik dalam suatu pameran.",
-                "en": "Explanation: Memperlihatkan karya atau benda kepada publik dalam suatu pameran."
+                "id": "Contoh materi: 絵画の展覧会。",
+                "en": "Examples from the lesson: 絵画の展覧会."
+            },
+            "explanation": {
+                "id": "展覧 berarti menampilkan karya atau benda agar dapat dilihat oleh pengunjung.",
+                "en": "展覧 means displaying works or objects for visitors to view."
             },
             "nuance": {
-                "id": "Nuansa: Sering berhubungan dengan seni, lukisan, foto, atau benda koleksi; 展覧会 adalah bentuk nomina yang umum.",
-                "en": "Nuance: Sering berhubungan dengan seni, lukisan, foto, atau benda koleksi; 展覧会 adalah bentuk nomina yang umum."
+                "id": "Sumber memberi contoh 展覧会 untuk lukisan; kata ini menekankan kegiatan memamerkan koleksi atau karya.",
+                "en": "The source gives a painting exhibition as an example; the word emphasizes displaying a collection or work."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 展覧 sebagai menampilkan karya agar dapat dilihat banyak orang.",
-                "en": "Distinction tip: Ingat 展覧 sebagai menampilkan karya agar dapat dilihat banyak orang."
+                "id": "Bayangkan karya seni disusun dan dipajang di ruang pamer.",
+                "en": "Picture artworks arranged and displayed in an exhibition space."
             },
             "vocabulary": [
-                {
-                    "word": "展覧",
-                    "reading": "てんらん",
-                    "meaning": {
-                        "id": "pameran; memamerkan karya",
-                        "en": "exhibition; display"
-                    }
-                },
                 {
                     "word": "絵画の展覧会",
                     "reading": "かいがのてんらんかい",
                     "meaning": {
                         "id": "pameran lukisan",
-                        "en": "an art exhibition"
+                        "en": "painting exhibition"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 観覧・回覧・閲覧・展覧."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "てんらん",
+            "category": {
+                "id": "観覧・回覧・閲覧・展覧の使い分け",
+                "en": "観覧・回覧・閲覧・展覧の使い分け"
+            }
         },
         {
             "id": "week6-day3-013",
             "character": "沈没",
             "meaning": {
-                "id": "tenggelam; karam",
+                "id": "tenggelam",
                 "en": "sinking"
             },
-            "onyomi": [
-                {
-                    "text": "チンボツ",
-                    "reading": "チンボツ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Menggambarkan kapal atau benda yang turun ke bawah permukaan air.",
-                "en": "Explanation: Menggambarkan kapal atau benda yang turun ke bawah permukaan air."
+                "id": "Contoh materi: 船が沈没する。",
+                "en": "Examples from the lesson: 船が沈没する."
+            },
+            "explanation": {
+                "id": "沈没 berarti kapal atau benda besar tenggelam ke bawah permukaan air.",
+                "en": "沈没 means a ship or large object sinking below the water's surface."
             },
             "nuance": {
-                "id": "Nuansa: Paling lazim untuk kapal yang karam; fokusnya pada tenggelam secara fisik.",
-                "en": "Nuance: Paling lazim untuk kapal yang karam; fokusnya pada tenggelam secara fisik."
+                "id": "Sumber menggunakannya untuk kapal; jangan tertukar dengan 没落 yang merujuk pada kemerosotan status atau kejayaan.",
+                "en": "The source uses it for a ship; do not confuse it with 没落, which refers to a decline in status or prosperity."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 沈没 dengan gambaran kapal yang tidak lagi berada di permukaan air.",
-                "en": "Distinction tip: Ingat 沈没 dengan gambaran kapal yang tidak lagi berada di permukaan air."
+                "id": "Bayangkan kapal yang turun dan hilang dari permukaan air.",
+                "en": "Picture a ship descending and disappearing beneath the water."
             },
             "vocabulary": [
-                {
-                    "word": "沈没",
-                    "reading": "ちんぼつ",
-                    "meaning": {
-                        "id": "tenggelam; karam",
-                        "en": "sinking"
-                    }
-                },
                 {
                     "word": "船が沈没する",
                     "reading": "ふねがちんぼつする",
@@ -610,145 +577,146 @@ const minggu6Hari3 = {
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 沈没・没落・没収・埋没."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "ちんぼつ",
+            "category": {
+                "id": "没を含む語の使い分け",
+                "en": "没を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-014",
             "character": "没落",
             "meaning": {
-                "id": "kemerosotan; kejatuhan status atau kekayaan",
+                "id": "kemerosotan; jatuh dari kejayaan",
                 "en": "decline; downfall"
             },
-            "onyomi": [
-                {
-                    "text": "ボツラク",
-                    "reading": "ボツラク"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Menunjukkan keluarga, kelompok, atau organisasi yang kehilangan kedudukan dan kejayaannya.",
-                "en": "Explanation: Menunjukkan keluarga, kelompok, atau organisasi yang kehilangan kedudukan dan kejayaannya."
+                "id": "Contoh materi: 代々続いた名家が没落する。",
+                "en": "Examples from the lesson: 代々続いた名家が没落する."
+            },
+            "explanation": {
+                "id": "没落 berarti jatuhnya seseorang, keluarga, atau kelompok dari kedudukan atau kemakmuran sebelumnya.",
+                "en": "没落 means a person, family, or group falling from a former position or prosperity."
             },
             "nuance": {
-                "id": "Nuansa: Biasanya bersifat sosial atau ekonomi, bukan tenggelam secara fisik.",
-                "en": "Nuance: Biasanya bersifat sosial atau ekonomi, bukan tenggelam secara fisik."
+                "id": "Sumber memberi contoh keluarga terpandang yang telah berlangsung turun-temurun; ini kemerosotan sosial, bukan tenggelam secara fisik.",
+                "en": "The source gives a long-established distinguished family as an example; this is social decline, not physical sinking."
             },
             "philosophy": {
-                "id": "Cara membedakan: Pakai 没落 untuk kejatuhan status, kekayaan, atau pengaruh.",
-                "en": "Distinction tip: Pakai 没落 untuk kejatuhan status, kekayaan, atau pengaruh."
+                "id": "Ingat 没落 sebagai jatuhnya kedudukan atau kejayaan.",
+                "en": "Remember 没落 as the loss of status or prosperity."
             },
             "vocabulary": [
                 {
-                    "word": "没落",
-                    "reading": "ぼつらく",
+                    "word": "代々続いた名家が没落する",
+                    "reading": "だいだいつづいためいかがぼつらくする",
                     "meaning": {
-                        "id": "kemerosotan; kejatuhan status atau kekayaan",
-                        "en": "decline; downfall"
-                    }
-                },
-                {
-                    "word": "名家が没落する",
-                    "reading": "めいかがぼつらくする",
-                    "meaning": {
-                        "id": "keluarga terpandang mengalami kemerosotan",
+                        "id": "keluarga terpandang turun-temurun mengalami kemerosotan",
                         "en": "a distinguished family falls into decline"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 沈没・没落・没収・埋没."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "ぼつらく",
+            "category": {
+                "id": "没を含む語の使い分け",
+                "en": "没を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-015",
             "character": "没収",
             "meaning": {
-                "id": "penyitaan; perampasan oleh pihak berwenang",
-                "en": "confiscation; seizure"
+                "id": "penyitaan; merampas secara resmi",
+                "en": "confiscation"
             },
-            "onyomi": [
-                {
-                    "text": "ボッシュウ",
-                    "reading": "ボッシュウ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Mengambil atau menyita harta maupun barang berdasarkan wewenang atau aturan.",
-                "en": "Explanation: Mengambil atau menyita harta maupun barang berdasarkan wewenang atau aturan."
+                "id": "Contoh materi: 資産を没収する。",
+                "en": "Examples from the lesson: 資産を没収する."
+            },
+            "explanation": {
+                "id": "没収 berarti mengambil atau menyita harta atau barang berdasarkan kewenangan atau aturan.",
+                "en": "没収 means taking or confiscating property or possessions under authority or rules."
             },
             "nuance": {
-                "id": "Nuansa: Nuansanya tindakan resmi dari pihak yang memiliki kewenangan, bukan sekadar kehilangan barang.",
-                "en": "Nuance: Nuansanya tindakan resmi dari pihak yang memiliki kewenangan, bukan sekadar kehilangan barang."
+                "id": "Objek pada contoh adalah aset; nuansanya tindakan penyitaan, bukan benda yang tertimbun.",
+                "en": "The source's object is assets; the nuance is confiscation, not being buried."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 没収 sebagai barang yang disita oleh otoritas.",
-                "en": "Distinction tip: Ingat 没収 sebagai barang yang disita oleh otoritas."
+                "id": "Bayangkan aset yang diambil oleh pihak berwenang.",
+                "en": "Picture assets being taken by an authority."
             },
             "vocabulary": [
-                {
-                    "word": "没収",
-                    "reading": "ぼっしゅう",
-                    "meaning": {
-                        "id": "penyitaan; perampasan oleh pihak berwenang",
-                        "en": "confiscation; seizure"
-                    }
-                },
                 {
                     "word": "資産を没収する",
                     "reading": "しさんをぼっしゅうする",
                     "meaning": {
                         "id": "menyita aset",
-                        "en": "to confiscate assets"
+                        "en": "confiscate assets"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 沈没・没落・没収・埋没."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "ぼっしゅう",
+            "category": {
+                "id": "没を含む語の使い分け",
+                "en": "没を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-016",
             "character": "埋没",
             "meaning": {
-                "id": "terkubur; tertimbun; terpendam",
-                "en": "burial; being buried or submerged"
+                "id": "terkubur; tertimbun",
+                "en": "burial; being buried"
             },
-            "onyomi": [
-                {
-                    "text": "マイボツ",
-                    "reading": "マイボツ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Menunjukkan sesuatu yang tertutup atau tertimbun oleh tanah, material, atau hal lain.",
-                "en": "Explanation: Menunjukkan sesuatu yang tertutup atau tertimbun oleh tanah, material, atau hal lain."
+                "id": "Contoh materi: 土砂で家が埋没する、業績が埋没する。",
+                "en": "Examples from the lesson: 土砂で家が埋没する, 業績が埋没する."
+            },
+            "explanation": {
+                "id": "埋没 berarti tertutup atau terkubur oleh tanah, pasir, atau material lain.",
+                "en": "埋没 means being covered or buried by soil, sand, or other material."
             },
             "nuance": {
-                "id": "Nuansa: Bisa bermakna fisik seperti rumah tertimbun tanah longsor, atau kiasan ketika prestasi tidak terlihat.",
-                "en": "Nuance: Bisa bermakna fisik seperti rumah tertimbun tanah longsor, atau kiasan ketika prestasi tidak terlihat."
+                "id": "Sumber juga memberi penggunaan kiasan: prestasi dapat埋没, yaitu tertutup atau tidak terlihat di tengah hal lain.",
+                "en": "The source also gives a figurative use: achievements can be 埋没, meaning buried or overlooked among other things."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 埋没 sebagai sesuatu yang tertutup sehingga sulit ditemukan atau diperhatikan.",
-                "en": "Distinction tip: Ingat 埋没 sebagai sesuatu yang tertutup sehingga sulit ditemukan atau diperhatikan."
+                "id": "Ingat dua gambaran: rumah tertimbun tanah dan prestasi yang tidak terlihat.",
+                "en": "Remember two images: a house buried in earth and an achievement that goes unnoticed."
             },
             "vocabulary": [
                 {
-                    "word": "埋没",
-                    "reading": "まいぼつ",
+                    "word": "土砂で家が埋没する",
+                    "reading": "どしゃでいえがまいぼつする",
                     "meaning": {
-                        "id": "terkubur; tertimbun; terpendam",
-                        "en": "burial; being buried or submerged"
+                        "id": "rumah tertimbun material longsor",
+                        "en": "a house is buried by earth and sand"
                     }
                 },
                 {
                     "word": "業績が埋没する",
                     "reading": "ぎょうせきがまいぼつする",
                     "meaning": {
-                        "id": "pencapaian terpendam dan tidak terlihat",
+                        "id": "prestasi tertutup atau tidak mendapat perhatian",
                         "en": "achievements become buried or overlooked"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 沈没・没落・没収・埋没."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "まいぼつ",
+            "category": {
+                "id": "没を含む語の使い分け",
+                "en": "没を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-017",
@@ -757,218 +725,193 @@ const minggu6Hari3 = {
                 "id": "negosiasi; perundingan",
                 "en": "negotiation"
             },
-            "onyomi": [
-                {
-                    "text": "コウショウ",
-                    "reading": "コウショウ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Pembicaraan antara dua pihak atau lebih untuk mencapai kesepakatan.",
-                "en": "Explanation: Pembicaraan antara dua pihak atau lebih untuk mencapai kesepakatan."
+                "id": "Contoh materi: 値段の交渉をする。",
+                "en": "Examples from the lesson: 値段の交渉をする."
+            },
+            "explanation": {
+                "id": "交渉 adalah proses berbicara antara pihak-pihak untuk mencapai kesepakatan.",
+                "en": "交渉 is a process in which parties communicate to reach an agreement."
             },
             "nuance": {
-                "id": "Nuansa: Biasanya ada kepentingan atau posisi berbeda yang sedang dibicarakan, misalnya harga atau kerja sama.",
-                "en": "Nuance: Biasanya ada kepentingan atau posisi berbeda yang sedang dibicarakan, misalnya harga atau kerja sama."
+                "id": "Sumber mencontohkan negosiasi harga dan kerja sama ant perusahaan; ada kepentingan yang dibahas.",
+                "en": "The source gives price negotiations and company partnerships; there are interests being discussed."
             },
             "philosophy": {
-                "id": "Cara membedakan: Pakai 交渉 ketika pihak-pihak sedang berunding untuk memperoleh kesepakatan.",
-                "en": "Distinction tip: Pakai 交渉 ketika pihak-pihak sedang berunding untuk memperoleh kesepakatan."
+                "id": "Bayangkan dua pihak menawar dan menyepakati syarat.",
+                "en": "Picture two parties discussing terms and reaching an agreement."
             },
             "vocabulary": [
-                {
-                    "word": "交渉",
-                    "reading": "こうしょう",
-                    "meaning": {
-                        "id": "negosiasi; perundingan",
-                        "en": "negotiation"
-                    }
-                },
                 {
                     "word": "値段の交渉をする",
                     "reading": "ねだんのこうしょうをする",
                     "meaning": {
-                        "id": "menegosiasikan harga",
-                        "en": "to negotiate a price"
+                        "id": "melakukan negosiasi harga",
+                        "en": "negotiate the price"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 交渉・干渉・交際・交流."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "こうしょう",
+            "category": {
+                "id": "交を含む語の使い分け",
+                "en": "交を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-018",
             "character": "干渉",
             "meaning": {
                 "id": "campur tangan; intervensi",
-                "en": "interference; intervention"
+                "en": "interference"
             },
-            "onyomi": [
-                {
-                    "text": "カンショウ",
-                    "reading": "カンショウ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Ikut mencampuri urusan atau keputusan pihak lain sehingga memengaruhi kebebasannya.",
-                "en": "Explanation: Ikut mencampuri urusan atau keputusan pihak lain sehingga memengaruhi kebebasannya."
+                "id": "Contoh materi: 親が子どもに干渉する。",
+                "en": "Examples from the lesson: 親が子どもに干渉する."
+            },
+            "explanation": {
+                "id": "干渉 berarti ikut mencampuri urusan atau tindakan pihak lain.",
+                "en": "干渉 means interfering in another person's affairs or actions."
             },
             "nuance": {
-                "id": "Nuansa: Sering bernuansa negatif, terutama ketika seseorang mencampuri hal yang seharusnya menjadi urusan orang lain.",
-                "en": "Nuance: Sering bernuansa negatif, terutama ketika seseorang mencampuri hal yang seharusnya menjadi urusan orang lain."
+                "id": "Contoh sumber adalah orang tua yang terlalu ikut campur terhadap anak; nuansanya dapat terasa mengganggu.",
+                "en": "The source example is a parent interfering in a child's affairs; the nuance can feel intrusive."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 干渉 sebagai ikut masuk ke urusan orang lain tanpa diminta.",
-                "en": "Distinction tip: Ingat 干渉 sebagai ikut masuk ke urusan orang lain tanpa diminta."
+                "id": "Ingat干渉 sebagai masuk ke urusan orang lain tanpa diminta.",
+                "en": "Remember 干渉 as getting involved in someone else's affairs without being asked."
             },
             "vocabulary": [
-                {
-                    "word": "干渉",
-                    "reading": "かんしょう",
-                    "meaning": {
-                        "id": "campur tangan; intervensi",
-                        "en": "interference; intervention"
-                    }
-                },
                 {
                     "word": "親が子どもに干渉する",
                     "reading": "おやがこどもにかんしょうする",
                     "meaning": {
-                        "id": "orang tua terlalu mencampuri urusan anak",
-                        "en": "parents interfere in their child’s affairs"
+                        "id": "orang tua ikut campur urusan anak",
+                        "en": "parents interfere in their child's affairs"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 交渉・干渉・交際・交流."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "かんしょう",
+            "category": {
+                "id": "交を含む語の使い分け",
+                "en": "交を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-019",
             "character": "交際",
             "meaning": {
-                "id": "pergaulan; hubungan sosial",
-                "en": "association; social relationship"
+                "id": "hubungan; pergaulan; berpacaran",
+                "en": "association; relationship; dating"
             },
-            "onyomi": [
-                {
-                    "text": "コウサイ",
-                    "reading": "コウサイ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Menjalin hubungan atau bergaul dengan orang lain secara berkelanjutan.",
-                "en": "Explanation: Menjalin hubungan atau bergaul dengan orang lain secara berkelanjutan."
+                "id": "Contoh materi: 特定の異性と交際する。",
+                "en": "Examples from the lesson: 特定の異性と交際する."
+            },
+            "explanation": {
+                "id": "交際 berarti menjalin hubungan atau pergaulan yang berkelanjutan dengan orang lain.",
+                "en": "交際 means maintaining an ongoing association or relationship with another person."
             },
             "nuance": {
-                "id": "Nuansa: Bisa berarti pergaulan umum; bergantung konteks, dapat menunjuk hubungan dekat atau hubungan romantis.",
-                "en": "Nuance: Bisa berarti pergaulan umum; bergantung konteks, dapat menunjuk hubungan dekat atau hubungan romantis."
+                "id": "Sumber secara khusus memberi contoh hubungan dengan lawan jenis tertentu; dalam konteks demikian dapat berarti berpacaran.",
+                "en": "The source specifically gives a relationship with a particular person of the opposite sex; in that context it can mean dating."
             },
             "philosophy": {
-                "id": "Cara membedakan: Pahami 交際 sebagai hubungan antarorang, lalu lihat konteks untuk menentukan jenis hubungannya.",
-                "en": "Distinction tip: Pahami 交際 sebagai hubungan antarorang, lalu lihat konteks untuk menentukan jenis hubungannya."
+                "id": "Lihat konteksnya: hubungan sosial yang berlanjut, bukan sekadar pertukaran budaya.",
+                "en": "Read the context: an ongoing personal relationship, not simply cultural exchange."
             },
             "vocabulary": [
                 {
-                    "word": "交際",
-                    "reading": "こうさい",
+                    "word": "特定の異性と交際する",
+                    "reading": "とくていのいせいとこうさいする",
                     "meaning": {
-                        "id": "pergaulan; hubungan sosial",
-                        "en": "association; social relationship"
-                    }
-                },
-                {
-                    "word": "人と交際する",
-                    "reading": "ひととこうさいする",
-                    "meaning": {
-                        "id": "bergaul atau menjalin hubungan dengan orang lain",
-                        "en": "to associate with people"
+                        "id": "menjalin hubungan dengan seseorang dari lawan jenis",
+                        "en": "date or be in a relationship with a particular person"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 交渉・干渉・交際・交流."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "こうさい",
+            "category": {
+                "id": "交を含む語の使い分け",
+                "en": "交を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-020",
             "character": "交流",
             "meaning": {
-                "id": "pertukaran; interaksi timbal balik",
+                "id": "pertukaran; interaksi",
                 "en": "exchange; interaction"
             },
-            "onyomi": [
-                {
-                    "text": "コウリュウ",
-                    "reading": "コウリュウ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Interaksi dua arah antara orang, kelompok, atau budaya.",
-                "en": "Explanation: Interaksi dua arah antara orang, kelompok, atau budaya."
+                "id": "Contoh materi: 異文化の人々と交流する。",
+                "en": "Examples from the lesson: 異文化の人々と交流する."
+            },
+            "explanation": {
+                "id": "交流 berarti saling berhubungan atau bertukar pengalaman, informasi, dan budaya.",
+                "en": "交流 means interacting or exchanging experiences, information, and culture."
             },
             "nuance": {
-                "id": "Nuansa: Menekankan saling berbagi dan berhubungan, bukan sekadar bergaul secara pribadi.",
-                "en": "Nuance: Menekankan saling berbagi dan berhubungan, bukan sekadar bergaul secara pribadi."
+                "id": "Contoh sumber berfokus pada orang dari budaya berbeda; nuansanya timbal balik dan saling mengenal.",
+                "en": "The source focuses on people from different cultures; the nuance is mutual interaction and understanding."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 交流 sebagai hubungan yang memungkinkan kedua pihak saling bertukar pengalaman atau informasi.",
-                "en": "Distinction tip: Ingat 交流 sebagai hubungan yang memungkinkan kedua pihak saling bertukar pengalaman atau informasi."
+                "id": "Bayangkan dua kelompok saling berbagi budaya dan pengalaman.",
+                "en": "Picture two groups sharing culture and experiences with each other."
             },
             "vocabulary": [
-                {
-                    "word": "交流",
-                    "reading": "こうりゅう",
-                    "meaning": {
-                        "id": "pertukaran; interaksi timbal balik",
-                        "en": "exchange; interaction"
-                    }
-                },
                 {
                     "word": "異文化の人々と交流する",
                     "reading": "いぶんかのひとびととこうりゅうする",
                     "meaning": {
                         "id": "berinteraksi dengan orang dari budaya berbeda",
-                        "en": "to interact with people from different cultures"
+                        "en": "interact with people from different cultures"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 交渉・干渉・交際・交流."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "こうりゅう",
+            "category": {
+                "id": "交を含む語の使い分け",
+                "en": "交を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-021",
             "character": "墜落",
             "meaning": {
-                "id": "jatuh dari ketinggian; kecelakaan jatuh",
-                "en": "crash; falling"
+                "id": "jatuh; kecelakaan jatuh dari udara",
+                "en": "crash; plunge"
             },
-            "onyomi": [
-                {
-                    "text": "ツイラク",
-                    "reading": "ツイラク"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Menggambarkan pesawat atau benda yang jatuh dari udara atau tempat tinggi.",
-                "en": "Explanation: Menggambarkan pesawat atau benda yang jatuh dari udara atau tempat tinggi."
+                "id": "Contoh materi: 飛行機が墜落する。",
+                "en": "Examples from the lesson: 飛行機が墜落する."
+            },
+            "explanation": {
+                "id": "墜落 berarti jatuh dari udara atau ketinggian, terutama untuk pesawat atau benda yang terbang.",
+                "en": "墜落 means falling from the air or a height, especially an aircraft or flying object."
             },
             "nuance": {
-                "id": "Nuansa: Sering dipakai untuk kecelakaan pesawat; menekankan jatuhnya benda secara fisik.",
-                "en": "Nuance: Sering dipakai untuk kecelakaan pesawat; menekankan jatuhnya benda secara fisik."
+                "id": "Sumber menggunakannya untuk pesawat; fokusnya pada jatuhnya kendaraan atau benda dari udara.",
+                "en": "The source uses it for an aircraft; the focus is a vehicle or object falling from the air."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 墜落 untuk kejadian jatuh dari udara atau ketinggian.",
-                "en": "Distinction tip: Ingat 墜落 untuk kejadian jatuh dari udara atau ketinggian."
+                "id": "Hubungkan 墜落 dengan pesawat yang kehilangan ketinggian lalu jatuh.",
+                "en": "Associate 墜落 with an aircraft losing altitude and falling."
             },
             "vocabulary": [
-                {
-                    "word": "墜落",
-                    "reading": "ついらく",
-                    "meaning": {
-                        "id": "jatuh dari ketinggian; kecelakaan jatuh",
-                        "en": "crash; falling"
-                    }
-                },
                 {
                     "word": "飛行機が墜落する",
                     "reading": "ひこうきがついらくする",
@@ -978,181 +921,181 @@ const minggu6Hari3 = {
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 墜落・堕落・転落・暴落."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "ついらく",
+            "category": {
+                "id": "落を含む語の使い分け",
+                "en": "落を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-022",
             "character": "堕落",
             "meaning": {
-                "id": "kemerosotan moral; kebejatan",
-                "en": "moral corruption; degradation"
+                "id": "kemerosotan moral; kebobrokan",
+                "en": "corruption; moral degeneration"
             },
-            "onyomi": [
-                {
-                    "text": "ダラク",
-                    "reading": "ダラク"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Menunjukkan kemerosotan nilai, perilaku, atau kehidupan seseorang maupun kelompok.",
-                "en": "Explanation: Menunjukkan kemerosotan nilai, perilaku, atau kehidupan seseorang maupun kelompok."
+                "id": "Contoh materi: 政治が堕落する、生活が堕落する。",
+                "en": "Examples from the lesson: 政治が堕落する, 生活が堕落する."
+            },
+            "explanation": {
+                "id": "堕落 berarti kemerosotan nilai, moral, atau kualitas perilaku.",
+                "en": "堕落 means a decline in values, morality, or standards of behavior."
             },
             "nuance": {
-                "id": "Nuansa: Biasanya bernuansa penilaian moral atau sosial, bukan jatuh secara fisik.",
-                "en": "Nuance: Biasanya bernuansa penilaian moral atau sosial, bukan jatuh secara fisik."
+                "id": "Sumber menggunakannya untuk politik dan kehidupan; bukan jatuh secara fisik.",
+                "en": "The source uses it for politics and life; it is not a physical fall."
             },
             "philosophy": {
-                "id": "Cara membedakan: Pakai 堕落 untuk kejatuhan dalam hal moral atau kualitas perilaku.",
-                "en": "Distinction tip: Pakai 堕落 untuk kejatuhan dalam hal moral atau kualitas perilaku."
+                "id": "Ingat 堕落 sebagai jatuhnya kualitas moral atau kehidupan.",
+                "en": "Remember 堕落 as a fall in moral or personal standards."
             },
             "vocabulary": [
                 {
-                    "word": "堕落",
-                    "reading": "だらく",
+                    "word": "政治が堕落する",
+                    "reading": "せいじがだらくする",
                     "meaning": {
-                        "id": "kemerosotan moral; kebejatan",
-                        "en": "moral corruption; degradation"
+                        "id": "politik mengalami kemerosotan moral",
+                        "en": "politics becomes corrupt"
                     }
                 },
                 {
                     "word": "生活が堕落する",
                     "reading": "せいかつがだらくする",
                     "meaning": {
-                        "id": "kehidupan menjadi merosot atau tidak teratur",
-                        "en": "one’s lifestyle degenerates"
+                        "id": "kehidupan mengalami kemerosotan",
+                        "en": "one's lifestyle deteriorates"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 墜落・堕落・転落・暴落."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "だらく",
+            "category": {
+                "id": "落を含む語の使い分け",
+                "en": "落を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-023",
             "character": "転落",
             "meaning": {
-                "id": "terjatuh; jatuh dari posisi atau status",
+                "id": "terjatuh; kemerosotan posisi",
                 "en": "fall; downfall"
             },
-            "onyomi": [
-                {
-                    "text": "テンラク",
-                    "reading": "テンラク"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Menunjukkan seseorang atau sesuatu jatuh dari tempat tinggi atau turun dari posisi sebelumnya.",
-                "en": "Explanation: Menunjukkan seseorang atau sesuatu jatuh dari tempat tinggi atau turun dari posisi sebelumnya."
+                "id": "Contoh materi: 崖から転落する、事業に失敗し、転落する。",
+                "en": "Examples from the lesson: 崖から転落する, 事業に失敗し、転落する."
+            },
+            "explanation": {
+                "id": "転落 berarti jatuh dari tempat tinggi atau merosot dari posisi yang sebelumnya baik.",
+                "en": "転落 means falling from a high place or declining from a formerly good position."
             },
             "nuance": {
-                "id": "Nuansa: Bisa konkret seperti jatuh dari tebing dan kiasan seperti kehilangan kedudukan setelah gagal.",
-                "en": "Nuance: Bisa konkret seperti jatuh dari tebing dan kiasan seperti kehilangan kedudukan setelah gagal."
+                "id": "Sumber memberikan makna fisik dari tebing dan makna kiasan setelah kegagalan usaha.",
+                "en": "The source gives a physical fall from a cliff and a figurative fall after business failure."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 転落 sebagai perpindahan jatuh ke posisi yang lebih rendah.",
-                "en": "Distinction tip: Ingat 転落 sebagai perpindahan jatuh ke posisi yang lebih rendah."
+                "id": "Ingat perubahan posisi dari atas ke bawah, secara nyata maupun kiasan.",
+                "en": "Remember a change from a higher position to a lower one, literally or figuratively."
             },
             "vocabulary": [
-                {
-                    "word": "転落",
-                    "reading": "てんらく",
-                    "meaning": {
-                        "id": "terjatuh; jatuh dari posisi atau status",
-                        "en": "fall; downfall"
-                    }
-                },
                 {
                     "word": "崖から転落する",
                     "reading": "がけからてんらくする",
                     "meaning": {
                         "id": "terjatuh dari tebing",
-                        "en": "to fall from a cliff"
+                        "en": "fall from a cliff"
+                    }
+                },
+                {
+                    "word": "事業に失敗し、転落する",
+                    "reading": "じぎょうにしっぱいし、てんらくする",
+                    "meaning": {
+                        "id": "mengalami kemerosotan setelah usaha gagal",
+                        "en": "suffer a downfall after a business failure"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 墜落・堕落・転落・暴落."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "てんらく",
+            "category": {
+                "id": "落を含む語の使い分け",
+                "en": "落を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-024",
             "character": "暴落",
             "meaning": {
-                "id": "penurunan drastis; anjlok tajam",
-                "en": "sharp fall; crash"
+                "id": "anjlok tajam; penurunan drastis",
+                "en": "sharp fall; slump"
             },
-            "onyomi": [
-                {
-                    "text": "ボウラク",
-                    "reading": "ボウラク"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Menggambarkan harga atau nilai yang turun dengan sangat cepat dan besar.",
-                "en": "Explanation: Menggambarkan harga atau nilai yang turun dengan sangat cepat dan besar."
+                "id": "Contoh materi: 株価が暴落する。",
+                "en": "Examples from the lesson: 株価が暴落する."
+            },
+            "explanation": {
+                "id": "暴落 berarti penurunan harga atau nilai secara tajam dalam waktu relatif singkat.",
+                "en": "暴落 means a sharp drop in price or value over a relatively short period."
             },
             "nuance": {
-                "id": "Nuansa: Umumnya digunakan untuk saham, harga pasar, atau nilai aset; tidak berarti benda jatuh secara fisik.",
-                "en": "Nuance: Umumnya digunakan untuk saham, harga pasar, atau nilai aset; tidak berarti benda jatuh secara fisik."
+                "id": "Sumber secara khusus memberi contoh harga saham; biasanya digunakan untuk pasar atau harga.",
+                "en": "The source specifically gives stock prices; it is commonly used for markets or prices."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 暴落 untuk angka atau harga yang anjlok tajam dalam waktu singkat.",
-                "en": "Distinction tip: Ingat 暴落 untuk angka atau harga yang anjlok tajam dalam waktu singkat."
+                "id": "Bayangkan grafik harga yang turun tajam dalam waktu singkat.",
+                "en": "Picture a price chart plunging sharply in a short time."
             },
             "vocabulary": [
-                {
-                    "word": "暴落",
-                    "reading": "ぼうらく",
-                    "meaning": {
-                        "id": "penurunan drastis; anjlok tajam",
-                        "en": "sharp fall; crash"
-                    }
-                },
                 {
                     "word": "株価が暴落する",
                     "reading": "かぶかがぼうらくする",
                     "meaning": {
-                        "id": "harga saham anjlok tajam",
+                        "id": "harga saham anjlok",
                         "en": "stock prices plunge"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 墜落・堕落・転落・暴落."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "ぼうらく",
+            "category": {
+                "id": "落を含む語の使い分け",
+                "en": "落を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-025",
             "character": "緊急",
             "meaning": {
-                "id": "darurat; keadaan mendesak",
-                "en": "emergency; urgent situation"
+                "id": "darurat; mendesak",
+                "en": "emergency; urgent"
             },
-            "onyomi": [
-                {
-                    "text": "キンキュウ",
-                    "reading": "キンキュウ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Menunjukkan situasi serius yang membutuhkan tindakan segera.",
-                "en": "Explanation: Menunjukkan situasi serius yang membutuhkan tindakan segera."
+                "id": "Contoh materi: 緊急連絡。",
+                "en": "Examples from the lesson: 緊急連絡."
+            },
+            "explanation": {
+                "id": "緊急 menunjukkan keadaan yang membutuhkan perhatian atau tindakan segera karena sifatnya penting atau berbahaya.",
+                "en": "緊急 describes a situation requiring immediate attention or action because it is important or dangerous."
             },
             "nuance": {
-                "id": "Nuansa: Biasanya merujuk pada keadaan atau kondisi, misalnya kontak darurat dan situasi mendesak.",
-                "en": "Nuance: Biasanya merujuk pada keadaan atau kondisi, misalnya kontak darurat dan situasi mendesak."
+                "id": "Sumber mencontohkan kontak darurat; kata ini menandai situasinya sebagai keadaan darurat.",
+                "en": "The source gives emergency contact as an example; the word marks the situation as an emergency."
             },
             "philosophy": {
-                "id": "Cara membedakan: Pakai 緊急 untuk menyebut keadaan darurat itu sendiri.",
-                "en": "Distinction tip: Pakai 緊急 untuk menyebut keadaan darurat itu sendiri."
+                "id": "Hubungkan 緊急 dengan kondisi yang tidak bisa menunggu.",
+                "en": "Associate 緊急 with a situation that cannot wait."
             },
             "vocabulary": [
-                {
-                    "word": "緊急",
-                    "reading": "きんきゅう",
-                    "meaning": {
-                        "id": "darurat; keadaan mendesak",
-                        "en": "emergency; urgent situation"
-                    }
-                },
                 {
                     "word": "緊急連絡",
                     "reading": "きんきゅうれんらく",
@@ -1162,241 +1105,222 @@ const minggu6Hari3 = {
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 緊急・至急・応急・早急."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "きんきゅう",
+            "category": {
+                "id": "緊急・至急・応急・早急の使い分け",
+                "en": "緊急・至急・応急・早急の使い分け"
+            }
         },
         {
             "id": "week6-day3-026",
             "character": "至急",
             "meaning": {
-                "id": "segera; secepat mungkin",
-                "en": "urgently; as soon as possible"
+                "id": "segera; secepatnya",
+                "en": "as soon as possible; urgently"
             },
-            "onyomi": [
-                {
-                    "text": "シキュウ",
-                    "reading": "シキュウ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Meminta tindakan dilakukan dengan segera karena tidak boleh ditunda.",
-                "en": "Explanation: Meminta tindakan dilakukan dengan segera karena tidak boleh ditunda."
+                "id": "Contoh materi: 至急お越しください。",
+                "en": "Examples from the lesson: 至急お越しください."
+            },
+            "explanation": {
+                "id": "至急 meminta suatu tindakan dilakukan dengan segera.",
+                "en": "至急 asks for an action to be carried out as soon as possible."
             },
             "nuance": {
-                "id": "Nuansa: Sering digunakan dalam instruksi atau permintaan, misalnya 至急お越しください.",
-                "en": "Nuance: Sering digunakan dalam instruksi atau permintaan, misalnya 至急お越しください."
+                "id": "Sering muncul dalam instruksi atau permintaan seperti 至急お越しください; menekankan kecepatan respons.",
+                "en": "It often appears in instructions or requests such as 至急お越しください; it emphasizes a fast response."
             },
             "philosophy": {
-                "id": "Cara membedakan: Bedakan dengan 緊急: 至急 menekankan seberapa cepat tindakan harus dilakukan.",
-                "en": "Distinction tip: Bedakan dengan 緊急: 至急 menekankan seberapa cepat tindakan harus dilakukan."
+                "id": "Bayangkan pesan yang meminta penerima datang tanpa menunda.",
+                "en": "Picture a message asking the recipient to come without delay."
             },
             "vocabulary": [
-                {
-                    "word": "至急",
-                    "reading": "しきゅう",
-                    "meaning": {
-                        "id": "segera; secepat mungkin",
-                        "en": "urgently; as soon as possible"
-                    }
-                },
                 {
                     "word": "至急お越しください",
                     "reading": "しきゅうおこしください",
                     "meaning": {
-                        "id": "harap datang segera",
+                        "id": "mohon segera datang",
                         "en": "please come as soon as possible"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 緊急・至急・応急・早急."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "しきゅう",
+            "category": {
+                "id": "緊急・至急・応急・早急の使い分け",
+                "en": "緊急・至急・応急・早急の使い分け"
+            }
         },
         {
             "id": "week6-day3-027",
             "character": "応急",
             "meaning": {
-                "id": "penanganan sementara dalam keadaan darurat",
-                "en": "emergency; makeshift response"
+                "id": "darurat sementara; penanganan awal",
+                "en": "emergency; temporary first response"
             },
-            "onyomi": [
-                {
-                    "text": "オウキュウ",
-                    "reading": "オウキュウ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Tindakan awal yang dilakukan untuk menangani masalah sebelum penanganan penuh tersedia.",
-                "en": "Explanation: Tindakan awal yang dilakukan untuk menangani masalah sebelum penanganan penuh tersedia."
+                "id": "Contoh materi: 応急処置。",
+                "en": "Examples from the lesson: 応急処置."
+            },
+            "explanation": {
+                "id": "応急 merujuk pada tindakan sementara yang dilakukan segera untuk menangani keadaan darurat.",
+                "en": "応急 refers to temporary measures taken promptly to handle an emergency."
             },
             "nuance": {
-                "id": "Nuansa: Sering muncul dalam kata 応急処置, yaitu pertolongan atau tindakan sementara.",
-                "en": "Nuance: Sering muncul dalam kata 応急処置, yaitu pertolongan atau tindakan sementara."
+                "id": "Paling jelas terlihat dalam 応急処置, yaitu penanganan awal sebelum tindakan lanjutan.",
+                "en": "It is clearest in 応急処置, the initial treatment before further care."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 応急 sebagai solusi awal yang membantu keadaan darurat, bukan penyelesaian permanen.",
-                "en": "Distinction tip: Ingat 応急 sebagai solusi awal yang membantu keadaan darurat, bukan penyelesaian permanen."
+                "id": "Ingat 応急 sebagai pertolongan atau tindakan pertama yang bersifat sementara.",
+                "en": "Remember 応急 as a first, temporary response."
             },
             "vocabulary": [
-                {
-                    "word": "応急",
-                    "reading": "おうきゅう",
-                    "meaning": {
-                        "id": "penanganan sementara dalam keadaan darurat",
-                        "en": "emergency; makeshift response"
-                    }
-                },
                 {
                     "word": "応急処置",
                     "reading": "おうきゅうしょち",
                     "meaning": {
-                        "id": "pertolongan atau penanganan darurat sementara",
+                        "id": "pertolongan atau penanganan pertama",
                         "en": "first aid; emergency treatment"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 緊急・至急・応急・早急."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "おうきゅう",
+            "category": {
+                "id": "緊急・至急・応急・早急の使い分け",
+                "en": "緊急・至急・応急・早急の使い分け"
+            }
         },
         {
             "id": "week6-day3-028",
             "character": "早急",
             "meaning": {
-                "id": "segera; secepatnya",
-                "en": "prompt; urgent"
+                "id": "segera; cepat ditangani",
+                "en": "prompt; immediate"
             },
-            "onyomi": [
-                {
-                    "text": "ソウキュウ",
-                    "reading": "ソウキュウ"
-                },
-                {
-                    "text": "サッキュウ",
-                    "reading": "サッキュウ"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Menunjukkan kebutuhan untuk menangani sesuatu dengan cepat tanpa penundaan.",
-                "en": "Explanation: Menunjukkan kebutuhan untuk menangani sesuatu dengan cepat tanpa penundaan."
+                "id": "Contoh materi: 早急な対処。",
+                "en": "Examples from the lesson: 早急な対処."
+            },
+            "explanation": {
+                "id": "早急 berarti sesuatu perlu ditangani atau dilakukan dengan cepat.",
+                "en": "早急 means something needs to be handled or done promptly."
             },
             "nuance": {
-                "id": "Nuansa: Memiliki dua cara baca yang dikenal, そうきゅう dan さっきゅう; sering menerangkan tindakan atau respons.",
-                "en": "Nuance: Memiliki dua cara baca yang dikenal, そうきゅう dan さっきゅう; sering menerangkan tindakan atau respons."
+                "id": "Materi mencatat dua bacaan, そうきゅう dan さっきゅう; digunakan untuk menyatakan perlunya penanganan cepat.",
+                "en": "The lesson lists two readings, そうきゅう and さっきゅう; it expresses the need for prompt action."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat bahwa 早急 menunjuk sifat tindakan yang perlu dilakukan cepat, bukan nama situasi darurat.",
-                "en": "Distinction tip: Ingat bahwa 早急 menunjuk sifat tindakan yang perlu dilakukan cepat, bukan nama situasi darurat."
+                "id": "Hafalkan kedua bacaan yang dicantumkan dan kaitkan dengan respons cepat.",
+                "en": "Memorize both listed readings and connect the word with prompt action."
             },
             "vocabulary": [
                 {
-                    "word": "早急",
-                    "reading": "そうきゅう／さっきゅう",
-                    "meaning": {
-                        "id": "segera; secepatnya",
-                        "en": "prompt; urgent"
-                    }
-                },
-                {
                     "word": "早急な対処",
-                    "reading": "さっきゅうなたいしょ",
+                    "reading": "そうきゅうなたいしょ／さっきゅうなたいしょ",
                     "meaning": {
                         "id": "penanganan yang segera",
                         "en": "prompt action"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 緊急・至急・応急・早急."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "そうきゅう／さっきゅう",
+            "category": {
+                "id": "緊急・至急・応急・早急の使い分け",
+                "en": "緊急・至急・応急・早急の使い分け"
+            }
         },
         {
             "id": "week6-day3-029",
             "character": "原点",
             "meaning": {
-                "id": "titik awal; titik asal",
+                "id": "titik asal; titik awal",
                 "en": "origin; starting point"
             },
-            "onyomi": [
-                {
-                    "text": "ゲンテン",
-                    "reading": "ゲンテン"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Titik atau keadaan awal yang menjadi dasar perjalanan atau perkembangan selanjutnya.",
-                "en": "Explanation: Titik atau keadaan awal yang menjadi dasar perjalanan atau perkembangan selanjutnya."
+                "id": "Contoh materi: 原点に戻る。",
+                "en": "Examples from the lesson: 原点に戻る."
+            },
+            "explanation": {
+                "id": "原点 adalah titik awal atau dasar mula dari suatu proses atau pemikiran.",
+                "en": "原点 is the starting point or original basis of a process or way of thinking."
             },
             "nuance": {
-                "id": "Nuansa: Sering dipakai secara kiasan untuk kembali mengingat tujuan atau prinsip awal.",
-                "en": "Nuance: Sering dipakai secara kiasan untuk kembali mengingat tujuan atau prinsip awal."
+                "id": "原点に戻る berarti kembali ke dasar atau titik awal untuk meninjau ulang sesuatu.",
+                "en": "原点に戻る means returning to the starting point or basics to reconsider something."
             },
             "philosophy": {
-                "id": "Cara membedakan: Pakai 原点 untuk mengingat titik mula sebelum sesuatu berkembang.",
-                "en": "Distinction tip: Pakai 原点 untuk mengingat titik mula sebelum sesuatu berkembang."
+                "id": "Bayangkan menelusuri kembali ke tempat semuanya bermula.",
+                "en": "Picture tracing back to where everything began."
             },
             "vocabulary": [
-                {
-                    "word": "原点",
-                    "reading": "げんてん",
-                    "meaning": {
-                        "id": "titik awal; titik asal",
-                        "en": "origin; starting point"
-                    }
-                },
                 {
                     "word": "原点に戻る",
                     "reading": "げんてんにもどる",
                     "meaning": {
                         "id": "kembali ke titik awal",
-                        "en": "to return to the starting point"
+                        "en": "return to the starting point"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 原点・焦点・視点・盲点."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "げんてん",
+            "category": {
+                "id": "点を含む語の使い分け",
+                "en": "点を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-030",
             "character": "焦点",
             "meaning": {
-                "id": "titik fokus; fokus",
+                "id": "fokus; titik fokus",
                 "en": "focus; focal point"
             },
-            "onyomi": [
-                {
-                    "text": "ショウテン",
-                    "reading": "ショウテン"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Titik tempat cahaya berkumpul atau hal utama yang menjadi pusat perhatian.",
-                "en": "Explanation: Titik tempat cahaya berkumpul atau hal utama yang menjadi pusat perhatian."
+                "id": "Contoh materi: 焦点を合わす。",
+                "en": "Examples from the lesson: 焦点を合わす."
+            },
+            "explanation": {
+                "id": "焦点 adalah titik yang menjadi pusat perhatian atau tempat sesuatu difokuskan.",
+                "en": "焦点 is the point at which attention is concentrated or something is brought into focus."
             },
             "nuance": {
-                "id": "Nuansa: Digunakan secara konkret pada lensa dan secara kiasan dalam diskusi atau masalah.",
-                "en": "Nuance: Digunakan secara konkret pada lensa dan secara kiasan dalam diskusi atau masalah."
+                "id": "Dalam contoh 焦点を合わす, kata ini berhubungan dengan mengatur fokus agar objek terlihat jelas.",
+                "en": "In 焦点を合わす, the word relates to adjusting focus so an object can be seen clearly."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 焦点 sebagai titik yang sedang diarahkan atau dipusatkan.",
-                "en": "Distinction tip: Ingat 焦点 sebagai titik yang sedang diarahkan atau dipusatkan."
+                "id": "Bayangkan lensa kamera yang sedang diatur agar fokus.",
+                "en": "Picture a camera lens being adjusted to focus."
             },
             "vocabulary": [
                 {
-                    "word": "焦点",
-                    "reading": "しょうてん",
+                    "word": "焦点を合わす",
+                    "reading": "しょうてんをあわす",
                     "meaning": {
-                        "id": "titik fokus; fokus",
-                        "en": "focus; focal point"
-                    }
-                },
-                {
-                    "word": "焦点を合わせる",
-                    "reading": "しょうてんをあわせる",
-                    "meaning": {
-                        "id": "memfokuskan; menyesuaikan fokus",
-                        "en": "to bring into focus"
+                        "id": "memusatkan fokus",
+                        "en": "bring into focus"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 原点・焦点・視点・盲点."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "しょうてん",
+            "category": {
+                "id": "点を含む語の使い分け",
+                "en": "点を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-031",
@@ -1405,44 +1329,40 @@ const minggu6Hari3 = {
                 "id": "sudut pandang; perspektif",
                 "en": "viewpoint; perspective"
             },
-            "onyomi": [
-                {
-                    "text": "シテン",
-                    "reading": "シテン"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Posisi atau cara seseorang melihat dan menilai suatu persoalan.",
-                "en": "Explanation: Posisi atau cara seseorang melihat dan menilai suatu persoalan."
+                "id": "Contoh materi: 視点を変える。",
+                "en": "Examples from the lesson: 視点を変える."
+            },
+            "explanation": {
+                "id": "視点 adalah posisi atau cara seseorang melihat dan menilai suatu hal.",
+                "en": "視点 is the position or way from which someone views and evaluates something."
             },
             "nuance": {
-                "id": "Nuansa: Menekankan perspektif pengamat; mengubah 視点 dapat menghasilkan pemahaman berbeda.",
-                "en": "Nuance: Menekankan perspektif pengamat; mengubah 視点 dapat menghasilkan pemahaman berbeda."
+                "id": "視点を変える berarti mengganti perspektif, bukan mengubah objek yang sedang dilihat.",
+                "en": "視点を変える means changing one's perspective, not changing the object being viewed."
             },
             "philosophy": {
-                "id": "Cara membedakan: Pakai 視点 ketika membahas dari sudut pandang siapa suatu hal dilihat.",
-                "en": "Distinction tip: Pakai 視点 ketika membahas dari sudut pandang siapa suatu hal dilihat."
+                "id": "Bayangkan melihat masalah yang sama dari sisi yang berbeda.",
+                "en": "Picture looking at the same issue from a different side."
             },
             "vocabulary": [
-                {
-                    "word": "視点",
-                    "reading": "してん",
-                    "meaning": {
-                        "id": "sudut pandang; perspektif",
-                        "en": "viewpoint; perspective"
-                    }
-                },
                 {
                     "word": "視点を変える",
                     "reading": "してんをかえる",
                     "meaning": {
                         "id": "mengubah sudut pandang",
-                        "en": "to change one’s perspective"
+                        "en": "change one's perspective"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 原点・焦点・視点・盲点."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "してん",
+            "category": {
+                "id": "点を含む語の使い分け",
+                "en": "点を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-032",
@@ -1451,136 +1371,132 @@ const minggu6Hari3 = {
                 "id": "titik buta; hal yang luput dari perhatian",
                 "en": "blind spot; overlooked point"
             },
-            "onyomi": [
-                {
-                    "text": "モウテン",
-                    "reading": "モウテン"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Bagian yang tidak terlihat atau aspek penting yang tidak disadari seseorang.",
-                "en": "Explanation: Bagian yang tidak terlihat atau aspek penting yang tidak disadari seseorang."
+                "id": "Contoh materi: 盲点を突く。",
+                "en": "Examples from the lesson: 盲点を突く."
+            },
+            "explanation": {
+                "id": "盲点 adalah bagian atau persoalan yang tidak terlihat atau tidak disadari seseorang.",
+                "en": "盲点 is an area or issue that someone fails to notice or recognize."
             },
             "nuance": {
-                "id": "Nuansa: Dapat bermakna fisik dalam penglihatan maupun kiasan sebagai kelemahan atau celah yang terlewat.",
-                "en": "Nuance: Dapat bermakna fisik dalam penglihatan maupun kiasan sebagai kelemahan atau celah yang terlewat."
+                "id": "盲点を突く berarti memanfaatkan bagian yang luput dari perhatian atau kelemahan yang tidak disadari.",
+                "en": "盲点を突く means exploiting a point or weakness that has gone unnoticed."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 盲点 sebagai sesuatu yang tidak masuk dalam perhatian padahal penting.",
-                "en": "Distinction tip: Ingat 盲点 sebagai sesuatu yang tidak masuk dalam perhatian padahal penting."
+                "id": "Ingat 盲点 sebagai sesuatu yang berada di luar jangkauan perhatian.",
+                "en": "Remember 盲点 as something outside the range of one's attention."
             },
             "vocabulary": [
-                {
-                    "word": "盲点",
-                    "reading": "もうてん",
-                    "meaning": {
-                        "id": "titik buta; hal yang luput dari perhatian",
-                        "en": "blind spot; overlooked point"
-                    }
-                },
                 {
                     "word": "盲点を突く",
                     "reading": "もうてんをつく",
                     "meaning": {
-                        "id": "memanfaatkan titik lemah yang luput diperhatikan",
-                        "en": "to exploit a blind spot"
+                        "id": "menyerang atau memanfaatkan titik lemah yang luput",
+                        "en": "exploit a blind spot"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 原点・焦点・視点・盲点."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "もうてん",
+            "category": {
+                "id": "点を含む語の使い分け",
+                "en": "点を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-033",
             "character": "静脈",
             "meaning": {
-                "id": "pembuluh balik; vena",
+                "id": "vena; pembuluh balik",
                 "en": "vein"
             },
-            "onyomi": [
-                {
-                    "text": "ジョウミャク",
-                    "reading": "ジョウミャク"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Pembuluh darah yang membawa darah kembali menuju jantung.",
-                "en": "Explanation: Pembuluh darah yang membawa darah kembali menuju jantung."
+                "id": "Contoh materi: 静脈、動脈。",
+                "en": "Examples from the lesson: 静脈, 動脈."
+            },
+            "explanation": {
+                "id": "静脈 adalah pembuluh darah yang dikenal sebagai vena.",
+                "en": "静脈 is a blood vessel known as a vein."
             },
             "nuance": {
-                "id": "Nuansa: Dalam pelajaran biologi, 静脈 dibedakan dari 動脈 yang membawa darah keluar dari jantung.",
-                "en": "Nuance: Dalam pelajaran biologi, 静脈 dibedakan dari 動脈 yang membawa darah keluar dari jantung."
+                "id": "Materi memasangkannya sebagai lawan istilah 動脈（どうみゃく）, yaitu arteri.",
+                "en": "The lesson pairs it with the contrasting term 動脈（どうみゃく）, which means artery."
             },
             "philosophy": {
-                "id": "Cara membedakan: Pasangkan 静脈 dengan 動脈 agar arah aliran darah tidak tertukar.",
-                "en": "Distinction tip: Pasangkan 静脈 dengan 動脈 agar arah aliran darah tidak tertukar."
+                "id": "Hafalkan sebagai pasangan istilah anatomi 静脈 dan 動脈.",
+                "en": "Memorize it as an anatomy term pair: 静脈 and 動脈."
             },
             "vocabulary": [
                 {
                     "word": "静脈",
                     "reading": "じょうみゃく",
                     "meaning": {
-                        "id": "pembuluh balik; vena",
+                        "id": "vena; pembuluh balik",
                         "en": "vein"
                     }
                 },
                 {
-                    "word": "静脈と動脈",
-                    "reading": "じょうみゃくとどうみゃく",
+                    "word": "動脈",
+                    "reading": "どうみゃく",
                     "meaning": {
-                        "id": "vena dan arteri",
-                        "en": "veins and arteries"
+                        "id": "arteri; pembuluh nadi",
+                        "en": "artery"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 静脈・文脈・人脈・山脈."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "じょうみゃく",
+            "category": {
+                "id": "脈を含む語の使い分け",
+                "en": "脈を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-034",
             "character": "文脈",
             "meaning": {
-                "id": "konteks; alur teks",
+                "id": "konteks; hubungan dalam teks",
                 "en": "context"
             },
-            "onyomi": [
-                {
-                    "text": "ブンミャク",
-                    "reading": "ブンミャク"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Rangkaian kalimat atau informasi di sekitar suatu kata yang membantu menentukan maknanya.",
-                "en": "Explanation: Rangkaian kalimat atau informasi di sekitar suatu kata yang membantu menentukan maknanya."
+                "id": "Contoh materi: 文脈によって意味が変わる。",
+                "en": "Examples from the lesson: 文脈によって意味が変わる."
+            },
+            "explanation": {
+                "id": "文脈 adalah konteks atau hubungan antarbagiannya dalam suatu teks atau ujaran.",
+                "en": "文脈 is the context or relationship among parts of a text or utterance."
             },
             "nuance": {
-                "id": "Nuansa: Makna kata dapat berubah sesuai 文脈, sehingga tidak cukup memahami kata secara terpisah.",
-                "en": "Nuance: Makna kata dapat berubah sesuai 文脈, sehingga tidak cukup memahami kata secara terpisah."
+                "id": "文脈によって意味が変わる menekankan bahwa arti kata dapat berubah tergantung konteks.",
+                "en": "文脈によって意味が変わる emphasizes that a word's meaning can change depending on context."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 文脈 sebagai lingkungan kalimat yang memberi petunjuk makna.",
-                "en": "Distinction tip: Ingat 文脈 sebagai lingkungan kalimat yang memberi petunjuk makna."
+                "id": "Ingat文脈 sebagai lingkungan kata yang membantu menentukan maknanya.",
+                "en": "Remember 文脈 as the surroundings of a word that help determine its meaning."
             },
             "vocabulary": [
-                {
-                    "word": "文脈",
-                    "reading": "ぶんみゃく",
-                    "meaning": {
-                        "id": "konteks; alur teks",
-                        "en": "context"
-                    }
-                },
                 {
                     "word": "文脈によって意味が変わる",
                     "reading": "ぶんみゃくによっていみがかわる",
                     "meaning": {
-                        "id": "maknanya berubah menurut konteks",
-                        "en": "the meaning changes depending on the context"
+                        "id": "makna berubah bergantung pada konteks",
+                        "en": "meaning changes depending on context"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 静脈・文脈・人脈・山脈."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "ぶんみゃく",
+            "category": {
+                "id": "脈を含む語の使い分け",
+                "en": "脈を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-035",
@@ -1589,116 +1505,96 @@ const minggu6Hari3 = {
                 "id": "jaringan relasi; koneksi",
                 "en": "network of contacts"
             },
-            "onyomi": [
-                {
-                    "text": "ジンミャク",
-                    "reading": "ジンミャク"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Kumpulan hubungan atau kenalan yang dapat terhubung melalui pekerjaan atau kehidupan sosial.",
-                "en": "Explanation: Kumpulan hubungan atau kenalan yang dapat terhubung melalui pekerjaan atau kehidupan sosial."
+                "id": "Contoh materi: 彼は政界に人脈がある。",
+                "en": "Examples from the lesson: 彼は政界に人脈がある."
+            },
+            "explanation": {
+                "id": "人脈 adalah jaringan orang yang dikenal dan dapat menjadi hubungan sosial atau profesional.",
+                "en": "人脈 is a network of people one knows through social or professional relationships."
             },
             "nuance": {
-                "id": "Nuansa: Lebih menekankan jaringan orang yang dikenal daripada satu hubungan pertemanan saja.",
-                "en": "Nuance: Lebih menekankan jaringan orang yang dikenal daripada satu hubungan pertemanan saja."
+                "id": "Contoh sumber menempatkannya di dunia politik; kata ini menekankan hubungan antarorang, bukan konteks sebuah teks.",
+                "en": "The source places it in the political world; it emphasizes connections among people, not textual context."
             },
             "philosophy": {
-                "id": "Cara membedakan: Bayangkan banyak hubungan antarorang yang membentuk sebuah jaringan.",
-                "en": "Distinction tip: Bayangkan banyak hubungan antarorang yang membentuk sebuah jaringan."
+                "id": "Bayangkan jaringan kontak yang terhubung melalui banyak orang.",
+                "en": "Picture a network of contacts connected through many people."
             },
             "vocabulary": [
                 {
-                    "word": "人脈",
-                    "reading": "じんみゃく",
+                    "word": "彼は政界に人脈がある",
+                    "reading": "かれはせいかいにじんみゃくがある",
                     "meaning": {
-                        "id": "jaringan relasi; koneksi",
-                        "en": "network of contacts"
-                    }
-                },
-                {
-                    "word": "政界に人脈がある",
-                    "reading": "せいかいにじんみゃくがある",
-                    "meaning": {
-                        "id": "memiliki jaringan relasi di dunia politik",
-                        "en": "to have contacts in political circles"
+                        "id": "dia memiliki jaringan koneksi di dunia politik",
+                        "en": "he has connections in political circles"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 静脈・文脈・人脈・山脈."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "じんみゃく",
+            "category": {
+                "id": "脈を含む語の使い分け",
+                "en": "脈を含む語の使い分け"
+            }
         },
         {
             "id": "week6-day3-036",
             "character": "山脈",
             "meaning": {
-                "id": "rangkaian pegunungan; pegunungan",
+                "id": "barisan pegunungan; pegunungan",
                 "en": "mountain range"
             },
-            "onyomi": [
-                {
-                    "text": "サンミャク",
-                    "reading": "サンミャク"
-                }
-            ],
+            "onyomi": [],
             "kunyomi": [],
             "usage": {
-                "id": "Penjelasan: Rangkaian gunung yang saling terhubung dalam satu bentang geografis.",
-                "en": "Explanation: Rangkaian gunung yang saling terhubung dalam satu bentang geografis."
+                "id": "Contoh materi: 美しい山脈の写真。",
+                "en": "Examples from the lesson: 美しい山脈の写真."
+            },
+            "explanation": {
+                "id": "山脈 adalah rangkaian gunung yang saling terhubung dalam satu jalur atau wilayah.",
+                "en": "山脈 is a connected chain of mountains forming a range."
             },
             "nuance": {
-                "id": "Nuansa: Berbeda dari satu gunung tunggal; 山脈 menunjuk kumpulan gunung yang memanjang.",
-                "en": "Nuance: Berbeda dari satu gunung tunggal; 山脈 menunjuk kumpulan gunung yang memanjang."
+                "id": "Berbeda dari 静脈 dan 人脈, unsur 脈 di sini menggambarkan rangkaian atau jalur pegunungan.",
+                "en": "Unlike 静脈 and 人脈, 脈 here describes a chain or range of mountains."
             },
             "philosophy": {
-                "id": "Cara membedakan: Ingat 脈 sebagai rangkaian atau jalur yang berkesinambungan, lalu hubungkan dengan gunung.",
-                "en": "Distinction tip: Ingat 脈 sebagai rangkaian atau jalur yang berkesinambungan, lalu hubungkan dengan gunung."
+                "id": "Bayangkan deretan puncak gunung yang memanjang dan saling tersambung.",
+                "en": "Picture a long, connected line of mountain peaks."
             },
             "vocabulary": [
-                {
-                    "word": "山脈",
-                    "reading": "さんみゃく",
-                    "meaning": {
-                        "id": "rangkaian pegunungan; pegunungan",
-                        "en": "mountain range"
-                    }
-                },
                 {
                     "word": "美しい山脈の写真",
                     "reading": "うつくしいさんみゃくのしゃしん",
                     "meaning": {
-                        "id": "foto rangkaian pegunungan yang indah",
-                        "en": "a photo of a beautiful mountain range"
+                        "id": "foto pegunungan yang indah",
+                        "en": "a photograph of a beautiful mountain range"
                     }
                 }
             ],
-            "sourceNote": "Kelompok perbandingan: 静脈・文脈・人脈・山脈."
+            "sourceNote": "Diorganisasi dari materi referensi Minggu 6 Hari 3.",
+            "reading": "さんみゃく",
+            "category": {
+                "id": "脈を含む語の使い分け",
+                "en": "脈を含む語の使い分け"
+            }
         }
     ],
     "notes": [
         {
-            "id": "Hari 3 mengajarkan kata-kata yang terlihat mirip atau memiliki unsur kanji sama, tetapi fungsi dan konteksnya berbeda.",
-            "en": "Day 3 teaches words that look similar or share kanji components but differ in function and context."
+            "id": "Hari 3 mengelompokkan kosakata menurut perbedaan makna dan konteks pemakaiannya.",
+            "en": "Day 3 groups vocabulary by differences in meaning and usage context."
         },
         {
-            "id": "了解 berarti memahami, 承諾 berarti menyetujui permintaan, 了承 berarti memahami dan menerima keadaan, sedangkan 認証 adalah verifikasi keaslian atau identitas.",
-            "en": "了解 means to understand, 承諾 means to consent to a request, 了承 means to acknowledge and accept a situation, and 認証 is authentication."
+            "id": "Kolom reading menunjukkan bacaan kosakata utuh; onyomi dan kunyomi dikosongkan karena fokus materi adalah pemakaian kata.",
+            "en": "The reading field shows the reading of the complete word; onyomi and kunyomi are empty because the lesson focuses on word usage."
         },
         {
-            "id": "分解 membongkar menjadi bagian, 分析 mengkaji unsur atau data, 分類 mengelompokkan, dan 分配 membagikan kepada beberapa pihak.",
-            "en": "分解 breaks something into parts, 分析 examines components or data, 分類 categorizes, and 分配 distributes among recipients."
-        },
-        {
-            "id": "観覧 berkaitan dengan menyaksikan, 回覧 dengan mengedarkan dokumen, 閲覧 dengan membaca atau menelusuri, dan 展覧 dengan memamerkan karya.",
-            "en": "観覧 relates to viewing, 回覧 to circulating documents, 閲覧 to browsing or reading, and 展覧 to exhibiting works."
-        },
-        {
-            "id": "緊急 menunjuk keadaan darurat, 至急 menekankan tindakan yang harus segera dilakukan, 応急 adalah penanganan sementara, dan 早急 berarti segera atau cepat.",
-            "en": "緊急 refers to an emergency, 至急 emphasizes immediate action, 応急 is an interim emergency response, and 早急 means prompt or urgent."
-        },
-        {
-            "id": "原点, 焦点, 視点, dan 盲点 sama-sama memakai 点, tetapi masing-masing berarti titik awal, fokus, sudut pandang, dan titik buta.",
-            "en": "原点, 焦点, 視点, and 盲点 all contain 点 but mean starting point, focus, viewpoint, and blind spot respectively."
+            "id": "静脈 dipasangkan dengan 動脈 sebagai istilah pembanding, sedangkan 文脈・人脈・山脈 memperlihatkan arti 脈 dalam konteks berbeda.",
+            "en": "静脈 is paired with 動脈 as a contrasting term, while 文脈・人脈・山脈 show 脈 in different contexts."
         }
     ]
 };
