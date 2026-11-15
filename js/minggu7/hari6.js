@@ -1,796 +1,270 @@
-const minggu7Hari5 = {
+const minggu7Hari6 = {
   "week": 7,
-  "day": 5,
+  "day": 6,
   "title": {
-    "id": "Hari 5",
-    "en": "Day 5"
+    "id": "Hari 6",
+    "en": "Day 6"
   },
   "subtitle": {
-    "id": "助数詞 — 1羽・1個・1軒 dan berbagai macam kata bantu bilangan",
-    "en": "助数詞 — Japanese counters for birds, objects, houses, and more"
+    "id": "音訓いっしょに覚える — Mengingat kosakata 音読み bersama ungkapan 訓読み",
+    "en": "Learn On- and Kun-Readings Together"
   },
   "source": {
-    "label": "Minggu 7 Hari 5",
+    "label": "Minggu 7 Hari 6",
     "image": "assets/images/backgrounds/mobile-normal.png"
   },
   "kanji": [
     {
-      "id": "week7-day5-001",
-      "character": "通",
+      "id": "week7-day6-001",
+      "character": "再",
       "meaning": {
-        "id": "lembar/surat untuk menghitung surat atau dokumen",
-        "en": "counter for letters and documents"
+        "id": "reunifikasi; bertemu kembali",
+        "en": "reunion; meet again"
       },
       "onyomi": [
         {
-          "text": "ツウ",
-          "reading": "ツウ"
+          "text": "サイ",
+          "reading": "サイ"
         }
       ],
-      "kunyomi": [],
+      "kunyomi": [
+        {
+          "text": "ふたた(び)",
+          "reading": "ふたたび"
+        }
+      ],
       "usage": {
-        "id": "助数詞。surat dan dokumenを数える。例：証明書を1通発行する。",
-        "en": "Counter for letters and documents. Example: 証明書を1通発行する。"
+        "id": "音読みを使う語：再会する。訓読みを使った言い換え：再び会う。",
+        "en": "On-reading vocabulary: 再会する. Kun-reading paraphrase: 再び会う."
       },
       "nuance": {
-        "id": "通 dipakai untuk menghitung dokumen atau surat sebagai satu kiriman/dokumen utuh, bukan lembar kertas biasa.",
-        "en": "通 counts a letter or document as a complete item, rather than an ordinary sheet of paper."
+        "id": "再会する adalah bentuk kosakata dengan 音読み; 再び会う mengungkapkan makna yang sama melalui 訓読み.",
+        "en": "再会する is a compound using on-readings; 再び会う expresses the same idea through kun-readings."
       },
       "philosophy": {
-        "id": "Bayangkan sebuah dokumen yang dikirim sebagai satu berkas utuh: satu berkas dihitung 一通.",
-        "en": "Picture one complete document being sent as a single item: 一通."
+        "id": "Pasangkan 再会 dengan 再び会う untuk mengingat bahwa 再 berarti melakukan sesuatu sekali lagi.",
+        "en": "Pair 再会 with 再び会う to remember that 再 conveys doing something again."
       },
       "vocabulary": [
         {
-          "word": "証明書一通",
-          "reading": "しょうめいしょいっつう",
+          "word": "再会する",
+          "reading": "さいかいする",
           "meaning": {
-            "id": "satu lembar sertifikat",
-            "en": "one certificate"
+            "id": "bertemu kembali",
+            "en": "to meet again"
           }
         }
       ],
       "readingNotes": [
         {
-          "id": "1通 dibaca いっつう.",
-          "en": "1通 dibaca いっつう."
+          "id": "訓読みの表現：再び会う（ふたたびあう）",
+          "en": "Kun-reading expression: 再び会う (ふたたびあう)."
         }
       ],
-      "level": "初級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
     },
     {
-      "id": "week7-day5-002",
-      "character": "本",
+      "id": "week7-day6-002",
+      "character": "全",
       "meaning": {
-        "id": "batang; unit untuk benda panjang, video, film, dan jadwal perjalanan",
-        "en": "counter for long objects, videos, films, and transport services"
+        "id": "seluruh; semua",
+        "en": "whole; all"
       },
       "onyomi": [
         {
-          "text": "ホン",
-          "reading": "ホン"
-        },
-        {
-          "text": "ポン",
-          "reading": "ポン"
-        },
-        {
-          "text": "ボン",
-          "reading": "ボン"
+          "text": "ゼン",
+          "reading": "ゼン"
         }
       ],
-      "kunyomi": [],
+      "kunyomi": [
+        {
+          "text": "すべ(て)",
+          "reading": "すべて"
+        }
+      ],
       "usage": {
-        "id": "助数詞。benda panjang, video, film, serta keberangkatan/layanan kendaraanを数える。例：映画を2本続けて見る。バスが10分に1本ある。",
-        "en": "Counter for long objects, videos, films, and transport runs. Example: 映画を2本続けて見る。バスが10分に1本ある。"
+        "id": "音読みを使う語：全滅する。訓読みを使った言い換え：全て滅びる。",
+        "en": "On-reading vocabulary: 全滅する. Kun-reading paraphrase: 全て滅びる."
       },
       "nuance": {
-        "id": "本 tidak hanya menghitung benda yang bentuknya panjang; dalam materi ini 本 juga dipakai untuk film dan frekuensi layanan bus/kereta. Bunyi berubah menjadi ホン・ポン・ボン sesuai angka.",
-        "en": "本 does not only count long physical objects; it also counts films and transport runs. Its counter reading changes among ホン・ポン・ボン depending on the number."
+        "id": "全滅 berfokus pada hasil akhir, sedangkan 全て滅びる menjelaskan bahwa semuanya binasa.",
+        "en": "全滅 names the result, while 全て滅びる spells out that everything perishes."
       },
       "philosophy": {
-        "id": "Pegang gambaran satu garis panjang sebagai kait utama, lalu perluas ke satu judul film atau satu jadwal keberangkatan.",
-        "en": "Use the image of one long line as the memory hook, then extend it to one film or one scheduled service."
+        "id": "Bayangkan seluruh bagian tanpa tersisa; 全 menjadi kait untuk makna keseluruhan.",
+        "en": "Picture everything with nothing left; 全 is the cue for totality."
       },
       "vocabulary": [
         {
-          "word": "映画2本",
-          "reading": "えいがにほん",
+          "word": "全滅する",
+          "reading": "ぜんめつする",
           "meaning": {
-            "id": "dua film",
-            "en": "two films"
-          }
-        },
-        {
-          "word": "バスが1本",
-          "reading": "バスがいっぽん",
-          "meaning": {
-            "id": "satu keberangkatan bus",
-            "en": "one bus service/run"
+            "id": "musnah seluruhnya",
+            "en": "to be completely destroyed"
           }
         }
       ],
       "readingNotes": [
         {
-          "id": "Bentuk bunyi berubah: 1本 いっぽん, 2本 にほん, 3本 さんぼん.",
-          "en": "Bentuk bunyi berubah: 1本 いっぽん, 2本 にほん, 3本 さんぼん."
+          "id": "訓読みの表現：全て滅びる（すべてほろびる）",
+          "en": "Kun-reading expression: 全て滅びる (すべてほろびる)."
         }
       ],
-      "level": "初級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
     },
     {
-      "id": "week7-day5-003",
-      "character": "部",
+      "id": "week7-day6-003",
+      "character": "粉",
       "meaning": {
-        "id": "eksemplar untuk surat kabar, dokumen, atau satu set dokumen",
-        "en": "counter for newspapers, documents, and sets of documents"
+        "id": "bubuk; serbuk",
+        "en": "powder"
       },
       "onyomi": [
         {
-          "text": "ブ",
-          "reading": "ブ"
+          "text": "フン",
+          "reading": "フン"
         }
       ],
-      "kunyomi": [],
+      "kunyomi": [
+        {
+          "text": "こな",
+          "reading": "こな"
+        }
+      ],
       "usage": {
-        "id": "助数詞。surat kabar, dokumen, dan set berkasを数える。例：書類のコピーを10部用意する。",
-        "en": "Counter for newspapers, documents, and document sets. Example: 書類のコピーを10部用意する。"
+        "id": "音読みを使う語：粉砕する。訓読みを使った言い換え：粉々に砕く。",
+        "en": "On-reading vocabulary: 粉砕する. Kun-reading paraphrase: 粉々に砕く."
       },
       "nuance": {
-        "id": "部 menyoroti jumlah set atau eksemplar dokumen, bukan jumlah lembar di dalam setiap set.",
-        "en": "部 focuses on the number of sets or copies, not the number of pages within each set."
+        "id": "粉砕 merupakan kata majemuk; 粉々に砕く memperjelas hasilnya menjadi serpihan kecil.",
+        "en": "粉砕 is a compound; 粉々に砕く makes the result of breaking into tiny pieces explicit."
       },
       "philosophy": {
-        "id": "Bayangkan satu bundel dokumen yang siap dibagikan; setiap bundel dihitung 一部.",
-        "en": "Picture one complete document set ready to distribute; each set is 一部."
+        "id": "Hubungkan 粉 dengan gambaran sesuatu yang sudah menjadi serbuk atau bagian kecil.",
+        "en": "Connect 粉 with the image of something reduced to powder or tiny pieces."
       },
       "vocabulary": [
         {
-          "word": "書類10部",
-          "reading": "しょるいじゅうぶ",
+          "word": "粉砕する",
+          "reading": "ふんさいする",
           "meaning": {
-            "id": "sepuluh set dokumen",
-            "en": "ten sets of documents"
+            "id": "menghancurkan hingga berkeping-keping",
+            "en": "to crush into pieces"
           }
         }
       ],
       "readingNotes": [
         {
-          "id": "10部 dibaca じゅうぶ.",
-          "en": "10部 dibaca じゅうぶ."
+          "id": "訓読みの表現：粉々に砕く（こなごなにくだく）",
+          "en": "Kun-reading expression: 粉々に砕く (こなごなにくだく)."
         }
       ],
-      "level": "初級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
     },
     {
-      "id": "week7-day5-004",
-      "character": "着",
+      "id": "week7-day6-004",
+      "character": "競",
       "meaning": {
-        "id": "potong/buah untuk menghitung pakaian",
-        "en": "counter for garments and suits"
+        "id": "bersaing",
+        "en": "compete"
       },
       "onyomi": [
         {
-          "text": "チャク",
-          "reading": "チャク"
+          "text": "キョウ",
+          "reading": "キョウ"
         }
       ],
-      "kunyomi": [],
+      "kunyomi": [
+        {
+          "text": "きそ(う)",
+          "reading": "きそう"
+        }
+      ],
       "usage": {
-        "id": "助数詞。pakaianを数える。例：スーツが2着で1万円。",
-        "en": "Counter for clothing and garments. Example: スーツが2着で1万円。"
+        "id": "音読みを使う語：競争する。訓読みを使った言い換え：競い争う。",
+        "en": "On-reading vocabulary: 競争する. Kun-reading paraphrase: 競い争う."
       },
       "nuance": {
-        "id": "着 digunakan untuk menghitung pakaian sebagai potong/buah, bukan orang yang mengenakannya.",
-        "en": "着 counts garments as items, not the people wearing them."
+        "id": "競争 adalah istilah ringkas untuk persaingan; 競い争う mengulang makna melalui dua verba kun.",
+        "en": "競争 is the compact term for competition; 競い争う expresses it through two kun-reading verbs."
       },
       "philosophy": {
-        "id": "Bayangkan satu pakaian yang digantung di lemari; setiap pakaian adalah 一着.",
-        "en": "Picture one garment hanging in a closet; each garment is 一着."
+        "id": "Lihat dua pihak yang berusaha melampaui satu sama lain untuk mengingat 競.",
+        "en": "Picture two sides trying to outdo each other to remember 競."
       },
       "vocabulary": [
         {
-          "word": "スーツ2着",
-          "reading": "スーツにちゃく",
+          "word": "競争する",
+          "reading": "きょうそうする",
           "meaning": {
-            "id": "dua setelan jas",
-            "en": "two suits"
+            "id": "bersaing",
+            "en": "to compete"
           }
         }
       ],
       "readingNotes": [
         {
-          "id": "2着 dibaca にちゃく.",
-          "en": "2着 dibaca にちゃく."
+          "id": "訓読みの表現：競い争う（きそいあらそう）",
+          "en": "Kun-reading expression: 競い争う (きそいあらそう)."
         }
       ],
-      "level": "初級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
     },
     {
-      "id": "week7-day5-005",
-      "character": "足",
+      "id": "week7-day6-005",
+      "character": "促",
       "meaning": {
-        "id": "pasang untuk sepatu dan kaus kaki",
-        "en": "counter for pairs of shoes and socks"
+        "id": "mendorong; mendesak",
+        "en": "urge; prompt"
       },
       "onyomi": [
         {
           "text": "ソク",
           "reading": "ソク"
-        },
-        {
-          "text": "ゾク",
-          "reading": "ゾク"
         }
       ],
-      "kunyomi": [],
+      "kunyomi": [
+        {
+          "text": "うなが(す)",
+          "reading": "うながす"
+        }
+      ],
       "usage": {
-        "id": "助数詞。sepatu dan kaus kaki dalam satu pasang kiri-kananを数える。例：靴下が3足980円、運動靴が1足2,000円。",
-        "en": "Counter for pairs of shoes and socks. Example: 靴下が3足980円、運動靴が1足2,000円。"
+        "id": "音読みを使う語：促進する。訓読みを使った言い換え：促して進める。",
+        "en": "On-reading vocabulary: 促進する. Kun-reading paraphrase: 促して進める."
       },
       "nuance": {
-        "id": "足 menghitung sepasang yang terdiri dari sisi kiri dan kanan. Bunyi dapat berubah, misalnya 1足 いっそく dan 3足 さんぞく.",
-        "en": "足 counts a pair consisting of a left and right item. The sound changes in forms such as 1足 いっそく and 3足 さんぞく."
+        "id": "促進 menekankan percepatan kemajuan; 促して進める memecahnya menjadi tindakan mendorong lalu memajukan.",
+        "en": "促進 emphasizes advancing progress; 促して進める breaks this into urging and moving forward."
       },
       "philosophy": {
-        "id": "Ingat bahwa sepatu dan kaus kaki dipakai berpasangan: satu pasang, 一足.",
-        "en": "Remember that shoes and socks are worn in pairs: one pair is 一足."
+        "id": "Bayangkan sesuatu yang didorong agar bergerak maju.",
+        "en": "Picture something being urged forward."
       },
       "vocabulary": [
         {
-          "word": "靴下3足",
-          "reading": "くつしたさんぞく",
+          "word": "促進する",
+          "reading": "そくしんする",
           "meaning": {
-            "id": "tiga pasang kaus kaki",
-            "en": "three pairs of socks"
-          }
-        },
-        {
-          "word": "運動靴1足",
-          "reading": "うんどうぐついっそく",
-          "meaning": {
-            "id": "sepasang sepatu olahraga",
-            "en": "one pair of sneakers"
+            "id": "mendorong agar sesuatu maju",
+            "en": "to promote; to advance"
           }
         }
       ],
       "readingNotes": [
         {
-          "id": "1足 dibaca いっそく; 3足 dibaca さんぞく.",
-          "en": "1足 dibaca いっそく; 3足 dibaca さんぞく."
+          "id": "訓読みの表現：促して進める（うながしてすすめる）",
+          "en": "Kun-reading expression: 促して進める (うながしてすすめる)."
         }
       ],
-      "level": "初級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
     },
     {
-      "id": "week7-day5-006",
-      "character": "頭",
+      "id": "week7-day6-006",
+      "character": "勧",
       "meaning": {
-        "id": "ekor untuk hewan besar seperti sapi, kuda, dan panda",
-        "en": "counter for large animals such as cows, horses, and pandas"
-      },
-      "onyomi": [
-        {
-          "text": "トウ",
-          "reading": "トウ"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。hewan besarを数える。例：中国から2頭のパンダが来た。",
-        "en": "Counter for large animals. Example: 中国から2頭のパンダが来た。"
-      },
-      "nuance": {
-        "id": "頭 lazim digunakan untuk hewan berukuran besar; jangan otomatis memakainya untuk kucing, ikan, atau serangga.",
-        "en": "頭 is used for large animals; do not automatically use it for cats, fish, or insects."
-      },
-      "philosophy": {
-        "id": "Hubungkan 頭 dengan gambaran hewan besar yang memiliki kepala dan tubuh kuat.",
-        "en": "Associate 頭 with the image of a large, strong-bodied animal."
-      },
-      "vocabulary": [
-        {
-          "word": "2頭のパンダ",
-          "reading": "にとうのパンダ",
-          "meaning": {
-            "id": "dua ekor panda",
-            "en": "two pandas"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "2頭 dibaca にとう.",
-          "en": "2頭 dibaca にとう."
-        }
-      ],
-      "level": "初級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-007",
-      "character": "台",
-      "meaning": {
-        "id": "unit untuk kendaraan dan mesin/perangkat",
-        "en": "counter for vehicles, machines, and equipment"
-      },
-      "onyomi": [
-        {
-          "text": "ダイ",
-          "reading": "ダイ"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。mobil, komputer, televisi, kalkulator, dan mesinを数える。例：うちにはパソコンが3台あります。",
-        "en": "Counter for cars, computers, TVs, calculators, and machines. Example: うちにはパソコンが3台あります。"
-      },
-      "nuance": {
-        "id": "台 menghitung unit perangkat atau kendaraan sebagai benda bermesin/peralatan.",
-        "en": "台 counts individual machines, devices, and vehicles."
-      },
-      "philosophy": {
-        "id": "Bayangkan setiap perangkat berdiri sebagai satu unit yang dapat dihitung: 一台.",
-        "en": "Imagine each device as one separate unit: 一台."
-      },
-      "vocabulary": [
-        {
-          "word": "パソコン3台",
-          "reading": "パソコンさんだい",
-          "meaning": {
-            "id": "tiga unit komputer",
-            "en": "three computers"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "3台 dibaca さんだい.",
-          "en": "3台 dibaca さんだい."
-        }
-      ],
-      "level": "初級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-008",
-      "character": "画",
-      "meaning": {
-        "id": "goresan; satuan jumlah guratan kanji",
-        "en": "stroke; counter for the strokes in a kanji"
-      },
-      "onyomi": [
-        {
-          "text": "カク",
-          "reading": "カク"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。jumlah guratan atau goresan kanjiを数える。例：「川」という漢字の画数は3画です。",
-        "en": "Counter for the number of strokes in a kanji. Example: 「川」という漢字の画数は3画です。"
-      },
-      "nuance": {
-        "id": "画 digunakan untuk menghitung goresan pembentuk kanji; 画数 berarti jumlah guratan.",
-        "en": "画 counts the strokes that form a kanji; 画数 means the number of strokes."
-      },
-      "philosophy": {
-        "id": "Lihat kanji sebagai gambar yang tersusun dari beberapa goresan; hitung setiap goresan satu per satu.",
-        "en": "Think of a kanji as a drawing made of strokes; count each stroke one by one."
-      },
-      "vocabulary": [
-        {
-          "word": "画数",
-          "reading": "かくすう",
-          "meaning": {
-            "id": "jumlah guratan",
-            "en": "stroke count"
-          }
-        },
-        {
-          "word": "三画",
-          "reading": "さんかく",
-          "meaning": {
-            "id": "tiga guratan",
-            "en": "three strokes"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "3画 dibaca さんかく.",
-          "en": "3画 dibaca さんかく."
-        }
-      ],
-      "level": "初級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-009",
-      "character": "羽",
-      "meaning": {
-        "id": "ekor untuk burung dan kelinci",
-        "en": "counter for birds and rabbits"
-      },
-      "onyomi": [
-        {
-          "text": "ワ",
-          "reading": "ワ"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。burung dan kelinciを数える。例：白鳥を4羽数える。",
-        "en": "Counter for birds and rabbits. Example: 白鳥を4羽数える。"
-      },
-      "nuance": {
-        "id": "羽 merupakan counter khas untuk burung dan juga dapat digunakan untuk kelinci. Perubahan bunyi yang perlu diingat dalam materi: 3羽 dibaca さんば.",
-        "en": "羽 is a counter for birds and can also count rabbits. A sound change to remember is 3羽, read さんば."
-      },
-      "philosophy": {
-        "id": "Bayangkan sayap yang mengepak; bentuk 羽 mengingatkan pada dunia burung.",
-        "en": "Picture flapping wings; 羽 connects naturally to birds."
-      },
-      "vocabulary": [
-        {
-          "word": "4羽の白鳥",
-          "reading": "よんわのはくちょう",
-          "meaning": {
-            "id": "empat ekor angsa",
-            "en": "four swans"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "3羽 dibaca さんば, bukan さんわ.",
-          "en": "3羽 dibaca さんば, bukan さんわ."
-        }
-      ],
-      "level": "中級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-010",
-      "character": "個",
-      "meaning": {
-        "id": "buah/butir untuk benda kecil yang terpisah",
-        "en": "counter for individual small objects"
-      },
-      "onyomi": [
-        {
-          "text": "コ",
-          "reading": "コ"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。apel, jeruk, bola, batu, dan benda satuan lainnyaを数える。例：レモンを1個とじゃがいもを3個ください。",
-        "en": "Counter for apples, oranges, balls, stones, and other individual objects. Example: レモンを1個とじゃがいもを3個ください。"
-      },
-      "nuance": {
-        "id": "個 menghitung benda sebagai unit individual, terutama benda yang tidak memiliki counter khusus dalam konteks tersebut.",
-        "en": "個 counts objects as individual units, especially when no more specific counter is used in the context."
-      },
-      "philosophy": {
-        "id": "Pisahkan benda-benda itu satu per satu dalam pikiran: setiap unit adalah 一個.",
-        "en": "Separate the objects mentally one by one: each unit is 一個."
-      },
-      "vocabulary": [
-        {
-          "word": "レモン1個",
-          "reading": "レモンいっこ",
-          "meaning": {
-            "id": "satu buah lemon",
-            "en": "one lemon"
-          }
-        },
-        {
-          "word": "じゃがいも3個",
-          "reading": "じゃがいもさんこ",
-          "meaning": {
-            "id": "tiga buah kentang",
-            "en": "three potatoes"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "1個 dibaca いっこ.",
-          "en": "1個 dibaca いっこ."
-        }
-      ],
-      "level": "中級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-011",
-      "character": "軒",
-      "meaning": {
-        "id": "rumah/toko sebagai unit bangunan",
-        "en": "counter for houses, shops, and restaurants"
-      },
-      "onyomi": [
-        {
-          "text": "ケン",
-          "reading": "ケン"
-        },
-        {
-          "text": "ゲン",
-          "reading": "ゲン"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。rumah, toko, dan restoranを数える。例：3軒隣の家。",
-        "en": "Counter for houses, shops, and restaurants. Example: 3軒隣の家。"
-      },
-      "nuance": {
-        "id": "軒 menghitung bangunan seperti rumah atau tempat usaha. Dalam 3軒, bacaan khususnya adalah さんげん.",
-        "en": "軒 counts buildings such as houses and businesses. In 3軒, the special reading is さんげん."
-      },
-      "philosophy": {
-        "id": "Bayangkan deretan rumah atau toko; setiap bangunan dihitung sebagai satu pintu usaha/tempat.",
-        "en": "Picture a row of houses or shops; each building is counted as one establishment."
-      },
-      "vocabulary": [
-        {
-          "word": "3軒隣",
-          "reading": "さんげんどなり",
-          "meaning": {
-            "id": "tiga rumah di sebelah",
-            "en": "three houses away"
-          }
-        },
-        {
-          "word": "一軒家",
-          "reading": "いっけんや",
-          "meaning": {
-            "id": "rumah tunggal/detached house",
-            "en": "detached house"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "3軒 dibaca さんげん.",
-          "en": "3軒 dibaca さんげん."
-        }
-      ],
-      "level": "中級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-012",
-      "character": "件",
-      "meaning": {
-        "id": "kasus, perkara, pesan, atau surel",
-        "en": "counter for matters, incidents, messages, and emails"
-      },
-      "onyomi": [
-        {
-          "text": "ケン",
-          "reading": "ケン"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。perkara, insiden, pesan, dan emailを数える。例：交通事故が1件、伝言が3件。",
-        "en": "Counter for matters, incidents, messages, and emails. Example: 交通事故が1件、伝言が3件。"
-      },
-      "nuance": {
-        "id": "件 menghitung kejadian atau hal yang tercatat, berbeda dari 軒 yang menghitung bangunan.",
-        "en": "件 counts recorded incidents or matters, unlike 軒, which counts buildings."
-      },
-      "philosophy": {
-        "id": "Bayangkan setiap masalah atau pesan sebagai satu entri dalam daftar: satu entri adalah 一件.",
-        "en": "Picture each matter or message as one entry in a list: one entry is 一件."
-      },
-      "vocabulary": [
-        {
-          "word": "交通事故1件",
-          "reading": "こうつうじこいっけん",
-          "meaning": {
-            "id": "satu kasus kecelakaan lalu lintas",
-            "en": "one traffic accident case"
-          }
-        },
-        {
-          "word": "伝言3件",
-          "reading": "でんごんさんけん",
-          "meaning": {
-            "id": "tiga pesan",
-            "en": "three messages"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "1件 dibaca いっけん.",
-          "en": "1件 dibaca いっけん."
-        }
-      ],
-      "level": "中級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-013",
-      "character": "匹",
-      "meaning": {
-        "id": "ekor untuk hewan kecil, ikan, dan serangga",
-        "en": "counter for small animals, fish, and insects"
-      },
-      "onyomi": [
-        {
-          "text": "ヒキ",
-          "reading": "ヒキ"
-        },
-        {
-          "text": "ビキ",
-          "reading": "ビキ"
-        },
-        {
-          "text": "ピキ",
-          "reading": "ピキ"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。anjing, kucing, ikan, serangga, dan hewan kecilを数える。例：犬を1匹とネコを2匹飼っている。",
-        "en": "Counter for dogs, cats, fish, insects, and small animals. Example: 犬を1匹とネコを2匹飼っている。"
-      },
-      "nuance": {
-        "id": "匹 lazim dipakai untuk hewan kecil. Perhatikan perubahan bunyi: 1匹 いっぴき, 2匹 にひき.",
-        "en": "匹 is commonly used for small animals. Notice the sound changes: 1匹 いっぴき and 2匹 にひき."
-      },
-      "philosophy": {
-        "id": "Bayangkan hewan kecil yang bergerak sendiri; setiap hewan dihitung satu 匹.",
-        "en": "Picture a small animal moving on its own; each animal is one 匹."
-      },
-      "vocabulary": [
-        {
-          "word": "犬1匹",
-          "reading": "いぬいっぴき",
-          "meaning": {
-            "id": "seekor anjing",
-            "en": "one dog"
-          }
-        },
-        {
-          "word": "ネコ2匹",
-          "reading": "ネコにひき",
-          "meaning": {
-            "id": "dua ekor kucing",
-            "en": "two cats"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "1匹 dibaca いっぴき; 2匹 dibaca にひき.",
-          "en": "1匹 dibaca いっぴき; 2匹 dibaca にひき."
-        }
-      ],
-      "level": "中級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-014",
-      "character": "杯",
-      "meaning": {
-        "id": "gelas/mangkuk untuk cairan",
-        "en": "counter for servings of liquid in a cup, glass, or container"
-      },
-      "onyomi": [
-        {
-          "text": "ハイ",
-          "reading": "ハイ"
-        },
-        {
-          "text": "バイ",
-          "reading": "バイ"
-        },
-        {
-          "text": "パイ",
-          "reading": "パイ"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。cairan di dalam wadahを数える。例：ビールをグラスで3杯、水をバケツで5杯。",
-        "en": "Counter for liquid served in a vessel. Example: ビールをグラスで3杯、水をバケツで5杯。"
-      },
-      "nuance": {
-        "id": "杯 menghitung takaran cairan berdasarkan wadah. Bunyi berubah, misalnya 3杯 さんばい dan 5杯 ごはい.",
-        "en": "杯 counts servings of liquid by vessel. Its sound changes, for example 3杯 さんばい and 5杯 ごはい."
-      },
-      "philosophy": {
-        "id": "Bayangkan satu wadah yang sudah terisi; isi satu wadah dihitung 一杯.",
-        "en": "Picture one filled vessel; one vesselful is 一杯."
-      },
-      "vocabulary": [
-        {
-          "word": "ビール3杯",
-          "reading": "ビールさんばい",
-          "meaning": {
-            "id": "tiga gelas bir",
-            "en": "three glasses of beer"
-          }
-        },
-        {
-          "word": "水5杯",
-          "reading": "みずごはい",
-          "meaning": {
-            "id": "lima takaran air",
-            "en": "five containers of water"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "3杯 dibaca さんばい.",
-          "en": "3杯 dibaca さんばい."
-        }
-      ],
-      "level": "中級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-015",
-      "character": "位",
-      "meaning": {
-        "id": "peringkat atau tingkat",
-        "en": "counter for rank and position"
-      },
-      "onyomi": [
-        {
-          "text": "イ",
-          "reading": "イ"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。peringkat dan tingkatanを数える。例：6位に入賞する。",
-        "en": "Counter for rank and position. Example: 6位に入賞する。"
-      },
-      "nuance": {
-        "id": "位 bukan sekadar urutan benda; kata ini menandai posisi atau tingkat dalam suatu peringkat.",
-        "en": "位 does not simply count objects; it marks a position or level in a ranking."
-      },
-      "philosophy": {
-        "id": "Bayangkan podium atau daftar peringkat; setiap posisi adalah satu 位.",
-        "en": "Picture a podium or ranking list; each position is one 位."
-      },
-      "vocabulary": [
-        {
-          "word": "6位",
-          "reading": "ろくい",
-          "meaning": {
-            "id": "peringkat keenam",
-            "en": "sixth place"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "6位 dibaca ろくい.",
-          "en": "6位 dibaca ろくい."
-        }
-      ],
-      "level": "中級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-016",
-      "character": "巻",
-      "meaning": {
-        "id": "jilid atau volume dalam seri buku",
-        "en": "counter for volumes in a book series"
+        "id": "menganjurkan; mengajak",
+        "en": "recommend; invite"
       },
       "onyomi": [
         {
@@ -798,681 +272,962 @@ const minggu7Hari5 = {
           "reading": "カン"
         }
       ],
-      "kunyomi": [],
+      "kunyomi": [
+        {
+          "text": "すす(める)",
+          "reading": "すすめる"
+        }
+      ],
       "usage": {
-        "id": "助数詞。jumlah dan urutan volume buku berseriを数える。例：全10巻の漫画の7巻まで読む。",
-        "en": "Counter for the number and order of volumes in a series. Example: 全10巻の漫画の7巻まで読む。"
+        "id": "音読みを使う語：勧誘する。訓読みを使った言い換え：勧めて誘う。",
+        "en": "On-reading vocabulary: 勧誘する. Kun-reading paraphrase: 勧めて誘う."
       },
       "nuance": {
-        "id": "巻 menghitung volume dalam seri, bukan buku satuan secara umum; untuk buku/majalah gunakan 冊.",
-        "en": "巻 counts volumes in a series, not books in general; 冊 is used for individual books and magazines."
+        "id": "勧誘 biasanya berarti mengajak seseorang bergabung; 勧めて誘う menunjukkan tindakan rekomendasi sekaligus ajakan.",
+        "en": "勧誘 usually means inviting or recruiting someone; 勧めて誘う shows both recommendation and invitation."
       },
       "philosophy": {
-        "id": "Bayangkan cerita bersambung yang digulung menjadi beberapa jilid; tiap jilid adalah 一巻.",
-        "en": "Picture a continuing story divided into volumes; each volume is 一巻."
+        "id": "Ingat dua tahap: memberi saran lalu mengajak.",
+        "en": "Remember the two steps: recommend, then invite."
       },
       "vocabulary": [
         {
-          "word": "全10巻",
-          "reading": "ぜんじっかん",
+          "word": "勧誘する",
+          "reading": "かんゆうする",
           "meaning": {
-            "id": "sepuluh jilid seluruhnya",
-            "en": "all ten volumes"
-          }
-        },
-        {
-          "word": "第7巻",
-          "reading": "だいななかん",
-          "meaning": {
-            "id": "jilid ketujuh",
-            "en": "volume seven"
+            "id": "mengajak atau membujuk seseorang untuk ikut",
+            "en": "to invite or recruit"
           }
         }
       ],
       "readingNotes": [
         {
-          "id": "全10巻 dibaca ぜんじっかん.",
-          "en": "全10巻 dibaca ぜんじっかん."
+          "id": "訓読みの表現：勧めて誘う（すすめてさそう）",
+          "en": "Kun-reading expression: 勧めて誘う (すすめてさそう)."
         }
       ],
-      "level": "中級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
     },
     {
-      "id": "week7-day5-017",
-      "character": "階",
+      "id": "week7-day6-007",
+      "character": "養",
       "meaning": {
-        "id": "lantai dalam bangunan",
-        "en": "counter for floors in a building"
+        "id": "memelihara; mengasuh",
+        "en": "nourish; support"
+      },
+      "onyomi": [
+        {
+          "text": "ヨウ",
+          "reading": "ヨウ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "やしな(う)",
+          "reading": "やしなう"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：養育する。訓読みを使った言い換え：養って育てる。",
+        "en": "On-reading vocabulary: 養育する. Kun-reading paraphrase: 養って育てる."
+      },
+      "nuance": {
+        "id": "養育 merangkum tindakan memenuhi kebutuhan dan membesarkan seseorang; frasa kun memperlihatkan kedua tahap itu.",
+        "en": "養育 summarizes providing care and bringing someone up; the kun phrase shows both actions."
+      },
+      "philosophy": {
+        "id": "Bayangkan merawat seseorang hingga tumbuh; 養 dan 育 saling melengkapi.",
+        "en": "Picture caring for someone as they grow; 養 and 育 complement each other."
+      },
+      "vocabulary": [
+        {
+          "word": "養育する",
+          "reading": "よういくする",
+          "meaning": {
+            "id": "membesarkan dan mengasuh",
+            "en": "to bring up; to rear"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：養って育てる（やしなってそだてる）",
+          "en": "Kun-reading expression: 養って育てる (やしなってそだてる)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-008",
+      "character": "装",
+      "meaning": {
+        "id": "mengenakan; menghias",
+        "en": "dress; adorn"
+      },
+      "onyomi": [
+        {
+          "text": "ソウ",
+          "reading": "ソウ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "よそお(う)",
+          "reading": "よそおう"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：装飾する。訓読みを使った言い換え：装って飾る。",
+        "en": "On-reading vocabulary: 装飾する. Kun-reading paraphrase: 装って飾る."
+      },
+      "nuance": {
+        "id": "装飾 adalah kata untuk dekorasi; 装って飾る menggunakan bentuk kun untuk menggambarkan tindakan menghias.",
+        "en": "装飾 is the word for decoration; 装って飾る uses kun-readings to describe adorning something."
+      },
+      "philosophy": {
+        "id": "Bayangkan sebuah benda yang diberi hiasan agar tampil berbeda.",
+        "en": "Picture an object being adorned so that it looks different."
+      },
+      "vocabulary": [
+        {
+          "word": "装飾する",
+          "reading": "そうしょくする",
+          "meaning": {
+            "id": "menghias; memperindah",
+            "en": "to decorate; to adorn"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：装って飾る（よそおってかざる）",
+          "en": "Kun-reading expression: 装って飾る (よそおってかざる)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-009",
+      "character": "尊",
+      "meaning": {
+        "id": "mulia; menghormati",
+        "en": "尊い; respect"
+      },
+      "onyomi": [
+        {
+          "text": "ソン",
+          "reading": "ソン"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "とうと(ぶ)",
+          "reading": "とうとぶ"
+        },
+        {
+          "text": "たっと(ぶ)",
+          "reading": "たっとぶ"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：尊敬する。訓読みを使った言い換え：尊んで敬う。",
+        "en": "On-reading vocabulary: 尊敬する. Kun-reading paraphrase: 尊んで敬う."
+      },
+      "nuance": {
+        "id": "尊敬 adalah kata umum untuk rasa hormat; 尊んで敬う memperjelas tindakan memuliakan dan menghargai.",
+        "en": "尊敬 is the common word for respect; 尊んで敬う spells out esteeming and honoring."
+      },
+      "philosophy": {
+        "id": "Bayangkan seseorang yang dianggap bernilai tinggi sehingga diperlakukan dengan hormat.",
+        "en": "Picture someone regarded highly and therefore treated with respect."
+      },
+      "vocabulary": [
+        {
+          "word": "尊敬する",
+          "reading": "そんけいする",
+          "meaning": {
+            "id": "menghormati",
+            "en": "to respect"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：尊んで敬う（とうとんでうやまう）",
+          "en": "Kun-reading expression: 尊んで敬う (とうとんでうやまう)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-010",
+      "character": "募",
+      "meaning": {
+        "id": "mengumpulkan; merekrut",
+        "en": "solicit; recruit"
+      },
+      "onyomi": [
+        {
+          "text": "ボ",
+          "reading": "ボ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "つの(る)",
+          "reading": "つのる"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：募集する。訓読みを使った言い換え：募って集める。",
+        "en": "On-reading vocabulary: 募集する. Kun-reading paraphrase: 募って集める."
+      },
+      "nuance": {
+        "id": "募集 lazim dipakai untuk membuka pendaftaran atau mencari peserta; 募って集める menguraikan proses mengundang lalu mengumpulkan.",
+        "en": "募集 is commonly used for recruitment or calling for applicants; 募って集める describes soliciting and gathering."
+      },
+      "philosophy": {
+        "id": "Bayangkan pengumuman yang mengundang orang untuk berkumpul.",
+        "en": "Picture an announcement inviting people to gather."
+      },
+      "vocabulary": [
+        {
+          "word": "募集する",
+          "reading": "ぼしゅうする",
+          "meaning": {
+            "id": "mengumpulkan peserta atau merekrut",
+            "en": "to recruit; to solicit"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：募って集める（つのってあつめる）",
+          "en": "Kun-reading expression: 募って集める (つのってあつめる)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-011",
+      "character": "巡",
+      "meaning": {
+        "id": "berkeliling; mengitari",
+        "en": "go around; patrol"
+      },
+      "onyomi": [
+        {
+          "text": "ジュン",
+          "reading": "ジュン"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "めぐ(る)",
+          "reading": "めぐる"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：巡回する。訓読みを使った言い換え：巡って回る。",
+        "en": "On-reading vocabulary: 巡回する. Kun-reading paraphrase: 巡って回る."
+      },
+      "nuance": {
+        "id": "巡回 berarti bergerak memeriksa beberapa tempat secara berurutan; frasa kun menonjolkan gerakan mengitari.",
+        "en": "巡回 means moving around to inspect several places in sequence; the kun phrase emphasizes circling around."
+      },
+      "philosophy": {
+        "id": "Bayangkan rute yang mengunjungi banyak titik satu per satu.",
+        "en": "Picture a route visiting many points one by one."
+      },
+      "vocabulary": [
+        {
+          "word": "巡回する",
+          "reading": "じゅんかいする",
+          "meaning": {
+            "id": "berkeliling; berpatroli",
+            "en": "to patrol; to make rounds"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：巡って回る（めぐってまわる）",
+          "en": "Kun-reading expression: 巡って回る (めぐってまわる)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-012",
+      "character": "崩",
+      "meaning": {
+        "id": "runtuh; roboh",
+        "en": "collapse; crumble"
+      },
+      "onyomi": [
+        {
+          "text": "ホウ",
+          "reading": "ホウ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "くず(れる)",
+          "reading": "くずれる"
+        },
+        {
+          "text": "くず(す)",
+          "reading": "くずす"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：崩壊する。訓読みを使った言い換え：崩れて壊れる。",
+        "en": "On-reading vocabulary: 崩壊する. Kun-reading paraphrase: 崩れて壊れる."
+      },
+      "nuance": {
+        "id": "崩壊 menggambarkan keruntuhan; 崩れて壊れる menjelaskan prosesnya secara langsung.",
+        "en": "崩壊 describes collapse; 崩れて壊れる directly explains the process."
+      },
+      "philosophy": {
+        "id": "Bayangkan susunan yang kehilangan bentuk lalu roboh.",
+        "en": "Picture a structure losing its shape and collapsing."
+      },
+      "vocabulary": [
+        {
+          "word": "崩壊する",
+          "reading": "ほうかいする",
+          "meaning": {
+            "id": "runtuh; hancur",
+            "en": "to collapse; to break down"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：崩れて壊れる（くずれてこわれる）",
+          "en": "Kun-reading expression: 崩れて壊れる (くずれてこわれる)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-013",
+      "character": "荒",
+      "meaning": {
+        "id": "liar; tandus; rusak",
+        "en": "wild; desolate"
+      },
+      "onyomi": [
+        {
+          "text": "コウ",
+          "reading": "コウ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "あ(れる)",
+          "reading": "あれる"
+        },
+        {
+          "text": "あら(い)",
+          "reading": "あらい"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：荒廃する。訓読みを使った言い換え：荒れて廃れる。",
+        "en": "On-reading vocabulary: 荒廃する. Kun-reading paraphrase: 荒れて廃れる."
+      },
+      "nuance": {
+        "id": "荒廃 sering dipakai untuk kota, lahan, atau lingkungan yang memburuk; bentuk kun menampilkan keadaan yang menjadi rusak dan merana.",
+        "en": "荒廃 is often used for a town, land, or environment falling into decline; the kun phrase depicts it becoming desolate."
+      },
+      "philosophy": {
+        "id": "Bayangkan tempat yang dahulu terawat lalu perlahan menjadi terbengkalai.",
+        "en": "Picture a once-maintained place gradually falling into ruin."
+      },
+      "vocabulary": [
+        {
+          "word": "荒廃する",
+          "reading": "こうはいする",
+          "meaning": {
+            "id": "menjadi rusak dan terbengkalai",
+            "en": "to fall into ruin"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：荒れて廃れる（あれてすたれる）",
+          "en": "Kun-reading expression: 荒れて廃れる (あれてすたれる)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-014",
+      "character": "飼",
+      "meaning": {
+        "id": "memelihara hewan",
+        "en": "keep; raise animals"
+      },
+      "onyomi": [
+        {
+          "text": "シ",
+          "reading": "シ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "か(う)",
+          "reading": "かう"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：飼育する。訓読みを使った言い換え：飼って育てる。",
+        "en": "On-reading vocabulary: 飼育する. Kun-reading paraphrase: 飼って育てる."
+      },
+      "nuance": {
+        "id": "飼育 biasa digunakan untuk pemeliharaan hewan; 飼って育てる menggabungkan tindakan memelihara dan membesarkan.",
+        "en": "飼育 is used for keeping or breeding animals; 飼って育てる combines keeping and raising."
+      },
+      "philosophy": {
+        "id": "Bayangkan tanggung jawab merawat hewan dari hari ke hari.",
+        "en": "Picture the day-to-day responsibility of caring for an animal."
+      },
+      "vocabulary": [
+        {
+          "word": "飼育する",
+          "reading": "しいくする",
+          "meaning": {
+            "id": "memelihara dan membesarkan hewan",
+            "en": "to breed; to raise animals"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：飼って育てる（かってそだてる）",
+          "en": "Kun-reading expression: 飼って育てる (かってそだてる)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-015",
+      "character": "黙",
+      "meaning": {
+        "id": "diam; tidak berbicara",
+        "en": "silence; be silent"
+      },
+      "onyomi": [
+        {
+          "text": "モク",
+          "reading": "モク"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "だま(る)",
+          "reading": "だまる"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：黙認する。訓読みを使った言い換え：黙って認める。",
+        "en": "On-reading vocabulary: 黙認する. Kun-reading paraphrase: 黙って認める."
+      },
+      "nuance": {
+        "id": "黙認 berarti mengetahui sesuatu dan membiarkannya tanpa menyatakan keberatan secara terbuka.",
+        "en": "黙認 means knowing about something and allowing it without openly objecting."
+      },
+      "philosophy": {
+        "id": "Bayangkan persetujuan yang tidak diucapkan; diam menjadi petunjuk utama 黙.",
+        "en": "Picture approval that is not spoken aloud; silence is the cue for 黙."
+      },
+      "vocabulary": [
+        {
+          "word": "黙認する",
+          "reading": "もくにんする",
+          "meaning": {
+            "id": "membiarkan atau menyetujui secara diam-diam",
+            "en": "to tacitly approve; to connive"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：黙って認める（だまってみとめる）",
+          "en": "Kun-reading expression: 黙って認める (だまってみとめる)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-016",
+      "character": "漂",
+      "meaning": {
+        "id": "mengapung; hanyut",
+        "en": "drift; float"
+      },
+      "onyomi": [
+        {
+          "text": "ヒョウ",
+          "reading": "ヒョウ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "ただよ(う)",
+          "reading": "ただよう"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：漂流する。訓読みを使った言い換え：漂って流される。",
+        "en": "On-reading vocabulary: 漂流する. Kun-reading paraphrase: 漂って流される."
+      },
+      "nuance": {
+        "id": "漂流 menunjukkan pergerakan tanpa kendali yang jelas; 漂って流される memberi gambaran mengapung lalu terbawa arus.",
+        "en": "漂流 describes movement without clear control; 漂って流される pictures floating and then being carried by a current."
+      },
+      "philosophy": {
+        "id": "Bayangkan sesuatu yang terapung dan bergerak mengikuti arus.",
+        "en": "Picture something floating and moving with the current."
+      },
+      "vocabulary": [
+        {
+          "word": "漂流する",
+          "reading": "ひょうりゅうする",
+          "meaning": {
+            "id": "hanyut terbawa arus",
+            "en": "to drift; to be carried away"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：漂って流される（ただよってながされる）",
+          "en": "Kun-reading expression: 漂って流される (ただよってながされる)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-017",
+      "character": "忍",
+      "meaning": {
+        "id": "menahan; bersabar",
+        "en": "endure; conceal"
+      },
+      "onyomi": [
+        {
+          "text": "ニン",
+          "reading": "ニン"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "しの(ぶ)",
+          "reading": "しのぶ"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：忍耐する。訓読みを使った言い換え：耐え忍ぶ。",
+        "en": "On-reading vocabulary: 忍耐する. Kun-reading paraphrase: 耐え忍ぶ."
+      },
+      "nuance": {
+        "id": "忍耐 menekankan kemampuan bertahan; bentuk kun 耐え忍ぶ menempatkan 耐える dan 忍ぶ sebagai dua sisi ketabahan.",
+        "en": "忍耐 emphasizes the ability to endure; 耐え忍ぶ combines bearing hardship and persevering."
+      },
+      "philosophy": {
+        "id": "Bayangkan tetap bertahan meskipun keadaan tidak mudah.",
+        "en": "Picture continuing to endure even when circumstances are difficult."
+      },
+      "vocabulary": [
+        {
+          "word": "忍耐する",
+          "reading": "にんたいする",
+          "meaning": {
+            "id": "bersabar; bertahan menghadapi kesulitan",
+            "en": "to endure; to persevere"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：耐え忍ぶ（たえしのぶ）",
+          "en": "Kun-reading expression: 耐え忍ぶ (たえしのぶ)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-018",
+      "character": "負",
+      "meaning": {
+        "id": "menanggung; kalah",
+        "en": "bear; lose"
+      },
+      "onyomi": [
+        {
+          "text": "フ",
+          "reading": "フ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "お(う)",
+          "reading": "おう"
+        },
+        {
+          "text": "ま(ける)",
+          "reading": "まける"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：負傷する。訓読みを使った言い換え：傷を負う。",
+        "en": "On-reading vocabulary: 負傷する. Kun-reading paraphrase: 傷を負う."
+      },
+      "nuance": {
+        "id": "負傷 adalah istilah ringkas untuk mengalami luka; 傷を負う menyatakan bahwa seseorang menanggung luka.",
+        "en": "負傷 is the compact term for being injured; 傷を負う states that someone bears an injury."
+      },
+      "philosophy": {
+        "id": "Hubungkan 負 dengan gagasan menanggung sesuatu, dalam hal ini sebuah luka.",
+        "en": "Connect 負 with the idea of bearing something, in this case an injury."
+      },
+      "vocabulary": [
+        {
+          "word": "負傷する",
+          "reading": "ふしょうする",
+          "meaning": {
+            "id": "mengalami luka; terluka",
+            "en": "to be injured"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：傷を負う（きずをおう）",
+          "en": "Kun-reading expression: 傷を負う (きずをおう)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-019",
+      "character": "保",
+      "meaning": {
+        "id": "menjaga; mempertahankan",
+        "en": "preserve; maintain"
+      },
+      "onyomi": [
+        {
+          "text": "ホ",
+          "reading": "ホ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "たも(つ)",
+          "reading": "たもつ"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：保温する。訓読みを使った言い換え：温かさを保つ。",
+        "en": "On-reading vocabulary: 保温する. Kun-reading paraphrase: 温かさを保つ."
+      },
+      "nuance": {
+        "id": "保温 berarti menjaga suhu tetap hangat; frasa kun secara langsung menyebutkan mempertahankan kehangatan.",
+        "en": "保温 means maintaining warmth; the kun phrase directly states keeping warmth."
+      },
+      "philosophy": {
+        "id": "Bayangkan panas yang dijaga agar tidak cepat hilang.",
+        "en": "Picture heat being preserved so it does not quickly escape."
+      },
+      "vocabulary": [
+        {
+          "word": "保温する",
+          "reading": "ほおんする",
+          "meaning": {
+            "id": "menjaga kehangatan",
+            "en": "to retain heat; to keep warm"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：温かさを保つ（あたたかさをたもつ）",
+          "en": "Kun-reading expression: 温かさを保つ (あたたかさをたもつ)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-020",
+      "character": "開",
+      "meaning": {
+        "id": "membuka; berlangsung",
+        "en": "open; hold"
       },
       "onyomi": [
         {
           "text": "カイ",
           "reading": "カイ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "ひら(く)",
+          "reading": "ひらく"
         },
         {
-          "text": "ガイ",
-          "reading": "ガイ"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。jumlah lantai bangunanを数える。例：3階建てのアパートの1階の部屋に住む。",
-        "en": "Counter for building floors. Example: 3階建てのアパートの1階の部屋に住む。"
-      },
-      "nuance": {
-        "id": "階 menghitung lantai. Perhatikan variasi bacaan pada 3階建て さんがいだて dan 1階 いっかい.",
-        "en": "階 counts floors. Notice the readings in 3階建て さんがいだて and 1階 いっかい."
-      },
-      "philosophy": {
-        "id": "Bayangkan menaiki tangga dari lantai ke lantai; setiap tingkat adalah satu 階.",
-        "en": "Picture climbing a staircase; each level is one 階."
-      },
-      "vocabulary": [
-        {
-          "word": "3階建て",
-          "reading": "さんがいだて",
-          "meaning": {
-            "id": "bangunan tiga lantai",
-            "en": "three-story building"
-          }
+          "text": "あ(く)",
+          "reading": "あく"
         },
         {
-          "word": "1階",
-          "reading": "いっかい",
+          "text": "あ(ける)",
+          "reading": "あける"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：開催する。訓読みを使った言い換え：催しを開く。",
+        "en": "On-reading vocabulary: 開催する. Kun-reading paraphrase: 催しを開く."
+      },
+      "nuance": {
+        "id": "開催 dipakai untuk menyebut penyelenggaraan acara; 催しを開く adalah cara mengungkapkan makna tersebut dengan ungkapan yang lebih transparan.",
+        "en": "開催 is used for holding an event; 催しを開く expresses the same idea in a more transparent phrase."
+      },
+      "philosophy": {
+        "id": "Bayangkan acara yang dibuka untuk umum pada waktu dan tempat tertentu.",
+        "en": "Picture an event being opened to the public at a set time and place."
+      },
+      "vocabulary": [
+        {
+          "word": "開催する",
+          "reading": "かいさいする",
           "meaning": {
-            "id": "lantai satu",
-            "en": "first floor"
+            "id": "mengadakan acara",
+            "en": "to hold an event"
           }
         }
       ],
       "readingNotes": [
         {
-          "id": "3階 dapat dibaca さんがい; 1階 dibaca いっかい.",
-          "en": "3階 dapat dibaca さんがい; 1階 dibaca いっかい."
+          "id": "訓読みの表現：催しを開く（もよおしをひらく）",
+          "en": "Kun-reading expression: 催しを開く (もよおしをひらく)."
         }
       ],
-      "level": "中級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
     },
     {
-      "id": "week7-day5-018",
-      "character": "枚",
+      "id": "week7-day6-021",
+      "character": "就",
       "meaning": {
-        "id": "lembar untuk benda tipis dan pipih",
-        "en": "counter for thin, flat objects"
+        "id": "menempati; mulai menjabat",
+        "en": "take up; assume"
       },
       "onyomi": [
         {
-          "text": "マイ",
-          "reading": "マイ"
+          "text": "シュウ",
+          "reading": "シュウ"
         }
       ],
-      "kunyomi": [],
+      "kunyomi": [
+        {
+          "text": "つ(く)",
+          "reading": "つく"
+        }
+      ],
       "usage": {
-        "id": "助数詞。kertas, papan, piring, perangko, dan benda pipihを数える。例：80円切手10枚とはがきを2枚ください。",
-        "en": "Counter for paper, boards, plates, stamps, and flat objects. Example: 80円切手10枚とはがきを2枚ください。"
+        "id": "音読みを使う語：就職する。訓読みを使った言い換え：職に就く。",
+        "en": "On-reading vocabulary: 就職する. Kun-reading paraphrase: 職に就く."
       },
       "nuance": {
-        "id": "枚 digunakan untuk benda tipis dan datar, bukan buku berjilid atau dokumen sebagai satu set.",
-        "en": "枚 is used for thin, flat objects, not bound books or document sets."
+        "id": "就職 adalah istilah umum untuk masuk ke dunia kerja; 職に就く mengungkapkan makna secara harfiah. Sumber mencatat 職 terutama menggunakan 音読み.",
+        "en": "就職 is the common term for entering employment; 職に就く expresses it literally. The source notes that 職 is mainly used with its on-reading."
       },
       "philosophy": {
-        "id": "Bayangkan selembar kertas yang datar; setiap lembar dihitung 一枚.",
-        "en": "Picture one flat sheet of paper; each sheet is 一枚."
+        "id": "Ingat bahwa 就職 berarti menempati suatu pekerjaan atau posisi kerja.",
+        "en": "Remember 就職 as taking up a job or working position."
       },
       "vocabulary": [
         {
-          "word": "切手10枚",
-          "reading": "きってじゅうまい",
+          "word": "就職する",
+          "reading": "しゅうしょくする",
           "meaning": {
-            "id": "sepuluh perangko",
-            "en": "ten stamps"
+            "id": "mendapatkan pekerjaan; mulai bekerja",
+            "en": "to get a job; take up employment"
           }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：職に就く（しょくにつく）",
+          "en": "Kun-reading expression: 職に就く (しょくにつく)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-022",
+      "character": "潜",
+      "meaning": {
+        "id": "menyelam; tersembunyi",
+        "en": "dive; hide"
+      },
+      "onyomi": [
+        {
+          "text": "セン",
+          "reading": "セン"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "もぐ(る)",
+          "reading": "もぐる"
         },
         {
-          "word": "はがき2枚",
-          "reading": "はがきにまい",
-          "meaning": {
-            "id": "dua kartu pos",
-            "en": "two postcards"
-          }
+          "text": "ひそ(む)",
+          "reading": "ひそむ"
         }
       ],
-      "readingNotes": [
-        {
-          "id": "10枚 dibaca じゅうまい.",
-          "en": "10枚 dibaca じゅうまい."
-        }
-      ],
-      "level": "中級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-019",
-      "character": "冊",
-      "meaning": {
-        "id": "buku atau majalah sebagai satu jilid",
-        "en": "counter for books and magazines"
-      },
-      "onyomi": [
-        {
-          "text": "サツ",
-          "reading": "サツ"
-        }
-      ],
-      "kunyomi": [],
       "usage": {
-        "id": "助数詞。majalah dan bukuを数える。例：試験の問題集を5冊勉強しました。",
-        "en": "Counter for books and magazines. Example: 試験の問題集を5冊勉強しました。"
+        "id": "音読みを使う語：潜水する。訓読みを使った言い換え：水に潜る。",
+        "en": "On-reading vocabulary: 潜水する. Kun-reading paraphrase: 水に潜る."
       },
       "nuance": {
-        "id": "冊 menghitung buku atau majalah sebagai jilid; bedakan dari 枚 untuk lembaran dan 部 untuk set dokumen.",
-        "en": "冊 counts bound books and magazines; distinguish it from 枚 for flat sheets and 部 for document sets."
+        "id": "潜水 merupakan istilah untuk aktivitas menyelam; 水に潜る menerangkan gerakan masuk ke bawah permukaan air.",
+        "en": "潜水 is the term for diving; 水に潜る describes moving beneath the water's surface."
       },
       "philosophy": {
-        "id": "Bayangkan buku yang dapat dibuka dan dibaca; satu buku adalah 一冊.",
-        "en": "Picture a bound book that can be opened and read; one book is 一冊."
+        "id": "Bayangkan tubuh masuk ke bawah permukaan air dan menghilang dari pandangan.",
+        "en": "Picture someone moving beneath the water's surface and out of sight."
       },
       "vocabulary": [
         {
-          "word": "問題集5冊",
-          "reading": "もんだいしゅうごさつ",
+          "word": "潜水する",
+          "reading": "せんすいする",
           "meaning": {
-            "id": "lima buku kumpulan soal",
-            "en": "five practice books"
+            "id": "menyelam ke dalam air",
+            "en": "to dive underwater"
           }
         }
       ],
       "readingNotes": [
         {
-          "id": "5冊 dibaca ごさつ.",
-          "en": "5冊 dibaca ごさつ."
+          "id": "訓読みの表現：水に潜る（みずにもぐる）",
+          "en": "Kun-reading expression: 水に潜る (みずにもぐる)."
         }
       ],
-      "level": "中級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
     },
     {
-      "id": "week7-day5-020",
-      "character": "泊",
+      "id": "week7-day6-023",
+      "character": "豊",
       "meaning": {
-        "id": "malam menginap",
-        "en": "counter for nights spent staying somewhere"
+        "id": "melimpah; kaya",
+        "en": "abundant; rich"
       },
       "onyomi": [
         {
-          "text": "ハク",
-          "reading": "ハク"
+          "text": "ホウ",
+          "reading": "ホウ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "ゆた(か)",
+          "reading": "ゆたか"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：豊富な。訓読みを使った言い換え：豊かで富んだ。",
+        "en": "On-reading vocabulary: 豊富な. Kun-reading paraphrase: 豊かで富んだ."
+      },
+      "nuance": {
+        "id": "豊富 menggambarkan jumlah atau persediaan yang banyak; bentuk kun menegaskan keadaan yang kaya dan berlimpah.",
+        "en": "豊富 describes a large quantity or supply; the kun phrase emphasizes richness and abundance."
+      },
+      "philosophy": {
+        "id": "Bayangkan persediaan yang sangat banyak hingga tidak terasa kekurangan.",
+        "en": "Picture a plentiful supply with no sense of shortage."
+      },
+      "vocabulary": [
+        {
+          "word": "豊富な",
+          "reading": "ほうふな",
+          "meaning": {
+            "id": "melimpah; berlimpah",
+            "en": "abundant; plentiful"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：豊かで富んだ（ゆたかでとんだ）",
+          "en": "Kun-reading expression: 豊かで富んだ (ゆたかでとんだ)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-024",
+      "character": "貧",
+      "meaning": {
+        "id": "miskin; kekurangan",
+        "en": "poor; lacking"
+      },
+      "onyomi": [
+        {
+          "text": "ヒン",
+          "reading": "ヒン"
         },
         {
-          "text": "パク",
-          "reading": "パク"
+          "text": "ビン",
+          "reading": "ビン"
         }
       ],
-      "kunyomi": [],
+      "kunyomi": [
+        {
+          "text": "まず(しい)",
+          "reading": "まずしい"
+        }
+      ],
       "usage": {
-        "id": "助数詞。jumlah malam menginapを数える。例：2泊3日の旅行。",
-        "en": "Counter for nights of a stay. Example: 2泊3日の旅行。"
+        "id": "音読みを使う語：貧乏な。訓読みを使った言い換え：貧しくて乏しい。",
+        "en": "On-reading vocabulary: 貧乏な. Kun-reading paraphrase: 貧しくて乏しい."
       },
       "nuance": {
-        "id": "泊 menghitung malam yang dilewati untuk menginap, bukan jumlah hari kalender perjalanan.",
-        "en": "泊 counts nights spent staying, not the total number of calendar days in a trip."
+        "id": "貧乏 adalah kata umum untuk kondisi kekurangan secara ekonomi; bentuk kun menguraikan keadaan miskin dan tidak memiliki banyak hal.",
+        "en": "貧乏 is a common word for economic poverty; the kun phrase describes being poor and lacking resources."
       },
       "philosophy": {
-        "id": "Hitung malam yang dilalui di tempat penginapan: dua malam berarti 二泊.",
-        "en": "Count the nights spent at the accommodation: two nights means 二泊."
+        "id": "Hubungkan 貧 dengan keadaan kekurangan, sebagai lawan dari gambaran kelimpahan 豊富.",
+        "en": "Connect 貧 with scarcity, contrasting it with the abundance of 豊富."
       },
       "vocabulary": [
         {
-          "word": "2泊3日",
-          "reading": "にはくみっか",
+          "word": "貧乏な",
+          "reading": "びんぼうな",
           "meaning": {
-            "id": "dua malam tiga hari",
-            "en": "two nights and three days"
+            "id": "miskin; serba kekurangan",
+            "en": "poor; destitute"
           }
         }
       ],
       "readingNotes": [
         {
-          "id": "2泊 dibaca にはく.",
-          "en": "2泊 dibaca にはく."
+          "id": "訓読みの表現：貧しくて乏しい（まずしくてとぼしい）",
+          "en": "Kun-reading expression: 貧しくて乏しい (まずしくてとぼしい)."
         }
       ],
-      "level": "中級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
     },
     {
-      "id": "week7-day5-021",
-      "character": "畳",
+      "id": "week7-day6-025",
+      "character": "詳",
       "meaning": {
-        "id": "tatami; satuan luas ruangan berdasarkan jumlah tatami",
-        "en": "tatami mat; unit for room size"
-      },
-      "onyomi": [
-        {
-          "text": "ジョウ",
-          "reading": "ジョウ"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。luas ruangan dalam satuan tatamiを数える。例：四畳半の部屋。",
-        "en": "Counter for room size measured in tatami mats. Example: 四畳半の部屋。"
-      },
-      "nuance": {
-        "id": "畳 menunjukkan ukuran ruangan dengan acuan jumlah tatami, bukan counter untuk lantai bangunan.",
-        "en": "畳 expresses room size by the number of tatami mats, not the number of building floors."
-      },
-      "philosophy": {
-        "id": "Bayangkan lantai ruangan ditutupi tikar tatami; luasnya dapat dibayangkan dari jumlah tikar.",
-        "en": "Picture a room floor covered with tatami mats; its size can be visualized by counting them."
-      },
-      "vocabulary": [
-        {
-          "word": "四畳半",
-          "reading": "よじょうはん",
-          "meaning": {
-            "id": "empat setengah tatami",
-            "en": "four-and-a-half tatami mats"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "四畳半 dibaca よじょうはん.",
-          "en": "四畳半 dibaca よじょうはん."
-        }
-      ],
-      "level": "中級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-022",
-      "character": "割",
-      "meaning": {
-        "id": "sepersepuluh; satuan persentase sepuluh persen",
-        "en": "one-tenth; unit representing ten percent"
-      },
-      "onyomi": [
-        {
-          "text": "ワリ",
-          "reading": "ワリ"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。rasio atau diskon dalam kelipatan 10 persenを数える。例：4割引き。",
-        "en": "Counter for ratios or discounts in ten-percent units. Example: 4割引き。"
-      },
-      "nuance": {
-        "id": "1割 sama dengan 1/10 atau 10%. Karena itu 4割 berarti 40%, bukan 4%.",
-        "en": "1割 equals one-tenth or 10%. Therefore 4割 means 40%, not 4%."
-      },
-      "philosophy": {
-        "id": "Bagi keseluruhan menjadi sepuluh bagian yang sama; satu bagian adalah satu 割.",
-        "en": "Divide the whole into ten equal parts; one part is one 割."
-      },
-      "vocabulary": [
-        {
-          "word": "4割引き",
-          "reading": "よんわりびき",
-          "meaning": {
-            "id": "diskon 40 persen",
-            "en": "40 percent off"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "1割 = 10%; 4割引き = diskon 40%.",
-          "en": "1割 = 10%; 4割引き = diskon 40%."
-        }
-      ],
-      "level": "中級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-023",
-      "character": "斤",
-      "meaning": {
-        "id": "satuan untuk satu bongkah roti tawar",
-        "en": "unit for a loaf of sliced bread"
-      },
-      "onyomi": [
-        {
-          "text": "キン",
-          "reading": "キン"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。roti tawar dalam satu bongkahを数える。例：食パンを1斤買う。",
-        "en": "Counter for a loaf of bread. Example: 食パンを1斤買う。"
-      },
-      "nuance": {
-        "id": "斤 digunakan dalam konteks roti tawar sebagai satu bongkah/loaf, bukan untuk menghitung tablet atau benda lain.",
-        "en": "斤 is used for a loaf of bread, not tablets or other objects."
-      },
-      "philosophy": {
-        "id": "Bayangkan roti tawar yang dijual sebagai satu bongkah utuh: satu bongkah adalah 一斤.",
-        "en": "Picture a complete loaf sold as one unit: one loaf is 一斤."
-      },
-      "vocabulary": [
-        {
-          "word": "食パン1斤",
-          "reading": "しょくパンいっきん",
-          "meaning": {
-            "id": "satu bongkah roti tawar",
-            "en": "one loaf of bread"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "1斤 dibaca いっきん.",
-          "en": "1斤 dibaca いっきん."
-        }
-      ],
-      "level": "上級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-024",
-      "character": "隻",
-      "meaning": {
-        "id": "unit untuk kapal besar",
-        "en": "counter for large ships and vessels"
-      },
-      "onyomi": [
-        {
-          "text": "セキ",
-          "reading": "セキ"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。kapal besar seperti tanker dan kapal selamを数える。例：大型漁船が2隻出港した。",
-        "en": "Counter for large ships such as tankers and submarines. Example: 大型漁船が2隻出港した。"
-      },
-      "nuance": {
-        "id": "隻 merupakan counter untuk kapal berukuran besar; jangan tertukar dengan 台 untuk kendaraan/perangkat.",
-        "en": "隻 is a counter for large vessels; do not confuse it with 台 for vehicles and machines."
-      },
-      "philosophy": {
-        "id": "Bayangkan satu kapal besar yang berlayar di laut; setiap kapal dihitung 一隻.",
-        "en": "Picture one large vessel sailing at sea; each vessel is 一隻."
-      },
-      "vocabulary": [
-        {
-          "word": "大型漁船2隻",
-          "reading": "おおがたぎょせんにせき",
-          "meaning": {
-            "id": "dua kapal ikan besar",
-            "en": "two large fishing vessels"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "2隻 dibaca にせき.",
-          "en": "2隻 dibaca にせき."
-        }
-      ],
-      "level": "上級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-025",
-      "character": "脚",
-      "meaning": {
-        "id": "unit untuk benda berkaki seperti meja dan kursi",
-        "en": "counter for furniture and objects with legs"
-      },
-      "onyomi": [
-        {
-          "text": "キャク",
-          "reading": "キャク"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。meja, kursi, dan perabot berkakiを数える。例：パイプ椅子を50脚並べてください。",
-        "en": "Counter for tables, chairs, and furniture with legs. Example: パイプ椅子を50脚並べてください。"
-      },
-      "nuance": {
-        "id": "脚 menghitung benda/perabot yang memiliki kaki, terutama meja dan kursi.",
-        "en": "脚 counts furniture and objects with legs, especially tables and chairs."
-      },
-      "philosophy": {
-        "id": "Lihat kaki-kaki kursi yang menopang dudukan; satu kursi tetap dihitung satu 脚.",
-        "en": "Focus on the legs supporting a chair; one chair is counted as one 脚."
-      },
-      "vocabulary": [
-        {
-          "word": "パイプ椅子50脚",
-          "reading": "パイプいすごじっきゃく",
-          "meaning": {
-            "id": "lima puluh kursi lipat",
-            "en": "fifty pipe chairs"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "50脚 dibaca ごじっきゃく.",
-          "en": "50脚 dibaca ごじっきゃく."
-        }
-      ],
-      "level": "上級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-026",
-      "character": "錠",
-      "meaning": {
-        "id": "butir/tablet obat",
-        "en": "counter for tablets or pills"
-      },
-      "onyomi": [
-        {
-          "text": "ジョウ",
-          "reading": "ジョウ"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。obat berbentuk tabletを数える。例：毎食後1回2錠お飲みください。",
-        "en": "Counter for medicinal tablets or pills. Example: 毎食後1回2錠お飲みください。"
-      },
-      "nuance": {
-        "id": "錠 menghitung obat yang berbentuk tablet; bentuk obat lain dapat menggunakan satuan berbeda.",
-        "en": "錠 counts medicine in tablet form; other forms of medicine may use different counters."
-      },
-      "philosophy": {
-        "id": "Bayangkan tablet sebagai satu butir padat; setiap butir dihitung 一錠.",
-        "en": "Picture each pill as one solid tablet; each one is 一錠."
-      },
-      "vocabulary": [
-        {
-          "word": "2錠",
-          "reading": "にじょう",
-          "meaning": {
-            "id": "dua tablet",
-            "en": "two tablets"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "2錠 dibaca にじょう.",
-          "en": "2錠 dibaca にじょう."
-        }
-      ],
-      "level": "上級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-027",
-      "character": "遍",
-      "meaning": {
-        "id": "kali/ulangan untuk tindakan; ungkapan agak lama",
-        "en": "counter for repetitions; somewhat old-fashioned expression"
-      },
-      "onyomi": [
-        {
-          "text": "ヘン",
-          "reading": "ヘン"
-        },
-        {
-          "text": "ベン",
-          "reading": "ベン"
-        },
-        {
-          "text": "ペン",
-          "reading": "ペン"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。jumlah pengulangan tindakan (ungkapan agak lama)を数える。例：何遍も同じことを言う。",
-        "en": "Counter for repetitions of an action (somewhat old-fashioned). Example: 何遍も同じことを言う。"
-      },
-      "nuance": {
-        "id": "遍 bermakna jumlah pengulangan seperti 回 atau 度, tetapi sumber menandainya sebagai ungkapan yang agak lama.",
-        "en": "遍 expresses repetitions like 回 or 度, but the source notes that it is somewhat old-fashioned."
-      },
-      "philosophy": {
-        "id": "Ingat pola tindakan yang dilakukan berkali-kali; satu pengulangan adalah satu 遍.",
-        "en": "Remember an action repeated again and again; each repetition is one 遍."
-      },
-      "vocabulary": [
-        {
-          "word": "何遍も",
-          "reading": "なんべんも",
-          "meaning": {
-            "id": "berulang kali",
-            "en": "many times"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "何遍も dibaca なんべんも; ungkapannya agak lama.",
-          "en": "何遍も dibaca なんべんも; ungkapannya agak lama."
-        }
-      ],
-      "level": "上級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-028",
-      "character": "箇",
-      "meaning": {
-        "id": "satuan untuk tempat tertentu atau jumlah bulan",
-        "en": "unit used in expressions for specific places or months"
-      },
-      "onyomi": [
-        {
-          "text": "カ",
-          "reading": "カ"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。箇所 (lokasi/bagian) dan 箇月 (jumlah bulan)を数える。例：間違いが1箇所ある。家賃は1箇月3万円です。",
-        "en": "Counter for 箇所 (places/points) and 箇月 (months). Example: 間違いが1箇所ある。家賃は1箇月3万円です。"
-      },
-      "nuance": {
-        "id": "箇 muncul dalam gabungan seperti 箇所 dan 箇月. Dalam penulisan sehari-hari, bentuk ヶ atau ヵ sering menggantikan 箇 pada hitungan bulan.",
-        "en": "箇 appears in compounds such as 箇所 and 箇月. In everyday writing, ヶ or ヵ often replaces 箇 in month expressions."
-      },
-      "philosophy": {
-        "id": "Ingat 箇 sebagai penanda satu bagian yang dapat ditunjuk atau dihitung secara spesifik.",
-        "en": "Think of 箇 as marking a specific part or unit that can be identified and counted."
-      },
-      "vocabulary": [
-        {
-          "word": "1箇所",
-          "reading": "いっかしょ",
-          "meaning": {
-            "id": "satu tempat/bagian",
-            "en": "one place/spot"
-          }
-        },
-        {
-          "word": "1箇月",
-          "reading": "いっかげつ",
-          "meaning": {
-            "id": "satu bulan",
-            "en": "one month"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "1箇所 dibaca いっかしょ; 1箇月 dibaca いっかげつ.",
-          "en": "1箇所 dibaca いっかしょ; 1箇月 dibaca いっかげつ."
-        },
-        {
-          "id": "Untuk bulan, bentuk 1ヶ月 dan 1ヵ月 juga sering digunakan.",
-          "en": "Untuk bulan, bentuk 1ヶ月 dan 1ヵ月 juga sering digunakan."
-        }
-      ],
-      "level": "上級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-029",
-      "character": "坪",
-      "meaning": {
-        "id": "satuan luas tanah atau bangunan",
-        "en": "unit of land or building area"
-      },
-      "onyomi": [
-        {
-          "text": "ツボ",
-          "reading": "ツボ"
-        }
-      ],
-      "kunyomi": [],
-      "usage": {
-        "id": "助数詞。luas tanah dan bangunanを数える。例：1坪は約3.3㎡で、畳2畳ぐらいの広さ。",
-        "en": "Counter for land and building area. Example: 1坪は約3.3㎡で、畳2畳ぐらいの広さ。"
-      },
-      "nuance": {
-        "id": "坪 adalah satuan luas, bukan satuan jumlah rumah atau jumlah lantai. Materi memberi perkiraan 1坪 ≈ 3,3㎡.",
-        "en": "坪 is an area unit, not a counter for houses or floors. The material gives the approximation 1坪 ≈ 3.3㎡."
-      },
-      "philosophy": {
-        "id": "Gunakan gambaran dua tatami sebagai ukuran visual untuk mengingat satu 坪.",
-        "en": "Use the image of roughly two tatami mats as a visual memory aid for one 坪."
-      },
-      "vocabulary": [
-        {
-          "word": "1坪",
-          "reading": "ひとつぼ",
-          "meaning": {
-            "id": "satu tsubo (sekitar 3,3 m²)",
-            "en": "one tsubo (about 3.3 m²)"
-          }
-        }
-      ],
-      "readingNotes": [
-        {
-          "id": "1坪 kira-kira 3,3 m² atau sekitar dua 畳.",
-          "en": "1坪 kira-kira 3,3 m² atau sekitar dua 畳."
-        }
-      ],
-      "level": "上級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
-    },
-    {
-      "id": "week7-day5-030",
-      "character": "升",
-      "meaning": {
-        "id": "satuan volume untuk beras, sake, kecap, dan bahan cair",
-        "en": "volume unit for rice, sake, soy sauce, and other liquids"
+        "id": "rinci; terperinci",
+        "en": "detailed; thorough"
       },
       "onyomi": [
         {
@@ -1480,83 +1235,483 @@ const minggu7Hari5 = {
           "reading": "ショウ"
         }
       ],
-      "kunyomi": [],
+      "kunyomi": [
+        {
+          "text": "くわ(しい)",
+          "reading": "くわしい"
+        }
+      ],
       "usage": {
-        "id": "助数詞。volume beras, sake, kecap, dan sejenisnyaを数える。例：一升瓶。一升炊きの炊飯器。",
-        "en": "Counter for volume of rice, sake, soy sauce, and similar goods. Example: 一升瓶。一升炊きの炊飯器。"
+        "id": "音読みを使う語：詳細な。訓読みを使った言い換え：詳しくて細かい。",
+        "en": "On-reading vocabulary: 詳細な. Kun-reading paraphrase: 詳しくて細かい."
       },
       "nuance": {
-        "id": "升 merupakan satuan volume tradisional Jepang. Materi menyebut 1升 kira-kira 1,8 liter.",
-        "en": "升 is a traditional Japanese volume unit. The material states that 1升 is about 1.8 liters."
+        "id": "詳細 berarti uraian yang mencakup banyak rincian; 詳しくて細かい menekankan kedalaman dan detail kecil.",
+        "en": "詳細 means an account containing many particulars; 詳しくて細かい emphasizes depth and fine detail."
       },
       "philosophy": {
-        "id": "Ingat 升 sebagai ukuran volume tradisional yang muncul pada botol dan penanak nasi.",
-        "en": "Remember 升 as a traditional volume measure found in bottle and rice-cooker capacities."
+        "id": "Bayangkan informasi yang diperiksa sampai bagian-bagian kecilnya.",
+        "en": "Picture information examined down to its smallest parts."
       },
       "vocabulary": [
         {
-          "word": "一升瓶",
-          "reading": "いっしょうびん",
+          "word": "詳細な",
+          "reading": "しょうさいな",
           "meaning": {
-            "id": "botol satu sho",
-            "en": "one-sho bottle"
-          }
-        },
-        {
-          "word": "一升炊き",
-          "reading": "いっしょうだき",
-          "meaning": {
-            "id": "kapasitas masak satu sho",
-            "en": "one-sho cooking capacity"
+            "id": "terperinci; detail",
+            "en": "detailed; precise"
           }
         }
       ],
       "readingNotes": [
         {
-          "id": "1升 kira-kira 1,8 liter; 一升 dibaca いっしょう.",
-          "en": "1升 kira-kira 1,8 liter; 一升 dibaca いっしょう."
+          "id": "訓読みの表現：詳しくて細かい（くわしくてこまかい）",
+          "en": "Kun-reading expression: 詳しくて細かい (くわしくてこまかい)."
         }
       ],
-      "level": "上級の漢字",
-      "sourceNote": "Sumber: 第7週 5日目 1羽・1個・1軒 (halaman 116–117)."
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-026",
+      "character": "悲",
+      "meaning": {
+        "id": "sedih; menyedihkan",
+        "en": "sad; sorrowful"
+      },
+      "onyomi": [
+        {
+          "text": "ヒ",
+          "reading": "ヒ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "かな(しい)",
+          "reading": "かなしい"
+        },
+        {
+          "text": "かな(しむ)",
+          "reading": "かなしむ"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：悲惨な。訓読みを使った言い換え：悲しくて惨めな。",
+        "en": "On-reading vocabulary: 悲惨な. Kun-reading paraphrase: 悲しくて惨めな."
+      },
+      "nuance": {
+        "id": "悲惨 lebih kuat daripada sekadar 悲しい; kata ini menggambarkan keadaan yang menyedihkan dan mengenaskan.",
+        "en": "悲惨 is stronger than simply 悲しい; it describes a tragic or miserable condition."
+      },
+      "philosophy": {
+        "id": "Ingat peningkatan makna dari sedih menjadi keadaan yang sangat mengenaskan.",
+        "en": "Remember the shift from sadness to a deeply tragic condition."
+      },
+      "vocabulary": [
+        {
+          "word": "悲惨な",
+          "reading": "ひさんな",
+          "meaning": {
+            "id": "sangat menyedihkan; tragis",
+            "en": "miserable; tragic"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：悲しくて惨めな（かなしくてみじめな）",
+          "en": "Kun-reading expression: 悲しくて惨めな (かなしくてみじめな)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-027",
+      "character": "鮮",
+      "meaning": {
+        "id": "segar; jelas; cemerlang",
+        "en": "fresh; vivid; clear"
+      },
+      "onyomi": [
+        {
+          "text": "セン",
+          "reading": "セン"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "あざ(やか)",
+          "reading": "あざやか"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：鮮明な。訓読みを使った言い換え：鮮やかで明らかな。",
+        "en": "On-reading vocabulary: 鮮明な. Kun-reading paraphrase: 鮮やかで明らかな."
+      },
+      "nuance": {
+        "id": "鮮明 digunakan untuk ingatan, gambar, atau kesan yang sangat jelas; 鮮やかで明らかな menekankan kejelasan yang menonjol.",
+        "en": "鮮明 describes a memory, image, or impression that is very clear; the kun phrase stresses vivid clarity."
+      },
+      "philosophy": {
+        "id": "Bayangkan gambar dengan batas dan warna yang tampak tegas.",
+        "en": "Picture an image with crisp outlines and vivid colors."
+      },
+      "vocabulary": [
+        {
+          "word": "鮮明な",
+          "reading": "せんめいな",
+          "meaning": {
+            "id": "jelas; tampak nyata",
+            "en": "vivid; clear"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：鮮やかで明らかな（あざやかであきらかな）",
+          "en": "Kun-reading expression: 鮮やかで明らかな (あざやかであきらかな)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-028",
+      "character": "透",
+      "meaning": {
+        "id": "tembus; transparan",
+        "en": "transparent; pass through"
+      },
+      "onyomi": [
+        {
+          "text": "トウ",
+          "reading": "トウ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "す(く)",
+          "reading": "すく"
+        },
+        {
+          "text": "す(ける)",
+          "reading": "すける"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：透明な。訓読みを使った言い換え：明るくて透き通った。",
+        "en": "On-reading vocabulary: 透明な. Kun-reading paraphrase: 明るくて透き通った."
+      },
+      "nuance": {
+        "id": "透明 menggambarkan sesuatu yang dapat ditembus pandangan; 透き通る menekankan keadaan yang jernih dan tembus pandang.",
+        "en": "透明 describes something one can see through; 透き通る emphasizes clarity and transparency."
+      },
+      "philosophy": {
+        "id": "Bayangkan air jernih yang memungkinkan kita melihat apa yang ada di baliknya.",
+        "en": "Picture clear water that lets you see what lies beyond it."
+      },
+      "vocabulary": [
+        {
+          "word": "透明な",
+          "reading": "とうめいな",
+          "meaning": {
+            "id": "transparan; tembus pandang",
+            "en": "transparent; see-through"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：明るくて透き通った（あかるくてすきとおった）",
+          "en": "Kun-reading expression: 明るくて透き通った (あかるくてすきとおった)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-029",
+      "character": "彫",
+      "meaning": {
+        "id": "memahat; mengukir",
+        "en": "carve; sculpt"
+      },
+      "onyomi": [
+        {
+          "text": "チョウ",
+          "reading": "チョウ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "ほ(る)",
+          "reading": "ほる"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：彫刻。訓読みを使った言い換え：彫り刻んだもの。",
+        "en": "On-reading vocabulary: 彫刻. Kun-reading paraphrase: 彫り刻んだもの."
+      },
+      "nuance": {
+        "id": "彫刻 dapat berarti seni memahat atau hasil pahatan; frasa kun menggambarkan proses mengukir dan memahat.",
+        "en": "彫刻 can mean the art of carving or the carved work itself; the kun phrase depicts carving and engraving."
+      },
+      "philosophy": {
+        "id": "Bayangkan bentuk yang muncul sedikit demi sedikit dari bahan yang dipahat.",
+        "en": "Picture a shape gradually emerging from material being carved."
+      },
+      "vocabulary": [
+        {
+          "word": "彫刻",
+          "reading": "ちょうこく",
+          "meaning": {
+            "id": "patung; ukiran",
+            "en": "sculpture; carving"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：彫り刻んだもの（ほりきざんだもの）",
+          "en": "Kun-reading expression: 彫り刻んだもの (ほりきざんだもの)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-030",
+      "character": "悪",
+      "meaning": {
+        "id": "buruk; jahat",
+        "en": "bad; evil"
+      },
+      "onyomi": [
+        {
+          "text": "アク",
+          "reading": "アク"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "わる(い)",
+          "reading": "わるい"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：悪癖。訓読みを使った言い換え：悪い癖。",
+        "en": "On-reading vocabulary: 悪癖. Kun-reading paraphrase: 悪い癖."
+      },
+      "nuance": {
+        "id": "悪癖 adalah kebiasaan yang tidak baik; 悪い癖 menguraikan kata majemuk itu secara langsung.",
+        "en": "悪癖 is a harmful habit; 悪い癖 directly spells out the compound."
+      },
+      "philosophy": {
+        "id": "Hubungkan 癖 dengan kebiasaan dan 悪 dengan penilaian buruk terhadap kebiasaan itu.",
+        "en": "Connect 癖 with habit and 悪 with the negative quality of that habit."
+      },
+      "vocabulary": [
+        {
+          "word": "悪癖",
+          "reading": "あくへき",
+          "meaning": {
+            "id": "kebiasaan buruk",
+            "en": "bad habit"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：悪い癖（わるいくせ）",
+          "en": "Kun-reading expression: 悪い癖 (わるいくせ)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-031",
+      "character": "隣",
+      "meaning": {
+        "id": "sebelah; tetangga",
+        "en": "neighbor; next to"
+      },
+      "onyomi": [
+        {
+          "text": "リン",
+          "reading": "リン"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "となり",
+          "reading": "となり"
+        },
+        {
+          "text": "とな(る)",
+          "reading": "となる"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：隣人。訓読みを使った言い換え：隣の人。",
+        "en": "On-reading vocabulary: 隣人. Kun-reading paraphrase: 隣の人."
+      },
+      "nuance": {
+        "id": "隣人 adalah bentuk ringkas/formal untuk orang yang tinggal di sebelah; 隣の人 menyatakannya secara langsung.",
+        "en": "隣人 is a compact or formal term for someone nearby; 隣の人 states it directly."
+      },
+      "philosophy": {
+        "id": "Bayangkan orang yang tinggal di rumah tepat di sebelah rumah kita.",
+        "en": "Picture the person living in the house next door."
+      },
+      "vocabulary": [
+        {
+          "word": "隣人",
+          "reading": "りんじん",
+          "meaning": {
+            "id": "tetangga",
+            "en": "neighbor"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：隣の人（となりのひと）",
+          "en": "Kun-reading expression: 隣の人 (となりのひと)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-032",
+      "character": "免",
+      "meaning": {
+        "id": "membebaskan; menghindari",
+        "en": "exempt; avoid"
+      },
+      "onyomi": [
+        {
+          "text": "メン",
+          "reading": "メン"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "まぬか(れる)",
+          "reading": "まぬかれる"
+        },
+        {
+          "text": "まぬが(れる)",
+          "reading": "まぬがれる"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：免税品。訓読みを使った言い換え：税金を免れる品。",
+        "en": "On-reading vocabulary: 免税品. Kun-reading paraphrase: 税金を免れる品."
+      },
+      "nuance": {
+        "id": "免税品 adalah barang yang tidak dikenai pajak tertentu; 税金を免れる品 menjelaskan arti komponennya.",
+        "en": "免税品 refers to goods exempt from certain taxes; 税金を免れる品 explains the compound literally."
+      },
+      "philosophy": {
+        "id": "Ingat 免 sebagai gagasan pembebasan dari sesuatu, dalam kata ini pembebasan pajak.",
+        "en": "Remember 免 as exemption from something, here exemption from tax."
+      },
+      "vocabulary": [
+        {
+          "word": "免税品",
+          "reading": "めんぜいひん",
+          "meaning": {
+            "id": "barang bebas pajak",
+            "en": "duty-free goods"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：税金を免れる品（ぜいきんをまぬがれるしな）",
+          "en": "Kun-reading expression: 税金を免れる品 (ぜいきんをまぬがれるしな)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
+    },
+    {
+      "id": "week7-day6-033",
+      "character": "後",
+      "meaning": {
+        "id": "belakang; setelah",
+        "en": "behind; after"
+      },
+      "onyomi": [
+        {
+          "text": "ゴ",
+          "reading": "ゴ"
+        },
+        {
+          "text": "コウ",
+          "reading": "コウ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "text": "うし(ろ)",
+          "reading": "うしろ"
+        }
+      ],
+      "usage": {
+        "id": "音読みを使う語：後継者。訓読みを使った言い換え：後を継ぐ者。",
+        "en": "On-reading vocabulary: 後継者. Kun-reading paraphrase: 後を継ぐ者."
+      },
+      "nuance": {
+        "id": "後継者 adalah orang yang meneruskan posisi atau pekerjaan pendahulunya; 後を継ぐ者 menjelaskan tindakan meneruskan.",
+        "en": "後継者 is someone who takes over a predecessor's role or work; 後を継ぐ者 explains the act of succeeding."
+      },
+      "philosophy": {
+        "id": "Bayangkan seseorang yang datang setelah pendahulunya dan melanjutkan tugasnya.",
+        "en": "Picture someone who comes after a predecessor and continues their work."
+      },
+      "vocabulary": [
+        {
+          "word": "後継者",
+          "reading": "こうけいしゃ",
+          "meaning": {
+            "id": "penerus; orang yang melanjutkan",
+            "en": "successor"
+          }
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "訓読みの表現：後を継ぐ者（あとをつぐもの）",
+          "en": "Kun-reading expression: 後を継ぐ者 (あとをつぐもの)."
+        }
+      ],
+      "sourceNote": "Sumber: 第7週 6日目 再会する＝再び会う (halaman 118–119)."
     }
   ],
   "notes": [
     {
-      "id": "助数詞（じょすうし）は、物や人、動物などを数えるときに使う言葉です。数える対象によって使う漢字が変わります。",
-      "en": "助数詞 are counters used to count objects, people, animals, and other things. The counter changes depending on what is being counted."
+      "id": "音読みは熟語の形で使われることが多く、訓読みは意味を説明する言い換えとして使えます。ただし、訓読みの表現をそのまま文にすると不自然な場合もあります。",
+      "en": "On-readings often appear in compounds, while kun-reading expressions can serve as explanatory paraphrases. However, using the kun-reading expression directly in a sentence may sometimes sound unnatural."
     },
     {
-      "id": "初級・中級・上級の分類は、資料の見出しに沿っています。",
-      "en": "The beginner, intermediate, and advanced groupings follow the source material's headings."
+      "id": "たとえば、再会する＝再び会う、全滅する＝全て滅びる、粉砕する＝粉々に砕く、というように、二つの形を意味で結びつけましょう。",
+      "en": "For example, connect 再会する＝再び会う, 全滅する＝全て滅びる, and 粉砕する＝粉々に砕く through their meanings."
     },
     {
-      "id": "本・匹・杯・羽・階などは、数字によって音が変わることがあります。数字と助数詞を組み合わせて覚えましょう。",
-      "en": "Counters such as 本, 匹, 杯, 羽, and 階 can change sound depending on the number. Memorize the number-counter combination together."
+      "id": "資料にある「職は音読みだけ」という注記も忘れずに確認しましょう。",
+      "en": "Remember the source note that 職 is used with its on-reading only."
     },
     {
-      "id": "1割は10%です。1坪は約3.3㎡、1升は約1.8リットルです。",
-      "en": "1割 is 10%. One 坪 is about 3.3 m², and one 升 is about 1.8 liters."
-    },
-    {
-      "id": "遍は回・度に近い回数表現ですが、資料ではやや古い表現とされています。",
-      "en": "遍 is a repetition counter similar to 回 or 度, but the source describes it as somewhat old-fashioned."
-    },
-    {
-      "id": "箇の代わりに、月数では「ヶ」や「ヵ」が使われることも多いです。",
-      "en": "For month counts, ヶ or ヵ often appears instead of 箇."
+      "id": "この日の33語は、資料の順番と表現を保ってカード化しています。",
+      "en": "The 33 vocabulary items for this day have been made into cards while preserving the source order and expressions."
     }
   ],
   "exam": {
     "enabled": true,
-    "id": "week7-day5-mini-exam",
+    "id": "week7-day6-mini-exam",
     "title": {
-      "id": "Ujian Mini Minggu 7 - Hari 5",
-      "en": "Week 7 - Day 5 Mini Exam"
+      "id": "Ujian Mini Minggu 7 - Hari 6",
+      "en": "Week 7 - Day 6 Mini Exam"
     },
     "description": {
-      "id": "Uji pemahaman 20 soal tentang penggunaan助数詞, pemilihan counter berdasarkan objek, serta bacaan yang berubah. Setiap soal dilengkapi penjelasan, nuansa, dan filosofi pengingat.",
-      "en": "Test your understanding of 20 questions on 助数詞, choosing counters by object type, and sound changes. Every question includes an explanation, nuance, and a memory philosophy."
+      "id": "20 soal untuk menguji hubungan antara kosakata 音読み dan parafrasa 訓読み, serta bacaan kosakata utama. Setiap soal dilengkapi penjelasan, nuansa, dan filosofi pengingat.",
+      "en": "20 questions testing the relationship between on-reading vocabulary and kun-reading paraphrases, along with key vocabulary readings. Every question includes an explanation, nuance, and a memory philosophy."
     },
     "subtitle": {
       "id": "制限時間：10分 ・ 1問5点 × 20問 ・ 100点満点",
@@ -1587,656 +1742,677 @@ const minggu7Hari5 = {
       {
         "id": "kanji",
         "label": {
-          "id": "Pilih助数詞 yang benar",
-          "en": "Choose the correct counter"
+          "id": "Pilih kosakata yang sesuai",
+          "en": "Choose the matching vocabulary"
         }
       }
     ],
     "questions": [
       {
-        "id": "w7d5-q01",
+        "id": "w7d6-q01",
         "type": "kanji",
         "question": {
-          "id": "（　）に入る最も適切な助数詞を選びなさい。",
-          "en": "Choose the most appropriate counter."
+          "id": "音読みの言葉に対応する訓読みの表現を選びなさい。",
+          "en": "Choose the kun-reading expression that corresponds to the on-reading word."
         },
-        "prompt": "証明書を1（　）発行する。",
+        "prompt": "再会する",
         "promptType": "reading",
         "options": [
-          "通",
-          "部",
-          "枚",
-          "冊"
+          "再び会う",
+          "全て滅びる",
+          "粉々に砕く",
+          "後を継ぐ者"
         ],
-        "answer": "通",
+        "answer": "再び会う",
         "explanation": {
-          "id": "証明書は書類なので、1通と数えます。",
-          "en": "A certificate is a document, so it is counted with 通."
+          "id": "再会する（さいかいする）は「再び会う」と言い換えられます。",
+          "en": "再会する can be paraphrased as 再び会う (meet again)."
         },
         "nuance": {
-          "id": "通 menghitung surat atau dokumen utuh; 枚 menghitung lembaran datar.",
-          "en": "通 counts complete letters or documents; 枚 counts flat sheets."
+          "id": "再会する menggunakan 音読みの語彙; 再び会う memakai bentuk 訓読み.",
+          "en": "再会する uses an on-reading compound; 再び会う uses a kun-reading expression."
         },
         "philosophy": {
-          "id": "Ingat dokumen sebagai satu kiriman yang utuh: 一通.",
-          "en": "Picture one complete document as a single item: 一通."
+          "id": "Pasangkan kedua bentuk untuk mengingat satu makna melalui dua cara baca.",
+          "en": "Pair the two forms to remember one meaning through two reading patterns."
         },
         "sourceKanji": [
-          "通"
+          "再"
         ]
       },
       {
-        "id": "w7d5-q02",
+        "id": "w7d6-q02",
         "type": "kanji",
         "question": {
-          "id": "（　）に入る最も適切な助数詞を選びなさい。",
-          "en": "Choose the most appropriate counter."
+          "id": "音読みの言葉に対応する訓読みの表現を選びなさい。",
+          "en": "Choose the matching kun-reading expression."
         },
-        "prompt": "映画を2（　）続けて見る。",
+        "prompt": "粉砕する",
         "promptType": "reading",
         "options": [
-          "本",
-          "枚",
-          "冊",
-          "台"
+          "粉々に砕く",
+          "競い争う",
+          "水に潜る",
+          "装って飾る"
         ],
-        "answer": "本",
+        "answer": "粉々に砕く",
         "explanation": {
-          "id": "映画は本で数えることがあります。",
-          "en": "Films can be counted with 本."
+          "id": "粉砕するは「粉々に砕く」という意味です。",
+          "en": "粉砕する means to crush something into tiny pieces."
         },
         "nuance": {
-          "id": "本 juga dipakai untuk film dan layanan transportasi, bukan hanya benda panjang.",
-          "en": "本 is also used for films and transport services, not only long objects."
+          "id": "粉々に砕く menonjolkan hasil penghancuran menjadi bagian kecil.",
+          "en": "粉々に砕く emphasizes the result of being broken into small pieces."
         },
         "philosophy": {
-          "id": "Hubungkan 本 dengan satu judul film sebagai satu unit.",
-          "en": "Connect 本 with one film title as a single unit."
+          "id": "Hubungkan kata dengan gambaran serbuk atau serpihan kecil.",
+          "en": "Connect the word with the image of powder or tiny fragments."
         },
         "sourceKanji": [
-          "本"
+          "粉",
+          "砕"
         ]
       },
       {
-        "id": "w7d5-q03",
+        "id": "w7d6-q03",
         "type": "kanji",
         "question": {
-          "id": "（　）に入る最も適切な助数詞を選びなさい。",
-          "en": "Choose the most appropriate counter."
+          "id": "音読みの言葉に対応する訓読みの表現を選びなさい。",
+          "en": "Choose the matching kun-reading expression."
         },
-        "prompt": "書類のコピーを10（　）用意する。",
+        "prompt": "競争する",
         "promptType": "reading",
         "options": [
-          "部",
-          "通",
-          "枚",
-          "軒"
+          "競い争う",
+          "巡って回る",
+          "募って集める",
+          "温かさを保つ"
         ],
-        "answer": "部",
+        "answer": "競い争う",
         "explanation": {
-          "id": "書類のコピーをセットとして数える場合は10部です。",
-          "en": "When counting sets of document copies, use 10部."
+          "id": "競争するは「競い争う」と言い換えられます。",
+          "en": "競争する can be expressed as 競い争う."
         },
         "nuance": {
-          "id": "部 menghitung eksemplar atau set; 枚 menghitung kertas satu per satu.",
-          "en": "部 counts copies or sets; 枚 counts individual sheets."
+          "id": "Kedua bentuk menekankan usaha dua pihak untuk saling mengungguli.",
+          "en": "Both forms emphasize two sides trying to outdo each other."
         },
         "philosophy": {
-          "id": "Bayangkan sepuluh bundel dokumen yang siap dibagikan.",
-          "en": "Picture ten document sets ready to distribute."
+          "id": "Ingat dua pihak yang berlomba untuk mencapai hasil lebih baik.",
+          "en": "Remember two sides competing to achieve a better result."
         },
         "sourceKanji": [
-          "部"
+          "競",
+          "争"
         ]
       },
       {
-        "id": "w7d5-q04",
-        "type": "kanji",
-        "question": {
-          "id": "（　）に入る最も適切な助数詞を選びなさい。",
-          "en": "Choose the most appropriate counter."
-        },
-        "prompt": "スーツが2（　）で1万円。",
-        "promptType": "reading",
-        "options": [
-          "着",
-          "足",
-          "枚",
-          "台"
-        ],
-        "answer": "着",
-        "explanation": {
-          "id": "スーツは衣類なので2着と数えます。",
-          "en": "A suit is clothing, so it is counted as 2着."
-        },
-        "nuance": {
-          "id": "着 menghitung pakaian; 足 menghitung pasangan sepatu atau kaus kaki.",
-          "en": "着 counts garments; 足 counts pairs of shoes or socks."
-        },
-        "philosophy": {
-          "id": "Bayangkan satu setelan jas tergantung di lemari: 一着.",
-          "en": "Picture one suit hanging in a closet: 一着."
-        },
-        "sourceKanji": [
-          "着"
-        ]
-      },
-      {
-        "id": "w7d5-q05",
-        "type": "kanji",
-        "question": {
-          "id": "（　）に入る最も適切な助数詞を選びなさい。",
-          "en": "Choose the most appropriate counter."
-        },
-        "prompt": "靴下が3（　）980円。",
-        "promptType": "reading",
-        "options": [
-          "足",
-          "着",
-          "匹",
-          "枚"
-        ],
-        "answer": "足",
-        "explanation": {
-          "id": "靴下は左右一組で一足と数えます。",
-          "en": "Socks are counted in left-right pairs with 足."
-        },
-        "nuance": {
-          "id": "足 menandai satu pasang; 3足 dibaca さんぞく.",
-          "en": "足 marks one pair; 3足 is read さんぞく."
-        },
-        "philosophy": {
-          "id": "Ingat sepasang kiri-kanan, bukan satu kaus kaki saja.",
-          "en": "Remember the left-right pair, not just one sock."
-        },
-        "sourceKanji": [
-          "足"
-        ]
-      },
-      {
-        "id": "w7d5-q06",
-        "type": "kanji",
-        "question": {
-          "id": "（　）に入る最も適切な助数詞を選びなさい。",
-          "en": "Choose the most appropriate counter."
-        },
-        "prompt": "中国から2（　）のパンダが来た。",
-        "promptType": "reading",
-        "options": [
-          "頭",
-          "匹",
-          "羽",
-          "台"
-        ],
-        "answer": "頭",
-        "explanation": {
-          "id": "パンダのような大きな動物は頭で数えます。",
-          "en": "Large animals such as pandas are counted with 頭."
-        },
-        "nuance": {
-          "id": "頭 untuk hewan besar; 匹 umumnya untuk hewan kecil.",
-          "en": "頭 is for large animals; 匹 is generally for small animals."
-        },
-        "philosophy": {
-          "id": "Hubungkan 頭 dengan hewan besar.",
-          "en": "Associate 頭 with a large animal."
-        },
-        "sourceKanji": [
-          "頭"
-        ]
-      },
-      {
-        "id": "w7d5-q07",
-        "type": "kanji",
-        "question": {
-          "id": "（　）に入る最も適切な助数詞を選びなさい。",
-          "en": "Choose the most appropriate counter."
-        },
-        "prompt": "うちにはパソコンが3（　）あります。",
-        "promptType": "reading",
-        "options": [
-          "台",
-          "頭",
-          "脚",
-          "軒"
-        ],
-        "answer": "台",
-        "explanation": {
-          "id": "パソコンは機械なので3台と数えます。",
-          "en": "A computer is a machine, so use 3台."
-        },
-        "nuance": {
-          "id": "台 menghitung perangkat dan kendaraan, bukan bangunan.",
-          "en": "台 counts devices and vehicles, not buildings."
-        },
-        "philosophy": {
-          "id": "Anggap tiap komputer sebagai satu unit perangkat.",
-          "en": "Treat each computer as one individual device."
-        },
-        "sourceKanji": [
-          "台"
-        ]
-      },
-      {
-        "id": "w7d5-q08",
-        "type": "kanji",
-        "question": {
-          "id": "（　）に入る最も適切な助数詞を選びなさい。",
-          "en": "Choose the most appropriate counter."
-        },
-        "prompt": "「川」という漢字の画数は3（　）です。",
-        "promptType": "reading",
-        "options": [
-          "画",
-          "枚",
-          "個",
-          "階"
-        ],
-        "answer": "画",
-        "explanation": {
-          "id": "漢字の線や点の数は画で数えます。",
-          "en": "The strokes in a kanji are counted with 画."
-        },
-        "nuance": {
-          "id": "画数 berarti jumlah guratan kanji.",
-          "en": "画数 means the number of strokes in a kanji."
-        },
-        "philosophy": {
-          "id": "Lihat kanji sebagai gambar yang tersusun dari guratan.",
-          "en": "See a kanji as a shape made up of strokes."
-        },
-        "sourceKanji": [
-          "画"
-        ]
-      },
-      {
-        "id": "w7d5-q09",
-        "type": "kanji",
-        "question": {
-          "id": "（　）に入る最も適切な助数詞を選びなさい。",
-          "en": "Choose the most appropriate counter."
-        },
-        "prompt": "白鳥を4（　）数える。",
-        "promptType": "reading",
-        "options": [
-          "羽",
-          "匹",
-          "頭",
-          "隻"
-        ],
-        "answer": "羽",
-        "explanation": {
-          "id": "鳥は羽で数えます。4羽はよんわです。",
-          "en": "Birds are counted with 羽. 4羽 is read よんわ."
-        },
-        "nuance": {
-          "id": "羽 digunakan untuk burung dan kelinci; 3羽 memiliki bacaan khusus さんば.",
-          "en": "羽 is used for birds and rabbits; 3羽 has the special reading さんば."
-        },
-        "philosophy": {
-          "id": "Bayangkan sayap burung untuk mengingat 羽.",
-          "en": "Picture a bird's wings to remember 羽."
-        },
-        "sourceKanji": [
-          "羽"
-        ]
-      },
-      {
-        "id": "w7d5-q10",
-        "type": "kanji",
-        "question": {
-          "id": "（　）に入る最も適切な助数詞を選びなさい。",
-          "en": "Choose the most appropriate counter."
-        },
-        "prompt": "レモンを1（　）とじゃがいもを3（　）ください。",
-        "promptType": "reading",
-        "options": [
-          "個",
-          "枚",
-          "本",
-          "杯"
-        ],
-        "answer": "個",
-        "explanation": {
-          "id": "レモンやじゃがいもなどの個別の物は個で数えます。",
-          "en": "Individual objects such as lemons and potatoes can be counted with 個."
-        },
-        "nuance": {
-          "id": "個 menyoroti setiap benda sebagai unit terpisah.",
-          "en": "個 treats each object as a separate unit."
-        },
-        "philosophy": {
-          "id": "Pisahkan benda satu demi satu dalam pikiran.",
-          "en": "Mentally separate the objects one by one."
-        },
-        "sourceKanji": [
-          "個"
-        ]
-      },
-      {
-        "id": "w7d5-q11",
-        "type": "kanji",
-        "question": {
-          "id": "（　）に入る最も適切な助数詞を選びなさい。",
-          "en": "Choose the most appropriate counter."
-        },
-        "prompt": "3（　）隣の家。",
-        "promptType": "reading",
-        "options": [
-          "軒",
-          "件",
-          "枚",
-          "冊"
-        ],
-        "answer": "軒",
-        "explanation": {
-          "id": "家や店などの建物は軒で数えます。3軒はさんげんです。",
-          "en": "Houses and shops are counted with 軒. 3軒 is read さんげん."
-        },
-        "nuance": {
-          "id": "軒 menghitung bangunan; 件 menghitung perkara atau pesan.",
-          "en": "軒 counts buildings; 件 counts matters or messages."
-        },
-        "philosophy": {
-          "id": "Bayangkan deretan bangunan dan hitung satu per satu.",
-          "en": "Picture a row of buildings and count them one by one."
-        },
-        "sourceKanji": [
-          "軒"
-        ]
-      },
-      {
-        "id": "w7d5-q12",
+        "id": "w7d6-q04",
         "type": "reading",
         "question": {
-          "id": "次の表現の読み方として正しいものを選びなさい。",
+          "id": "次の熟語の読み方として正しいものを選びなさい。",
           "en": "Choose the correct reading."
         },
-        "prompt": "伝言が3件",
+        "prompt": "促進する",
         "promptType": "reading",
         "options": [
-          "でんごんがさんけん",
-          "でんごんがさんげん",
-          "でんごんがさんまい",
-          "でんごんがさんさつ"
+          "そくしんする",
+          "そっしんする",
+          "うながしんする",
+          "そくじんする"
         ],
-        "answer": "でんごんがさんけん",
+        "answer": "そくしんする",
         "explanation": {
-          "id": "件は事柄や伝言を数える助数詞で、3件はさんけんです。",
-          "en": "件 counts matters and messages; 3件 is read さんけん."
+          "id": "促進するは「そくしんする」と読みます。",
+          "en": "促進する is read そくしんする."
         },
         "nuance": {
-          "id": "件 dan 軒 sama-sama dapat dibaca ケン, tetapi penggunaannya berbeda.",
-          "en": "件 and 軒 can share the reading ケン, but their uses differ."
+          "id": "促の音読みはソクで、促して進めるという意味につながります。",
+          "en": "促 has the on-reading ソク and connects to urging something forward."
         },
         "philosophy": {
-          "id": "Kenali objek yang dihitung sebelum memilih bunyi yang sama.",
-          "en": "Identify what is being counted before choosing among similar readings."
+          "id": "Kenali bunyi kanji dan kaitkan dengan ungkapan訓読み-nya.",
+          "en": "Recognize the kanji reading and connect it with its kun-reading paraphrase."
         },
         "sourceKanji": [
-          "件"
+          "促",
+          "進"
         ]
       },
       {
-        "id": "w7d5-q13",
-        "type": "reading",
-        "question": {
-          "id": "次の表現の読み方として正しいものを選びなさい。",
-          "en": "Choose the correct reading."
-        },
-        "prompt": "犬を1匹とネコを2匹飼っている。",
-        "promptType": "reading",
-        "options": [
-          "いぬをいっぴきとネコをにひき",
-          "いぬをいちひきとネコをにびき",
-          "いぬをいっとうとネコをにとう",
-          "いぬをいっぴきとネコをにびき"
-        ],
-        "answer": "いぬをいっぴきとネコをにひき",
-        "explanation": {
-          "id": "1匹は通常いっぴき、2匹はにひきと読みます。",
-          "en": "1匹 is read いっぴき and 2匹 is read にひき."
-        },
-        "nuance": {
-          "id": "匹 memiliki perubahan bunyi; jangan menyamaratakan ひき・びき・ぴき.",
-          "en": "匹 has sound changes; do not treat ひき・びき・ぴき as interchangeable."
-        },
-        "philosophy": {
-          "id": "Hafalkan bentuk bilangan bersama counternya sebagai satu paket.",
-          "en": "Memorize each number together with its counter as a unit."
-        },
-        "sourceKanji": [
-          "匹"
-        ]
-      },
-      {
-        "id": "w7d5-q14",
-        "type": "reading",
-        "question": {
-          "id": "次の表現の読み方として正しいものを選びなさい。",
-          "en": "Choose the correct reading."
-        },
-        "prompt": "ビールをグラスで3杯",
-        "promptType": "reading",
-        "options": [
-          "ビールをグラスでさんばい",
-          "ビールをグラスでさんはい",
-          "ビールをグラスでさんぱい",
-          "ビールをグラスでみつはい"
-        ],
-        "answer": "ビールをグラスでさんばい",
-        "explanation": {
-          "id": "3杯はさんばいと読みます。",
-          "en": "3杯 is read さんばい."
-        },
-        "nuance": {
-          "id": "杯 menghitung isi wadah; bacaannya mengalami perubahan bunyi.",
-          "en": "杯 counts the contents of a vessel, and its reading changes by sound pattern."
-        },
-        "philosophy": {
-          "id": "Hubungkan 杯 dengan gelas yang terisi.",
-          "en": "Connect 杯 with a filled glass."
-        },
-        "sourceKanji": [
-          "杯"
-        ]
-      },
-      {
-        "id": "w7d5-q15",
-        "type": "reading",
-        "question": {
-          "id": "次の表現の読み方として正しいものを選びなさい。",
-          "en": "Choose the correct reading."
-        },
-        "prompt": "6位に入賞する",
-        "promptType": "reading",
-        "options": [
-          "ろくい",
-          "ろっき",
-          "ろくくらい",
-          "むい"
-        ],
-        "answer": "ろくい",
-        "explanation": {
-          "id": "順位や等級を表す6位はろくいです。",
-          "en": "6位, indicating rank, is read ろくい."
-        },
-        "nuance": {
-          "id": "位 menyatakan peringkat atau tingkat, bukan satuan benda.",
-          "en": "位 indicates a rank or level, not a physical-object counter."
-        },
-        "philosophy": {
-          "id": "Bayangkan daftar peringkat untuk mengingat 位.",
-          "en": "Picture a ranking list to remember 位."
-        },
-        "sourceKanji": [
-          "位"
-        ]
-      },
-      {
-        "id": "w7d5-q16",
-        "type": "reading",
-        "question": {
-          "id": "次の表現の読み方として正しいものを選びなさい。",
-          "en": "Choose the correct reading."
-        },
-        "prompt": "全10巻の漫画",
-        "promptType": "reading",
-        "options": [
-          "ぜんじっかんのまんが",
-          "ぜんじゅっさつのまんが",
-          "ぜんじゅっかんのまんが",
-          "ぜんとうかんのまんが"
-        ],
-        "answer": "ぜんじっかんのまんが",
-        "explanation": {
-          "id": "全10巻はぜんじっかんと読みます。",
-          "en": "全10巻 is read ぜんじっかん."
-        },
-        "nuance": {
-          "id": "巻 menghitung volume dalam seri; 冊 digunakan untuk buku satuan.",
-          "en": "巻 counts volumes in a series; 冊 counts individual books."
-        },
-        "philosophy": {
-          "id": "Ingat manga berseri yang dibagi menjadi banyak jilid.",
-          "en": "Picture a serialized manga divided into many volumes."
-        },
-        "sourceKanji": [
-          "巻"
-        ]
-      },
-      {
-        "id": "w7d5-q17",
-        "type": "reading",
-        "question": {
-          "id": "次の表現の読み方として正しいものを選びなさい。",
-          "en": "Choose the correct reading."
-        },
-        "prompt": "3階建てのアパートの1階",
-        "promptType": "reading",
-        "options": [
-          "さんがいだてのアパートのいっかい",
-          "さんかいだてのアパートのいちかい",
-          "さんがいだてのアパートのいちがい",
-          "みがいだてのアパートのいっかい"
-        ],
-        "answer": "さんがいだてのアパートのいっかい",
-        "explanation": {
-          "id": "3階建てはさんがいだて、1階は いっかいです。",
-          "en": "3階建て is さんがいだて and 1階 is いっかい."
-        },
-        "nuance": {
-          "id": "階 menghitung lantai; bacaan dapat berubah menurut angka.",
-          "en": "階 counts floors, and its reading changes with the number."
-        },
-        "philosophy": {
-          "id": "Visualkan tingkat bangunan sambil mengingat pasangan bacaan.",
-          "en": "Visualize building levels while memorizing the paired readings."
-        },
-        "sourceKanji": [
-          "階"
-        ]
-      },
-      {
-        "id": "w7d5-q18",
+        "id": "w7d6-q05",
         "type": "kanji",
         "question": {
-          "id": "（　）に入る最も適切な助数詞を選びなさい。",
-          "en": "Choose the most appropriate counter."
+          "id": "訓読みの表現に合う音読みの言葉を選びなさい。",
+          "en": "Choose the on-reading word that matches the kun-reading expression."
         },
-        "prompt": "80円切手10（　）とはがきを2（　）ください。",
+        "prompt": "募って集める",
         "promptType": "reading",
         "options": [
-          "枚",
-          "冊",
-          "部",
-          "通"
+          "募集する",
+          "勧誘する",
+          "巡回する",
+          "養育する"
         ],
-        "answer": "枚",
+        "answer": "募集する",
         "explanation": {
-          "id": "切手やはがきのような薄く平たい物は枚で数えます。",
-          "en": "Thin, flat items such as stamps and postcards are counted with 枚."
+          "id": "募って集めるは募集する（ぼしゅうする）です。",
+          "en": "募って集める corresponds to 募集する (ぼしゅうする)."
         },
         "nuance": {
-          "id": "枚 menghitung lembaran; bukan volume buku atau set dokumen.",
-          "en": "枚 counts flat sheets, not book volumes or document sets."
+          "id": "募集するは参加者や応募者を集めるときに使います。",
+          "en": "募集する is used when gathering participants or applicants."
         },
         "philosophy": {
-          "id": "Bayangkan perangko dan kartu pos sebagai lembaran tipis.",
-          "en": "Picture stamps and postcards as thin flat sheets."
+          "id": "Bayangkan pengumuman yang mengumpulkan pendaftar.",
+          "en": "Picture an announcement gathering applicants."
         },
         "sourceKanji": [
-          "枚"
+          "募",
+          "集"
         ]
       },
       {
-        "id": "w7d5-q19",
+        "id": "w7d6-q06",
         "type": "kanji",
         "question": {
-          "id": "（　）に入る最も適切な助数詞を選びなさい。",
-          "en": "Choose the most appropriate counter."
+          "id": "訓読みの表現に合う音読みの言葉を選びなさい。",
+          "en": "Choose the on-reading word that matches the kun-reading expression."
         },
-        "prompt": "2（　）3日の旅行。",
+        "prompt": "尊んで敬う",
         "promptType": "reading",
         "options": [
-          "泊",
-          "階",
-          "巻",
-          "畳"
+          "尊敬する",
+          "黙認する",
+          "忍耐する",
+          "負傷する"
         ],
-        "answer": "泊",
+        "answer": "尊敬する",
         "explanation": {
-          "id": "宿泊する夜の回数を数えるので2泊3日です。",
-          "en": "The number of nights stayed is counted with 泊, so it is 2泊3日."
+          "id": "尊んで敬うは尊敬する（そんけいする）です。",
+          "en": "尊んで敬う corresponds to 尊敬する (そんけいする)."
         },
         "nuance": {
-          "id": "泊 menghitung malam menginap, sedangkan hari ditulis 日.",
-          "en": "泊 counts nights stayed, while days are written with 日."
+          "id": "尊敬は人や考えを高く評価し、敬意を払うことです。",
+          "en": "尊敬 means valuing someone or something highly and showing respect."
         },
         "philosophy": {
-          "id": "Hitung malam yang dilewati, bukan hanya tanggal perjalanan.",
-          "en": "Count the nights spent away, not just the calendar dates."
+          "id": "Hubungkan rasa hormat dengan tindakan menghargai orang lain.",
+          "en": "Connect respect with the act of valuing another person."
         },
         "sourceKanji": [
-          "泊"
+          "尊",
+          "敬"
         ]
       },
       {
-        "id": "w7d5-q20",
+        "id": "w7d6-q07",
         "type": "kanji",
         "question": {
-          "id": "次の説明に合う組み合わせを選びなさい。",
-          "en": "Choose the option whose counter and explanation are all correct."
+          "id": "訓読みの表現に合う音読みの言葉を選びなさい。",
+          "en": "Choose the on-reading word that matches the kun-reading expression."
         },
-        "prompt": "①食パンを1（　）買う。②間違いが1（　）ある。③1（　）は約3.3㎡。",
+        "prompt": "巡って回る",
         "promptType": "reading",
         "options": [
-          "①斤・②箇所・③坪",
-          "①錠・②軒・③升",
-          "①隻・②件・③階",
-          "①冊・②枚・③畳"
+          "巡回する",
+          "崩壊する",
+          "漂流する",
+          "開催する"
         ],
-        "answer": "①斤・②箇所・③坪",
+        "answer": "巡回する",
         "explanation": {
-          "id": "食パンは1斤、特定の場所や部分は1箇所、面積は1坪で表します。",
-          "en": "Bread is counted as 1斤, a specific spot as 1箇所, and area as 1坪."
+          "id": "巡って回るは巡回する（じゅんかいする）です。",
+          "en": "巡って回る corresponds to 巡回する (じゅんかいする)."
         },
         "nuance": {
-          "id": "Ketiganya mengukur hal berbeda: bongkah roti, titik/lokasi, dan luas.",
-          "en": "The three count different things: a loaf, a location/point, and an area."
+          "id": "巡回するは場所を順番に回って見ていくことです。",
+          "en": "巡回する means going around places in sequence to inspect them."
         },
         "philosophy": {
-          "id": "Kelompokkan counter berdasarkan jenis hal yang diukur, bukan hanya berdasarkan bunyinya.",
-          "en": "Group counters by what they measure, not merely by their sounds."
+          "id": "Bayangkan rute yang melewati beberapa titik.",
+          "en": "Picture a route passing through several locations."
         },
         "sourceKanji": [
-          "斤",
-          "箇",
-          "坪"
+          "巡",
+          "回"
+        ]
+      },
+      {
+        "id": "w7d6-q08",
+        "type": "kanji",
+        "question": {
+          "id": "訓読みの表現に合う音読みの言葉を選びなさい。",
+          "en": "Choose the on-reading word that matches the kun-reading expression."
+        },
+        "prompt": "黙って認める",
+        "promptType": "Remember approval that is not expressed openly.",
+        "options": [
+          "黙認する",
+          "免税品",
+          "後継者",
+          "悪癖"
+        ],
+        "answer": "黙認する",
+        "explanation": {
+          "id": "黙って認めるは黙認する（もくにんする）です。",
+          "en": "黙って認める corresponds to 黙認する (もくにんする)."
+        },
+        "nuance": {
+          "id": "黙認は、反対を表明せずにそのまま認めることです。",
+          "en": "黙認 means allowing something without expressing opposition."
+        },
+        "philosophy": {
+          "id": [
+            "黙"
+          ],
+          "en": "Ingat persetujuan yang tidak disampaikan secara terbuka."
+        },
+        "sourceKanji": [
+          "黙",
+          "認"
+        ]
+      },
+      {
+        "id": "w7d6-q09",
+        "type": "kanji",
+        "question": {
+          "id": "訓読みの表現に合う音読みの言葉を選びなさい。",
+          "en": "Choose the on-reading word that matches the kun-reading expression."
+        },
+        "prompt": "漂って流される",
+        "promptType": "reading",
+        "options": [
+          "漂流する",
+          "潜水する",
+          "保温する",
+          "就職する"
+        ],
+        "answer": "漂流する",
+        "explanation": {
+          "id": "漂って流されるは漂流する（ひょうりゅうする）です。",
+          "en": "漂って流される corresponds to 漂流する (ひょうりゅうする)."
+        },
+        "nuance": {
+          "id": "漂流は自分の意思とは関係なく流される様子を表します。",
+          "en": "漂流 describes being carried along without control."
+        },
+        "philosophy": {
+          "id": "Bayangkan benda terapung yang mengikuti arus.",
+          "en": "Picture an object floating along with a current."
+        },
+        "sourceKanji": [
+          "漂",
+          "流"
+        ]
+      },
+      {
+        "id": "w7d6-q10",
+        "type": "kanji",
+        "question": {
+          "id": "訓読みの表現に合う音読みの言葉を選びなさい。",
+          "en": "Choose the on-reading word that matches the kun-reading expression."
+        },
+        "prompt": "耐え忍ぶ",
+        "promptType": "reading",
+        "options": [
+          "忍耐する",
+          "悲惨な",
+          "豊富な",
+          "詳細な"
+        ],
+        "answer": "忍耐する",
+        "explanation": {
+          "id": "耐え忍ぶは忍耐する（にんたいする）です。",
+          "en": "耐え忍ぶ corresponds to 忍耐する (にんたいする)."
+        },
+        "nuance": {
+          "id": "忍耐は困難を我慢して持ちこたえることです。",
+          "en": "忍耐 means enduring hardship and persevering."
+        },
+        "philosophy": {
+          "id": "Hubungkan ketabahan dengan kemampuan bertahan saat keadaan sulit.",
+          "en": "Connect patience with the ability to endure difficult circumstances."
+        },
+        "sourceKanji": [
+          "忍",
+          "耐"
+        ]
+      },
+      {
+        "id": "w7d6-q11",
+        "type": "kanji",
+        "question": {
+          "id": "訓読みの表現に合う音読みの言葉を選びなさい。",
+          "en": "Choose the on-reading word that matches the kun-reading expression."
+        },
+        "prompt": "傷を負う",
+        "promptType": "reading",
+        "options": [
+          "負傷する",
+          "粉砕する",
+          "養育する",
+          "装飾する"
+        ],
+        "answer": "負傷する",
+        "explanation": {
+          "id": "傷を負うは負傷する（ふしょうする）です。",
+          "en": "傷を負う corresponds to 負傷する (ふしょうする)."
+        },
+        "nuance": {
+          "id": "負傷は傷を受けることを表す語です。",
+          "en": "負傷 means receiving an injury."
+        },
+        "philosophy": {
+          "id": "Ingat 負 sebagai gagasan menanggung sesuatu.",
+          "en": "Remember 負 as the idea of bearing something."
+        },
+        "sourceKanji": [
+          "負",
+          "傷"
+        ]
+      },
+      {
+        "id": "w7d6-q12",
+        "type": "kanji",
+        "question": {
+          "id": "訓読みの表現に合う音読みの言葉を選びなさい。",
+          "en": "Choose the on-reading word that matches the kun-reading expression."
+        },
+        "prompt": "温かさを保つ",
+        "promptType": "reading",
+        "options": [
+          "保温する",
+          "開催する",
+          "飼育する",
+          "勧誘する"
+        ],
+        "answer": "保温する",
+        "explanation": {
+          "id": "温かさを保つは保温する（ほおんする）です。",
+          "en": "温かさを保つ corresponds to 保温する (ほおんする)."
+        },
+        "nuance": {
+          "id": "保温は熱や温かさを逃がさないように保つことです。",
+          "en": "保温 means retaining heat or warmth."
+        },
+        "philosophy": {
+          "id": "Bayangkan kehangatan yang dijaga agar tidak hilang.",
+          "en": "Picture warmth being kept from escaping."
+        },
+        "sourceKanji": [
+          "保",
+          "温"
+        ]
+      },
+      {
+        "id": "w7d6-q13",
+        "type": "kanji",
+        "question": {
+          "id": "訓読みの表現に合う音読みの言葉を選びなさい。",
+          "en": "Choose the on-reading word that matches the kun-reading expression."
+        },
+        "prompt": "職に就く",
+        "promptType": "reading",
+        "options": [
+          "就職する",
+          "飼育する",
+          "巡回する",
+          "再会する"
+        ],
+        "answer": "就職する",
+        "explanation": {
+          "id": "職に就くは就職する（しゅうしょくする）です。",
+          "en": "職に就く corresponds to 就職する (しゅうしょくする)."
+        },
+        "nuance": {
+          "id": "就職は仕事に就くことです。資料では職は音読みだけと注記されています。",
+          "en": "就職 means taking up employment. The source notes 職 is used with its on-reading only."
+        },
+        "philosophy": {
+          "id": "Hafalkan gabungan 就職 sebagai satu kosakata utuh.",
+          "en": "Memorize 就職 as a complete vocabulary item."
+        },
+        "sourceKanji": [
+          "就",
+          "職"
+        ]
+      },
+      {
+        "id": "w7d6-q14",
+        "type": "kanji",
+        "question": {
+          "id": "訓読みの表現に合う音読みの言葉を選びなさい。",
+          "en": "Choose the on-reading word that matches the kun-reading expression."
+        },
+        "prompt": "水に潜る",
+        "promptType": "reading",
+        "options": [
+          "潜水する",
+          "漂流する",
+          "開催する",
+          "崩壊する"
+        ],
+        "answer": "潜水する",
+        "explanation": {
+          "id": "水に潜るは潜水する（せんすいする）です。",
+          "en": "水に潜る corresponds to 潜水する (せんすいする)."
+        },
+        "nuance": {
+          "id": "潜水は水中に潜る行為を表します。",
+          "en": "潜水 refers to the act of diving underwater."
+        },
+        "philosophy": {
+          "id": "Bayangkan gerakan turun ke bawah permukaan air.",
+          "en": "Picture the movement down beneath the water's surface."
+        },
+        "sourceKanji": [
+          "潜",
+          "水"
+        ]
+      },
+      {
+        "id": "w7d6-q15",
+        "type": "kanji",
+        "question": {
+          "id": "訓読みの表現に合う音読みの言葉を選びなさい。",
+          "en": "Choose the on-reading word that matches the kun-reading expression."
+        },
+        "prompt": "豊かで富んだ",
+        "promptType": "reading",
+        "options": [
+          "豊富な",
+          "貧乏な",
+          "悲惨な",
+          "透明な"
+        ],
+        "answer": "豊富な",
+        "explanation": {
+          "id": "豊かで富んだは豊富な（ほうふな）です。",
+          "en": "豊かで富んだ corresponds to 豊富な (ほうふな)."
+        },
+        "nuance": {
+          "id": "豊富は量や種類が多く、十分にある状態を表します。",
+          "en": "豊富 describes a state of abundance or plentiful supply."
+        },
+        "philosophy": {
+          "id": "Bandingkan gambaran melimpah pada 豊富 dengan kekurangan pada 貧乏.",
+          "en": "Contrast the abundance of 豊富 with the scarcity of 貧乏."
+        },
+        "sourceKanji": [
+          "豊",
+          "富"
+        ]
+      },
+      {
+        "id": "w7d6-q16",
+        "type": "kanji",
+        "question": {
+          "id": "訓読みの表現に合う音読みの言葉を選びなさい。",
+          "en": "Choose the on-reading word that matches the kun-reading expression."
+        },
+        "prompt": "鮮やかで明らかな",
+        "promptType": "reading",
+        "options": [
+          "鮮明な",
+          "詳細な",
+          "悲惨な",
+          "悪癖"
+        ],
+        "answer": "鮮明な",
+        "explanation": {
+          "id": "鮮やかで明らかなは鮮明な（せんめいな）です。",
+          "en": "鮮やかで明らかな corresponds to 鮮明な (せんめいな)."
+        },
+        "nuance": {
+          "id": "鮮明は記憶や映像などがはっきりしている様子です。",
+          "en": "鮮明 describes a memory or image that is vivid and clear."
+        },
+        "philosophy": {
+          "id": "Gunakan gambaran citra yang tajam untuk mengingat 鮮明.",
+          "en": "Use the image of a crisp, vivid picture to remember 鮮明."
+        },
+        "sourceKanji": [
+          "鮮",
+          "明"
+        ]
+      },
+      {
+        "id": "w7d6-q17",
+        "type": "reading",
+        "question": {
+          "id": "次の言葉の読み方として正しいものを選びなさい。",
+          "en": "Choose the correct reading."
+        },
+        "prompt": "免税品",
+        "promptType": "reading",
+        "options": [
+          "めんぜいひん",
+          "めんさいひん",
+          "めいぜいひん",
+          "めんぜいぼん"
+        ],
+        "answer": "めんぜいひん",
+        "explanation": {
+          "id": "免税品はめんぜいひんと読みます。",
+          "en": "免税品 is read めんぜいひん."
+        },
+        "nuance": {
+          "id": "免税品は税金が免除される品物です。",
+          "en": "免税品 refers to goods exempt from tax."
+        },
+        "philosophy": {
+          "id": "免 berarti pembebasan; gabungkan dengan 税 untuk mengingat bebas pajak.",
+          "en": "免 means exemption; combine it with 税 to remember tax-free."
+        },
+        "sourceKanji": [
+          "免",
+          "税",
+          "品"
+        ]
+      },
+      {
+        "id": "w7d6-q18",
+        "type": "reading",
+        "question": {
+          "id": "次の言葉の読み方として正しいものを選びなさい。",
+          "en": "Choose the correct reading."
+        },
+        "prompt": "後継者",
+        "promptType": "reading",
+        "options": [
+          "こうけいしゃ",
+          "こうけいじゃ",
+          "ごけいしゃ",
+          "あとつぎもの"
+        ],
+        "answer": "こうけいしゃ",
+        "explanation": {
+          "id": "後継者はこうけいしゃと読みます。",
+          "en": "後継者 is read こうけいしゃ."
+        },
+        "nuance": {
+          "id": "後継者は前任者の仕事や地位を引き継ぐ人です。",
+          "en": "後継者 is a person who takes over a predecessor's work or position."
+        },
+        "philosophy": {
+          "id": "Bayangkan orang yang datang setelah pendahulunya dan meneruskan tugasnya.",
+          "en": "Picture the person who follows a predecessor and continues their work."
+        },
+        "sourceKanji": [
+          "後",
+          "継",
+          "者"
+        ]
+      },
+      {
+        "id": "w7d6-q19",
+        "type": "reading",
+        "question": {
+          "id": "次の言葉の読み方として正しいものを選びなさい。",
+          "en": "Choose the correct reading."
+        },
+        "prompt": "彫刻",
+        "promptType": "reading",
+        "options": [
+          "ちょうこく",
+          "ちょうごく",
+          "ほりこく",
+          "ちょくこく"
+        ],
+        "answer": "ちょうこく",
+        "explanation": {
+          "id": "彫刻はちょうこくと読みます。",
+          "en": "彫刻 is read ちょうこく."
+        },
+        "nuance": {
+          "id": "彫刻は彫って刻んだ作品、またはその技法を指します。",
+          "en": "彫刻 refers to a carved work or the technique of carving."
+        },
+        "philosophy": {
+          "id": "Bayangkan bentuk yang diukir dari bahan mentah.",
+          "en": "Picture a form carved out of raw material."
+        },
+        "sourceKanji": [
+          "彫",
+          "刻"
+        ]
+      },
+      {
+        "id": "w7d6-q20",
+        "type": "reading",
+        "question": {
+          "id": "次の言葉の読み方として正しいものを選びなさい。",
+          "en": "Choose the correct reading."
+        },
+        "prompt": "隣人",
+        "promptType": "reading",
+        "options": [
+          "りんじん",
+          "りんにん",
+          "となりじん",
+          "りんひと"
+        ],
+        "answer": "りんじん",
+        "explanation": {
+          "id": "隣人はりんじんと読みます。",
+          "en": "隣人 is read りんじん."
+        },
+        "nuance": {
+          "id": "隣人は隣に住む人、つまり近所の人です。",
+          "en": "隣人 is a person living nearby, a neighbor."
+        },
+        "philosophy": {
+          "id": "Hubungkan kata ini dengan gambaran orang yang tinggal di sebelah.",
+          "en": "Connect this word with the image of someone living next door."
+        },
+        "sourceKanji": [
+          "隣",
+          "人"
         ]
       }
     ]
   }
 };
 
-export default minggu7Hari5;
+export default minggu7Hari6;
